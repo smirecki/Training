@@ -20,4 +20,15 @@ describe("Calculator", function() {
 	});
   });
 
+  describe("When subtracting numbers", function() {
+  	it("should subtract any number of numbers", function() {
+  		expect(Calculator.subtract(5)).toEqual(-5);
+  	});
+  });
+
+  it("should reset the current value", function() {
+  	Calculator.reset();
+  	expect(Calculator.current).toEqual(0);
+  });
+
 });
