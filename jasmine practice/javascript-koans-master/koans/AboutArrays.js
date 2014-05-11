@@ -47,11 +47,11 @@ describe("About Arrays", function() {
     var array = ["peanut", "butter", "and", "jelly"];
 
     expect(array.slice(0, 1)).toEqual(['peanut']);
-    expect(array.slice(0, 2)).toEqual(['peanut, butter']);
-    expect(array.slice(2, 2)).toEqual(['and']);
-    expect(array.slice(2, 20)).toEqual('and', 'jelly');
+    expect(array.slice(0, 2)).toEqual(["peanut", "butter"]);
+    expect(array.slice(2, 2)).toEqual([]);
+    expect(array.slice(2, 20)).toEqual[('and', 'jelly')];
     expect(array.slice(3, 0)).toEqual([]);
-    expect(array.slice(3, 100)).toEqual(['jelly']);
+    expect(array.slice(3, 100)).toEqual(["jelly"]);
     expect(array.slice(5, 1)).toEqual([]);
   });
 
@@ -80,7 +80,7 @@ describe("About Arrays", function() {
     expect(array).toEqual([1,2,3]);
 
     var poppedValue = array.pop();
-    expect(poppedValue).toBe([3]);
+    expect(poppedValue).toBe(3);
     expect(array).toEqual([1,2]);
   });
 
@@ -91,7 +91,7 @@ describe("About Arrays", function() {
     expect(array).toEqual([3,1,2]);
 
     var shiftedValue = array.shift();
-    expect(shiftedValue).toEqual([3]);
+    expect(shiftedValue).toEqual(3);
     expect(array).toEqual([1,2]);
   });
 });
