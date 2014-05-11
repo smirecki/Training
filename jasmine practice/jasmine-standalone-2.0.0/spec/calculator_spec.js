@@ -27,6 +27,7 @@ describe("Calculator", function() {
   });
 
   it("should reset the current value", function() {
+  	Calculator.current = 20;
   	Calculator.reset();
   	expect(Calculator.current).toEqual(0);
   });
