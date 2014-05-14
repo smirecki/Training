@@ -2,16 +2,58 @@
 <html>
 <head>
 	<meta charset=utf-8">
-	<script src="d3/d3.js">
-		function draw(data){
+	<script src="d3.js">
+		function draw(data) {
 			"use strict";
-			// badass visualization code goes here
-	}
+			d3.select("body")
+			  .append("ul")
+			  .selectAll("li")
+			  .data(data)
+			  .enter()
+			  .append("li")
+			    .text(function (d) {
+			    	return d.name + ": " + d.status;
+			    });
+		}
 	</script>
 </head>
 <body>
 	<script>
-		d3.json();
-	</script
+		//d3.json('/data/service_status.json', draw);
+
+		d3.json("./data/service_status.json", function(error, json) {
+  if (error) return console.log(error);
+
+  var fill = d3.scale.category20();
+
+  d3.layout.cloud().size([300, 300])    
+      .words([  // To be replaced with data
+        "Hello", "world", "normally", "you", "want", "more", "words",
+        "than", "this"].map(function(d) {
+            return {text: d, size: 10 + Math.random() * 90};
+       }))
+      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+      .font("Impact")
+      .fontSize(function(d) { return d.size; })
+      .on("end", draw)
+      .start();
+
+  function draw(words) {
+      d3.select("body").append("svg")
+          .attr("width", 300).attr("height", 300)
+          .append("g").attr("transform", "translate(150,150)")
+          .selectAll("text").data(words)
+          .enter().append("text")
+          .style("font-size", function(d) { return d.size + "px"; })
+          .style("font-family", "Impact")
+          .style("fill", function(d, i) { return fill(i); })
+          .attr("text-anchor", "middle")
+          .attr("transform", function(d) {
+              return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+          })
+          .text(function(d) { return d.text; });
+      }
+})
+	</script>
 </body>
 </html>
