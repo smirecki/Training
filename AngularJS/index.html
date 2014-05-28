@@ -4,9 +4,15 @@
 		<link rel="stylesheet" type="text/css" href="scripts/bootstrap/css/bootstrap.min.css" />
 	</head>
 	<body>
+		<div ng-controller="StoreController as store">
+			<h1> {{store.product.name}} </h1>
+			<h2> ${{store.product.price}} </h2>
+			<p> {{store.product.description}} </p>
+		</div>
 		<script type="text/javascript" src="scripts/angular.min.js"></script>
 		<script type="text/javascript" src="scripts/app.js"></script>
+		<!-- General Notes/Links:
 		<p>https://docs.angularjs.org/guide/expression<p>
-			<h1>{{"hello " + "you"}}</h1>
+		-->	
 	</body>
 </html>
