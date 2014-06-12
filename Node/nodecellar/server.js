@@ -12,9 +12,9 @@ app.configure(function() {
 
 app.get('/wines', wines.findAll);
 app.get('/wines/:id', wines.findById);
-app.post('/wines', wine.addWine);
-app.put('/wines/:id', wine.updateWine);
-app.delete('/wines/:id', wine.deleteWine);
+app.post('/wines', wines.addWine);
+app.put('/wines/:id', wines.updateWine);
+app.delete('/wines/:id', wines.deleteWine);
 
 
 app.listen(3000);
