@@ -15,4 +15,12 @@
         region: "Rioja",
         description: "A resurgence of interest in boutique vineyards...",
         picture: "lan_rioja3.jpg"
+    },
+        name: "Charles Shaw",
+        year: "2013",
+        grapes: "red",
+        country: "USA",
+        region: "California",
+        description: "'extreme value', bargain-priced wine...",
+        picture: "shaw_red.jpg"
     }

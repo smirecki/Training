@@ -5,11 +5,11 @@ var Server = mongo.Server,
     BSON = mongo.BSONPure;
  
 var server = new Server('localhost', 27017, {auto_reconnect: true});
-db = new Db('winedb2', server);
+db = new Db('winedb', server);
  
 db.open(function(err, db) {
     if(!err) {
-        console.log("Connected to 'winedb2' database");
+        console.log("Connected to 'winedb' database");
         db.collection('wines', {strict:true}, function(err, collection) {
             if (err) {
                 console.log("The 'wines' collection doesn't exist. Creating it with sample data...");
