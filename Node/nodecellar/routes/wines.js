@@ -5,11 +5,11 @@ var Server = mongo.Server,
     BSON = mongo.BSONPure;
  
 var server = new Server('localhost', 27017, {auto_reconnect: true});
-db = new Db('winedb', server);
+db = new Db('winedb2', server);
  
 db.open(function(err, db) {
     if(!err) {
-        console.log("Connected to 'winedb' database");
+        console.log("Connected to 'winedb2' database");
         db.collection('wines', {strict:true}, function(err, collection) {
             if (err) {
                 console.log("The 'wines' collection doesn't exist. Creating it with sample data...");
@@ -107,7 +107,7 @@ var populateDB = function() {
         country: "Spain",
         region: "Rioja",
         description: "A resurgence of interest in boutique vineyards...",
-        picture: "lan_rioja.jpg"
+        picture: "lan_rioja2.jpg"
     }];
  
     db.collection('wines', function(err, collection) {
