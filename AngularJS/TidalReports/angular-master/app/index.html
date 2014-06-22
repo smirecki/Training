@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
-<head>
+<head ng-app="tidalReportApp">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Tidal Report App</title>
@@ -15,18 +15,17 @@
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
   <script> //temp line script - to be refactored
     var tidalReportApp = angular.module('tidalReportApp', []);
-    tidalReportApp.controller('tidalReportApp', function ($scope){
+    tidalReportApp.controller('tidalCtrl', function ($scope){
       $scope.locations = [
-      {"name": "San Diego", "high1": 3:00, "high2": 17:00 "low1": 9:00, "low2": 0},
-      {"name": "Los Angeles", "high1": 3:30, "high2": 17:30 "low1": 9:30, "low2": 0},
-      {"name": "Miami", "high1": 2:00, "high2": 16:00 "low1": 8:00, "low2": 0},
-      {"name": "New York", "high1": 3:45, "high2": 17:45 "low1": 9:45, "low2": 0}
+      {"name": "San Diego",   "high1": 3:00, "high2": 17:00, "low1": 9:00, "low2": 0},
+      {"name": "Los Angeles", "high1": 3:30, "high2": 17:30, "low1": 9:30, "low2": 0},
+      {"name": "Miami",       "high1": 2:00, "high2": 16:00, "low1": 8:00, "low2": 0},
+      {"name": "New York",    "high1": 3:45, "high2": 17:45, "low1": 9:45, "low2": 0}
       ];
-    })
+    });
   </script>
-
 </head>
-<body ng-app="tidalReportApp">
+<body ng-controller="tidalCtrl">
   <ul class="menu">
     <li><a href="#/view1">view1</a></li>
     <li><a href="#/view2">view2</a></li>
@@ -47,7 +46,6 @@
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
   <script src="bower_components/angular/angular.js"></script>
-  <!-- <script src="js/angular.js"></script> -->
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="js/app.js"></script>
   <script src="js/services.js"></script>
