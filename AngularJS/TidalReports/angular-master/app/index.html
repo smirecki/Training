@@ -9,48 +9,32 @@
   <title>Tidal Report App</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+  <!-- <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
   <link rel="stylesheet" href="css/app.css"/>
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+-->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script> -->
-  <script>
-    var tidalReportApp = angular.module('tidalReportApp', []);
-    tidalReportApp.controller('tidalCtrl', function ($scope, $http) {
-      $http.get('locations.json')
-          .success(function(res) {
-             $scope.locations = res.data;
-      });
-    });
-  </script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/controllers.js"></script>
 </head>
-<body ng-controller="tidalCtrl">
-  <!--
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
-  -->
-  <table>
-    <tbody>
-      <tr>
-        <th>Location</th>
-        <th>High</th>
-        <th>Low</th>
-      </tr>
-      <tr ng-repeat="location in locations">
-        <td>{{location.name}}</td>
-        <td>{{location.high}}</td>
-        <td>{{location.low}}</td>
-      </tr>
-    </tbody>
-  </table>
 
+<body ng-controller="TideListCtrl">
+  <table>
+    <tr>
+      <th>Location</th>
+      <th>High</th>
+      <th>Low</th>
+    </tr>
+    <tr ng-repeat="location in locations">
+      <td>{{location.name}}</td>
+      <td>{{location.high | date: 'medium'}}</td>
+      <td>{{location.low | date: 'medium'}}</td>
+    </tr>
+   
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
-  <div ng-view></div>
 
   <div>Angular seed app: v<span app-version></span></div>
 
@@ -58,15 +42,14 @@
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
 
-<!-- temp commented out
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
--->
+  <!-- <script src="bower_components/angular/angular.js"></script> -->
+  <!-- <script src="bower_components/angular-route/angular-route.js"></script> -->
+ 
+  <!-- <script src="js/app.js"></script> -->
+  <!-- <script src="js/services.js"></script> -->
+  <!-- <script src="js/controllers.js"></script> -->
+  <!-- <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script> -->
 
 </body>
 </html>
