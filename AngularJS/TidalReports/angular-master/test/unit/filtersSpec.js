@@ -1,9 +1,9 @@
 'use strict';
 
 /* jasmine specs for filters go here */
-
+/* NOT USING FILTERS YET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 describe('filter', function() {
-  beforeEach(module('myApp.filters'));
+  beforeEach(module('tidalReportApp.filters'));
 
 
   describe('interpolate', function() {
@@ -17,3 +17,4 @@ describe('filter', function() {
     }));
   });
 });
+*/

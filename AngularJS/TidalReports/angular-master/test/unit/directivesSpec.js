@@ -1,9 +1,9 @@
 'use strict';
 
 /* jasmine specs for directives go here */
-
+/* NOT USING directives YET!!!!!!!!!!!!!!!!
 describe('directives', function() {
-  beforeEach(module('myApp.directives'));
+  beforeEach(module('tidalReportApp.directives'));
 
   describe('app-version', function() {
     it('should print current version', function() {
@@ -17,3 +17,4 @@ describe('directives', function() {
     });
   });
 });
+*/
