@@ -3,9 +3,7 @@
 
 // Declare app level module which depends on filters, and services
 angular.module('tidalReportApp', [
-  'ngRoute',
   'tidalReportAppFilters',
-  'tidalReportAppServices',
   'tidalReportAppControllers'
 ]).
 config(['$routeProvider', function($routeProvider) {

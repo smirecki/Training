@@ -1,17 +1,15 @@
-var tidalReportAppControllers = angular.module('tidalReportAppControllers', []);
+var tidalReportControllers = angular.module('tidalReportControllers', []);
 
-  tidalReportAppControllers('TideListCtrl', ['$scope', 'location', function($scope, location) {
-  	$scope.locations = location.query();
-  	$scope.orderProp = 'name';
-  }];
+tidalReportControllers.controller('TideListCtrl', ['$scope', '$http',
+  function ($scope, $http) {
+    $http.get('locations.json').success(function(data) {
+      $scope.locations = data;
+    });
 
-tidalReportAppControllers.controller('locationDetailCtrl', ['$scope', '$routeParams', 'location', function($scope, $routeParams, location){
-	  $scope.location = location.get({locationId: $routeParams.locationId},
-	  	function(location) {
-	  		$scope.mainImageUrl = location.images[0];
-	  	});
+    $scope.orderProp = 'name';
+  }]);
 
-$scope.setImage = function(imageUrl) {
-	$scope.mainImageUrl = imageUrl;
-}
-}]);
+tidalReportControllers.controller('TideDetailCtrl', ['$scope', '$routeParams',
+  function($scope, $routeParams) {
+    $scope.locationId = $routeParams.locationId;
+  }]);
