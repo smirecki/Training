@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <head>
-	<title>Twitter JSONP API example</title>
-<!-- JS -->
+  <title>Twitter JSONP API example</title>
+  <!-- JS -->
+  <script src="scripts/angular.js"></script>
+  <script src="scripts/angular-resource.js"></script>
+  <script src="scripts/controllers.js"></script>
+  <script src="scripts/app.js"></script>
 
 </head>
 <html>
-
-
+  <body ng-app="MyApp">
+  	<div ng-controller="MyCtrl">
+  		<input type="text" ng-model="searchTerm" placeholder="Search term">
+  		<button ng-click="search()">Search</button>
+  		<ul ng-repeat="tweet in searchResult.results">
+  			<li>{{tweet.text}}</li>
+  		</ul>
+  	</div>
+  </body>
 </html>
