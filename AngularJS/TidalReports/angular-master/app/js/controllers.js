@@ -1,15 +1,15 @@
-var tidalReportControllers = angular.module('tidalReportControllers', []);
+var tidalReportControllers = angular.module('tidalReportControllers', [app.angularGit]);
 
-tidalReportControllers.controller('TideListCtrl', ['$scope', '$http',
-  function ($scope, $http) {
-    $http.get('locations.json').success(function(data) {
-      $scope.locations = data;
-    });
+tidalReportControllers.controller('TideListCtrl', function($scope, AngularGit){
 
-    $scope.orderProp = 'name';
-  }]);
+	var params = {category: 'commits', sha: '1234'}
 
-tidalReportControllers.controller('TideDetailCtrl', ['$scope', '$routeParams',
-  function($scope, $routeParams) {
-    $scope.locationId = $routeParams.locationId;
-  }]);
+	console.log(AngularGit.get(params))
+});
+
+angular.module('app.angularGit', ['ngResource'])
+  .factory('AngularGit', function($resource) {
+  	return $resource('http://tidesandcurrents.noaa.gov/api/:category/:sha')
+  })
+
+  //This is a sample adapted from http://youtu.be/1eR8ZPZbhdw
