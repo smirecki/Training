@@ -1,4 +1,4 @@
-Sample NOAA URL Notes:
+Sample NOAA API URL Notes:
 
 http://tidesandcurrents.noaa.gov/api/datagetter?
 begin_date=20130808 15:00&end_date=20130808 15:06&
