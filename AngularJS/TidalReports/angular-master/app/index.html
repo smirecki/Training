@@ -23,6 +23,33 @@
 </head>
 
 <body ng-controller="TideListCtrl">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <!--Sidebar content -->
+        
+        Search: <input ng-model="query">
+        Sort by:
+        <select ng-model="orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="age">Newest</option>
+        </select>
+        <!--Body content-->
+
+        <ul class="locations">
+          <li ng-repeat="location in locations | filter:query | orderBy:orderProp">
+            <span>{{location.name}}</span>
+            <p>{{location.high_1}}</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+<!--
   <table>
     <tr>
       <th>Location</th>
@@ -31,19 +58,23 @@
     </tr>
     <tr ng-repeat="location in locations">
       <td>{{location.name}}</td>
-      <td>{{location.high | date: 'medium'}}</td>
-      <td>{{location.low | date: 'mediumTime'}}</td>
+      <td>{{location.high_1 | date: 'medium'}}</td>
+      <td>{{location.low_1 | date: 'mediumTime'}}</td>
     </tr>
+  </table>
+-->  
 
+  <p>Total number of locations: {{locations.length}}</p>
+<!--
     <pre>{{locations | json}}</pre>
     <pre>sampleURL = "http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20130808 15:00&end_date=20130808 15:06&station=8454000&product=water_temperature&units=english&time_zone=gmt&application=ports_screen&format=json";</pre>
-   
+-->   
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
+<!--
   <div>Angular seed app: v<span app-version></span></div>
-
+-->
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
