@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]>      <html lang="en" ng-app="tidalReportApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="tidalReportApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="tidalReportApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" ng-app="tidalReportApp" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
@@ -12,6 +12,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="css/app.css"/>
   <!-- JS -->
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
@@ -21,7 +22,6 @@
   <!-- <script src="js/services.js"></script> -->
 
 </head>
-
 <body ng-controller="TideListCtrl">
 
   <div class="container-fluid">
@@ -33,14 +33,16 @@
         Sort by:
         <select ng-model="orderProp">
           <option value="name">Alphabetical</option>
-          <option value="age">Newest</option>
         </select>
+      </div>
+      <div class="col-md-10">
         <!--Body content-->
 
         <ul class="locations">
-          <li ng-repeat="location in locations | filter:query | orderBy:orderProp">
-            <span>{{location.name}}</span>
-            <p>{{location.high_1}}</p>
+          <li ng-repeat="location in locations | filter:query" class="thumbnail">
+            <a href="#/locations/{{location.stationID}}" class="thumb"><img ng-src="{{location.imgUrl}}"></a>
+            <a href="#/locations/{{location.stationID}}">{{location.name}}</a>
+            <p>{{location.howToReach}}</p>
           </li>
         </ul>
 
@@ -50,24 +52,7 @@
 
 
 <!--
-  <table>
-    <tr>
-      <th>Location</th>
-      <th>High</th>
-      <th>Low</th>
-    </tr>
-    <tr ng-repeat="location in locations">
-      <td>{{location.name}}</td>
-      <td>{{location.high_1 | date: 'medium'}}</td>
-      <td>{{location.low_1 | date: 'mediumTime'}}</td>
-    </tr>
-  </table>
--->  
-
   <p>Total number of locations: {{locations.length}}</p>
-<!--
-    <pre>{{locations | json}}</pre>
-    <pre>sampleURL = "http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20130808 15:00&end_date=20130808 15:06&station=8454000&product=water_temperature&units=english&time_zone=gmt&application=ports_screen&format=json";</pre>
 -->   
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
