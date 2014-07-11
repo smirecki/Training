@@ -7,12 +7,12 @@ describe('tidalReportApp', function(){
   beforeEach(module('tidalReportApp'));
 
 
-  it('should create "locations" model with 4 locations', inject(function($controller) {
+  it('should create "locations" model with 7 locations', inject(function($controller) {
     //spec body
     var scope = {},
       ctrl = $controller('TideListCtrl', {$scope:scope});
     
-    expect(scope.locations.length).toBe(4);
+    expect(scope.locations.length).toBe(7);
   }));
 
 });
