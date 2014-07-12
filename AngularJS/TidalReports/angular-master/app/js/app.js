@@ -1,12 +1,20 @@
-'use strict';
-
-
-// Declare app level module which depends on filters, and services
-angular.module('tidalReportApp', [
+var tidalReportApp = angular.module('tidalReportApp', [
+  'ngRoute',
   'tidalReportControllers'
-]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+	]);
+
+tidalReportApp.config(['$routeProvider',
+  function($routeProvider) {
+  	$routeProvider.
+  	  when('/locations', {
+  	  	templateUrl: 'partials/location-list.html',
+  	  	controller: 'LocationListCtrl'
+  	  }).
+  	  when('/locations/:locationId', {
+  	  	templateUrl: 'partials/location-detail.html',
+  	  	controller: 'LocationDetailCtrl'
+  	  }).
+  	  otherwise({
+  	  	redirectTo: '/locations'
+  	  });
+  }]);

@@ -1,9 +1,14 @@
-var tidalReportApp = angular.module('tidalReportApp', []);
+var tidalReportControllers = angular.module('tidalReportControllers', []);
 
-tidalReportApp.controller('TideListCtrl', ['$scope', '$http',
+tidalReportControllers.controller('LocationListCtrl', ['$scope', '$http',
 	function ($scope, $http) {
 	$http.get('locations3.json').success(function(data) {
 		$scope.locations = data;
 	});
 
 }]);
+
+tidalReportControllers.controller('LocationDetailCrtl', ['$scope', '$routeParams',
+	function($scope, $routeParams) {
+		$scope.locationsname = $routeParams.locationsname;
+	}]);
