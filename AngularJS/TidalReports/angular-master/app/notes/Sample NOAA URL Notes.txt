@@ -39,3 +39,8 @@ product=	water_temperature
 			currents
 
 http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20140710&end_date=20140717&station=8518750&product=water_temperature&currents&units=english&time_zone=gmt&application=ports_screen&format=json
+
+=====================
+Currents and Tides map:
+http://tidesandcurrents.noaa.gov/map/
+
