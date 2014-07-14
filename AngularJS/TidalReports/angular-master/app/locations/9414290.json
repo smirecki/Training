@@ -1,0 +1,14 @@
+[
+	 {"name": "San Francisco, CA ",
+	 "stationID": "9414290",
+	 "timeMeridian": "120 W",
+	 "latitude": "37 48.4",
+	 "longitude": "122 27.9",
+	 "high_1": "2014-06-23T04:31:43.511Z", 
+	 "low_1": "2014-06-23T11:41:43.511Z",
+	 "high_2": "2014-06-23T16:06:43.511Z",
+	 "low_2": "2014-06-23T22:28:43.511Z",
+ 	 "url": "http://tidesandcurrents.noaa.gov/stationhome.html?id=9414290",
+	 "imgUrl": "img/9414290A.jpg",
+	 "howToReach": "To reach the tidal bench marks, proceed west along U.S. Highway 101 in the direction of the Golden Gate Bridge, then NW along Crissey Field Avenue (before the bridge) to the Golden Gate National Park (Presidio). The bench marks are located mostly along the coast in the vicinity. The tide gauge is located on the NE side of the National Parks Service wharf."},
+]

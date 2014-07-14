@@ -1,0 +1,14 @@
+[
+	 {"name": "Virginia Key, FL",
+	 "stationID": "8723214",
+	 "timeMeridian": "75 W",
+	 "latitude": "25 43.8 N",
+	 "longitude": "80 9.7 W",
+	 "high_1": "2014-06-23T01:28:43.511Z", 
+	 "low_1": "2014-06-23T07:35:43.511Z",
+	 "high_2": "2014-06-23T13:54:43.511Z",
+	 "low_2": "2014-06-23T20:20:43.511Z",
+     "url": "http://tidesandcurrents.noaa.gov/stationhome.html?id=8723214",
+     "imgUrl": "img/8723214A.jpg",
+     "howToReach": "To reach the tidal bench marks from the intersection of U.S. Route 1 and Rickenbacker Causeway, proceed 5 km (3 mi) east on Rickenbacker Causeway to the entrance of the Rosenstiel School of Marine and Atmospheric Science (Univ. of Miami). The bench marks are located in the vicinity of the concrete pier and on the School grounds. The tide station is located at the outer end of the concrete pier."},
+]
