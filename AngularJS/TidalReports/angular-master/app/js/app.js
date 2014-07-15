@@ -1,6 +1,7 @@
 var tidalReportApp = angular.module('tidalReportApp', [
   'ngRoute',
-  'tidalReportControllers'
+  'tidalReportControllers',
+  'tidalReportServices'
 	]);
 
 tidalReportApp.config(['$routeProvider',
