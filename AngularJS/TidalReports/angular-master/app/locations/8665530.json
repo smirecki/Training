@@ -1,5 +1,4 @@
-[
-	 {"name": "Charleston, SC ",
+{    "name": "Charleston, SC ",
 	 "stationID": "8665530",
 	 "timeMeridian": "75 W",
 	 "latitude": "32 46.9",
@@ -9,6 +8,6 @@
 	 "high_2": "2014-06-23T12:36:43.511Z",
 	 "low_2": "2014-06-23T19:07:43.511Z",
  	 "url": "http://tidesandcurrents.noaa.gov/stationhome.html?id=8665530",
-	 "imgUrl": "img/8665530A.jpg",
-	 "howToReach": " To reach the tidal bench marks from the intersection of East Bay Street and the crosstown highway at the south foot of the northbound Cooper River Bridge, proceed SE on East Bay Street for 2.6 km (1.6 mi). Turn left onto Market Street for 0.2 km (0.1 mi) to Concord Street. Turn right and travel 0.08 km (0.05 mi) to the drive of South Carolina Port Authority. Turn left and follow the drive to a dock. The bench marks are in the vicinity of U.S. Custom House, along East Bay Street, and along Broad Street. The tide gage and staff are on the south end of the dock."}
-]
+	 "imgUrl": "img/8665530A.0.jpg",
+	 "howToReach": " To reach the tidal bench marks from the intersection of East Bay Street and the crosstown highway at the south foot of the northbound Cooper River Bridge, proceed SE on East Bay Street for 2.6 km (1.6 mi). Turn left onto Market Street for 0.2 km (0.1 mi) to Concord Street. Turn right and travel 0.08 km (0.05 mi) to the drive of South Carolina Port Authority. Turn left and follow the drive to a dock. The bench marks are in the vicinity of U.S. Custom House, along East Bay Street, and along Broad Street. The tide gage and staff are on the south end of the dock."
+}

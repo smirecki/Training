@@ -1,5 +1,4 @@
-[
-	 {"name": "Los Angeles, CA",
+{    "name": "Los Angeles, CA",
 	 "stationID": "9410660",
 	 "timeMeridian": "120 W",
 	 "latitude": "33 43.2 N",
@@ -10,5 +9,5 @@
 	 "low_2": "2014-06-23T20:15:43.511Z",
 	 "url": "http://tidesandcurrents.noaa.gov/stationhome.html?id=9410660",
 	 "imgUrl": "img/None.jpg",
-	 "howToReach": "To reach the tidal bench marks from the intersection of Harbor Boulevard and 6th Street in San Pedro (Entrance to Port of Los Angeles Pier 35-72), turn left onto 22nd Street crossing railroad tracks for 0.3 km (0.2 mi) to Signal Street, turn right onto Signal Street for 0.6 km (0.4 mi) to the end of Signal Street where there is an office trailer (U.S. Water Taxi), turn right and go west for about 61 m (200 ft) to the station on the right at the end of the pier. Tide gauges are located in a small building at the SW end of pier (Berth 60)."},
-]
+	 "howToReach": "To reach the tidal bench marks from the intersection of Harbor Boulevard and 6th Street in San Pedro (Entrance to Port of Los Angeles Pier 35-72), turn left onto 22nd Street crossing railroad tracks for 0.3 km (0.2 mi) to Signal Street, turn right onto Signal Street for 0.6 km (0.4 mi) to the end of Signal Street where there is an office trailer (U.S. Water Taxi), turn right and go west for about 61 m (200 ft) to the station on the right at the end of the pier. Tide gauges are located in a small building at the SW end of pier (Berth 60)."
+	}

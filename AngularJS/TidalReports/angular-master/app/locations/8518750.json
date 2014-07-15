@@ -1,5 +1,4 @@
-[
-	 {"name": "The Battery, NY",
+{    "name": "The Battery, NY",
 	 "stationID": "8518750",
 	 "timeMeridian": "75 W",
 	 "latitude": "40 42.0",
@@ -9,6 +8,6 @@
 	 "high_2": "2014-06-23T13:11:43.511Z",
 	 "low_2": "2014-06-23T19:13:43.511Z",
  	 "url": "http://tidesandcurrents.noaa.gov/stationhome.html?id=8518750",
-	 "imgUrl": "img/8518750A.jpg",
-     "howToReach": "To reach the tidal bench marks from New Jersey, take exit 14-C on the New Jersey Turnpike for the Holland Tunnel to Manhattan, then take the Downtown exit to Broadway. Proceed south on Broadway to its end at The Battery. Turn onto State Street and proceed on State Street for 0.3 km (0.2 mi) to the U.S. Coast Guard Inspection Office. The bench marks are located in the area around Battery Park. The tide gage and staff are located on the pier behind the Inspection Office."},
-]
+	 "imgUrl": "img/8518750A.0.jpg",
+     "howToReach": "To reach the tidal bench marks from New Jersey, take exit 14-C on the New Jersey Turnpike for the Holland Tunnel to Manhattan, then take the Downtown exit to Broadway. Proceed south on Broadway to its end at The Battery. Turn onto State Street and proceed on State Street for 0.3 km (0.2 mi) to the U.S. Coast Guard Inspection Office. The bench marks are located in the area around Battery Park. The tide gage and staff are located on the pier behind the Inspection Office."
+ }

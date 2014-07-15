@@ -1,5 +1,4 @@
-[
-	 {"name": "San Diego, CA",
+{    "name": "San Diego, CA",
 	 "stationID": "9410170",
 	 "timeMeridian": "120 W",
 	 "latitude": "32 42.8 N",
@@ -9,6 +8,6 @@
 	 "high_2": "2014-06-23T13:54:43.511Z",
 	 "low_2": "2014-06-23T20:16:43.511Z",
 	 "url": "http://tidesandcurrents.noaa.gov/stationhome.html?id=9410170",
-	 "imgUrl": "img/9410170A.jpg",
-	 "howToReach": "To reach the tidal bench marks, proceed south on I-5 to 10th Avenue exit Downtown San Diego. Turn right on Broadway and proceed to water front (Broadway Pier). Turn left at Harbor Drive; then right to the southern face of the Navy Pier (one pier south of Broadway Pier). The tidal bench marks are located on the navy facility in the vicinity. Tide gauge is located in room 5A of the Naval supply center."},
-]
+	 "imgUrl": "img/9410170A.0.jpg",
+	 "howToReach": "To reach the tidal bench marks, proceed south on I-5 to 10th Avenue exit Downtown San Diego. Turn right on Broadway and proceed to water front (Broadway Pier). Turn left at Harbor Drive; then right to the southern face of the Navy Pier (one pier south of Broadway Pier). The tidal bench marks are located on the navy facility in the vicinity. Tide gauge is located in room 5A of the Naval supply center."
+}
