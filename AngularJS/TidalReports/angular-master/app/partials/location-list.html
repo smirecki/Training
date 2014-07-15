@@ -16,7 +16,7 @@
           <li ng-repeat="location in locations | filter:query" class="thumbnail">
             <a href="#/locations/{{location.stationID}}" class="thumb"><img ng-src="{{location.imgUrl}}"></a>
             <a href="#/locations/{{location.stationID}}">{{location.name}}</a>
-            <p>{{location.howToReach}}</p>
+            <p>{{location.howToReach | limitTo : 400}}...</p>
           </li>
         </ul>
 
