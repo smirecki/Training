@@ -1,1 +1,18 @@
-TBD: detail view for <span>{{locationsname}}</span>
+<!-- force refresh for Development -
+<button ng-click="refresh()">Refresh table</button>
+
+$scope.refresh = function () {
+  $scope.$broadcast('data');
+};
+-->
+
+<img ng-src="{{location.imgUrl}}" class="location">
+
+<h1>{{location.name}}</h1>
+<h3>Station ID number: {{location.stationID}}</h3>
+<h3>Time Meridian: {{location.timeMeridian}}</h3>
+<h3>Latitude: {{location.latitude}}</h3>
+<h3>Longitude: {{location.longitude}}</h3>
+<p>How to reach - {{location.howToReach}}</p>
+
+<pre>JSON DATA: {{location | json}}</pre>

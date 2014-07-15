@@ -8,7 +8,9 @@ tidalReportControllers.controller('LocationListCtrl', ['$scope', '$http',
 
 }]);
 
-tidalReportControllers.controller('LocationDetailCrtl', ['$scope', '$routeParams',
-	function($scope, $routeParams) {
-		$scope.locationsname = $routeParams.locationsname;
-	}]);
+tidalReportControllers.controller('LocationDetailCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+    $http.get('locations/' + $routeParams.stationID + '.json').success(function(data) {
+      $scope.location = data;
+    });
+  }]);

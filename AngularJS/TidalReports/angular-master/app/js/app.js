@@ -10,7 +10,7 @@ tidalReportApp.config(['$routeProvider',
   	  	templateUrl: 'partials/location-list.html',
   	  	controller: 'LocationListCtrl'
   	  }).
-  	  when('/locations/:locationId', {
+  	  when('/locations/:stationID', {
   	  	templateUrl: 'partials/location-detail.html',
   	  	controller: 'LocationDetailCtrl'
   	  }).
