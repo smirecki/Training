@@ -50,4 +50,13 @@ http://tidesandcurrents.noaa.gov/map/
 
 http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20140711&end_date=20140713&station=8726364&product=high_low&currents&units=english&time_zone=gmt&application=ports_screen&format=json
 
+============
+// This is a listing of on-line data that is accessible through Web Services and it is provided by the Center for Operational Oceanographic Products and Services. 
+
+http://opendap.co-ops.nos.noaa.gov/axis/
+
+=============
+
+
+
 
