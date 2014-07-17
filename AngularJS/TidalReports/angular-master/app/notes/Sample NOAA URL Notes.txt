@@ -1,44 +1,42 @@
 Sample NOAA API URL Notes:
 
-http://tidesandcurrents.noaa.gov/api/datagetter?
-begin_date=20130808 15:00&end_date=20130808 15:06&
-station=8454000&
-product=water_temperature
-&units=english
-&time_zone=gmt
-&application=ports_screen
-&format=json
-
-http://tidesandcurrents.noaa.gov/api/datagetter?
-begin_date=20140710&end_date=20140717&
-station=8518750&
-product=	water_temperature&currents
-
-&units=english
-&time_zone=gmt
-&application=ports_screen
-&format=json
-
-product=	water_temperature
-			air_temperature
-			water_temperature
-			wind
-			air_pressure
-			air_gap
-			conductivity
-			visibility
-			humidity
-			salinity
-			hourly_height
-			high_low
-			daily_mean
-			monthly_mean
-			one_minute_water_level
-			predictions
-			datums
-			currents
-
+*  SAMPLE API CALL
 http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20140710&end_date=20140717&station=8518750&product=water_temperature&currents&units=english&time_zone=gmt&application=ports_screen&format=json
+
+
+url: 'http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=' + BeginDate + '&end_date=' + EndDate + '&station=' + StationNumber + '&product=' + ProductType + '&units=' + UnitsLanguage + 'time_zone=' + TimeZone + '&application='ports_screen&format=json'
+
+Params: --- BeginDate, EndDate, StationNumber, ProductType, UnitsLanguage, TimeZone
+
+ProductType: 
+	water_level	- Preliminary or verified water levels, depending on availability.
+	air_temperature	- Air temperature as measured at the station.
+	water_temperature -	Water temperature as measured at the station.
+	wind -	Wind speed, direction, and gusts as measured at the station.
+	air_pressure - Barometric pressure as measured at the station.
+	air_gap - Air Gap (distance between a bridge and the water's surface) at the station.
+	conductivity - The water's conductivity as measured at the station.
+	visibility - Visibility from the station's visibility sensor. A measure of atmospheric clarity.
+	humidity - Relative humidity as measured at the station.
+	salinity - Salinity and specific gravity data for the station.
+	hourly_height - Verified hourly height water level data for the station.
+	high_low - Verified high/low water level data for the station.
+	daily_mean - Verified daily mean water level data for the station.
+	monthly_mean - Verified monthly mean water level data for the station.
+	one_minute_water_level - One minute water level data for the station.
+	predictions - 6 minute predictions water level data for the station.
+	datums - datums data for the stations.
+		MHHW - Mean Higher High Water
+		MHHW - Mean High Water
+		MTL  - Mean Tide Level
+		MSL  - Mean Sea Level
+		MLW  - Mean Low Water
+		MLLW - Mean Lower Low Water
+		NAVD - North American Vertical Datum
+		STND - Station Datum
+	currents - Currents data for currents stations.
+TimeZone: 
+	gmt, lst, lst_ldt
 
 =====================
 Currents and Tides map:
