@@ -1,0 +1,27 @@
+ 
+
+ /*  --- From app.js ---
+tidalReportApp.config(['$httpProvider', function($httpProvider) {
+        $httpProvider.defaults.useXDomain = false;
+        delete $httpProvider.defaults.headers.common['X-Requested-With'];
+  }]);   
+*/
+
+
+/*
+ tidalReportApp.config(['$httpProvider', function ($httpProvider) {
+    $httpProvider.defaults.useXDomain = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
+ }]);
+
+ $http.defaults.useXDomain = true;
+
+ $http.get('http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=asp+site:codehint.ru').
+        success(
+            function (data, status, headers, config) {
+                alert('answer');
+            }
+        );
+*/
+
+==================
