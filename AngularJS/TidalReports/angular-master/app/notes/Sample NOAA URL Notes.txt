@@ -54,6 +54,8 @@ http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20140711&end_date=201
 http://opendap.co-ops.nos.noaa.gov/axis/
 
 =============
+Their API call for refrence:
+http://tidesandcurrents.noaa.gov/api/datagetter?product=predictions&begin_date=20140716+12%3A00&end_date=20140717+23%3A59&datum=MLLW&station=8726607&time_zone=LST_LDT&units=english&format=json&application=NOS.COOPS.TAC.STATIONHOME
 
 
 
