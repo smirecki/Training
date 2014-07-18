@@ -15,4 +15,10 @@ $scope.refresh = function () {
 <h3>Longitude: {{location.longitude}}</h3>
 <p>How to reach - {{location.howToReach}}</p>
 
+<table>
+  <tt>Data: <input name="input" ng-model="userType"></tt>&nbsp;<button type ="submit" class="btn btn-primary">Submit</button><br>
+  <tt>userType = {{userType}}</tt><br>
+</table>
+
 <pre>JSON DATA: {{location | json}}</pre>
+<pre>JSON DATA: NoaaAPI.query{{noaaapi | json}}</pre>
