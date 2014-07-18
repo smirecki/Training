@@ -9,10 +9,17 @@ tidalReportControllers.controller('LocationListCtrl', ['$scope', 'Location',
 tidalReportControllers.controller('LocationDetailCtrl', ['$scope', '$routeParams', 'Location',
   function($scope, $routeParams, Location) {
   	$scope.location = Location.get({stationID: $routeParams.stationID}, function(location){
-  		$scope.mainImageUrl = location.image[0];
+  		$scope.mainImageUrl = location.image;
   	});
 
   	$scope.setImage = function(imageURL) {
   		$scope.mainImageUrl = imageUrl;
   	}
+  }]);
+
+
+/* Noaa controller - Development stage */
+tidalReportControllers.controller('NoaaAPICtrl', ['$scope', 'NoaaAPI',
+  function($scope, NoaaAPI) {
+    $scope.noaaapi = NoaaAPI.query();
   }]);
