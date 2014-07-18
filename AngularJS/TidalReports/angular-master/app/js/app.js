@@ -4,6 +4,7 @@ var tidalReportApp = angular.module('tidalReportApp', [
   'tidalReportServices'
 	]);
 
+
 tidalReportApp.config(['$routeProvider',
   function($routeProvider) {
   	$routeProvider.
@@ -19,3 +20,4 @@ tidalReportApp.config(['$routeProvider',
   	  	redirectTo: '/locations'
   	  });
   }]);
+
