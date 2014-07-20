@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="http://code.highcharts.com/highcharts.js"></script>
+		<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+		<script>
+			$(function () {
+        		$('#container').highcharts({
+            		chart: {
+                		type: 'spline'
+            		},
+            		title: {
+                		text: 'Tide',
+                		x: -20 //center
+            		},
+            		subtitle: {
+                		text: 'Source: empty',
+                		x: -20
+            		},
+            		xAxis: {
+                		categories: ['12am', '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am',
+                        		     '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm'
+                            		]
+            		},
+            		yAxis: {
+                		title: {
+                    		text: 'height (°scale)'
+                		},
+                		plotLines: [{
+                    		value: 0,
+                    		width: 1,
+                    		color: '#808080'
+                		}]
+            		},
+            		tooltip: {
+                		valueSuffix: '°C'
+            		},
+            		legend: {
+                		layout: 'vertical',
+              		  align: 'right',
+            			verticalAlign: 'middle',
+              		  borderWidth: 0
+            		},
+            		series: 
+            		[{     name: 'London',
+                    		  data: [1.040, 1.093, 1.316, 1.658, 2.030, 2.330, 2.476, 2.418, 2.159, 1.749, 1.273, 0.834, 0.523, 0.404, 0.496, 0.771, 1.160, 1.571, 1.910, 2.102, 2.113, 1.950, 1.668, 1.347]
+                 	}]
+        		});
+    		});
+
+	/*
+	{ "predictions" : [
+{"t":"2014-07-16 12:00", {"t":"2014-07-16 13:00", "v":"1.093"},{"t":"2014-07-16 14:00", "v":"1.316"},{"t":"2014-07-16 15:00", "v":"1.658"},{"t":"2014-07-16 16:00", "v":"2.030"},{"t":"2014-07-16 17:00", "v":"2.330"},{"t":"2014-07-16 18:00", "v":"2.476"},{"t":"2014-07-16 19:00", "v":"2.418"},{"t":"2014-07-16 20:00", "v":"2.159"},{"t":"2014-07-16 21:00", "v":"1.749"},{"t":"2014-07-16 22:00", "v":"1.273"},{"t":"2014-07-16 23:00", "v":"0.834"}
+]}
+	*/
+	</script>
+	<body>
+		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	</body>
+</html>
