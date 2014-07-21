@@ -25,3 +25,6 @@ tidalReportApp.config(['$httpProvider', function($httpProvider) {
 */
 
 ==================
+
+AngularJS "parsing JSONP $http.jsonp() response in angular.js" stackoverflow-- 
+http://jsfiddle.net/subhaze/a4Rc2/114/
