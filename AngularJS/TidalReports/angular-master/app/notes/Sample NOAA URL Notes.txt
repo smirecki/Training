@@ -58,5 +58,12 @@ http://tidesandcurrents.noaa.gov/api/datagetter?product=predictions&begin_date=2
 console.log(data.predictions[1].v);
 http://jsfiddle.net/5DTB4/
 
+var data = { "predictions" : [ {"t":"2014-07-16 12:00", "v":"1.040"},{"t":"2014-07-16 13:00", "v":"1.093"},{"t":"2014-07-16 14:00", "v":"1.316"},{"t":"2014-07-16 15:00", "v":"1.658"},{"t":"2014-07-16 16:00", "v":"2.030"},{"t":"2014-07-16 17:00", "v":"2.330"},{"t":"2014-07-16 18:00", "v":"2.476"},{"t":"2014-07-16 19:00", "v":"2.418"},{"t":"2014-07-16 20:00", "v":"2.159"},{"t":"2014-07-16 21:00", "v":"1.749"}]};
+
+//var parsedData = JSON.parse(data);
+
+//var tides = parsedData.predictions[0];
+
+console.log(data.predictions[1].v);
 
 
