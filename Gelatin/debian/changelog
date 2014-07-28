@@ -1,0 +1,5 @@
+gelatin (0.1.12~git20100128.gb1f8fdd-0ubuntu1) lucid; urgency=low
+
+  * Initial release. (LP: #514024)
+
+ -- Samuel Abels <knipknap@gmail.com>  Thu, 28 Jan 2010 20:15:08 +0100

@@ -1,0 +1,17 @@
+Source: gelatin
+Section: contrib/text
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Samuel Abels <knipknap@gmail.com>
+Build-Depends: debhelper (>= 7), python, python-central (>= 0.6.0), cdbs (>= 0.4.49)
+XS-Python-Version: >= 2.6
+Standards-Version: 3.8.3
+Homepage: http://wiki.github.com/knipknap/Gelatin/
+
+Package: gelatin
+Architecture: all
+Depends: ${python:Depends}, python-lxml, python-yaml, ${misc:Depends}
+XB-Python-Version: ${python:Versions}
+Description: Transform text files to XML, JSON, or YAML
+ Gelatin is a parser generator for converting text to a structured
+ format such as XML, JSON or YAML.
