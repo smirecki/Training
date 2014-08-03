@@ -8,7 +8,7 @@ $(function () {
             x: -20 //center
         },
         subtitle: {
-            text: 'Source: empty',
+            text: 'Source: NOAA',
             x: -20
         },
         xAxis: {
@@ -17,7 +17,7 @@ $(function () {
         },
         yAxis: {
             title: {
-                text: 'height (°scale)'
+                text: 'height (feet)'
             },
             plotLines: [{
                 value: 0,
@@ -26,7 +26,7 @@ $(function () {
             }]
         },
         tooltip: {
-            valueSuffix: '°C'
+            valueSuffix: 'ft'
         },
         legend: {
             layout: 'vertical',
