@@ -1,0 +1,1967 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+    <!-- Remove the next line to disable mobile mode -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Station listings">
+	<meta name="keywords" content="stations">
+    <link href="http://tidesandcurrents.noaa.gov/css/bootstrap.css" rel="stylesheet">
+    <link href="http://tidesandcurrents.noaa.gov/css/bootstrap-responsive.css" rel="stylesheet">
+    
+	<title>Station Selection - NOAA Tides &amp; Currents</title>
+   
+    <script type="text/javascript" async="" src="./Station Selection - NOAA Tides & Currents_files/ga.js"></script><script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/jquery-latest.js"></script><style type="text/css"></style>
+    <script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/hoverintent.js"></script>
+    <script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/tinynav.min.js"></script>
+   	<script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/menus_sub.js"></script>
+    <script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/stations.js"></script>
+    <link href="http://tidesandcurrents.noaa.gov/css/frontpage.css" rel="stylesheet">
+    
+    <script type="text/javascript">
+	/*
+	$(function(){
+		
+	var $win = $(window);
+    var $filter = $("#searchbox1");
+    var $filterSpacer = $('<div />', {
+      "class": "filter-drop-spacer",
+      "height": $filter.outerHeight()
+    });
+  $win.scroll(function(){     
+    if(!$filter.hasClass('fix') && $win.scrollTop() > $filter.offset().top){
+      $filter.before($filterSpacer);
+      $filter.addClass("fix");
+    } else if ($filter.hasClass('fix')  && $win.scrollTop() < $filterSpacer.offset().top){
+      $filter.removeClass("fix");
+      $filterSpacer.remove();
+    }
+  });
+	});
+	*/
+	</script>
+    
+    <!-- usasearch.gov 
+    <script type="text/javascript">
+//<![CDATA[
+		var usasearch_config = { siteHandle:"tidesandcurrents" };
+      	var script = document.createElement("script");
+      	script.type = "text/javascript";
+      	script.src = "http://search.usa.gov/javascripts/remote.loader.js";
+      	document.getElementsByTagName("head")[0].appendChild(script);
+//]]>
+	</script>-->
+    <style type="text/css">
+	   	.station {
+      		display: inline-block;
+			padding: 3px;
+			vertical-align: top;
+		}
+		.areaheader {
+			margin-bottom: 20px;
+			display: table;
+		}
+		
+		.marginfix {
+			margin-left: 16px;
+		}
+		.container-fluid1 {
+			max-width: 1170px;
+			margin: 0 auto;
+		}
+		.datefield {
+			font-size: 12px;
+			font-weight: normal;
+			font-style: italic;	
+		}
+		.tinynav { display: none }
+		.tinynav_label { display: none }
+		/* styles for mobile */
+		@media screen and (max-width: 767px) {
+    		.tinynav { display: block }
+			.tinynav_label { display: block }
+    		#arealist { display: none }
+		}
+		.fix {
+  			position: fixed;
+			top:0px;
+		}
+	</style>
+    
+<script type="text/javascript" async="" src="./Station Selection - NOAA Tides & Currents_files/js"></script><script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/foresee-surveydef.js"></script><script type="text/javascript" async="" src="./Station Selection - NOAA Tides & Currents_files/in.php"></script><script type="text/javascript" async="" src="./Station Selection - NOAA Tides & Currents_files/in(1).php"></script><script type="text/javascript" async="" src="./Station Selection - NOAA Tides & Currents_files/in(2).php"></script></head>
+<body>
+	<!-- Search box in desktop mode -->
+<script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/jquery-ui-autocomplete-1.9.2.js"></script>
+<script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/searchbox.js"></script>
+
+<script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/federated-analytics.js"></script>
+<script type="text/javascript" src="./Station Selection - NOAA Tides & Currents_files/foresee-trigger.js"></script>
+
+<div class="hidden-phone" style="position: absolute; top: 20px; right: 20px; z-index:5000;">
+  	<form id="searchForm" name="searchForm" accept-charset="UTF-8" action="http://tidesandcurrents.noaa.gov/search_results.html" method="get" class="form-search">
+    <div style="margin: 0; padding:0 display: inline">
+      	<input name="utf8" type="hidden" value="✓">
+    </div>
+    <!--<input id="affiliate" name="affiliate" type="hidden" value="tidesandcurrents" />
+    <input id="locale" name="locale" type="hidden" value="en" />-->
+    <div class="controls">	
+    <div class="input-append">
+    	<input placeholder="Search" autocomplete="off" type="text" class="search-query searchbox ui-autocomplete-input" style="padding-right:29px" id="query" name="query"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><button type="submit" class="btn"><i class="icon-search"></i></button>	
+		<button id="buton" name="buton" class="close" style="position:absolute; right:45px; top:6px; z-index:3; display:none;" onclick="clearClick(); return false;">×</button>
+	</div>	
+		
+    </div>
+  	</form>
+</div>
+
+<!-- Header image -->
+<!--Leave the following image's alt tag blank, it's for use with an image map.  -->
+<div id="logocover">
+	<map name="header_navigation">
+		<area shape="circle" alt="NOAA Web Site Link" coords="30,34,29" href="http://www.noaa.gov/">
+        <area shape="rect" alt="Tides and Currents Home Page" coords="60,12,230,61" href="http://tidesandcurrents.noaa.gov/">
+	</map>
+	<img src="./Station Selection - NOAA Tides & Currents_files/transparent_header.gif" alt="Transparent placeholder image" usemap="#header_navigation">
+ </div>
+
+<!-- menu header starts -->
+ <div id="header" style="width: 100%; background: url(/images/sub_header_sm.jpg) no-repeat;">
+	<div style="height: 80px;">&nbsp;</div>
+    <div id="buttoncontainer" class="container-fluid">
+	<div class="hidden-phone"> 
+		<div class="row-fluid">
+      			<div class="span3 panebutton" id="productbutton">
+                	<div style="float: left; width: 20px; height: 100%;" class="hidden-phone">&nbsp;</div>
+        			<a href="http://tidesandcurrents.noaa.gov/products.html" style="color: black;"><h4 style="margin-top: 2px;">PRODUCTS</h4></a>
+        			<div style="float: right; margin-right: 5px;"><b class="caret"></b></div>
+        			Data, Analyses, and Publications
+        			<div id="products" class="pane products pulldown" style="border: 1px;">
+        				<div id="productspacer" class="hidden-phone" style="position: relative; background-color: white; height: 2px; left: 95px; top: -7px;">&nbsp;</div>
+        				<div class="row-fluid">
+                           	<!-- First product column -->
+           					<div class="span4">
+                            	<ul class="nav nav-list">
+                                	<li class="nav-header">
+                                    	Tides/Water Levels
+                                    </li>
+                                    <li>
+										<a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water+Levels">Water Levels</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/1mindata.html">1-Minute Water Level Data</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/tide_predictions.html">NOAA Tide Predictions</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/stations.html?type=Harmonic+Constituents">Harmonic Constituents</a>
+                                	</li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/stations.html?type=Datums">Datums</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/stations.html?type=Bench+Mark+Data+Sheets">Benchmark Sheets</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/sltrends/sltrends.html">Sea Level Trends</a>
+                                    </li>
+                                    <li>
+ 	                                	<a href="http://tidesandcurrents.noaa.gov/est">Extreme Water Levels</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water+Level+Reports">Reports</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/inundation/">Inundation Analysis</a>
+                                    </li>
+                                    <li class="nav-header">
+                                    	Harmful Algal Blooms
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/hab/">Gulf of Mexico Forecasts</a>
+                                    </li>
+                                    <li class="nav-header">
+                                    	Publications
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/pub.html">CO-OPS Publications</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/fieldlibrary/">CO-OPS Field Library</a>
+                                    </li>
+                                </ul>
+           					</div>
+                            <!-- Second product column -->
+           					<div class="span4">
+                            	<ul class="nav nav-list">
+                                	<li class="nav-header">
+                                    	Currents
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/cdata/StationList?type=Current+Data&filter=active">Active Stations</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/cdata/">Historic Data</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/curr_pred.html">Tidal Current Tables</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/noaacurrents/">NOAA Current Predictions<span style="margin-left: 7px;" class="label label-info">Beta</span></a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/hfradar/">HF Radar Surface Currents</a>
+                                    </li>
+                                    <li class="nav-header">
+                                    	<img src="./Station Selection - NOAA Tides & Currents_files/portsthumbnailsmall.jpg" style="width: 135px; height: 62px;" alt="Picture of a ship loaded with containers">
+                                    	<a href="http://tidesandcurrents.noaa.gov/ports.html">PORTS<sup>®</sup></a>
+                                    </li><li>
+                                    </li><li>
+	                                    <select id="portsselect" style="width: 180px;" onchange="window.open(&#39;/ports/index.html?port=&#39;+this.options[this.selectedIndex].value, &#39;_top&#39;)">
+                   						<option value="">Select a PORT</option>
+										<option value="ch">Charleston Harbor</option>
+                   						<option value="cp">Cherry Point</option>
+               							<option value="cn">Chesapeake Bay North</option>
+                   						<option value="cs">Chesapeake Bay South</option>
+                   						<option value="db">Delaware River &amp; Bay</option>
+                   						<option value="hg">Houston/Galveston</option>
+                                        <option value="hb">Humboldt Bay</option>
+					<option value="jx">Jacksonville</option>
+                   						<option value="lc">Lake Charles</option>
+                   						<option value="ll">L.A./Long Beach</option>
+                   						<option value="cr">Lower Columbia River</option>
+                   						<option value="lm">Lower Mississippi River</option>
+					                    <option value="mb">Mobile Bay</option>
+					                    <option value="nb">Narragansett Bay</option>
+					                    <option value="nh">New Haven</option>
+                                        <option value="nl">New London</option>
+					                    <option value="ny">NY/NJ Harbor</option>
+					                    <option value="ps">Pascagoula</option>
+					                    <option value="ak">Port of Anchorage</option>
+					                    <option value="sn">Sabine Neches</option>
+					                    <option value="sf">San Francisco Bay</option>
+					                    <option value="sl">Soo Locks</option>
+					                    <option value="ta">Tacoma</option>
+					                    <option value="tb">Tampa Bay</option>
+					                  	</select>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/myports/">MyPORTS</a>
+                                    </li>
+                                    <li class="nav-header">
+                                    	<a href="http://tidesandcurrents.noaa.gov/models.html">Operational Forecast Systems</a>
+                                    </li>
+                                    <li>
+	                                    <select id="ofsselect" style="width: 180px;" onchange="window.open(&#39;/ofs/&#39; + this.options[this.selectedIndex].value + &#39;ofs/&#39; +this.options[this.selectedIndex].value + &#39;ofs.html&#39;, &#39;_top&#39;)" name="ofs">
+					                    <option value="">Select an OFS</option>
+					                    <option value="cb">Chesapeake Bay</option>
+							    		<option value="cre">Columbia River</option>
+					                    <option value="db">Delaware Bay</option>
+					                    <option value="gb">Galveston Bay</option>
+					                    <option value="le">Lake Erie</option>
+					                    <option value="lh">Lake Huron</option>
+					                    <option value="lm">Lake Michigan</option>
+					                    <option value="lo">Lake Ontario</option>
+					                    <option value="ls">Lake Superior</option>
+					                    <option value="ny">New York/New Jersey</option>
+                                        <option value="ng">Northern Gulf of Mexico</option>
+                                        <option value="sfb">San Francisco Bay</option>
+					                    <option value="sj">St. Johns River</option>
+					                    <option value="tb">Tampa Bay</option>
+					                  	</select>
+                                    </li>
+                                </ul>
+           					</div>
+                            <!-- Third product column -->
+           					<div class="span4">
+                            	<ul class="nav nav-list">
+                              		<li class="nav-header">
+                                    	Meteorological/Other
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/stations.html?type=Meteorological%20Observations">Meteorological Observations</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/stations.html?type=Physical%20Oceanography">Water Temp/Conductivity</a>
+                                    </li>
+                                    <li>
+	                                    <a href="http://tidesandcurrents.noaa.gov/astronomical.html">Astronomical Data</a>
+                                    </li>
+									<li class="nav-header">
+                                    	Links/Web Services
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/favorites.html">Favorite stations</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/stations.html">List of all stations</a>
+                                    </li>
+
+                                    <li>
+                                    	<a href="http://tidesonline.nos.noaa.gov/">Tides Online</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://glakesonline.nos.noaa.gov/">Great Lakes Online</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://opendap.co-ops.nos.noaa.gov/">IOOS Data Portal</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/nowcoast.html">nowCOAST</a>
+                                    </li>
+                                    <li>
+	                                    <a href="http://tidesandcurrents.noaa.gov/quicklook.html">Storm QuickLooks</a>
+                                    </li>
+                                    <li>
+	                                    <a href="http://tidesandcurrents.noaa.gov/googleearth.html">Google Earth/KML Files</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/gmap3/">Tides &amp; Currents Map</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/api/">CO-OPS Data API</a>
+                                    </li>
+                                 </ul>
+        					</div>
+        				</div>
+        			</div>
+      			</div>
+       			<div class="span3 panebutton" id="partnerbutton">
+        		  <a href="http://tidesandcurrents.noaa.gov/programs.html" style="color: black;"><h4 style="margin-top: 2px;">PROGRAMS</h4></a>
+        		  <div style="float: right; margin-right: 5px;"><b class="caret"></b></div>
+                  Serving the Nation
+        		  <div id="partners" class="pane partners pulldown" style="border: 1px;">
+        			<div id="partnerspacer" class="hidden-phone" style="position: relative; background-color: white; height: 2px; width: 120px; left: 335px; top: -7px;">&nbsp;</div>
+                    <div class="row-fluid">
+                      <div class="span6">
+                        <ul class="nav nav-list">
+                        <li class="nav-header"> <a href="http://tidesandcurrents.noaa.gov/mapping.html">Mapping and Charting Support</a></li>
+                        <li> <a href="http://tidesandcurrents.noaa.gov/nwlon.html">NWLON - Water Levels</a> </li>
+                        <li> <a href="http://tidesandcurrents.noaa.gov/hydro.html">Hydrographic Survey Support</a> </li>
+                        <li> <a href="http://tidesandcurrents.noaa.gov/tcoon.html">Texas Coastal Ocean Observation Network (TCOON)</a> </li>
+                        <li> <a href="http://vdatum.noaa.gov/">Vertical Datum Transformation (NOAA VDatum)</a> </li>
+                        </ul>
+                      </div>
+                      <div class="span6">
+                        <ul class="nav nav-list">
+                          <li class="nav-header"><a href="http://tidesandcurrents.noaa.gov/maritime.html">Maritime Services</a></li>
+                          <li> <a href="http://tidesandcurrents.noaa.gov/ports.html">PORTS - Real Time Observations</a> </li>
+                          <li> <a href="http://tidesandcurrents.noaa.gov/ncop.html">NCOP - Currents</a> </li>
+                          <li> <a href="http://tidesandcurrents.noaa.gov/nocmp.html">NOCMP - Modeling</a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="nav nav-list">
+                      <li class="nav-header"><a href="http://tidesandcurrents.noaa.gov/coastal.html">Coastal Oceanographic Applications and Services of Tides and Lakes (COASTAL)</a></li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/st_charles.html">St. Charles Parish Real-Time Monitoring System</a> </li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/quicklook.html">Storm QuickLooks</a> </li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/1mindata.html">1-Minute Water Level Data</a> </li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/hab/">Harmful Algal Bloom Operational Forecast System (HAB-OFS)</a></li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/sltrends/">Sea Level Trends</a></li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/marsh.html">Marsh Restoration</a> </li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/inundation/">Inundation Analysis</a></li>
+                      <li> <a href="http://tidesandcurrents.noaa.gov/est/">Extreme Water Levels</a></li>
+					  <li> <a href="http://tidesandcurrents.noaa.gov/press/tulalip.html">Tulalip Water Level Stations</a></li>
+  
+                      <!--      
+                      <li> <a href="/gomoos.html">Gulf of Maine Ocean Observing System (GoMOOS)</a> </li>
+                      <li> <a href="/csdl.html">Coast Survey Development Lab (CSDL)</a> </li>
+                      -->
+                    </ul>
+        		  </div>
+      			</div>
+
+      			<div class="span3 panebutton" id="educationbutton">
+        			<a href="http://tidesandcurrents.noaa.gov/education.html" style="color: black;"><h4 style="margin-top: 2px;">EDUCATION</h4></a>
+        			<div style="float: right; margin-right: 5px;"><b class="caret"></b></div>
+        			Tides, Currents, and Predictions
+        			<div id="education" class="pane education pulldown" style="border: 1px;">
+        				<div id="educationspacer" class="hidden-phone" style="position: relative; background-color: white; height: 2px; width: 120px; left: 235px; top: -7px;">&nbsp;</div>
+        				<div class="row-fluid">
+           					<!-- First education column -->
+                            <div class="span6">
+                            	<ul class="nav nav-list">
+                                	<li class="nav-header">
+                                    	Tides
+                                    </li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides01_intro.html">What are Tides?</a>
+                                    </li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides02_cause.html">What causes Tides?</a>
+									</li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides03_gravity.html">Gravity, Inertia, and the Two Bulges</a>
+									</li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides04_angle.html">Changing Angles and Changing Tides</a>
+									</li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides05_lunarday.html">Frequency of Tides - The Lunar Day</a>
+									</li>
+           							<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides06_variations.html">Tidal Variations - The Influence of Position and Distance</a>
+									</li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides07_cycles.html">Types and Causes of Tidal Cycles</a>
+									</li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides08_othereffects.html">What Affects Tides in Addition to the Sun and Moon?</a>
+									</li>
+              						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides09_monitor.html">The Importance of Monitoring the Tides and Their Currents</a>
+									</li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides10_oldmeasure.html">How are Tides Measured? - The Old System</a>
+									</li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/tides11_newmeasure.html">How are Tides Measured? - The New System</a>
+									</li>
+								</ul>
+            				</div>
+                            <!-- Second education column -->
+            				<div class="span6">
+              					<ul class="nav nav-list">
+	                                <li class="nav-header">
+                                    	Currents
+                                    </li>
+               						<li>
+										<a href="http://tidesandcurrents.noaa.gov/meascurr.html">The Challenge of Measuring Water Currents</a>
+                                    </li>
+               						<li>
+										<a href="http://oceanservice.noaa.gov/education/tutorial_currents/welcome.html">NOS Education - Currents</a>
+									</li>
+                					<li class="nav-header">
+                                    	For Teachers &amp; Students
+                                    </li>
+                					<li>
+										<a href="http://oceanservice.noaa.gov/education/welcome.html">Tides Lesson Plans</a>
+									</li>
+                					<li>
+										<a href="http://oceanservice.noaa.gov/education/kits/tides/supp_tides_roadmap.html">Tides Roadmap to Resources</a>
+									</li>
+               						<li class="nav-header">
+                                    	Our Restless Tides
+                                    </li>
+                					<li>
+                                    	<select id="restlessselect" style="width: 180px;" onchange="window.open(&#39;/restles&#39; + this.options[this.selectedIndex].value + &#39;.html&#39;, &#39;_top&#39;)">
+					                    <option value="">Select a Chapter</option>
+					                    <option value="1">1 - Introduction</option>
+					                    <option value="2">2 - The Astronomical Tide-Producing Forces</option>
+					                    <option value="3">3 - Detailed Explanation of the Differential Tide Producing Forces</option>
+					                    <option value="4">4 - Variations in the Range of the Tides</option>
+					                    <option value="5">5 - Factors Influencing the Local Heights</option>
+					                    <option value="6">6 - Prediction of the Tides</option>
+					                  	</select>
+                                    </li>
+                  					<li class="nav-header">
+                                    	About Tides &amp; Water Levels
+                                    </li>
+                  					<li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/predhist.html">History of Tidal Analysis and Prediction</a>
+                                    </li>
+                  					<li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/predmach.html">Tide Predicting Machines</a>
+                                    </li>
+                  					<li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/levelhow.html">How Do We Measure Water Levels?</a>
+                                    </li>
+                  					<li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/levelwhy.html">Why Measure Water Levels?</a>
+                                    </li>
+                				</ul>
+            				</div>
+          				</div>
+       				</div>
+     			</div>
+      			<div class="span3 panebutton" id="aboutbutton" style="border-width: 0px 1px 0px 0px; border-right-style: solid; border-right-color: rgb(234, 234, 234); background-color: rgb(245, 245, 245);">
+        			<a href="http://tidesandcurrents.noaa.gov/about.html" style="color: black;"><h4 style="margin-top: 2px;">HELP &amp; ABOUT</h4></a>
+        			<div style="float: right; margin-right: 5px;"><b class="caret"></b></div>
+        				Info and how to reach us
+        			<div id="about" class="pane about pulldown" style="border: 1px; margin-left: -398px; left: 714.375px; top: 141px; display: none;">
+        				<div id="aboutspacer" class="hidden-phone" style="position: relative; height: 2px; top: -7px; width: 212px; left: 393px; background-color: white;">&nbsp;</div>
+                        <div class="row-fluid">
+                        	<div class="span6">
+                        		<ul class="nav nav-list">
+                                	<li class="nav-header">
+                                    	About
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/about.html">About CO-OPS</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/contact.html">Contact Us</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/sitemap.html">Site Map</a>
+                                    </li>
+									<li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/corms.html">24 x 7 Quality Control</a>
+                                    </li>
+								</ul>
+                       		</div>
+                            <div class="span6">
+                            	<ul class="nav nav-list">
+                                	<li class="nav-header">
+                                    	Frequently Asked Questions
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/faq2.html">Tide Predictions and Data</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/faq3.html">International Hydrographic Agencies</a>
+                                    </li>
+                                   	<li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/faq4.html">Tidal Current Predictions and Data</a>
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/faq5.html">Data Access Problems</a>
+                                    </li>
+                                    <li class="nav-header">
+                                    	Reference
+                                    </li>
+                                    <li>
+                                    	<a href="http://tidesandcurrents.noaa.gov/glossary.html">Tide and Current Glossary</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    	</div>
+        			</div>
+      			</div>
+    		</div>
+		</div>
+		
+    </div>
+
+<!-- visible-phone navigation and search box show-->
+
+	<!-- Search box in mobile mode -->
+    <div class="row-fluid visible-phone">
+		<div class="navbar">
+		  <div class="navbar-inner">
+			<div class="container">
+		 
+			  <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+			  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </a>
+		 
+			  <!-- Be sure to leave the brand out there if you want it shown -->
+			  <a class="brand" href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#">Water Levels</a>
+		 
+			  <!-- Everything you want hidden at 940px or less, place within here -->
+			  <div class="nav-collapse collapse" style="margin: -10px">
+			
+				<!-- .nav, .navbar-search, .navbar-form, etc -->
+				<div class="panebutton" id="productbutton2">
+					<a href="http://tidesandcurrents.noaa.gov/products.html" style="color: black;"><h4 style="margin-top: 2px;">PRODUCTS</h4></a>
+	       			<p style="color: black;">Data, Analyses, and Publications</p>
+				</div>
+				<div class="panebutton" id="partnerbutton2">
+					<a href="http://tidesandcurrents.noaa.gov/programs.html" style="color: black;"><h4 style="margin-top: 2px;">PROGRAMS</h4></a>
+        			<p style="color: black;">Serving the Nation</p>
+				</div>
+				<div class="panebutton" id="educationbutton2">
+					<a href="http://tidesandcurrents.noaa.gov/education.html" style="color: black;"><h4 style="margin-top: 2px;">EDUCATION</h4></a>
+        			<p style="color: black;">Tides, Currents, and Predictions</p>
+				</div>
+				<div class="panebutton" id="aboutbutton2">
+					<a href="http://tidesandcurrents.noaa.gov/about.html" style="color: black;"><h4 style="margin-top: 2px;">HELP &amp; ABOUT</h4></a>
+        			<p style="color: black;">Info and how to reach us</p>
+				</div>
+			
+				<div style="clear:both;"></div>
+		
+				<div class="navbar-search" style="border:0;">
+					<form id="searchForm2" name="searchForm2" accept-charset="UTF-8" action="http://tidesandcurrents.noaa.gov/search_results.html" method="get" class="form-search form-horizontal">
+
+					<div style="margin: 0; padding:0 display: inline">
+						<input name="utf8" type="hidden" value="✓">
+					</div>
+					<div class="controls" style="margin-left:0px;">   
+					<div class="input-append" style="width:0px !important; display:inline-block; position:relative; left:-15px;">
+						<input placeholder="Search" autocomplete="on" type="text" class="search-query searchbox" style="padding-right:33px;" id="query2" name="query2"><button type="submit" class="btn"><i class="icon-search"></i></button>	
+						<button id="buton2" name="buton2" class="close" style="position:relative; left:195px; top:-23px; z-index:3; display:none; float:left;" onclick="clearClick(); return false;">×</button>
+					</div>
+					</div>
+					</form>
+			   </div>
+				
+				
+			  </div>
+		 
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+		<!-- Breadcrumbs -->
+		<ul class="breadcrumb">
+			<li>
+				<a href="http://tidesandcurrents.noaa.gov/">Home</a> <span class="divider">/</span>
+			</li>
+		<li><a href="http://tidesandcurrents.noaa.gov/products.html">Products</a><span class="divider">/</span></li><li>Water Levels</li></ul>
+		<!-- End breadcrumbs -->
+</div>
+<!-- End menu header -->
+
+<!-- page content starts here -->
+<div class="container-fluid">
+	<br>
+
+	<!-- Start the grid -->
+    <!--
+	<script type="text/javascript" src="https://razor.nos-tcn.noaa.gov/jira/s/en_US-8jcyoq-1988229788/6095/3/1.4.0-m2/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?collectorId=48265362"></script>
+    -->
+
+
+
+
+	
+    
+
+   	<!-- Page content starts here -->
+
+	    <script type="text/javascript">
+	var currenttype="Water Levels";
+</script>  
+
+<div class="row-fluid">
+	<div class="span12" style="text-align: center;">
+		<h3>Water Levels - Station Selection</h3>
+		<div style="margin-right: auto; margin-left: auto; max-width: 320px">
+				<div class="btn-group">
+					<button data-original-title="Currently installed water level stations" class="btn active ttip">Active Stations Only</button><br class="hidden-desktop hidden-tablet">
+					<a data-original-title="Current and previously installed water level stations" href="http://tidesandcurrents.noaa.gov/stations.html?type=Historic+Water+Levels" class="btn ttip">Active &amp; Historic Stations</a>
+				</div>
+<script type="text/javascript">
+$(".ttip").tooltip({placement: 'bottom'});
+</script>	
+		</div>
+	</div>
+</div>
+<hr>
+  
+<div class="row-fluid">
+	<div class="span3">
+		<div class="well">
+			<ul id="arealist" class="nav nav-list l_tinynav1">
+				
+				<li class="nav-header">
+					Jump to Area
+				</li>
+
+<li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#FavoriteStations">Favorite Stations</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Alabama">Alabama</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Alaska">Alaska</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Bermuda">Bermuda</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#California">California</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Caribbean/CentralAmerica">Caribbean/Central America</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Connecticut">Connecticut</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Delaware">Delaware</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#DistrictofColumbia">District of Columbia</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Florida">Florida</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Georgia">Georgia</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-DetroitRiver">Great Lakes - Detroit River</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-LakeErie">Great Lakes - Lake Erie</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-LakeHuron">Great Lakes - Lake Huron</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-LakeMichigan">Great Lakes - Lake Michigan</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-LakeOntario">Great Lakes - Lake Ontario</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-LakeSt.Clair">Great Lakes - Lake St. Clair</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-LakeSuperior">Great Lakes - Lake Superior</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-NiagaraRiver">Great Lakes - Niagara River</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-St.ClairRiver">Great Lakes - St. Clair River</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-St.LawrenceRiver">Great Lakes - St. Lawrence River</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#GreatLakes-St.MarysRiver">Great Lakes - St. Marys River</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Hawaii">Hawaii</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Louisiana">Louisiana</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Maine">Maine</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Maryland">Maryland</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Massachusetts">Massachusetts</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Mississippi">Mississippi</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#NewHampshire">New Hampshire</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#NewJersey">New Jersey</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#NewYork">New York</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#NorthCarolina">North Carolina</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Oregon">Oregon</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#PacificIslands">Pacific Islands</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Pennsylvania">Pennsylvania</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#RhodeIsland">Rhode Island</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#SouthCarolina">South Carolina</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Texas">Texas</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Virginia">Virginia</a></li><li><a href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=0#Washington">Washington</a></li>			</ul><label for="tinynav1" class="tinynav_label tinynav1_label">Jump to area</label><select id="tinynav1" class="tinynav tinynav1"><option>Please select an area</option><option value="#FavoriteStations">Favorite Stations</option><option value="#Alabama">Alabama</option><option value="#Alaska">Alaska</option><option value="#Bermuda">Bermuda</option><option value="#California">California</option><option value="#Caribbean/CentralAmerica">Caribbean/Central America</option><option value="#Connecticut">Connecticut</option><option value="#Delaware">Delaware</option><option value="#DistrictofColumbia">District of Columbia</option><option value="#Florida">Florida</option><option value="#Georgia">Georgia</option><option value="#GreatLakes-DetroitRiver">Great Lakes - Detroit River</option><option value="#GreatLakes-LakeErie">Great Lakes - Lake Erie</option><option value="#GreatLakes-LakeHuron">Great Lakes - Lake Huron</option><option value="#GreatLakes-LakeMichigan">Great Lakes - Lake Michigan</option><option value="#GreatLakes-LakeOntario">Great Lakes - Lake Ontario</option><option value="#GreatLakes-LakeSt.Clair">Great Lakes - Lake St. Clair</option><option value="#GreatLakes-LakeSuperior">Great Lakes - Lake Superior</option><option value="#GreatLakes-NiagaraRiver">Great Lakes - Niagara River</option><option value="#GreatLakes-St.ClairRiver">Great Lakes - St. Clair River</option><option value="#GreatLakes-St.LawrenceRiver">Great Lakes - St. Lawrence River</option><option value="#GreatLakes-St.MarysRiver">Great Lakes - St. Marys River</option><option value="#Hawaii">Hawaii</option><option value="#Louisiana">Louisiana</option><option value="#Maine">Maine</option><option value="#Maryland">Maryland</option><option value="#Massachusetts">Massachusetts</option><option value="#Mississippi">Mississippi</option><option value="#NewHampshire">New Hampshire</option><option value="#NewJersey">New Jersey</option><option value="#NewYork">New York</option><option value="#NorthCarolina">North Carolina</option><option value="#Oregon">Oregon</option><option value="#PacificIslands">Pacific Islands</option><option value="#Pennsylvania">Pennsylvania</option><option value="#RhodeIsland">Rhode Island</option><option value="#SouthCarolina">South Carolina</option><option value="#Texas">Texas</option><option value="#Virginia">Virginia</option><option value="#Washington">Washington</option></select>
+		</div>
+	</div>
+	<div class="span9">
+		<div class="row-fluid">
+			<div class="span6">
+				<div class="btn-group input-prepend" style="text-align: left;">
+					<span class="add-on">Sort by</span>
+					
+		<a data-original-title="Sort by name" href="http://tidesandcurrents.noaa.gov/stations.html?type=Water%20Levels&sort=1" class="btn ttip">Name</a>
+		<button data-original-title="Sort by station ID" class="btn active ttip" style="border-color: #cccccc">Station ID</button>
+	
+				</div>
+			</div>
+			<div class="span6">
+				<div id="searchbox1" style="text-align: left;">
+				<div class="input-prepend">
+    				<span class="add-on">Filter</span><input value="Enter a station name or ID" type="text" size="46" id="searchtext" onclick="checkforclear(this.value);" onkeyup="filter();">
+				</div>
+  			</div>
+		</div>			
+
+		<div class="row-fluid">
+			<div class="span12">
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Alabama">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Alabama"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Alabama</span></div><div class="row-fluid"><div class="span4 station" id="a8732828">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8732828">8732828 Weeks Bay, AL</a>
+</div>
+<div class="span4 station second" id="a8735180">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8735180">8735180 Dauphin Island, AL</a>
+</div>
+<div class="span4 station third" id="a8735391">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8735391">8735391 Dog River Bridge, AL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8735523">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8735523">8735523 East Fowl River Bridge, AL</a>
+</div>
+<div class="span4 station second" id="a8736897">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8736897">8736897 Coast Guard Sector Mobile, AL</a>
+</div>
+<div class="span4 station third" id="a8737048">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8737048">8737048 Mobile State Docks, AL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8737138">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8737138">8737138 Chickasaw Creek, AL</a>
+</div>
+<div class="span4 station second" id="a8738043">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8738043">8738043 West Fowl River Bridge, AL</a>
+</div>
+<div class="span4 station third" id="a8739803">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8739803">8739803 Bayou La Batre Bridge, AL</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Alaska">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Alaska"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Alaska</span></div><div class="row-fluid"><div class="span4 station" id="a9450460">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9450460">9450460 Ketchikan, AK</a>
+</div>
+<div class="span4 station second" id="a9451054">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9451054">9451054 Port Alexander, AK</a>
+</div>
+<div class="span4 station third" id="a9451600">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9451600">9451600 Sitka, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9452210">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9452210">9452210 Juneau, AK</a>
+</div>
+<div class="span4 station second" id="a9452400">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9452400">9452400 Skagway, AK</a>
+</div>
+<div class="span4 station third" id="a9452634">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9452634">9452634 Elfin Cove, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9453220">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9453220">9453220 Yakutat, Yakutat Bay, AK</a>
+</div>
+<div class="span4 station second" id="a9454050">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9454050">9454050 Cordova, AK</a>
+</div>
+<div class="span4 station third" id="a9454240">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9454240">9454240 Valdez, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9455090">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9455090">9455090 Seward, AK</a>
+</div>
+<div class="span4 station second" id="a9455500">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9455500">9455500 Seldovia, AK</a>
+</div>
+<div class="span4 station third" id="a9455760">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9455760">9455760 Nikiski, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9455920">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9455920">9455920 Anchorage, AK</a>
+</div>
+<div class="span4 station second" id="a9457292">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9457292">9457292 Kodiak Island, AK</a>
+</div>
+<div class="span4 station third" id="a9457376">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9457376">9457376 Uzkosti Point, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9457407">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9457407">9457407 Nachalni Island, AK</a>
+</div>
+<div class="span4 station second" id="a9457535">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9457535">9457535 West Raspberry Island</a>
+</div>
+<div class="span4 station third" id="a9457634">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9457634">9457634 Japanese Bay, Kodiak Island, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9457743">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9457743">9457743 Aiaktalik Island, AK</a>
+</div>
+<div class="span4 station second" id="a9457804">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9457804">9457804 Alitak, AK</a>
+</div>
+<div class="span4 station third" id="a9459450">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9459450">9459450 Sand Point, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9459881">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9459881">9459881 King Cove, AK</a>
+</div>
+<div class="span4 station second" id="a9461380">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9461380">9461380 Adak Island, AK</a>
+</div>
+<div class="span4 station third" id="a9461710">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9461710">9461710 Atka, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9462450">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9462450">9462450 Nikolski, AK</a>
+</div>
+<div class="span4 station second" id="a9462620">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9462620">9462620 Unalaska, AK</a>
+</div>
+<div class="span4 station third" id="a9462808">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9462808">9462808 Scotch Cap, Unimak Island, AK, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9462948">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9462948">9462948 NEUMANS COVE, AK</a>
+</div>
+<div class="span4 station second" id="a9462955">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9462955">9462955 False Pass, Unimak Island, AK</a>
+</div>
+<div class="span4 station third" id="a9462961">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9462961">9462961 ISANOTSKI STRAIT ENTRANCE, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9463502">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9463502">9463502 Port Moller, AK</a>
+</div>
+<div class="span4 station second" id="a9464212">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9464212">9464212 Village Cove, St Paul Island, AK</a>
+</div>
+<div class="span4 station third" id="a9466153">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9466153">9466153 Helmick Point, AK</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9468756">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9468756">9468756 Nome, Norton Sound, AK</a>
+</div>
+<div class="span4 station second" id="a9491094">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9491094">9491094 Red Dog Dock, AK</a>
+</div>
+<div class="span4 station third" id="a9497645">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9497645">9497645 Prudhoe Bay, AK</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Bermuda">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Bermuda"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Bermuda</span></div><div class="row-fluid"><div class="span4 station" id="a2695540">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=2695540">2695540 Bermuda Esso Pier, BERMUDA</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="California">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=California"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> California</span></div><div class="row-fluid"><div class="span4 station" id="a9410170">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9410170">9410170 San Diego, CA</a>
+</div>
+<div class="span4 station second" id="a9410230">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9410230">9410230 La Jolla, CA</a>
+</div>
+<div class="span4 station third" id="a9410660">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9410660">9410660 Los Angeles, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9410689">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9410689">9410689 Gerald Desmond Bridge Air Gap, CA</a>
+</div>
+<div class="span4 station second" id="a9410840">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9410840">9410840 Santa Monica, CA</a>
+</div>
+<div class="span4 station third" id="a9411340">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9411340">9411340 Santa Barbara, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9411406">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9411406">9411406 Oil Platform Harvest, CA</a>
+</div>
+<div class="span4 station second" id="a9412110">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9412110">9412110 Port San Luis, CA</a>
+</div>
+<div class="span4 station third" id="a9413450">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9413450">9413450 Monterey, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9414131">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414131">9414131 Pillar Point Harbor, CA</a>
+</div>
+<div class="span4 station second" id="a9414290">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414290">9414290 San Francisco, CA</a>
+</div>
+<div class="span4 station third" id="a9414304">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414304">9414304 Oakland Bay Bridge, D-E Span Air Gap, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9414523">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414523">9414523 Redwood City, CA</a>
+</div>
+<div class="span4 station second" id="a9414575">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414575">9414575 Coyote Creek, CA</a>
+</div>
+<div class="span4 station third" id="a9414750">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414750">9414750 Alameda, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9414764">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414764">9414764 Oakland Inner Harbor, CA</a>
+</div>
+<div class="span4 station second" id="a9414848">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414848">9414848 Stege Marsh, CA</a>
+</div>
+<div class="span4 station third" id="a9414863">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414863">9414863 Richmond, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9414958">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9414958">9414958 Bolinas, Bolinas Lagoon, CA</a>
+</div>
+<div class="span4 station second" id="a9415020">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9415020">9415020 Point Reyes, CA</a>
+</div>
+<div class="span4 station third" id="a9415102">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9415102">9415102 Martinez-Amorco Pier, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9415144">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9415144">9415144 Port Chicago, CA</a>
+</div>
+<div class="span4 station second" id="a9416841">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9416841">9416841 Arena Cove, CA</a>
+</div>
+<div class="span4 station third" id="a9417426">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9417426">9417426 NOYO HARBOR, CA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9418767">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9418767">9418767 North Spit, CA</a>
+</div>
+<div class="span4 station second" id="a9419750">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9419750">9419750 Crescent City, CA</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Caribbean/CentralAmerica">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=cb"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Caribbean/Central America</span></div><div class="row-fluid"><div class="span4 station" id="a9751364">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9751364">9751364 Christiansted Harbor, St Croix, VI</a>
+</div>
+<div class="span4 station second" id="a9751381">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9751381">9751381 Lameshur Bay, St John, VI</a>
+</div>
+<div class="span4 station third" id="a9751401">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9751401">9751401 Lime Tree Bay, VI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9751639">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9751639">9751639 Charlotte Amalie, VI</a>
+</div>
+<div class="span4 station second" id="a9752619">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9752619">9752619 Isabel Segunda, Vieques Island, PR</a>
+</div>
+<div class="span4 station third" id="a9752695">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9752695">9752695 Esperanza, Vieques Island, PR</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9753216">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9753216">9753216 Fajardo, PR</a>
+</div>
+<div class="span4 station second" id="a9754228">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9754228">9754228 Yabucoa Harbor, PR</a>
+</div>
+<div class="span4 station third" id="a9755371">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9755371">9755371 San Juan, PR</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9757112">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9757112">9757112 Caja de Muerto</a>
+</div>
+<div class="span4 station second" id="a9757809">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9757809">9757809 Arecibo, PR</a>
+</div>
+<div class="span4 station third" id="a9759110">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9759110">9759110 Magueyes Island, PR</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9759394">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9759394">9759394 Mayaguez, PR</a>
+</div>
+<div class="span4 station second" id="a9759938">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9759938">9759938 Mona Island, PR</a>
+</div>
+<div class="span4 station third" id="a9761115">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9761115">9761115 Barbuda, Antigua and Barbuda</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Connecticut">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Connecticut"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Connecticut</span></div><div class="row-fluid"><div class="span4 station" id="a8461490">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8461490">8461490 New London, CT</a>
+</div>
+<div class="span4 station second" id="a8465705">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8465705">8465705 New Haven, CT</a>
+</div>
+<div class="span4 station third" id="a8467150">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8467150">8467150 Bridgeport, CT</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Delaware">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Delaware"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Delaware</span></div><div class="row-fluid"><div class="span4 station" id="a8551762">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8551762">8551762 Delaware City, DE</a>
+</div>
+<div class="span4 station second" id="a8551910">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8551910">8551910 Reedy Point, DE</a>
+</div>
+<div class="span4 station third" id="a8551911">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8551911">8551911 Reedy Point Air Gap, DE</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8557380">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8557380">8557380 Lewes, DE</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="DistrictofColumbia">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=District%20of%20Columbia"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> District of Columbia</span></div><div class="row-fluid"><div class="span4 station" id="a8594900">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8594900">8594900 Washington, DC</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Florida">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Florida"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Florida</span></div><div class="row-fluid"><div class="span4 station" id="a8720030">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720030">8720030 Fernandina Beach, FL</a>
+</div>
+<div class="span4 station second" id="a8720218">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720218">8720218 Mayport (Bar Pilots Dock), FL</a>
+</div>
+<div class="span4 station third" id="a8720219">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720219">8720219 Dames Point, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8720226">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720226">8720226 Southbank Riverwalk, St Johns River, FL</a>
+</div>
+<div class="span4 station second" id="a8720357">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720357">8720357 I-295 Bridge, St Johns River, FL</a>
+</div>
+<div class="span4 station third" id="a8720376">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720376">8720376 Dames Point Bridge Air Gap, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8720503">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720503">8720503 Red Bay Point, St Johns River, FL</a>
+</div>
+<div class="span4 station second" id="a8720625">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8720625">8720625 Racy Point, St Johns River, FL</a>
+</div>
+<div class="span4 station third" id="a8721604">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8721604">8721604 Trident Pier, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8722670">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8722670">8722670 Lake Worth Pier, FL</a>
+</div>
+<div class="span4 station second" id="a8723214">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8723214">8723214 Virginia Key, FL</a>
+</div>
+<div class="span4 station third" id="a8723970">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8723970">8723970 Vaca Key, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8724580">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8724580">8724580 Key West, FL</a>
+</div>
+<div class="span4 station second" id="a8725110">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8725110">8725110 Naples, FL</a>
+</div>
+<div class="span4 station third" id="a8725520">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8725520">8725520 Fort Myers, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8726384">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8726384">8726384 Port Manatee, FL</a>
+</div>
+<div class="span4 station second" id="a8726520">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8726520">8726520 St Petersburg, FL</a>
+</div>
+<div class="span4 station third" id="a8726607">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8726607">8726607 Old Port Tampa, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8726667">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8726667">8726667 Mckay Bay Entrance, FL</a>
+</div>
+<div class="span4 station second" id="a8726724">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8726724">8726724 Clearwater Beach, FL</a>
+</div>
+<div class="span4 station third" id="a8727520">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8727520">8727520 Cedar Key, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8728690">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8728690">8728690 Apalachicola, FL</a>
+</div>
+<div class="span4 station second" id="a8729108">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8729108">8729108 Panama City, FL</a>
+</div>
+<div class="span4 station third" id="a8729210">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8729210">8729210 Panama City Beach, FL</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8729840">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8729840">8729840 Pensacola, FL</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Georgia">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Georgia"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Georgia</span></div><div class="row-fluid"><div class="span4 station" id="a8670870">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8670870">8670870 Fort Pulaski, GA</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-DetroitRiver">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Detroit%20River"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Detroit River</span></div><div class="row-fluid"><div class="span4 station" id="a9044020">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9044020">9044020 Gibraltar, MI</a>
+</div>
+<div class="span4 station second" id="a9044030">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9044030">9044030 Wyandotte, MI</a>
+</div>
+<div class="span4 station third" id="a9044036">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9044036">9044036 Fort Wayne, MI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9044049">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9044049">9044049 Windmill Point, MI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-LakeErie">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Lake%20Erie"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Lake Erie</span></div><div class="row-fluid"><div class="span4 station" id="a9063020">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063020">9063020 Buffalo, NY</a>
+</div>
+<div class="span4 station second" id="a9063028">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063028">9063028 Sturgeon Point, NY</a>
+</div>
+<div class="span4 station third" id="a9063038">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063038">9063038 Erie, PA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9063053">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063053">9063053 Fairport, OH</a>
+</div>
+<div class="span4 station second" id="a9063063">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063063">9063063 Cleveland, OH</a>
+</div>
+<div class="span4 station third" id="a9063075">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063075">9063075 Old Woman Creek, OH</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9063079">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063079">9063079 Marblehead, OH</a>
+</div>
+<div class="span4 station second" id="a9063085">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063085">9063085 Toledo, OH</a>
+</div>
+<div class="span4 station third" id="a9063090">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063090">9063090 Fermi Power Plant, MI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-LakeHuron">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Lake%20Huron"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Lake Huron</span></div><div class="row-fluid"><div class="span4 station" id="a9075002">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9075002">9075002 Lakeport, MI</a>
+</div>
+<div class="span4 station second" id="a9075014">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9075014">9075014 Harbor Beach, MI</a>
+</div>
+<div class="span4 station third" id="a9075035">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9075035">9075035 Essexville, MI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9075065">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9075065">9075065 Alpena, MI</a>
+</div>
+<div class="span4 station second" id="a9075080">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9075080">9075080 Mackinaw City, MI</a>
+</div>
+<div class="span4 station third" id="a9075099">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9075099">9075099 De Tour Village, MI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-LakeMichigan">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Lake%20Michigan"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Lake Michigan</span></div><div class="row-fluid"><div class="span4 station" id="a9087023">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087023">9087023 Ludington, MI</a>
+</div>
+<div class="span4 station second" id="a9087028">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087028">9087028 Muskegon, MI</a>
+</div>
+<div class="span4 station third" id="a9087031">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087031">9087031 Holland, MI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9087044">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087044">9087044 Calumet Harbor, IL</a>
+</div>
+<div class="span4 station second" id="a9087057">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087057">9087057 Milwaukee, WI</a>
+</div>
+<div class="span4 station third" id="a9087064">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087064">9087064 Manitowoc, WI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9087068">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087068">9087068 Kewaunee, WI</a>
+</div>
+<div class="span4 station second" id="a9087072">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087072">9087072 Sturgeon Bay Canal, WI</a>
+</div>
+<div class="span4 station third" id="a9087079">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087079">9087079 Green Bay, WI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9087088">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087088">9087088 Menominee, MI</a>
+</div>
+<div class="span4 station second" id="a9087096">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9087096">9087096 Port Inland, MI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-LakeOntario">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Lake%20Ontario"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Lake Ontario</span></div><div class="row-fluid"><div class="span4 station" id="a9052000">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9052000">9052000 Cape Vincent, NY</a>
+</div>
+<div class="span4 station second" id="a9052030">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9052030">9052030 Oswego, NY</a>
+</div>
+<div class="span4 station third" id="a9052058">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9052058">9052058 Rochester, NY</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9052076">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9052076">9052076 Olcott, NY</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-LakeSt.Clair">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Lake%20St.%20Clair"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Lake St. Clair</span></div><div class="row-fluid"><div class="span4 station" id="a9034052">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9034052">9034052 St Clair Shores, MI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-LakeSuperior">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Lake%20Superior"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Lake Superior</span></div><div class="row-fluid"><div class="span4 station" id="a9099004">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9099004">9099004 Point Iroquois, MI</a>
+</div>
+<div class="span4 station second" id="a9099018">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9099018">9099018 Marquette C.G., MI</a>
+</div>
+<div class="span4 station third" id="a9099044">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9099044">9099044 Ontonagon, MI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9099062">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9099062">9099062 Superior NERRS, WI</a>
+</div>
+<div class="span4 station second" id="a9099064">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9099064">9099064 Duluth, MN</a>
+</div>
+<div class="span4 station third" id="a9099090">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9099090">9099090 Grand Marais, MN</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-NiagaraRiver">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20Niagara%20River"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - Niagara River</span></div><div class="row-fluid"><div class="span4 station" id="a9063007">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063007">9063007 Ashland Ave, NY</a>
+</div>
+<div class="span4 station second" id="a9063009">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063009">9063009 American Falls, NY</a>
+</div>
+<div class="span4 station third" id="a9063012">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9063012">9063012 Niagara Intake, NY</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-St.ClairRiver">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20St.%20Clair%20River"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - St. Clair River</span></div><div class="row-fluid"><div class="span4 station" id="a9014070">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9014070">9014070 Algonac, MI</a>
+</div>
+<div class="span4 station second" id="a9014080">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9014080">9014080 St Clair State Police, MI</a>
+</div>
+<div class="span4 station third" id="a9014087">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9014087">9014087 Dry Dock, MI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9014090">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9014090">9014090 Mouth of the Black River, MI</a>
+</div>
+<div class="span4 station second" id="a9014096">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9014096">9014096 Dunn Paper, MI</a>
+</div>
+<div class="span4 station third" id="a9014098">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9014098">9014098 Fort Gratiot, MI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-St.LawrenceRiver">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20St.%20Lawrence%20River"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - St. Lawrence River</span></div><div class="row-fluid"><div class="span4 station" id="a8311030">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8311030">8311030 Ogdensburg, NY</a>
+</div>
+<div class="span4 station second" id="a8311062">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8311062">8311062 Alexandria Bay, NY</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="GreatLakes-St.MarysRiver">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Great%20Lakes%20-%20St.%20Marys%20River"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Great Lakes - St. Marys River</span></div><div class="row-fluid"><div class="span4 station" id="a9076024">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9076024">9076024 Rock Cut, MI</a>
+</div>
+<div class="span4 station second" id="a9076027">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9076027">9076027 West Neebish Island, MI</a>
+</div>
+<div class="span4 station third" id="a9076033">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9076033">9076033 Little Rapids, MI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9076060">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9076060">9076060 U.S. Slip, MI</a>
+</div>
+<div class="span4 station second" id="a9076070">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9076070">9076070 S.W. Pier, MI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Hawaii">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Hawaii"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Hawaii</span></div><div class="row-fluid"><div class="span4 station" id="a1611400">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1611400">1611400 Nawiliwili, HI</a>
+</div>
+<div class="span4 station second" id="a1612340">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1612340">1612340 Honolulu, HI</a>
+</div>
+<div class="span4 station third" id="a1612480">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1612480">1612480 Mokuoloe, HI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a1615680">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1615680">1615680 Kahului, Kahului Harbor, HI</a>
+</div>
+<div class="span4 station second" id="a1617433">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1617433">1617433 Kawaihae, HI</a>
+</div>
+<div class="span4 station third" id="a1617760">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1617760">1617760 Hilo, Hilo Bay, Kuhio Bay, HI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Louisiana">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Louisiana"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Louisiana</span></div><div class="row-fluid"><div class="span4 station" id="a8760721">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8760721">8760721 Pilottown, LA</a>
+</div>
+<div class="span4 station second" id="a8760922">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8760922">8760922 Pilots Station East, SW Pass, LA</a>
+</div>
+<div class="span4 station third" id="a8761305">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8761305">8761305 Shell Beach, LA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8761724">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8761724">8761724 Grand Isle, LA</a>
+</div>
+<div class="span4 station second" id="a8761847">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8761847">8761847 Crescent City Air Gap, LA</a>
+</div>
+<div class="span4 station third" id="a8761927">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8761927">8761927 New Canal Station, LA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8761955">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8761955">8761955 Carrollton, LA</a>
+</div>
+<div class="span4 station second" id="a8762002">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8762002">8762002 Huey Long Bridge Air Gap</a>
+</div>
+<div class="span4 station third" id="a8762075">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8762075">8762075 Port Fourchon, LA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8762482">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8762482">8762482 West Bank 1, Bayou Gauche, LA</a>
+</div>
+<div class="span4 station second" id="a8764044">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8764044">8764044 Berwick, LA</a>
+</div>
+<div class="span4 station third" id="a8764227">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8764227">8764227 LAWMA, Amerada Pass, LA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8766072">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8766072">8766072 Freshwater Canal Locks, LA</a>
+</div>
+<div class="span4 station second" id="a8767816">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8767816">8767816 Lake Charles, LA</a>
+</div>
+<div class="span4 station third" id="a8767931">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8767931">8767931 Lake Charles I-210 Bridge Air Gap, LA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8767961">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8767961">8767961 Bulk Terminal, LA</a>
+</div>
+<div class="span4 station second" id="a8768094">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8768094">8768094 Calcasieu Pass, LA</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Maine">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Maine"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Maine</span></div><div class="row-fluid"><div class="span4 station" id="a8410140">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8410140">8410140 Eastport, ME</a>
+</div>
+<div class="span4 station second" id="a8411060">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8411060">8411060 Cutler Farris Wharf, ME</a>
+</div>
+<div class="span4 station third" id="a8413320">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8413320">8413320 Bar Harbor, ME</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8418150">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8418150">8418150 Portland, ME</a>
+</div>
+<div class="span4 station second" id="a8419317">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8419317">8419317 Wells, ME</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Maryland">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Maryland"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Maryland</span></div><div class="row-fluid"><div class="span4 station" id="a8570283">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8570283">8570283 Ocean City Inlet, MD</a>
+</div>
+<div class="span4 station second" id="a8571421">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8571421">8571421 Bishops Head, MD</a>
+</div>
+<div class="span4 station third" id="a8571892">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8571892">8571892 Cambridge, MD</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8573364">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8573364">8573364 Tolchester Beach, MD</a>
+</div>
+<div class="span4 station second" id="a8573927">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8573927">8573927 Chesapeake City, MD</a>
+</div>
+<div class="span4 station third" id="a8573928">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8573928">8573928 Chesapeake City Air Gap, MD</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8574680">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8574680">8574680 Baltimore, MD</a>
+</div>
+<div class="span4 station second" id="a8575432">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8575432">8575432 Bay Bridge Air Gap, MD</a>
+</div>
+<div class="span4 station third" id="a8575512">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8575512">8575512 Annapolis, MD</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8577087">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8577087">8577087 A33 (HOBO) Blackwater Refuge, MD</a>
+</div>
+<div class="span4 station second" id="a8577330">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8577330">8577330 Solomons Island, MD</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Massachusetts">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Massachusetts"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Massachusetts</span></div><div class="row-fluid"><div class="span4 station" id="a8443970">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8443970">8443970 Boston, MA</a>
+</div>
+<div class="span4 station second" id="a8447386">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8447386">8447386 Fall River, MA</a>
+</div>
+<div class="span4 station third" id="a8447435">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8447435">8447435 Chatham, MA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8447930">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8447930">8447930 Woods Hole, MA</a>
+</div>
+<div class="span4 station second" id="a8449130">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8449130">8449130 Nantucket Island, MA</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Mississippi">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Mississippi"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Mississippi</span></div><div class="row-fluid"><div class="span4 station" id="a8740166">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8740166">8740166 Grand Bay NERR, Mississippi Sound, MS</a>
+</div>
+<div class="span4 station second" id="a8741041">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8741041">8741041 Dock E, Port of Pascagoula, MS</a>
+</div>
+<div class="span4 station third" id="a8741533">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8741533">8741533 Pascagoula NOAA Lab, MS</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8747437">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8747437">8747437 Bay Waveland Yacht Club, MS</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="NewHampshire">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=New%20Hampshire"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> New Hampshire</span></div><div class="row-fluid"><div class="span4 station" id="a8423898">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8423898">8423898 Fort Point, NH</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="NewJersey">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=New%20Jersey"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> New Jersey</span></div><div class="row-fluid"><div class="span4 station" id="a8531680">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8531680">8531680 Sandy Hook, NJ</a>
+</div>
+<div class="span4 station second" id="a8534720">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8534720">8534720 Atlantic City, NJ</a>
+</div>
+<div class="span4 station third" id="a8536110">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8536110">8536110 Cape May, NJ</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8537121">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8537121">8537121 Ship John Shoal, NJ</a>
+</div>
+<div class="span4 station second" id="a8538886">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8538886">8538886 Tacony-Palmyra Bridge, NJ</a>
+</div>
+<div class="span4 station third" id="a8539094">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8539094">8539094 Burlington, Delaware River, NJ</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="NewYork">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=New%20York"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> New York</span></div><div class="row-fluid"><div class="span4 station" id="a8510560">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8510560">8510560 Montauk, NY</a>
+</div>
+<div class="span4 station second" id="a8511629">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8511629">8511629 Sag Harbor, NY</a>
+</div>
+<div class="span4 station third" id="a8511907">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8511907">8511907 Greenport, NY</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8516402">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8516402">8516402  Point Lookout, NY</a>
+</div>
+<div class="span4 station second" id="a8516501">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8516501">8516501 Parsonnage Cove, NY</a>
+</div>
+<div class="span4 station third" id="a8516607">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8516607">8516607 Harry Tappen Marina, NY</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8516661">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8516661">8516661 Bay Park, NY, NY</a>
+</div>
+<div class="span4 station second" id="a8516881">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8516881">8516881 Atlantic Beach, NY</a>
+</div>
+<div class="span4 station third" id="a8516945">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8516945">8516945 Kings Point, NY</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8517251">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8517251">8517251 Worlds Fair Marina, NY</a>
+</div>
+<div class="span4 station second" id="a8517986">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8517986">8517986 Verrazano-Narrows Air Gap, NY</a>
+</div>
+<div class="span4 station third" id="a8518526">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8518526">8518526 Throggs Neck, NY</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8518643">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8518643">8518643 Randalls Island, NY</a>
+</div>
+<div class="span4 station second" id="a8518750">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8518750">8518750 The Battery, NY</a>
+</div>
+<div class="span4 station third" id="a8518902">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8518902">8518902 Dyckman Street, NY</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8518934">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8518934">8518934 Beacon, Hudson River, NY</a>
+</div>
+<div class="span4 station second" id="a8518951">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8518951">8518951 Hyde Park, NY</a>
+</div>
+<div class="span4 station third" id="a8519050">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8519050">8519050 USCG Station NY, NY</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8519436">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8519436">8519436 Great Kills Harbor, NY</a>
+</div>
+<div class="span4 station second" id="a8519461">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8519461">8519461 Bayonne Bridge Air Gap, NY</a>
+</div>
+<div class="span4 station third" id="a8519483">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8519483">8519483 Bergen Point West Reach, NY</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="NorthCarolina">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=North%20Carolina"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> North Carolina</span></div><div class="row-fluid"><div class="span4 station" id="a8651370">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8651370">8651370 Duck, NC</a>
+</div>
+<div class="span4 station second" id="a8652587">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8652587">8652587 Oregon Inlet Marina, NC</a>
+</div>
+<div class="span4 station third" id="a8654467">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8654467">8654467 USCG Station Hatteras, NC</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8656483">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8656483">8656483 Beaufort, NC</a>
+</div>
+<div class="span4 station second" id="a8658120">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8658120">8658120 Wilmington, NC</a>
+</div>
+<div class="span4 station third" id="a8658163">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8658163">8658163 Wrightsville Beach, NC</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Oregon">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Oregon"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Oregon</span></div><div class="row-fluid"><div class="span4 station" id="a9431647">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9431647">9431647 Port Orford, OR</a>
+</div>
+<div class="span4 station second" id="a9432780">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9432780">9432780 Charleston, OR</a>
+</div>
+<div class="span4 station third" id="a9435355">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9435355">9435355 Yaquina Swamp, OR</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9435380">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9435380">9435380 South Beach, OR</a>
+</div>
+<div class="span4 station second" id="a9436009">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9436009">9436009 Millport, OR</a>
+</div>
+<div class="span4 station third" id="a9436034">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9436034">9436034 Siletz Bay, OR</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9437540">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9437540">9437540 Garibaldi, OR</a>
+</div>
+<div class="span4 station second" id="a9437987">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9437987">9437987 Coal Creek, OR</a>
+</div>
+<div class="span4 station third" id="a9439011">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9439011">9439011 Hammond, OR</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9439040">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9439040">9439040 Astoria, OR</a>
+</div>
+<div class="span4 station second" id="a9439084">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9439084">9439084 Blind Slough, OR</a>
+</div>
+<div class="span4 station third" id="a9439099">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9439099">9439099 Wauna, OR</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9439201">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9439201">9439201 St Helens, OR</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="PacificIslands">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Pacific%20Islands"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Pacific Islands</span></div><div class="row-fluid"><div class="span4 station" id="a1619908">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1619908">1619908 MIDWAY ISLAND, HI</a>
+</div>
+<div class="span4 station second" id="a1619910">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1619910">1619910 Sand Island, Midway Islands, USA</a>
+</div>
+<div class="span4 station third" id="a1630000">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1630000">1630000 Apra Harbor, Guam, MARIANAS ISLANDS</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a1631428">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1631428">1631428 Pago Bay, Guam, USA</a>
+</div>
+<div class="span4 station second" id="a1770000">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1770000">1770000 Pago Pago, American Samoa, AMERICAN SAMOA</a>
+</div>
+<div class="span4 station third" id="a1820000">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1820000">1820000 Kwajalein, Marshall Islands, USA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a1890000">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=1890000">1890000 Wake Island, Pacific Ocean, Possession of the U.S.</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Pennsylvania">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Pennsylvania"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Pennsylvania</span></div><div class="row-fluid"><div class="span4 station" id="a8540433">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8540433">8540433 Marcus Hook, PA</a>
+</div>
+<div class="span4 station second" id="a8545240">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8545240">8545240 Philadelphia, PA</a>
+</div>
+<div class="span4 station third" id="a8548989">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8548989">8548989 Newbold, PA</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="RhodeIsland">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Rhode%20Island"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Rhode Island</span></div><div class="row-fluid"><div class="span4 station" id="a8452660">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8452660">8452660 Newport, RI</a>
+</div>
+<div class="span4 station second" id="a8452944">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8452944">8452944 Conimicut Light, RI</a>
+</div>
+<div class="span4 station third" id="a8454000">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8454000">8454000 Providence, RI</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8454049">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8454049">8454049 Quonset Point, RI</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="SouthCarolina">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=South%20Carolina"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> South Carolina</span></div><div class="row-fluid"><div class="span4 station" id="a8661070">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8661070">8661070 Springmaid Pier, SC</a>
+</div>
+<div class="span4 station second" id="a8662245">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8662245">8662245 Oyster Landing (N Inlet Estuary), SC</a>
+</div>
+<div class="span4 station third" id="a8664753">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8664753">8664753 Don Holt Bridge Air Gap, SC</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8665530">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8665530">8665530 Charleston, SC</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Texas">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Texas"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Texas</span></div><div class="row-fluid"><div class="span4 station" id="a8770475">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770475">8770475 Port Arthur, TX</a>
+</div>
+<div class="span4 station second" id="a8770520">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770520">8770520 Rainbow Bridge, TX</a>
+</div>
+<div class="span4 station third" id="a8770570">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770570">8770570 Sabine Pass North, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8770613">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770613">8770613 Morgans Point, TX</a>
+</div>
+<div class="span4 station second" id="a8770733">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770733">8770733 Lynchburg Landing, TX</a>
+</div>
+<div class="span4 station third" id="a8770777">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770777">8770777 Manchester, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8770808">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770808">8770808 High Island, TX</a>
+</div>
+<div class="span4 station second" id="a8770822">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770822">8770822 Texas Point, Sabine Pass, TX</a>
+</div>
+<div class="span4 station third" id="a8770971">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8770971">8770971 Rollover Pass, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8771013">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8771013">8771013 Eagle Point, TX</a>
+</div>
+<div class="span4 station second" id="a8771341">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8771341">8771341 Galveston Bay Entrance, North Jetty, TX</a>
+</div>
+<div class="span4 station third" id="a8771450">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8771450">8771450 Galveston Pier 21, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8771486">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8771486">8771486 Galveston Railroad Bridge, TX</a>
+</div>
+<div class="span4 station second" id="a8771972">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8771972">8771972 San Luis Pass, TX</a>
+</div>
+<div class="span4 station third" id="a8772447">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8772447">8772447 USCG Freeport, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8772985">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8772985">8772985 Sargent, TX</a>
+</div>
+<div class="span4 station second" id="a8773037">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8773037">8773037 Seadrift, TX</a>
+</div>
+<div class="span4 station third" id="a8773146">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8773146">8773146 East Matagorda, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8773259">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8773259">8773259 Port Lavaca, TX</a>
+</div>
+<div class="span4 station second" id="a8773701">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8773701">8773701 Port O’Connor, TX</a>
+</div>
+<div class="span4 station third" id="a8774230">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8774230">8774230 Aransas Wildlife Refuge, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8774513">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8774513">8774513 Copano Bay, TX</a>
+</div>
+<div class="span4 station second" id="a8774770">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8774770">8774770 Rockport, TX</a>
+</div>
+<div class="span4 station third" id="a8775237">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8775237">8775237 Port Aransas, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8775244">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8775244">8775244 Nueces Bay, TX</a>
+</div>
+<div class="span4 station second" id="a8775283">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8775283">8775283 Port Ingleside, Corpus Christi Bay, TX</a>
+</div>
+<div class="span4 station third" id="a8775296">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8775296">8775296 USS Lexington, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8775792">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8775792">8775792 Packery Channel, TX</a>
+</div>
+<div class="span4 station second" id="a8775870">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8775870">8775870 Bob Hall Pier, Corpus Christi, TX</a>
+</div>
+<div class="span4 station third" id="a8776139">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8776139">8776139 S. Bird Island, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8776604">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8776604">8776604 Baffin Bay, TX</a>
+</div>
+<div class="span4 station second" id="a8777812">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8777812">8777812 Rincon Del San Jose, TX</a>
+</div>
+<div class="span4 station third" id="a8778490">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8778490">8778490 Port Mansfield, TX</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8779280">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8779280">8779280 Realitos Peninsula, TX</a>
+</div>
+<div class="span4 station second" id="a8779748">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8779748">8779748 South Padre Island Coast Guard Station, TX</a>
+</div>
+<div class="span4 station third" id="a8779770">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8779770">8779770 Port Isabel, TX</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Virginia">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Virginia"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Virginia</span></div><div class="row-fluid"><div class="span4 station" id="a8631044">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8631044">8631044 Wachapreague, VA</a>
+</div>
+<div class="span4 station second" id="a8632200">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8632200">8632200 Kiptopeke, VA</a>
+</div>
+<div class="span4 station third" id="a8635750">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8635750">8635750 Lewisetta, VA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8635767">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8635767">8635767 Lewisetta GPS Buoy, Potomac River, VA</a>
+</div>
+<div class="span4 station second" id="a8636580">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8636580">8636580 Windmill Point, VA</a>
+</div>
+<div class="span4 station third" id="a8637689">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8637689">8637689 Yorktown USCG Training Center, VA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8638610">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8638610">8638610 Sewells Point, VA</a>
+</div>
+<div class="span4 station second" id="a8638861">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8638861">8638861 Chesapeake Bay Bridge Tunnel Buoy, VA</a>
+</div>
+<div class="span4 station third" id="a8638863">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8638863">8638863 Chesapeake Bay Bridge Tunnel, VA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a8639348">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=8639348">8639348 Money Point, VA</a>
+</div>
+</div></div></div>
+	<div class="row-fluid">
+   	<div class="span12 areaheader" id="Washington">
+		<div style="margin: 10px;">
+<a href="http://tidesandcurrents.noaa.gov/map/index.shtml?type=PreliminaryData&region=Washington"><img src="./Station Selection - NOAA Tides & Currents_files/map.png" alt="Map icon" style="margin-bottom: -5px;"></a><span style="font-size: 24px; font-weight: bold; color: #015FA9; font-family: geneva,arial,serif;"> Washington</span></div><div class="row-fluid"><div class="span4 station" id="a9440083">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9440083">9440083 Vancouver, WA</a>
+</div>
+<div class="span4 station second" id="a9440422">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9440422">9440422 Longview, WA</a>
+</div>
+<div class="span4 station third" id="a9440569">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9440569">9440569 Skamokawa, WA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9440910">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9440910">9440910 Toke Point, WA</a>
+</div>
+<div class="span4 station second" id="a9441102">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9441102">9441102 Westport, WA</a>
+</div>
+<div class="span4 station third" id="a9442396">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9442396">9442396 La Push, WA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9443090">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9443090">9443090 Neah Bay, WA</a>
+</div>
+<div class="span4 station second" id="a9444090">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9444090">9444090 Port Angeles, WA</a>
+</div>
+<div class="span4 station third" id="a9444900">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9444900">9444900 Port Townsend, WA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9446484">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9446484">9446484 Tacoma, WA</a>
+</div>
+<div class="span4 station second" id="a9447130">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9447130">9447130 Seattle, WA</a>
+</div>
+<div class="span4 station third" id="a9447717">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9447717">9447717 Priest Point, WA</a>
+</div>
+</div><div class="row-fluid"><div class="span4 station" id="a9448009">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9448009">9448009 Spee-Bi-Dah, WA</a>
+</div>
+<div class="span4 station second" id="a9449424">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9449424">9449424 Cherry Point, WA</a>
+</div>
+<div class="span4 station third" id="a9449880">
+<a style="color: #015FA9;" href="http://tidesandcurrents.noaa.gov/waterlevels.html?id=9449880">9449880 Friday Harbor, WA</a>
+</div>
+</div></div></div>
+</div></div></div></div></div>
+   <script type="text/javascript">
+   		var bc = new breadcrumb();
+   		bc.appendPath("<a href='/products.html'>Products</a>");
+		bc.appendLocation("Water Levels");
+   </script>
+
+
+    <!-- Page content ends here -->
+    
+    <hr>
+      <div class="row-fluid">
+    <div class="span2">
+      <dl style="margin-top: 0px;">
+        <dt>Information</dt>
+        <dd><a href="http://tidesandcurrents.noaa.gov/about.html">About CO-OPS</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/disclaimers.html">Disclaimers</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/contact.html">Contact Us</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/privacy.html">Privacy Policy</a></dd>
+      </dl>
+    </div>
+    <div class="span2">
+      <dl style="margin-top: 0px;">
+        <dt>Products</dt>
+        <dd><a href="http://tidesandcurrents.noaa.gov/ports.html">PORTS</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/models.html">OFS</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/tide_predictions.html">Tide Predictions</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/cdata/StationList?type=Current+Data&filter=active">Currents</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/products.html">More about products...</a></dd>
+      </dl>
+    </div>
+    <div class="span2">
+      <dl style="margin-top: 0px;">
+        <dt>Programs</dt>
+        <dd><a href="http://tidesandcurrents.noaa.gov/mapping.html">Mapping and Charting Support</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/maritime.html">Maritime Services</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/coastal.html">COASTAL</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/programs.html">More about programs...</a></dd>
+      </dl>
+    </div>
+    <div class="span2">
+      <dl style="margin-top: 0px;">
+        <dt>Partners</dt>
+        <dd><a href="http://tidesandcurrents.noaa.gov/hydro.html">Hydrographic Survey Support</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/marsh.html">Marsh Restoration</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/gomoos.html">GoMOOS</a></dd>
+        <dd><a href="http://tidesandcurrents.noaa.gov/tcoon.html">TCOON</a></dd>
+      </dl>
+    </div>
+    <div class="span4"> Revised: <span id="revised">10/15/2013</span><br>
+      <a href="http://www.noaa.gov/">NOAA</a> / <a href="http://oceanservice.noaa.gov/">National Ocean Service</a><br>
+      Web site owner: Center for Operational Oceanographic Products and Services
+    </div>
+  </div>
+
+
+<!-- Closing container from header.html -->
+</div>
+
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(100662105);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+</script>
+<noscript>&lt;p&gt;&lt;img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100662105ns.gif" /&gt;&lt;/p&gt;</noscript>
+
+
+
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="z-index: 5001; display: none;"></ul><iframe id="rdbIndicator" width="100%" height="270" border="0" src="./Station Selection - NOAA Tides & Currents_files/indicator.htm" style="display: none; border: 0; position: fixed; left: 0; top: 0; z-index: 2147483647"></iframe></body></html>
