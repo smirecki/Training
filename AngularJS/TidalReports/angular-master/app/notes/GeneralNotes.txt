@@ -1,30 +1,14 @@
  
 
- /*  --- From app.js ---
-tidalReportApp.config(['$httpProvider', function($httpProvider) {
-        $httpProvider.defaults.useXDomain = false;
-        delete $httpProvider.defaults.headers.common['X-Requested-With'];
-  }]);   
-*/
-
-
-/*
- tidalReportApp.config(['$httpProvider', function ($httpProvider) {
-    $httpProvider.defaults.useXDomain = true;
-    delete $httpProvider.defaults.headers.common['X-Requested-With'];
- }]);
-
- $http.defaults.useXDomain = true;
-
- $http.get('http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=asp+site:codehint.ru').
-        success(
-            function (data, status, headers, config) {
-                alert('answer');
-            }
-        );
-*/
-
-==================
-
 AngularJS "parsing JSONP $http.jsonp() response in angular.js" stackoverflow-- 
 http://jsfiddle.net/subhaze/a4Rc2/114/
+
+
+Approxmating Tides: factors...
+One day = 24 hours (One rotation of the earth).
+One moon rotation = 24 hour and 50 minutes
+
+"Some shorelines experience two almost equal high tides and two low tides each day, called a semi-diurnal tide. Some locations experience only one high and one low tide each day, called a diurnal tide. Some locations experience two uneven tides a day, or sometimes one high and one low each day; this is called a mixed tide. The times and amplitude of the tides at a locale are influenced by the alignment of the Sun and Moon, by the pattern of tides in the deep ocean, by the amphidromic systems of the oceans, and by the shape of the coastline and near-shore bathymetry (see Timing)." (wiki - http://en.wikipedia.org/wiki/Tide)
+
+//===================================================
+
