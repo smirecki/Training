@@ -23,6 +23,8 @@ var diff = thisTime.getTime() - prevTime.getTime();   // now - Aug 1
 alert(diff / (1000*60*60*24));     // positive number of days
 
 http://jsfiddle.net/w5tpncxd/
+http://jsfiddle.net/w5tpncxd/1/
+http://jsfiddle.net/w5tpncxd/2/
 
 var a = new Date(2011,7,5,2,1,1) - new Date(2011,7,5,1,1,1);
 a = a/3600000; // 3600000 which is millisecond for 1 hour. Divide by this to get hours.
