@@ -1,0 +1,102 @@
+Basic Python notes
+
+Comment -	#comment - single line
+			""" Multi-Line comment...
+			"""
+
+Conditionals - 
+			Equal to (==)
+			Not equal to (!=)
+			Less than (<)
+			Less than or equal to (<=)
+			Greater than (>)
+			Greater than or equal to (>=)
+
+			     Boolean Operators
+			------------------------      
+			True and True is True
+			True and False is False
+			False and True is False
+			False and False is False
+
+			True or True is True
+			True or False is True
+			False or True is True
+			False or False is False
+
+			Not True is False
+			Not False is True
+			--------------------------
+			Not - not is evaluated first;
+			And - and is evaluated next;
+			Or - or is evaluated last.
+			
+			Use of and -	1 < 2 and 2 < 3 is True;
+							1 < 2 and 2 > 3 is False.
+			Use of or - 	1 < 2 or 2 > 3 is True;
+							1 > 2 or 2 > 3 is False.
+			Use of Not - 	not False will evaluate to True, while not 41 > 40 will return False.
+
+If - 		if foo == 1:
+				#do this
+				print "foo is equal to 1"
+
+If else - 	if foo == 2:
+				print 2
+			else:
+				print "Sorry"
+
+Switch - 	if answer > 5:
+				return 1
+			elif answer < 5:          
+				return -1
+			else:
+				return 0
+
+Print -		print "string" -- print foo_variable
+				print "foo" + "bar"
+				print "The value of PI is around" + str(3.14)
+					string_1 = "foo" -- string_2 = "bar"
+				print "the two variables are %s and %s." % (string_1, string_2)
+
+
+Variable -	my_variable = 10
+
+Int -		7
+
+Float -		1.23
+
+Bool -		True
+
+Function -	def foo():
+				#indention is a must
+
+			call a function - foo():
+
+Math -		add +, subtract -, multipy *, divide /, exponent ** ( eggs = 10 ** 2 # = 100), Modulo % (spam = 3 % 2 # = 1)
+
+Escaping Chars - 
+			\ ('This isn\'t flying, this is falling with style!')
+
+Index access -
+			fifth_letter = "MONTY"[4] # Y
+
+Length -	len(foo) # parrot = "Green"  - print len(parrot)
+Lower - 	lower() # parrot = "Green" - print parrot.lower() ## dot notion only works with strings
+Upper - 	upper() # parrot = "Green" - print parrot.upper() ## dot notion only works with strings
+				pi = 3.14  -- print str(pi)
+
+Return - 	return foo #this will output foo
+
+
+
+
+
+
+
+
+
+
+
+
+
