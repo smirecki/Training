@@ -1,5 +1,7 @@
 Basic Python notes
 
+append - 	foo.append["bar"]
+
 Comment -	#comment - single line
 			""" Multi-Line comment...
 			"""
@@ -47,6 +49,8 @@ Dictionary -
 Escaping Chars - 
 			\ ('This isn\'t flying, this is falling with style!')
 
+extend - 
+
 For in -	for number in my_list: #my_list = [1, 2, 3, 4]
 				print 2 * number
 
@@ -70,6 +74,11 @@ Import - 	import math -- print math.sqrt(25) -- # 5.0
 
 Index access -
 			fifth_letter = "MONTY"[4] # Y
+
+insert - list.insert(i, x)
+					https://docs.python.org/2/tutorial/datastructures.html
+
+join - 		.join()
 
 Length -	len(foo) # parrot = "Green"  - print len(parrot)
 
