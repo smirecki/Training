@@ -11,8 +11,8 @@ Conditionals -
 			Not equal to (!=)
 			Less than (<)
 			Less than or equal to (<=)
-			Greater than (>)
-			Greater than or equal to (>=)
+			Greater than (>
+)			Greater than or equal to (>=)
 
 			     Boolean Operators
 			------------------------      
@@ -99,6 +99,8 @@ Math -		add +, subtract -, multipy *, divide /, exponent ** ( eggs = 10 ** 2 # =
 			min() -- minimum = min(1,9)
 			abs() -- absolute = abs(-42)
 			type() -- print type(4) #number -- print type('Moo') #String print type(.1) #float
+			floor -- math.floor(x)
+			isnan -- math.isnan(x)  -- https://docs.python.org/2/library/math.html
 
 Print -		print "string" -- print foo_variable
 				print "foo" + "bar"
