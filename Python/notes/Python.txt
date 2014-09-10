@@ -78,9 +78,13 @@ Index access -
 insert - list.insert(i, x)
 					https://docs.python.org/2/tutorial/datastructures.html
 
-join - 		.join()
+join - 		"what you want to sperate item".join(list_name) -- 
 
 Length -	len(foo) # parrot = "Green"  - print len(parrot)
+
+line break - 
+			\ code line break - will allow a new line to start in this strictly typed language
+			n/ new line printed... also - print foo, "is my var" # prints "foo is my var"
 
 List - 		list_name = [item_1, item_2] #used like array in JS
 				access by index -- numbers = [5, 6, 7, 8]  -- print numbers[0] + numbers[1] # equals 11
