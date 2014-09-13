@@ -2,6 +2,15 @@ Basic Python notes
 
 append - 	foo.append["bar"]
 
+Bitwise operations - 
+				5 >> 4  # Right Shift
+				5 << 1  # Left Shift
+				8 & 5   # Bitwise AND
+				9 | 4   # Bitwise OR
+				12 ^ 42 # Bitwise XOR
+				~88     # Bitwise NOT
+				 you can write numbers in binary format by starting the number with 0b
+
 Comment -	#comment - single line
 			""" Multi-Line comment...
 			"""
