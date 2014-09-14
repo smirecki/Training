@@ -76,6 +76,16 @@ If else - 	if foo == 2:
 			else:
 				print "Sorry"
 
+I/O file In/output -
+			f = open("filename.txt", "w") 		#open file in.. "w" write mode, "r+" read and write mode, "a" append mode
+			my_file.write("Data to be written")	#write
+			f.close()							#close file
+			f.closed							#returns True if closed
+			my_file.readline()					#readline
+			__enter__() and __exit__()			#invoke with this method - with and as.
+										with open("file", "mode") as variable:
+											variable.write("Success!")
+
 Import - 	import math -- print math.sqrt(25) -- # 5.0
 			from math import sqrt
 			from math import *
@@ -115,6 +125,30 @@ Math -		add +, subtract -, multipy *, divide /, exponent ** ( eggs = 10 ** 2 # =
 			floor -- math.floor(x)
 			isnan -- math.isnan(x)  -- https://docs.python.org/2/library/math.html
 
+Object - 	class Animal(object):						#Use of "object", let's it inherit "object" class
+				def __init__(self, name, age):			#init "boots up" a class instance object (initialize)
+														#self - this is how the object keeps track of itself internally
+					self.name = name
+					self.age = age
+
+			zebra = Animal("Jeffrey", 2)
+			giraffe = Animal("Bruce", 1)
+
+			print zebra.name, zebra.age			# Jeffrey 2
+			print giraffe.name, giraffe.age		# Bruce 1
+
+Object Inheritance syntax - 
+			start
+
+Object --sub misc.
+			pass - used as filler in Objects...
+
+			super - access a parent/super class's methods
+			class Derived(Base):
+				def m(self):
+				return super(Derived, self).m()
+
+
 Print -		print "string" -- print foo_variable
 				print "foo" + "bar"
 				print "The value of PI is around" + str(3.14)
@@ -127,6 +161,9 @@ Return - 	return foo #this will output foo
 
 Sort - 		.sort()  -- numbers = [1, 3, 2]
 					numbers.sort()
+
+String replacement - 
+			 - "This is a %s %s with %s MPG."% (self.color, self.model, self.mpg) #This is a silver DeLorean with 88 MPG.
 
 Switch - 	if answer > 5:
 				return 1
