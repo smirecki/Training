@@ -9,7 +9,7 @@ Bitwise operations -
 				9 | 4   # Bitwise OR
 				12 ^ 42 # Bitwise XOR
 				~88     # Bitwise NOT
-				 you can write numbers in binary format by starting the number with 0b
+				 you can write numbers in binary format by starting the number with - 0b
 
 Comment -	#comment - single line
 			""" Multi-Line comment...
@@ -61,11 +61,11 @@ Escaping Chars -
 extend - 
 
 For in -	for number in my_list: #my_list = [1, 2, 3, 4]
-				print 2 * number
+				print 2 * numbers	#2 4 6 8
 
-Function -	def foo():
+Function -	def foo(bar):
 				#indention is a must
-			call a function - foo():
+			call a function - foo(bar):
 
 If - 		if foo == 1:
 				#do this
@@ -77,29 +77,28 @@ If else - 	if foo == 2:
 				print "Sorry"
 
 I/O file In/output -
-			f = open("filename.txt", "w") 		#open file in.. "w" write mode, "r+" read and write mode, "a" append mode
+			file_handler_name = open("filename.txt", "w") 		#open file in.. "w" write mode, "r" read mode, "r+" read and write mode, "a" append mode
 			my_file.write("Data to be written")	#write
-			f.close()							#close file
-			f.closed							#returns True if closed
+			file_handler_name.close()							#close file
+			file_handler_name.closed							#returns True if closed
 			my_file.readline()					#readline
 			__enter__() and __exit__()			#invoke with this method - with and as.
 										with open("file", "mode") as variable:
 											variable.write("Success!")
 
 Import - 	import math -- print math.sqrt(25) -- # 5.0
-			from math import sqrt
-			from math import *
-
+			from math import sqrt	#sqt
+			from math import *		#everything - regex
 
 Index access -
-			fifth_letter = "MONTY"[4] # Y
+			fifth_letter = "MONTY"[4] # Y - applied to a string
 
-insert - list.insert(i, x)
+insert - list.insert(i, x)		# MORE...................................................
 					https://docs.python.org/2/tutorial/datastructures.html
 
 join - 		"what you want to sperate item".join(list_name) -- 
 
-Length -	len(foo) # parrot = "Green"  - print len(parrot)
+Length -	len(foo) # parrot = "Green"  - print len(parrot) #5
 
 line break - 
 			\ code line break - will allow a new line to start in this strictly typed language
@@ -111,16 +110,15 @@ List - 		list_name = [item_1, item_2] #used like array in JS
 				append values -- numbers.append(777) #value added to the end of List [5, 6, 7, 8, 777]
 				Slicing list -- first = numbers[0:2] -- print first -- # ?5,6
 
-
-Lower - 	lower() # parrot = "Green" - print parrot.lower() ## dot notion only works with strings
+lower - 	lower() # parrot = "Green" - print parrot.lower() #green # dot notion only works with strings
 
 Math -		add +, subtract -, multipy *, divide /, exponent ** ( eggs = 10 ** 2 # = 100), Modulo % (spam = 3 % 2 # = 1)
 			Int - 7
 			Float -	1.23
 			Bool - True
-			max() -- maxium = max(1,2,999,3)
-			min() -- minimum = min(1,9)
-			abs() -- absolute = abs(-42)
+			max() -- maxium = max(1,2,999,3)	#999
+			min() -- minimum = min(1,9)			#1
+			abs() -- absolute = abs(-42)		#42
 			type() -- print type(4) #number -- print type('Moo') #String print type(.1) #float
 			floor -- math.floor(x)
 			isnan -- math.isnan(x)  -- https://docs.python.org/2/library/math.html
