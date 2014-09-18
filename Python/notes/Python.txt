@@ -1,6 +1,6 @@
 Basic Python notes
 
-append - 	foo.append["bar"]
+append - 	foo.append("bar")  <--- these must of parenthesis (), not brackets []
 
 Bitwise operations - 
 				5 >> 4  # Right Shift
@@ -153,12 +153,20 @@ Print -		print "string" -- print foo_variable
 					string_1 = "foo" -- string_2 = "bar"
 				print "the two variables are %s and %s." % (string_1, string_2)
 
+regex - 	examples
+			import re 		# needed to use regex
+			test = re.sub(r"regex expression here", "something you want", test)	#use this to sub data you don't want to something you do 
+
 replace - 	str.replace(old, new[, max])  -- http://www.tutorialspoint.com/python/string_replace.htm
 
 Return - 	return foo #this will output foo
 
+reverse -	mylist.reverse() # mylist = ['1','2','3'] is now ['3','2','1']
+
 Sort - 		.sort()  -- numbers = [1, 3, 2]
 					numbers.sort()
+
+split - 	test = test.split(' ') #convert a list to a string with spaces
 
 String replacement - 
 			 - "This is a %s %s with %s MPG."% (self.color, self.model, self.mpg) #This is a silver DeLorean with 88 MPG.
