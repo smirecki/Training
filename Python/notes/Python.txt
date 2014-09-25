@@ -147,11 +147,13 @@ Object --sub misc.
 				return super(Derived, self).m()
 
 
-Print -		print "string" -- print foo_variable
+Print -		print "string" -- print foo_variable	--V2--
 				print "foo" + "bar"
 				print "The value of PI is around" + str(3.14)
 					string_1 = "foo" -- string_2 = "bar"
 				print "the two variables are %s and %s." % (string_1, string_2)
+			print("string")  --V3--
+			print("string", 2 * 2)
 
 regex - 	examples
 			import re 		# needed to use regex
