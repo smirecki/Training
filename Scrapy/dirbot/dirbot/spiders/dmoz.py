@@ -8,8 +8,7 @@ class DmozSpider(Spider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
     start_urls = [
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/",
+        "https://news.ycombinator.com/news",
     ]
 
     def parse(self, response):
@@ -21,7 +20,7 @@ class DmozSpider(Spider):
         @scrapes name
         """
         sel = Selector(response)
-        sites = sel.xpath('//ul[@class="directory-url"]/li')
+        sites = sel.xpath('//td[@class="title",2]')
         items = []
 
         for site in sites:
