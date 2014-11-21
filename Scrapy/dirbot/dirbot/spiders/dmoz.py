@@ -8,7 +8,7 @@ class DmozSpider(Spider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
     start_urls = [
-        "https://news.ycombinator.com/news",
+        "http://tidesandcurrents.noaa.gov/currents14/current14changes.html",
     ]
 
     def parse(self, response):
