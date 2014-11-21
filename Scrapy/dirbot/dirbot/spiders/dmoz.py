@@ -20,7 +20,7 @@ class DmozSpider(Spider):
         @scrapes name
         """
         sel = Selector(response)
-        sites = sel.xpath('//td[@class="title",2]')
+        sites = sel.xpath('//td[@class="title"]')
         items = []
 
         for site in sites:
