@@ -10,10 +10,10 @@ keys:
 
 folders:
     - map: ~/Code
-      to: /home/vagrant/Code
+      to: /home/vagrant/Sites
 
 sites:
-    - map: homestead.app
+    - map: laravel.dev
       to: /home/vagrant/Code/Laravel/public
 
 databases:
