@@ -25,7 +25,7 @@ class Homestead
 
     # Configure The Public Key For SSH Access
     config.vm.provision "shell" do |s|
-      s.inline = "echo $1 | tee -a /home/vagrant/.ssh/authorized_keys"
+      s.inline = "echo $1 | tee -a C:/Users/steve/.ssh"
       s.args = [File.read(File.expand_path(settings["authorize"]))]
     end
 
