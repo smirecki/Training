@@ -34,8 +34,6 @@ xUbuntu -
 						Item icon size: Very Small
 						Category icon size: Very Small
 
-
-
 		- Items
 	Theme Configuration
 		- Custom highlight colors - ON
@@ -47,7 +45,13 @@ xUbuntu -
 		- Custom menu colors - ON
 			Menu background - #EEEEEE
 			Menu text - #333333
-
+	Window Manager
+		Style
+			Theme - Numix
+			Title font - Courier 10 Pitch
+			Title Alignment - Center
+		Keyboard, Focus, Advance - default
+			
 	Window Manager Tweaks
 		- Cycling, Focus, Accessibility, Workspaces, Placement
 			- default
