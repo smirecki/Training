@@ -1,5 +1,61 @@
 
 
 xUbuntu -
-	themes -
+	
+	Appearance
+		Themes/Style
+			- atom...
+				notes: lavender button highlights?
+			- Dorian-Flat-Root-3.16
+				notes: chunky menus
+			- Vold 3.14 Dark
+				notes: middle gray
+		Icons
+			- Flatter Dark
+			- sable
+		Fonts
+			- default
+		Settings
+			- default
+	Panel
+		- Display - Default 
+		- Appearance
+			Background
+				Style: Solid color
+				Alpha: 80
+				Color: #3A3A3A
+			Opacity
+				Enter: 100
+				Leave:  90
+			Items
+				Whisker Menu
+					Appearance
+						Default...
+						Item icon size: Very Small
+						Category icon size: Very Small
+
+
+
+		- Items
+	Theme Configuration
+		- Custom highlight colors - ON
+			Highlight background - #0021FF
+			Highlight text - #EEEEEE
+		- Custom panel colors - OFF
+			Panel background - #CCCCCC
+			Panel text - #333333
+		- Custom menu colors - ON
+			Menu background - #EEEEEE
+			Menu text - #333333
+
+	Window Manager Tweaks
+		- Cycling, Focus, Accessibility, Workspaces, Placement
+			- default
+		- Compositor
+			- Opacity of window decorations: 85-90%
+			- Opacity of inactive windows: 90-95%
+			- Opacity of windows during move: 75-80%
+			- Opacity of windows during resize: 95%
+			- Opacity of popup windows: 98%
+
 		
