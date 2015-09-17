@@ -64,7 +64,15 @@ xUbuntu -
 
 Sites:
 	- General theme site - 	http://gnome-look.org/
-	- Dorian-Flat-3.16 - http://gnome-look.org/content/show.php/Dorian-Flat-3.16?content=170277
-	- Vold (formerly Numoke) 2.1 - http://gnome-look.org/content/show.php/Vold+%28formerly+Numoka%29?content=166922
-	- 
+	- Themes and Icons
+		- Dorian-Flat-3.16 - http://gnome-look.org/content/show.php/Dorian-Flat-3.16?content=170277
+		- Vold (formerly Numoke) 2.1 - http://gnome-look.org/content/show.php/Vold+%28formerly+Numoka%29?content=166922
+		- http://gnome-look.org/content/show.php/Ultra-flat-Yosemite?content=168521
+		- http://gnome-look.org/content/show.php/?content=165732
+		- http://gnome-look.org/content/show.php/Yosemite+Shell?content=166200
+	- Making Themes
+		- http://worldofgnome.org/making-gtk3-themes-part-1-basics/
+		- Python Widget Facotry
+			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
+
 
