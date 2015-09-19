@@ -94,5 +94,9 @@ Apps and programs -
 - Search for better fonts or to chose better fonts
 	- What does OS 10.10 use?
 - Media
-
+- Spotify?
+- Skype?
+- 
+- Cheese - webcam software
+- ebook manager... Calibre???
 -Do I need VMs or Docker images?
