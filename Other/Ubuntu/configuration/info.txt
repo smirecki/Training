@@ -93,3 +93,6 @@ Apps and programs -
 - Wallpaper
 - Search for better fonts or to chose better fonts
 	- What does OS 10.10 use?
+- Media
+
+-Do I need VMs or Docker images?
