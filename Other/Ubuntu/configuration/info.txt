@@ -72,7 +72,7 @@ Sites:
 		- http://gnome-look.org/content/show.php/Yosemite+Shell?content=166200
 	- Making Themes
 		- http://worldofgnome.org/making-gtk3-themes-part-1-basics/
-		- Python Widget Facotry
+		- Python Widget Factory
 			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
 
 
@@ -82,9 +82,11 @@ Keyboard Short cuts -
 
 Apps and programs - 
 - Vim, node, npm, expressjs,
+- Git
 - Python???
 - Sublime Text 2, jshint(linting for Sublime)
 - VLC, codex
 - Audio (Clementina??)
+- music streams
 - still not working
 	- flux, redshift
