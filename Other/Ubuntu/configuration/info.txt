@@ -85,4 +85,6 @@ Apps and programs -
 - Python???
 - Sublime Text 2, jshint(linting for Sublime)
 - VLC, codex
-- 
+- Audio (Clementina??)
+- still not working
+	- flux, redshift
