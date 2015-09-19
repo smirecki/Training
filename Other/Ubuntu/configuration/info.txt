@@ -77,7 +77,8 @@ Sites:
 
 
 Apps and programs - 
-- Vim, node, npm
+- Vim, node, npm, expressjs,
+- Python???
 - Sublime Text 2, jshint(linting for Sublime)
 - VLC, codex
 -
