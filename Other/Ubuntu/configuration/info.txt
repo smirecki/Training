@@ -90,3 +90,6 @@ Apps and programs -
 - music streams
 - still not working
 	- flux, redshift
+- Wallpaper
+- Search for better fonts or to chose better fonts
+	- What does OS 10.10 use?
