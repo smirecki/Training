@@ -76,3 +76,8 @@ Sites:
 			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
 
 
+Apps and programs - 
+- Vim, node, npm
+- Sublime Text 2, jshint(linting for Sublime)
+- VLC, codex
+-
