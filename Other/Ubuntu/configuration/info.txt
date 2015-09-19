@@ -86,7 +86,7 @@ Apps and programs -
 - Python???
 - Sublime Text 2, jshint(linting for Sublime)
 - VLC, codex
-- Audio (Clementina??)
+- Audio (Clementina??), Is there a FooBar200 for Ubuntu?
 - music streams
 - still not working
 	- flux, redshift
@@ -99,4 +99,6 @@ Apps and programs -
 - 
 - Cheese - webcam software
 - ebook manager... Calibre???
+- Inkscape
+
 -Do I need VMs or Docker images?
