@@ -17,6 +17,13 @@ xUbuntu -
 			- default
 		Settings
 			- default
+	Desktop
+		-Background
+			- Change to what ever suits you
+				- located here - /usr/share/xfce4/backdrops/
+		-Icons
+			- Icon size 35
+
 	Panel
 		- Display - Default 
 		- Appearance
@@ -61,8 +68,13 @@ xUbuntu -
 			- Opacity of windows during move: 75-80%
 			- Opacity of windows during resize: 95%
 			- Opacity of popup windows: 98%
+=============
+...??? adjusting desktop icon size
+- customize the File Manager. If you do not like the way the icons are displayed, choose View → View as	Detailed List to have the contents of the current directory displayed as a list.
 
 Sites:
+	- Chapter 3. Getting to know your desktop environment 
+		-http://docs.xubuntu.org/1304/guide-desktop.html
 	- General theme site - 	http://gnome-look.org/
 	- Themes and Icons
 		- Dorian-Flat-3.16 - http://gnome-look.org/content/show.php/Dorian-Flat-3.16?content=170277
@@ -79,6 +91,9 @@ Sites:
 Keyboard Short cuts - 
 - launch/super/app search, screen lock rekey, volume up/down/mute
 
+Adjustments - 
+- change time to hh:mm:ss
+
 
 Apps and programs - 
 - Vim, node, npm, expressjs,
@@ -90,6 +105,7 @@ Apps and programs -
 - music streams
 - still not working
 	- flux, redshift
+	- Brightness Controller "free" with account creation
 - Wallpaper
 - Search for better fonts or to chose better fonts
 	- What does OS 10.10 use?
