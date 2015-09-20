@@ -101,7 +101,7 @@ Apps and programs -
 - Python???
 - Sublime Text 2, jshint(linting for Sublime)
 - VLC, codex
-- Audio (Clementina??), Is there a FooBar200 for Ubuntu?
+- Audio -Clementine
 - music streams
 - still not working
 	- flux, redshift
