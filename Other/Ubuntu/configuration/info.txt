@@ -6,13 +6,14 @@ xUbuntu -
 		Themes/Style
 			- atom...
 				notes: lavender button highlights?
-			- Dorian-Flat-Root-3.16
+			- Dorian-Flat-Root-3.16 *********
 				notes: chunky menus
 			- Vold 3.14 Dark
 				notes: middle gray
 		Icons
 			- Flatter Dark
 			- sable
+			- Yosemite Icon *********
 		Fonts
 			- default
 		Settings
@@ -43,6 +44,7 @@ xUbuntu -
 
 		- Items
 	Theme Configuration
+		NOTE: adjusting here can fix menu text/bg light/dark problems
 		- Custom highlight colors - ON
 			Highlight background - #0021FF
 			Highlight text - #EEEEEE
@@ -110,11 +112,13 @@ Apps and programs -
 - Search for better fonts or to chose better fonts
 	- What does OS 10.10 use?
 - Media
-- Spotify?
-- Skype?
-- 
+- Spotify
+	- https://www.spotify.com/us/download/linux/
+- Skype
+	- http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
 - Cheese - webcam software
-- ebook manager... Calibre???
+- Calibre
+	- software center
 - Inkscape
 
 -Do I need VMs or Docker images?
