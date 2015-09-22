@@ -6,8 +6,13 @@ xUbuntu -
 		Themes/Style
 			- atom...
 				notes: lavender button highlights?
-			- Dorian-Flat-Root-3.16 *********
+			- Dorian-Flat-Root-3.16 
 				notes: chunky menus
+				dashedes around boxes
+					- This Fix didn't work for me - "In ~/.config/gtk-3.0/gtk.css add the following line:
+						.undershoot.top, .undershoot.right, .undershoot.bottom, .undershoot.left { background-image: none; }"
+			- elementary Dark *************
+				- like Dorian, but without the dashed errors
 			- Vold 3.14 Dark
 				notes: middle gray
 		Icons
