@@ -119,6 +119,15 @@ Apps and programs -
 			# Confirm it worked
 			node --version       # v0.10.13
 			ls -la `which node`  # ... /usr/bin/node -> /etc/alternatives/node
+	- check version
+		- node -v ... versions below 0.11.12 do not support Promise(s)
+
+		- If too old install newer verison	- http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+			# Note the new setup script name for Node.js v0.12
+			curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+
+			# Then install with:
+			sudo apt-get install -y nodejs
 
 
 - Git
