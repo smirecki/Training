@@ -1,0 +1,26 @@
+ES6 notes
+(ISO/IEC 16262:2016)
+
+
+JavaScript Fundamentals for ES6
+	- Variables and Parameters
+		- let
+			"The let statement declares a block scope local variable, optionally initializing it to a value."( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let )
+			- not currenlty supported in Firefox
+
+		- const
+			- 
+		- Destructuring
+		- Default Parameter Values
+		- Rest Parameters
+		- Spread Operator
+		- Template Literals
+
+	- Classes
+		- Class compaired to Prototype
+
+		- constructor
+		- Getters and Setters
+		- Inheritance
+		- super
+
