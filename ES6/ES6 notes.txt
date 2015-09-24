@@ -6,7 +6,7 @@ JavaScript Fundamentals for ES6
 	- Variables and Parameters
 		- let
 			"The let statement declares a block scope local variable, optionally initializing it to a value."( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let )
-			- not currenlty supported in Firefox
+			- not currently supported in Firefox
 
 		- const
 			- 
@@ -17,7 +17,7 @@ JavaScript Fundamentals for ES6
 		- Template Literals
 
 	- Classes
-		- Class compaired to Prototype
+		- Class compared to Prototype
 
 		- constructor
 		- Getters and Setters
