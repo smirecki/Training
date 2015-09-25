@@ -73,7 +73,8 @@ xUbuntu -
 			- default
 		- Compositor
 			- Opacity of window decorations: 85-90%
-			- Opacity of inactive windows: 90-95%
+			- Opacity of inactive windows: 100% = opaque 
+				// Any transparency is bad for work with multi-windows
 			- Opacity of windows during move: 75-80%
 			- Opacity of windows during resize: 95%
 			- Opacity of popup windows: 98%
