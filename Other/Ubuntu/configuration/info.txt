@@ -98,8 +98,13 @@ Sites:
 			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
 
 
-Keyboard Short cuts - 
-- launch/super/app search, screen lock rekey, volume up/down/mute
+Keyboard -> Appliications Shortcuts 
+	- volume up/down/mute
+		- mute -- "amixer set Master 0%" - "Super+S"
+		- Volume down -- "amixer set Master 5%-" - "Super+A"
+		- Volume up -- "amixer set Master 5%+" - "Super+Q"
+	- screen lock
+		- lock -- "xflock4" - "Super+L"
 
 Adjustments - 
 - change time to hh:mm:ss
@@ -136,7 +141,7 @@ Apps and programs -
 - Sublime Text 2, jshint(linting for Sublime)
 - VLC, codex
 - Audio -Clementine
-- music streams
+	- Clementine has music streams, including SOMAFM station URLs built in.
 - still not working
 	- flux, redshift
 	- Brightness Controller "free" with account creation
