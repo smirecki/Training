@@ -98,7 +98,7 @@ Sites:
 			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
 
 
-Keyboard -> Appliications Shortcuts 
+Keyboard -> Application Shortcuts 
 	- volume up/down/mute
 		- mute -- "amixer set Master 0%" - "Super+S"
 		- Volume down -- "amixer set Master 5%-" - "Super+A"
