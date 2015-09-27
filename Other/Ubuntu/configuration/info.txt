@@ -1,6 +1,4 @@
-
-
-xUbuntu -
+xUbuntu - 
 	
 	Appearance
 		Themes/Style
@@ -26,9 +24,8 @@ xUbuntu -
 		Settings
 			- default
 	Desktop
-		-Background
+		-Background - usr/share/xfec4/backdrops
 			- Change to what ever suits you
-				- located here - /usr/share/xfce4/backdrops/
 		-Icons
 			- Icon size 35
 
@@ -78,9 +75,14 @@ xUbuntu -
 			- Opacity of windows during move: 75-80%
 			- Opacity of windows during resize: 95%
 			- Opacity of popup windows: 98%
+
 =============
-...??? adjusting desktop icon size
-- customize the File Manager. If you do not like the way the icons are displayed, choose View → View as	Detailed List to have the contents of the current directory displayed as a list.
+
+- adjusting desktop icon size
+	-
+
+- customize the File Manager
+	- If you do not like the way the icons are displayed, choose View → View as	Detailed List to have the contents of the current directory displayed as a list.
 
 Sites:
 	- Chapter 3. Getting to know your desktop environment 
@@ -109,7 +111,6 @@ Keyboard -> Application Shortcuts
 Adjustments - 
 - change time to hh:mm:ss
 
-
 Apps and programs - 
 - Vim, node, npm, expressjs,
 	- NOTE: apt-get node ... installs Amateur Packet Radio Node Program
@@ -128,7 +129,7 @@ Apps and programs -
 	- check version
 		- node -v ... versions below 0.11.12 do not support Promise(s)
 
-		- If too old install newer verison	- http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+		- If it's too old, install newer verison	- http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
 			# Note the new setup script name for Node.js v0.12
 			curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 
@@ -156,6 +157,6 @@ Apps and programs -
 - Cheese - webcam software
 - Calibre
 	- software center
-- Inkscape
+- Inkscape - not needed
 
 -Do I need VMs or Docker images?
