@@ -47,6 +47,11 @@ xUbuntu -
 						Category icon size: Very Small
 
 		- Items
+	Terminal Preferences
+		- Appearance
+			- Font - Inconsolata Medium 10
+				- http://www.levien.com/type/myfonts/inconsolata.html
+				
 	Theme Configuration
 		NOTE: adjusting here can fix menu text/bg light/dark problems
 		- Custom highlight colors - ON
