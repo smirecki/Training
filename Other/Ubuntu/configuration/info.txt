@@ -66,7 +66,7 @@ xUbuntu -
 	Window Manager
 		Style
 			Theme - Numix
-			Title font - Courier 10 Pitch
+			Title font - Inconsolata Medium 10
 			Title Alignment - Center
 		Keyboard, Focus, Advance - default
 			
@@ -148,12 +148,14 @@ Apps and programs -
 - VLC, codex
 - Audio -Clementine
 	- Clementine has music streams, including SOMAFM station URLs built in.
+	- Gstreamer is missing plug-in 
 - still not working
 	- flux, redshift
 	- Brightness Controller "free" with account creation
 - Wallpaper
 - Search for better fonts or to chose better fonts
-	- What does OS 10.10 use?
+	- What does OS 10.10 use? San Francisco - "SanFranciscoFont"
+		- 
 - Media
 - Spotify
 	- https://www.spotify.com/us/download/linux/
