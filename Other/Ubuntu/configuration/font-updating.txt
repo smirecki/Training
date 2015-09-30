@@ -1,11 +1,12 @@
 Font updating in Xubuntu
 9/29/2015
 
-- http://ubuntuforums.org/showthread.php?t=797173
+From - http://ubuntuforums.org/showthread.php?t=797173
 
-- Get font
-- place in directory that corresponds to type of font
+- Find a font
+	- Github, Apt-get, www, ???
+- Place the font in a directory that corresponds to that type of font
 	/usr/share/fonts/(cmap or opentype or truetype or type1 or X11)
-- run command to reload fonts
+- Run this command to reload all fonts
 	- - sudo fc-cache -f
 
