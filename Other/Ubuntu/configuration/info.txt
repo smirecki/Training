@@ -164,6 +164,8 @@ Apps and programs -
 - Cheese - webcam software
 - Calibre
 	- software center
+	- Use this program to manage a Kindle White-paper
+	- the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.
 - Inkscape - not needed
 
 -Do I need VMs or Docker images?
