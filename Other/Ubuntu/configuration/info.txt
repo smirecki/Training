@@ -166,6 +166,11 @@ Apps and programs -
 	- software center
 	- Use this program to manage a Kindle White-paper
 	- the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.
+- .cbr viewer with rar decompression
+	- You must install unrar to allow any of these apps to open .cbr files, not just 7-zip (it won't work). 
+		- sudo apt-get install unrar
+	- Try "comix" or "mcomix"
+
 - Inkscape - not needed
 
 -Do I need VMs or Docker images?
