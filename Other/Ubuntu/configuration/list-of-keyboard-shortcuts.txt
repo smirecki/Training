@@ -119,3 +119,16 @@ move_window_prev_workspace_key	<Primary><Alt>Home
                        xflock4	<Super>l
                         xfrun4	<Alt>F2
                          xkill	<Primary><Alt>Escape
+============================================================
+Notes:
+
+https://wiki.xfce.org/faq
+
+How can I see a list of all the shortcut keys?
+Use the following command, which will produce a nicely formatted text list to standard output:
+
+xfconf-query -c xfce4-keyboard-shortcuts -l -v | cut -d'/' -f4 | awk '{printf "%30s", $2; print "\t" $1}' | sort | uniq
+
+If you want to put this list into a file, add > filename at the end of command.
+
+http://askubuntu.com/questions/90513/how-do-i-change-my-keyboard-shortcuts-in-xubuntu
