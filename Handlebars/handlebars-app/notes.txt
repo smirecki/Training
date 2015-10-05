@@ -166,4 +166,17 @@ Root context of the template
 ======
 Handlebars If Helper limitations
  Can not do comparisons, no operations, only one argument
+==========
+Registering a Partial template
+
+var dog_template = '<div>{{dog.name}} is a cutie!</div>';'
+Handlebars.registerPartial('dog', dog_template); // ('ParialReferenceName', Partial_Template)
+
+// - Using a Partial
+<script id="my_template">
+...
+ {{> dog}}  // notice the "right facing arrow" + the registered name of the partial
+...
+</script>
+
 
