@@ -174,3 +174,7 @@ Apps and programs -
 - Inkscape - not needed
 
 -Do I need VMs or Docker images?
+
+========
+Errors and problems
+- Screen locking is acting erratic.
