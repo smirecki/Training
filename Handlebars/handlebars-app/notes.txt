@@ -1,0 +1,10 @@
+Handlebars-notes
+
+=========
+Simple Handlebars Rendering Example
+
+var template = 'My name is {{name}}.';
+var compiled = Handlebars.compile(template);
+var rendered = compiled({ name: 'Ryan' });
+========
+
