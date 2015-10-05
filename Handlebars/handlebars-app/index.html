@@ -64,6 +64,7 @@
                     <p class="mdl-typography--font-light">© 2015 Ryan Lewis</p>
                 </div>
             </footer>
+    
         </div>
     </script>
     <script type="text/x-handlebars-template" id="dogs-template">
@@ -80,7 +81,16 @@
                     {{@root.language.nope}}
                 </button>
             </div>
+            {{#if chosen}}
+              {{#if isCorrect}}
+                <span class="result-good">{{@root.language.correctInd}}</span>
+              {{else}}
+                <span class="result-bad">{{@root.language.incorrectInd}}</span>
+              {{/if}}
+            {{/if}}
         </div>
+          {{else}}
+            {{language.noDogsMessage}}
         {{/each}}
     </script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

@@ -132,4 +132,38 @@ Special properties in Handlebars
 @root
 Root context of the template
 ==========
+ - Mustache does have logic, more boolean - Truthy Falsy 
+
+{{#propOrNot}}
+  I exist!      // <== if
+{{/propOrNot}}
+
+{{^propOrNot}}
+  I don't exist!   // <== else
+{{/propOrNot}}
+
+ - Handlebars
+
+{{#if truthOrFalsy}}
+  I am truthy!
+{{/if}}
+
+{{#if truthyOrFalsy}}
+  Wait, I though I was falsy?
+{{else}}
+  I knew I was falsy!
+{{/if}}
+
+ =======
+ - Each + Else Example
+{{#each dogs}}
+  {{dog_stuff}}
+{{else}}
+  No dogs!
+{{/each}}
+// if nothing is in "dogs", then Else is show "No dogs!"
+
+======
+Handlebars If Helper limitations
+ Can not do comparisons, no operations, only one argument
 
