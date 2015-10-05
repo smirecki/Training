@@ -50,5 +50,86 @@ Age: {{myObj.age}}
 Address: {{myObj.address.street}}
 	{{myObj.address.city}}, {{myObj.address.state}}
 	{{myObj.address.zip_code}}
-	
+=================
+
+Each Helper Structure
+
+{{#each objectOrArray}}  //Object or Array to iterate over
+  {{prop1}}  //Current element becomes context
+  {{prop2}}
+  {{prop3}}
+{{/each}}
+
+===================
+Each Helper Example
+
+Template
+{{#each dogs}}
+  {{this}}
+{{/each}}
+
+Template Data
+
+{
+	'dogs': [
+      'Spot',
+      'Fluffy',
+      'Maybe'
+	]
+}
+
+Output
+  Spot
+  Fluffy
+  Maybe
+===================
+Handlebars Blocks
+
+Begin opening expression with #
+Begin closing expression with /
+========
+Expression Arguments
+{{siteTittle}} // first argument
+{{someHelper arg1 arg2}} //other arguments
+==========
+Each Helper Example ~ Object Edition!
+
+- Template
+{{#each users}}
+  Name:  {{name}}
+  <img src="{{image}}" />
+{{/each}}
+
+- Template Data
+{ 'users': [
+  {  name: 'Ryan',
+     image: 'ryan.jpg'
+  },
+  { name: 'Joe',
+    image: 'joe.jpg'
+  }
+]}
+
+- Output
+Name: Ryan
+<img src="ryan.jpg" />
+Name:Joe
+<img src="joe.jpg" />
+=============
+Data format for "dog"
+
+{
+	id:string,
+	image:string,
+	name:string,
+	isDog:boolean
+
+}	
+=========
+@data variables
+Special properties in Handlebars
+
+@root
+Root context of the template
+==========
 
