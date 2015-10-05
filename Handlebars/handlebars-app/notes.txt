@@ -178,5 +178,25 @@ Handlebars.registerPartial('dog', dog_template); // ('ParialReferenceName', Part
  {{> dog}}  // notice the "right facing arrow" + the registered name of the partial
 ...
 </script>
+===========
+Escape HTML
+
+data:{html:'ampersand=>&'}
+template:<div>{{html}}</div>
+output:<div>ampersand=&gt;&amp;</div>
+
+To output "raw" HTML use 3 braces {{{ }}}
+data:{html:'<b>DOG</b>'}
+template:<div>{{{html}}}</div>
+output:<div><b>DOG</b></div>
+==========
+Tilde Killed the Whitespace --- or How to remove funky handlebars whitespace code stink
+{{~prop1}}
+{{prop1~}}
+{{~prop1~}}
+{{~#each prop1~}}
+note: this affects the rendered code, not the whitespace in the browser.
+
+
 
 
