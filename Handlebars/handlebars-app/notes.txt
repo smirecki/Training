@@ -1,10 +1,54 @@
 Handlebars-notes
 
+
+(http://ryanhlewis.com/pluralsight/)
+section 02-04
+
+Example
+
+  Template
+    Dogs are the {{dog_quality}}!
+  Data(Context)
+    {
+      dog_quality : 'cutest'
+    }
+  HandlebarsOutput
+    Dogs are the cutest!
+
 =========
 Simple Handlebars Rendering Example
 
-var template = 'My name is {{name}}.';
-var compiled = Handlebars.compile(template);
+var myTemplate = 'My name is {{name}}.';
+var compiled = Handlebars.compile(myTemplate, options);
+  // renders Function myTemplate
 var rendered = compiled({ name: 'Ryan' });
 ========
+
+"The Handlebars Dance"
+
+Get Template
+Compile Template
+Render with Data
+Insert Render HTML
+==========
+
+Nested Paths in Mustache
+
+{{#myObj}}
+	Name: {{name}}
+	Age: {{age}}
+	Address: {{#address}}
+	  {{street}}
+	  {{city}}, {{state}} {{zip_code}}
+	{{/address}}
+{{/myObj}}
+
+Nested Paths in Handlebars
+
+Name: {{myObj.name}}
+Age: {{myObj.age}}
+Address: {{myObj.address.street}}
+	{{myObj.address.city}}, {{myObj.address.state}}
+	{{myObj.address.zip_code}}
+	
 
