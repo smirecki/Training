@@ -196,6 +196,15 @@ Tilde Killed the Whitespace --- or How to remove funky handlebars whitespace cod
 {{~prop1~}}
 {{~#each prop1~}}
 note: this affects the rendered code, not the whitespace in the browser.
+=======
+Helpers...
+	are global references to JavaScript functions
+	accept arguments
+	accept templates
+	output strings to render
+	
+
+functions
 
 
 
