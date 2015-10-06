@@ -23,10 +23,39 @@
   function renderDogs() {
     var template = $('#dogs-template').html(),
         compiled = Handlebars.compile(template),
-        rendered = compiled({ dogs: DogPack.dogs, language: window.language });
+        filteredDogs = DogPack.getFilteredDogs(DogPack.dogs),
+        rendered = compiled({
+          dogs: DogPack.getPaginatedDogs(filteredDogs),
+          language: window.language
+        });
     $('#theDogs').html(rendered);
     attachDogButtons();
+    renderPages(filteredDogs);
+    renderScore();
   }
+
+  function renderScore() {
+    var template = $('#score-template').html(),
+        compiled = Handlebars.compile(template),
+        rendered = compiled({
+          dogs: DogPack.dogs,
+          language: window.language
+        });
+    $('#score').html(rendered);
+    $('#score').find('small').click(function() {
+      DogPack.clearDogs();
+      window.location.href = '?' +
+        Handlebars.helpers.getLanguageFilter(window.language.langId);
+    });
+  }
+  
+  function renderPages(dogs) {
+    var template = $('#page-template').html(),
+        compiled = Handlebars.compile(template),
+        rendered = compiled({ dogs: dogs });
+    $('#pagination').html(rendered);
+  }
+
 
   function attachDogButtons() {
     $('.dog-button').click(function() {

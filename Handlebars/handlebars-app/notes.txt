@@ -4,6 +4,14 @@ Handlebars-notes
 (http://ryanhlewis.com/pluralsight/)
 section 02-04
 
+Side Notes:
+=================
+research MDL - Material Design Lite
+  - http://www.getmdl.io/faq/index.html
+
+
+================
+
 Example
 
   Template
@@ -197,6 +205,17 @@ Tilde Killed the Whitespace --- or How to remove funky handlebars whitespace cod
 {{~#each prop1~}}
 note: this affects the rendered code, not the whitespace in the browser.
 =======
+It can execute function with arguments 
+
+Function Properties
+  Locally scoped and defined in Mustache
+
+Helpers
+  Globally scoped and implemented in Handlebars
+=======
+Youmightnotneedjquery.com
+  - Vanilla JS instead of jQuery
+==
 Helpers...
 	are global references to JavaScript functions
 	accept arguments
@@ -205,6 +224,54 @@ Helpers...
 	
 
 functions
+=======
+Helper Registration - adding Helpers to Global
+
+Handlebars.registerHelper('myHelper', exampleHelperFunction); // ('Helper Reference', exampleHelperFunction);
+==
+Helper Arguments
+ function exampleHelperFunction(arg1, arg2) {
+   //this.something
+   //this.anotherThing  
+ }  //*this  refers to context where helper was called
+==
+- Must register Helper before rendering it in a template
+- Beware of naming collisions, Helper references will override properties
+==
+Helpers in Templates
+<script type="text/x-handlebars-template" id="main-templ">
+  {{myHelper arg1 'arg2'}}
+</script>
+===
+Helpers can be used in the JavaScript also.  They are kept in Handlebars.helpers.
+===
+SafeString
+
+====
+Subexpressions
+  helpers inside helpers
+example
+  {{formatMoney (applySalesTax 4589)}}
+      ^Executes After  ^Executes First
+====
+Block Helper
+ #each
+ if else
+
+ {{#myHelper onlyArg arg2=arg2 arg3='arg3'}}
+   //helper stuff
+{{/myHelper}}
+
+Block Helper in JS
+
+function blockHelperFunction(context, option) { //(Arg from Template, Special Object)
+  //block helper stuff
+}
+
+options arguments properties
+  hash - contains hash arguments from template expression
+  fn - compiled function containing inner template
+  
 
 
 
