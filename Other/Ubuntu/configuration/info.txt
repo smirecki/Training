@@ -178,3 +178,4 @@ Apps and programs -
 ========
 Errors and problems
 - Screen locking is acting erratic.
+	- I think xfce4 won't lock when a video player app is open, playing or paused.
