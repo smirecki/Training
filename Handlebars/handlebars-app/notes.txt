@@ -7,7 +7,11 @@ section 02-04
 Side Notes:
 =================
 research MDL - Material Design Lite
+  "with a goal to provide guidelines for good design and beautiful UI across all device form factors. Today we are releasing our effort to bring this to websites using vanilla CSS, HTML and JavaScript."
+  "MDL has a low overhead in terms of code size (~27KB gzipped)...""
   - http://www.getmdl.io/faq/index.html
+  - https://medium.com/google-developers/introducing-material-design-lite-3ce67098c031
+
 
 
 ================
