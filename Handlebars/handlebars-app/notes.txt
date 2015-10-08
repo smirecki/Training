@@ -276,6 +276,12 @@ options arguments properties
   hash - contains hash arguments from template expression
   fn - compiled function containing inner template
   
+=========
+04 Beyond the Basics
+ - Template Precompilation with Gulp
+ - Gulp (automation and monitoring)
+ - Modular Template Patterns
+ 
 
 
 
