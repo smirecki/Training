@@ -141,9 +141,9 @@ Apps and programs -
 			# Then install with:
 			sudo apt-get install -y nodejs
 
-
+- Chrome
 - Git
-- Python???
+- Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
 - VLC, codex
 - Audio -Clementine
