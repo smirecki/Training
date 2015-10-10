@@ -145,6 +145,7 @@ Apps and programs -
 - Git
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
+	- must install Package Controller first
 - VLC, codex
 - Audio -Clementine
 	- Clementine has music streams, including SOMAFM station URLs built in.
