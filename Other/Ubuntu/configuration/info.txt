@@ -83,28 +83,6 @@ xUbuntu -
 
 =============
 
-- adjusting desktop icon size
-	-
-
-- customize the File Manager
-	- If you do not like the way the icons are displayed, choose View → View as	Detailed List to have the contents of the current directory displayed as a list.
-
-Sites:
-	- Chapter 3. Getting to know your desktop environment 
-		-http://docs.xubuntu.org/1304/guide-desktop.html
-	- General theme site - 	http://gnome-look.org/
-	- Themes and Icons
-		- Dorian-Flat-3.16 - http://gnome-look.org/content/show.php/Dorian-Flat-3.16?content=170277
-		- Vold (formerly Numoke) 2.1 - http://gnome-look.org/content/show.php/Vold+%28formerly+Numoka%29?content=166922
-		- http://gnome-look.org/content/show.php/Ultra-flat-Yosemite?content=168521
-		- http://gnome-look.org/content/show.php/?content=165732
-		- http://gnome-look.org/content/show.php/Yosemite+Shell?content=166200
-	- Making Themes
-		- http://worldofgnome.org/making-gtk3-themes-part-1-basics/
-		- Python Widget Factory
-			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
-
-
 Keyboard -> Application Shortcuts 
 	- volume up/down/mute
 		- mute -- "amixer set Master 0%" - "Super+S"
@@ -115,6 +93,13 @@ Keyboard -> Application Shortcuts
 
 Adjustments - 
 - change time to hh:mm:ss
+
+- adjusting desktop icon size
+	-
+- customize the File Manager
+	- If you do not like the way the icons are displayed, choose View → View as	Detailed List to have the contents of the current directory displayed as a list.
+
+==============
 
 Apps and programs - 
 - Vim, node, npm, expressjs,
@@ -184,3 +169,20 @@ Apps and programs -
 Errors and problems
 - Screen locking is acting erratic.
 	- I think xfce4 won't lock when a video player app is open, playing or paused.
+
+=======
+
+Sites:
+	- Chapter 3. Getting to know your desktop environment 
+		-http://docs.xubuntu.org/1304/guide-desktop.html
+	- General theme site - 	http://gnome-look.org/
+	- Themes and Icons
+		- Dorian-Flat-3.16 - http://gnome-look.org/content/show.php/Dorian-Flat-3.16?content=170277
+		- Vold (formerly Numoke) 2.1 - http://gnome-look.org/content/show.php/Vold+%28formerly+Numoka%29?content=166922
+		- http://gnome-look.org/content/show.php/Ultra-flat-Yosemite?content=168521
+		- http://gnome-look.org/content/show.php/?content=165732
+		- http://gnome-look.org/content/show.php/Yosemite+Shell?content=166200
+	- Making Themes
+		- http://worldofgnome.org/making-gtk3-themes-part-1-basics/
+		- Python Widget Factory
+			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
