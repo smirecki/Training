@@ -84,12 +84,19 @@ xUbuntu -
 =============
 
 Keyboard -> Application Shortcuts 
+    Custom:
 	- volume up/down/mute
 		- mute -- "amixer set Master 0%" - "Super+S"
 		- Volume down -- "amixer set Master 5%-" - "Super+A"
 		- Volume up -- "amixer set Master 5%+" - "Super+Q"
 	- screen lock
 		- lock -- "xflock4" - "Super+L"
+	Default:
+	- Clear desktop
+		- default key combination
+			- crtl + alt + d
+    - open terminal
+    	- super + t
 
 Adjustments - 
 - change time to hh:mm:ss
@@ -167,8 +174,11 @@ Apps and programs -
 
 ========
 Errors and problems
-- Screen locking is acting erratic.
-	- I think xfce4 won't lock when a video player app is open, playing or paused.
+
+
+=======
+Notes:
+- Screen will lock if video player app is open, playing or paused.
 
 =======
 
