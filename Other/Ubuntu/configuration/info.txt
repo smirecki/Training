@@ -141,7 +141,7 @@ Apps and programs -
 - VLC, codex
 - Audio -Clementine
 	- Clementine has music streams, including SOMAFM station URLs built in.
-	- Gstreamer is missing plug-in
+	- ERROR - "Gstreamer is missing plug-in"
 	FIX:
 		- Although this is a feature rich app, I would a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app
 - still not working
@@ -171,6 +171,10 @@ Apps and programs -
 - Inkscape - not needed
 
 -Do I need VMs or Docker images?
+  - It would be nice to try
+    - apps to run WIN programs/games
+    	- PlayOnLinux
+    	- WINE
 
 ========
 Errors and problems
