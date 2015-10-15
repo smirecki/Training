@@ -97,7 +97,8 @@ Keyboard -> Application Shortcuts
 				- crtl + alt + d
     	- open terminal
     		- super + t
-
+    	- paste in terminal
+    		- ctrl + alt + v  
 Adjustments - 
 	- change time to hh:mm:ss
 
@@ -126,7 +127,7 @@ Apps and programs -
 	- check version
 		- node -v ... versions below 0.11.12 do not support Promise(s)
 
-		- If it's too old, install newer verison	
+		- If it's too old, install newer version	
 		- http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
 			# Note the new setup script name for Node.js v0.12
 			curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
@@ -188,6 +189,11 @@ Notes:
 =======
 
 Sites:
+
+	- Info on XFCE4 appearance adjustment
+		-http://docs.xfce.org/xfce/xfce4-settings/appearance#menu_and_buttons
+	- Editable menu accelerators
+		- http://docs.xfce.org/faq
 	- Chapter 3. Getting to know your desktop environment 
 		-http://docs.xubuntu.org/1304/guide-desktop.html
 	- General theme site - 	http://gnome-look.org/
