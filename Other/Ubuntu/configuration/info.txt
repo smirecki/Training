@@ -85,7 +85,7 @@ xUbuntu -
 
 Keyboard -> Application Shortcuts 
     Custom:
-		- volume up/down/mute
+		- sound
 			- mute -- "amixer set Master 0%" - "Super+S"
 			- Volume down -- "amixer set Master 5%-" - "Super+A"
 			- Volume up -- "amixer set Master 5%+" - "Super+Q"
@@ -98,7 +98,9 @@ Keyboard -> Application Shortcuts
     	- open terminal
     		- super + t
     	- paste in terminal
-    		- ctrl + alt + v  
+    		- ctrl + alt + v
+    	- adjust window
+    		- alt + left click  
 Adjustments - 
 	- change time to hh:mm:ss
 
