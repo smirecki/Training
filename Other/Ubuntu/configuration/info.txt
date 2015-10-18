@@ -1,5 +1,4 @@
 xUbuntu - 
-	
 	Appearance
 		Themes/Style
 			- atom...
@@ -28,7 +27,6 @@ xUbuntu -
 			- Change to whatever suits you.
 		-Icons
 			- Icon size 35
-
 	Panel
 		- Display - Default 
 		- Appearance
@@ -137,7 +135,7 @@ Apps and programs -
 			# Then install with:
 			sudo apt-get install -y nodejs
 
-- Chrome
+- Chromium
 - Git
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
@@ -173,6 +171,7 @@ Apps and programs -
 	- Try "comix" or "mcomix"
 
 - Inkscape - not needed
+- Gimp - default installed
 
 -Do I need VMs or Docker images?
   - It would be nice to try
