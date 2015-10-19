@@ -1,8 +1,6 @@
 xUbuntu - 
 	Appearance
 		Themes/Style
-			- atom...
-				notes: lavender button highlights?
 			- Dorian-Flat-Root-3.16 
 				notes: chunky menus
 				dashes around boxes
