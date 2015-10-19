@@ -69,7 +69,12 @@ xUbuntu -
 		Keyboard, Focus, Advance - default
 			
 	Window Manager Tweaks
-		- Cycling, Focus, Accessibility, Workspaces, Placement
+		- Cycling, Focus
+			- default
+		- Accessibility
+			- default
+			- "Key used to grab and move windows: ALT"
+		- Workspaces, Placement
 			- default
 		- Compositor
 			- Opacity of window decorations: 85-90%
@@ -181,7 +186,7 @@ Apps and programs -
 
 ========
 Errors and problems
-
+	- Can you adjust the window/panel border width to allow better control? 
 
 =======
 Notes:
