@@ -6,7 +6,7 @@ xUbuntu -
 				dashes around boxes
 					- This fix didn't work for me - "In ~/.config/gtk-3.0/gtk.css add the following line:
 						.undershoot.top, .undershoot.right, .undershoot.bottom, .undershoot.left { background-image: none; }"
-			- elementary Dark *************
+			- elementary Dark (currently using)
 				- like Dorian, but without the dashed errors
 				- Software Center
 					- text bg color errors
@@ -15,7 +15,7 @@ xUbuntu -
 		Icons
 			- Flatter Dark
 			- sable
-			- Yosemite Icon *********
+			- Yosemite Icon (currently using)
 		Fonts
 			- default
 		Settings
@@ -41,7 +41,6 @@ xUbuntu -
 						Default...
 						Item icon size: Very Small
 						Category icon size: Very Small
-
 		- Items
 	Terminal Preferences
 		- Appearance
