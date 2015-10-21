@@ -12,3 +12,12 @@ One moon rotation = 24 hour and 50 minutes
 
 //===================================================
 
+Look into using Angular Material Design
+	- https://material.angularjs.org/latest/
+
+Json data problem with NOAA !!!! ERROR Fixed
+	- their Json data use to respond with an HTML page with json inside, not a simple json object.
+	- https://tidesandcurrents.noaa.gov/api/
+	- http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20130808 15:00&end_date=20130808 15:06&station=8454000&product=water_temperature&units=english&time_zone=gmt&application=ports_screen&format=json
+
+
