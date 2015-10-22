@@ -1,5 +1,6 @@
 logs/*
 !.gitkeep
+app/notes
 node_modules/
 bower_components/
 tmp
