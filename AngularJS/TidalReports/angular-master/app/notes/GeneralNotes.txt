@@ -4,7 +4,7 @@ AngularJS "parsing JSONP $http.jsonp() response in angular.js" stackoverflow--
 http://jsfiddle.net/subhaze/a4Rc2/114/
 
 
-Approxmating Tides: factors...
+Approximating Tides: factors...
 One day = 24 hours (One rotation of the earth).
 One moon rotation = 24 hour and 50 minutes
 
