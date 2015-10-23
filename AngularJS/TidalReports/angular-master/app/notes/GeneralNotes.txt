@@ -1,5 +1,10 @@
  
 
+To start the app:
+    - run "npm start"
+        - http://localhost:8000/app
+
+===========
 AngularJS "parsing JSONP $http.jsonp() response in angular.js" stackoverflow-- 
 http://jsfiddle.net/subhaze/a4Rc2/114/
 
@@ -20,4 +25,6 @@ Json data problem with NOAA !!!! ERROR Fixed
 	- https://tidesandcurrents.noaa.gov/api/
 	- http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20130808 15:00&end_date=20130808 15:06&station=8454000&product=water_temperature&units=english&time_zone=gmt&application=ports_screen&format=json
 
-
+Nice ng REST API example
+    - http://codepen.io/SitePoint/pen/YXXQxj
+    - maybe I can make a simple version in codepen of this Tides app idea.
