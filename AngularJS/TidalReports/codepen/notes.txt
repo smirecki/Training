@@ -16,4 +16,10 @@ Includes:
 ==========
 
 
+NOAA API info
+
+    - https://www.ncdc.noaa.gov/cdo-web/webservices/v2
+
+    Note: NCDC CDO Web Services requires a token to access data!  I don't think I can use this method to make a simple REST call using Codepen without exposing the token.
+
 
