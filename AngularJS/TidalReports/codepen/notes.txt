@@ -23,3 +23,75 @@ NOAA API info
 
     Note: NCDC CDO Web Services requires a token to access data!  I don't think I can use this method to make a simple REST call using Codepen without exposing the token.
 
+============
+ng calls
+{{ details.Title }}
+{{ details.Year }}
+{{ details.Released }}
+{{ details.Runtime }}
+{{ details.Plot }}
+{{ details.Director }}
+{{ details.Actors }}
+{{ details.Genre }}
+{{ details.imdbRating }}
+{{ details.tomatoRating}}
+
+built URL - <a ng-href="https://www.youtube.com/results?search_query={{ details.Title }}" target="_blank" class="btn btn-default btn-xs btn-info">Watch Trailers!</a>
+built URL - <a ng-href="http://subscene.com/subtitles/title?q={{ details.Title }}" target="_blank" class="btn btn-default btn-xs btn-info">Get Subtitles!</a>
+built URL - <a ng-href="http://www.theost.com/search/custom/?key={{ details.Title }}" target="_blank" class="btn btn-default btn-xs btn-info">Hear Soundtracks!</a>
+built URL - <a ng-href="http://www.amazon.in/s/ref=nb_sb_noss_1?url=search-alias%3Ddvd&field-keywords={{ details.Title }}" target="_blank" class="btn btn-default btn-xs btn-info">Buy this movie!</a>
+
+???  where is this calling to?
+    Call is to http://www.omdbapi.com/?s=FOO
+
+<a href="#" id="{{ $index + 1 }}" ng-click="update(movie)">{{ movie.Title }}</a>, {{ movie.Year }}
+
+=======
+API Call:
+http://www.omdbapi.com/?t=fargo&tomatoes=true&plot=full
+
+JSON return value:
+{"Title":"Fargo","Year":"1996","Rated":"R","Released":"05 Apr 1996","Runtime":"98 min","Genre":"Crime, Drama, Thriller","Director":"Joel Coen, Ethan Coen","Writer":"Ethan Coen, Joel Coen","Actors":"William H. Macy, Steve Buscemi, Peter Stormare, Kristin Rudrüd","Plot":"Jerry works in his father-in-law's car dealership and has gotten himself in financial problems. He tries various schemes to come up with money needed for a reason that is never really explained. It has to be assumed that his huge embezzlement of money from the dealership is about to be discovered by father-in-law. When all else falls through, plans he set in motion earlier for two men to kidnap his wife for ransom to be paid by her wealthy father (who doesn't seem to have the time of day for son-in-law). From the moment of the kidnapping, things go wrong and what was supposed to be a non-violent affair turns bloody with more blood added by the minute. Jerry is upset at the bloodshed, which turns loose a pregnant sheriff from Brainerd, MN who is tenacious in attempting to solve the three murders in her jurisdiction.","Language":"English","Country":"USA, UK","Awards":"Won 2 Oscars. Another 78 wins & 42 nominations.","Poster":"http://ia.media-imdb.com/images/M/MV5BMTgxNzY3MzUxOV5BMl5BanBnXkFtZTcwMDA0NjMyNA@@._V1_SX300.jpg","Metascore":"85","imdbRating":"8.2","imdbVotes":"405,227","imdbID":"tt0116282","Type":"movie","tomatoMeter":"94","tomatoImage":"certified","tomatoRating":"8.6","tomatoReviews":"84","tomatoFresh":"79","tomatoRotten":"5","tomatoConsensus":"Violent, quirky, and darkly funny, Fargo delivers an original crime story and a wonderful performance by McDormand.","tomatoUserMeter":"93","tomatoUserRating":"3.9","tomatoUserReviews":"230311","DVD":"24 Jun 1997","BoxOffice":"N/A","Production":"MGM","Website":"http://www.mgm.com/title_title.do?title_star=FARGO","Response":"True"}
+==
+[JSON converter  -  https://jsonformatter.curiousconcept.com/  ]
+
+
+{  
+   "Title":"Fargo",
+   "Year":"1996",
+   "Rated":"R",
+   "Released":"05 Apr 1996",
+   "Runtime":"98 min",
+   "Genre":"Crime, Drama, Thriller",
+   "Director":"Joel Coen, Ethan Coen",
+   "Writer":"Ethan Coen, Joel Coen",
+   "Actors":"William H. Macy, Steve Buscemi, Peter Stormare, Kristin Rudrüd",
+   "Plot":"Jerry works in his father-in-law's car dealership and has gotten himself in financial problems. He tries various schemes to come up with money needed for a reason that is never really explained. It has to be assumed that his huge embezzlement of money from the dealership is about to be discovered by father-in-law. When all else falls through, plans he set in motion earlier for two men to kidnap his wife for ransom to be paid by her wealthy father (who doesn't seem to have the time of day for son-in-law). From the moment of the kidnapping, things go wrong and what was supposed to be a non-violent affair turns bloody with more blood added by the minute. Jerry is upset at the bloodshed, which turns loose a pregnant sheriff from Brainerd, MN who is tenacious in attempting to solve the three murders in her jurisdiction.",
+   "Language":"English",
+   "Country":"USA, UK",
+   "Awards":"Won 2 Oscars. Another 78 wins & 42 nominations.",
+   "Poster":"http://ia.media-imdb.com/images/M/MV5BMTgxNzY3MzUxOV5BMl5BanBnXkFtZTcwMDA0NjMyNA@@._V1_SX300.jpg",
+   "Metascore":"85",
+   "imdbRating":"8.2",
+   "imdbVotes":"405,227",
+   "imdbID":"tt0116282",
+   "Type":"movie",
+   "tomatoMeter":"94",
+   "tomatoImage":"certified",
+   "tomatoRating":"8.6",
+   "tomatoReviews":"84",
+   "tomatoFresh":"79",
+   "tomatoRotten":"5",
+   "tomatoConsensus":"Violent, quirky, and darkly funny, Fargo delivers an original crime story and a wonderful performance by McDormand.",
+   "tomatoUserMeter":"93",
+   "tomatoUserRating":"3.9",
+   "tomatoUserReviews":"230311",
+   "DVD":"24 Jun 1997",
+   "BoxOffice":"N/A",
+   "Production":"MGM",
+   "Website":"http://www.mgm.com/title_title.do?title_star=FARGO",
+   "Response":"True"
+}
+
+!!!  The creator of this codepen also has his own REST API
+        - http://imdb.wemakesites.net/imdb-movie-and-actors-data-dumps.html
