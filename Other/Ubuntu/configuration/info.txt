@@ -179,7 +179,7 @@ Apps and programs -
   - It would be nice to try
     - apps to run WIN programs/games
     	- PlayOnLinux
-    	- WINE
+    	- WINE *
 
 ========
 Errors and problems
