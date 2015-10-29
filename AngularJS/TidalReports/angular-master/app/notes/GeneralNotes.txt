@@ -28,3 +28,50 @@ Json data problem with NOAA !!!! ERROR Fixed
 Nice ng REST API example
     - http://codepen.io/SitePoint/pen/YXXQxj
     - maybe I can make a simple version in codepen of this Tides app idea.
+
+====
+building a REST call
+http://tidesandcurrents.noaa.gov/api/datagetter?begin_date=20130808 15:00&end_date=20130808 15:06&station=8454000&product=water_temperature&units=english&time_zone=gmt&application=ports_screen&format=json
+
+http://tidesandcurrents.noaa.gov/api/datagetter?
+    begin_date=FOO&end_date=BAR&
+        1 - begin_date&end_date
+        2 - date
+        3 - begin_date&range
+        4 - end_date&range
+        5 - range
+        
+        January 1st, 2012 through January 2nd, 2012
+            begin_date=20120101&end_date=20120102
+        48 hours beginning on April 15, 2012
+            begin_date=20120415&range=48
+        48 hours ending on March 17, 2012
+            end_date=20120307&range=48
+        Today's data
+            date=today
+        The last 3 days of data
+            date=recent
+        The last data point available within the last 18 min
+            date=latest
+        The last 24 hours from now
+            range=24    <---- this one
+        The last 3 hours from now
+            range=3
+    
+    station=NUM&
+    product=water_temperature&
+        - datums  datums data for the stations.
+            -   MHHW  Mean Higher High Water
+                MHW Mean High Water
+                MTL Mean Tide Level    <--- this one
+                MSL Mean Sea Level
+                MLW Mean Low Water
+                MLLW    Mean Lower Low Water
+                NAVD    North American Vertical Datum
+                STND    Station Datum
+
+    units=english&
+    time_zone=gmt&
+    application=ports_screen&
+    format=json 
+
