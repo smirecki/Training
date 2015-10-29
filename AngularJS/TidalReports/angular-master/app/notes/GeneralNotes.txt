@@ -61,7 +61,7 @@ http://tidesandcurrents.noaa.gov/api/datagetter?
     station=NUM&
     product=water_temperature&
         - datums  datums data for the stations.
-            -   MHHW  Mean Higher High Water
+            The return values abbreviations -   MHHW  Mean Higher High Water
                 MHW Mean High Water
                 MTL Mean Tide Level    <--- this one
                 MSL Mean Sea Level
@@ -75,3 +75,7 @@ http://tidesandcurrents.noaa.gov/api/datagetter?
     application=ports_screen&
     format=json 
 
+Sample
+    http://tidesandcurrents.noaa.gov/api/datagetter?range=24&station=9410660&product=datums&units=english&time_zone=gmt&application=ports_screen&format=json
+return value
+    { "datums" : [ {"n":"MHHW", "v":"9.319"},{"n":"MHW", "v":"8.580"},{"n":"DTL", "v":"6.573"},{"n":"MTL", "v":"6.674"},{"n":"MSL", "v":"6.652"},{"n":"MLW", "v":"4.769"},{"n":"MLLW", "v":"3.827"},{"n":"GT", "v":"5.491"},{"n":"MN", "v":"3.812"},{"n":"DHQ", "v":"0.738"},{"n":"DLQ", "v":"0.941"},{"n":"NAVD", "v":"4.031"},{"n":"LWI", "v":"36.776"},{"n":"HWI", "v":"16.856"} ]}
