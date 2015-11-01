@@ -99,4 +99,11 @@ return value
 
         Test - data each hour, not every 6 minutes
         interval=h
-        http://tidesandcurrents.noaa.gov/api/datagetter?date=today&station=8518750&product=high_low&interval=h&units=english&time_zone=gmt&application=ports_screen&format=json
+        http://tidesandcurrents.noaa.gov/api/datagetter?date=today&station=8518750&product=datum&units=english&time_zone=gmt&application=ports_screen&format=json
+
+        Response
+        { "datums" : [ {"n":"MHHW", "v":"8.343"},{"n":"MHW", "v":"8.022"},{"n":"DTL", "v":"5.817"},{"n":"MTL", "v":"5.758"},{"n":"MSL", "v":"5.856"},{"n":"MLW", "v":"3.494"},{"n":"MLLW", "v":"3.287"},{"n":"GT", "v":"5.059"},{"n":"MN", "v":"4.528"},{"n":"DHQ", "v":"0.325"},{"n":"DLQ", "v":"0.207"},{"n":"NAVD", "v":"6.063"},{"n":"LWI", "v":"23.655"},{"n":"HWI", "v":"2.756"} ]}
+
+        { "datums" : [ {"n":"MHHW", "v":"30.741"},{"n":"MHW", "v":"30.423"},{"n":"DTL", "v":"29.511"},{"n":"MTL", "v":"29.577"},{"n":"MSL", "v":"29.567"},{"n":"MLW", "v":"28.730"},{"n":"MLLW", "v":"28.284"},{"n":"GT", "v":"2.457"},{"n":"MN", "v":"1.693"},{"n":"DHQ", "v":"0.318"},{"n":"DLQ", "v":"0.446"} ]}
+
+        One day's worth of Datums 
