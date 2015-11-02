@@ -4,7 +4,7 @@ $(function () {
             type: 'spline'
         },
         title: {
-            text: 'Tide',
+            text: 'Tidal Predictions',
             x: -20 //center
         },
         subtitle: {
@@ -35,7 +35,7 @@ $(function () {
             borderWidth: 0
         },
         series: [{
-            name: 'London',
+            name: 'The Battery NY, NY',
             data: [1.040, 1.093, 1.316, 1.658, 2.030, 2.330, 2.476, 2.418, 2.159, 1.749, 1.273, 0.834, 0.523, 0.404, 0.496, 0.771, 1.160, 1.571, 1.910, 2.102, 2.113, 1.950, 1.668, 1.347]
         }]
     });
