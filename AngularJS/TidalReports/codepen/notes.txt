@@ -6,6 +6,9 @@ Taking this CodePen example as the basis for a newer version of my Tides App.
     Fork - 
         http://codepen.io/anon/pen/yYvZvv
 
+    Highcharts code examples
+      - http://joekuan.org/Learning_Highcharts/
+
 Includes:
     - CSS
         - //maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css
