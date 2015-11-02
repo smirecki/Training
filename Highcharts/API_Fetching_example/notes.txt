@@ -1,0 +1,14 @@
+notes.txt
+
+data API URL
+    - finance.yahoo.com/webservice/v1/symbols/allcurrencies/quote?format=json&veiw=basic
+        - broken API call
+
+Highcharts Demo - Basic bar
+
+    www.highcharts.com/demo/bar-basic
+        - still works
+
+
+===
+He is using html boilerplate, modernizr-2.6.2min.js
