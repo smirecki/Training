@@ -179,6 +179,8 @@ Apps and programs -
   - It would be nice to try
     - apps to run WIN programs/games
     	- PlayOnLinux
+		- This app will ONLY support a short list of windows apps.
+			- Can you force it to try running other apps?
     	- WINE *
 
 ========
