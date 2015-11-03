@@ -1,0 +1,16 @@
+git log in a visual tree/rail style.
+
+- per  Ben Hoskings
+    - https://github.com/benhoskings/dot-files/blob/master/files/.zsh/git
+        - line 52
+
+- terminal line command
+    - git log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+
+You can add the following alias to your .gitconfig file
+    [alias]
+    # Log display, with train tracks.
+    l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+
+To use it in your terminal type
+    “git l” 
