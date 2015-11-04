@@ -80,7 +80,13 @@ xUbuntu -
 			- Opacity of windows during move: 75-80%
 			- Opacity of windows during resize: 95%
 			- Opacity of popup windows: 98%
-
+Application Finder
+	- You can change the icon for that app.
+		- type the name of the one you want
+		- right click it, select edit
+		- left click the icon for "Icon"
+		- In the "Select an icon" screen, choose a different icon.
+			- If the one you want isn't there, find an icon you want online and add it to /usr/share/icons/FooYourSelectedIconChoice/Source Files/apps  and .../FooYourSelectedIconChoice/48x48/apps
 =============
 
 Keyboard -> Application Shortcuts 
