@@ -8,6 +8,8 @@ What are some examples of proper API calls?
 
 http://tidesandcurrents.noaa.gov/stationhome.html?id=8518750
 
+Note:  11/05/2015  - 404 error with their API and API example page... Very poor service.
+
 
 
 
