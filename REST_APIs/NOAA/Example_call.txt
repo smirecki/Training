@@ -1038,3 +1038,9 @@ data
       }
    ]
 }
+
+
+http://tidesandcurrents.noaa.gov/api/datagetter?product=predictions&begin_date=today&datum=MLLW&station=8518750&time_zone=LST_LDT&units=english&format=json&application=NOS.COOPS.TAC.STATIONHOME
+
+
+http://tidesandcurrents.noaa.gov/api/datagetter?product=predictions&date=today&datum=MLLW&station=8518750&time_zone=LST_LDT&units=english&format=json
