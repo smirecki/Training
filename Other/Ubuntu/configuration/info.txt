@@ -164,6 +164,7 @@ Apps and programs -
 	- What does OS 10.10 use? San Francisco - "SanFranciscoFont"
 		- So far this is a very usable font
 - Media
+	- VLC for video, Clementine for Audio
 - Spotify
 	- https://www.spotify.com/us/download/linux/
 - Skype
