@@ -87,6 +87,12 @@ Application Finder
 		- left click the icon for "Icon"
 		- In the "Select an icon" screen, choose a different icon.
 			- If the one you want isn't there, find an icon you want online and add it to /usr/share/icons/FooYourSelectedIconChoice/Source Files/apps  and .../FooYourSelectedIconChoice/48x48/apps
+
+		- Problem
+			- new user added icon(s) are too large when asking to open a file in non-default program
+				- solution... 
+					- check if it needs a smaller version of that icon
+					- check if it needs an svg version of the icon, not a png
 =============
 
 Keyboard -> Application Shortcuts 
@@ -144,6 +150,10 @@ Apps and programs -
 			sudo apt-get install -y nodejs
 
 - Chromium
+- FireFox Developer edition
+	- sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+	- sudo apt-get update
+	- sudo apt-get install firefox
 - Git
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
