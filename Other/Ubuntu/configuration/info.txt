@@ -107,6 +107,8 @@ Keyboard -> Application Shortcuts
 		- Clear desktop
 			- default key combination
 				- crtl + alt + d
+		- Mousepad (Simple Text Editor)
+			- Super + E
     	- open terminal
     		- super + t
     	- paste in terminal
