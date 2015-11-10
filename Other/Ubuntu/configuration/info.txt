@@ -150,7 +150,10 @@ Apps and programs -
 
 			# Then install with:
 			sudo apt-get install -y nodejs
-
+- Mousepad Text Editor
+	- default install
+		- Get another text-file be opened in new tab
+			- Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
 - FireFox Developer edition
 	- sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
