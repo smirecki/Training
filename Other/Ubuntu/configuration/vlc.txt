@@ -1,0 +1,16 @@
+SOLVED] No sound after pausing VLC
+
+[http://xubuntugeek.blogspot.com/2013/01/solved-no-sound-after-pausing-vlc.html  ]
+Updated: 08/09/13
+Symptom
+There's no sound coming out of the speakers after pausing and resuming in VLC.
+Fix
+There are two alternative ways of solving this problem.
+Fix #1
+Open a terminal window and run:
+sudo apt-get install vlc-plugin-pulse -y
+Fix #2
+Open VLC preferences.
+Select "Show All Settings".
+Open Audio > Output Modules > ALSA
+Select your audio output device. You may have to try different values. Hit save, close and reopen VLC to test if the current value is the right one.
