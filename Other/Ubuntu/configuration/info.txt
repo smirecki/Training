@@ -212,11 +212,13 @@ Errors and problems
 =======
 Notes:
 - Screen will lock if video player app is open, playing or paused.
+- Update failure
+	- servers not responding
+	- bad configuration???
 
 =======
 
 Sites:
-
 	- Info on XFCE4 appearance adjustment
 		-http://docs.xfce.org/xfce/xfce4-settings/appearance#menu_and_buttons
 	- Editable menu accelerators
