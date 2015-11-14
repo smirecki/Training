@@ -1,0 +1,96 @@
+xUbuntu - 
+    Appearance
+        Themes/Style
+            - Dorian-Flat-Root-3.16 
+                notes: chunky menus
+                dashes around boxes
+                    - This fix didn't work for me - "In ~/.config/gtk-3.0/gtk.css add the following line:
+                        .undershoot.top, .undershoot.right, .undershoot.bottom, .undershoot.left { background-image: none; }"
+            - elementary Dark (currently using)
+                - like Dorian, but without the dashed errors
+                - Software Center
+                    - text bg color errors
+            - Vold 3.14 Dark
+                notes: middle gray
+        Icons
+            - Flatter Dark
+            - sable
+            - Yosemite Icon (currently using)
+        Fonts
+            - default
+        Settings
+            - default
+    Desktop
+        -Background - usr/share/xfec4/backdrops
+            - Change to whatever suits you.
+        -Icons
+            - Icon size 35
+    Panel
+        - Display - Default 
+        - Appearance
+            Background
+                Style: Solid color
+                Alpha: 80
+                Color: #3A3A3A
+            Opacity
+                Enter: 100
+                Leave:  90
+            Items
+                Whisker Menu
+                    Appearance
+                        Default...
+                        Item icon size: Very Small
+                        Category icon size: Very Small
+        - Items
+    Terminal Preferences
+        - Appearance
+            - Font - Inconsolata Medium 10
+                - http://www.levien.com/type/myfonts/inconsolata.html
+                
+    Theme Configuration
+        NOTE: adjusting here can fix menu text/bg light/dark problems
+        - Custom highlight colors - ON
+            Highlight background - #0021FF
+            Highlight text - #EEEEEE
+        - Custom panel colors - OFF
+            Panel background - #CCCCCC
+            Panel text - #333333
+        - Custom menu colors - ON
+            Menu background - #EEEEEE
+            Menu text - #333333
+    Window Manager
+        Style
+            Theme - Numix
+            Title font - Inconsolata Medium 10
+            Title Alignment - Center
+        Keyboard, Focus, Advance - default
+            
+    Window Manager Tweaks
+        - Cycling, Focus
+            - default
+        - Accessibility
+            - default
+            - "Key used to grab and move windows: ALT"
+        - Workspaces, Placement
+            - default
+        - Compositor
+            - Opacity of window decorations: 85-90%
+            - Opacity of inactive windows: 100% = opaque 
+                // Any transparency is bad for work with multi-windows
+            - Opacity of windows during move: 75-80%
+            - Opacity of windows during resize: 95%
+            - Opacity of popup windows: 98%
+            
+Application Finder
+    - You can change the icon for that app.
+        - type the name of the one you want
+        - right click it, select edit
+        - left click the icon for "Icon"
+        - In the "Select an icon" screen, choose a different icon.
+            - If the one you want isn't there, find an icon you want online and add it to /usr/share/icons/FooYourSelectedIconChoice/Source Files/apps  and .../FooYourSelectedIconChoice/48x48/apps
+
+- Problem
+    - new user added icon(s) are too large when asking to open a file in non-default program
+        - solution... 
+            - check if it needs a smaller version of that icon
+            - check if it needs an svg version of the icon, not a png
