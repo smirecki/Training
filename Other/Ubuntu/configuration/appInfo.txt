@@ -1,0 +1,79 @@
+Apps and programs - 
+- Vim, node, npm, expressjs,
+    - NOTE: apt-get node ... installs Amateur Packet Radio Node Program
+    - USE:  sudo apt-get install nodejs-legacy
+    - if you need to clean-up a wrong install
+        -http://askubuntu.com/questions/235655/node-js-conflicts-sbin-node-vs-usr-bin-node
+        -   sudo apt-get --purge remove node
+            sudo apt-get --purge remove nodejs-legacy
+            sudo apt-get --purge remove nodejs
+
+            sudo apt-get install nodejs-legacy
+
+            # Confirm it worked
+            node --version       # v0.10.13
+            ls -la `which node`  # ... /usr/bin/node -> /etc/alternatives/node
+    - check version
+        - node -v ... versions below 0.11.12 do not support Promise(s)
+
+        - If it's too old, install newer version    
+        - http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+            # Note the new setup script name for Node.js v0.12
+            curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+
+            # Then install with:
+            sudo apt-get install -y nodejs
+- Mousepad Text Editor
+    - default install
+        - Get another text-file be opened in new tab
+            - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
+- Chromium
+- FireFox Developer edition
+    - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+    - sudo apt-get update
+    - sudo apt-get install firefox
+- Git
+- Python - (v.3.4) Python Interpreter included
+- Sublime Text 2, jshint(linting for Sublime)
+    - must install Package Controller first
+- VLC, codex
+- Audio -Clementine
+    - Clementine has music streams, including SOMA FM station URLs built in.
+    - ERROR - "Gstreamer is missing plug-in"
+    FIX:
+        - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
+- still not working
+    - flux, redshift
+    - Brightness Controller "free" with account creation
+- Wallpaper aka "backdrops"
+    - Look into better slide show settings
+      - Can you get it to do a smooth fade transition in between images?
+- Search for better fonts or to chose better fonts
+    - What does OS 10.10 use? San Francisco - "SanFranciscoFont"
+        - So far this is a very usable font
+- Media
+    - VLC for video, Clementine for Audio
+- Spotify
+    - https://www.spotify.com/us/download/linux/
+- Skype
+    - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
+- Cheese - webcam software
+- Calibre
+    - software center
+    - Use this program to manage a Kindle White-paper
+    - the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.
+- .cbr viewer with rar decompression
+    - You must install unrar to allow any of these apps to open .cbr files, not just 7-zip (it won't work). 
+        - sudo apt-get install unrar
+    - Try "comix" or "mcomix"
+
+- Inkscape - not needed
+- Gimp - default installed
+
+-Do I need VMs or Docker images?
+  - It would be nice to try
+    - apps to run WIN programs/games
+        - PlayOnLinux
+        - This app will ONLY support a short list of windows apps.
+            - Can you force it to try running other apps?
+        - WINE *
