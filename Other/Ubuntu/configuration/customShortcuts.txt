@@ -1,0 +1,20 @@
+Keyboard -> Application Shortcuts 
+Custom:
+    - sound
+        - mute -- "amixer set Master 0%" - "Super+S"
+        - Volume down -- "amixer set Master 5%-" - "Super+A"
+        - Volume up -- "amixer set Master 5%+" - "Super+Q"
+    - screen lock
+        - lock -- "xflock4" - "Super+L"
+Default: (reminder)
+    - Clear desktop
+        - default key combination
+            - crtl + alt + d
+    - Mousepad (Simple Text Editor)
+        - Super + E
+    - open terminal
+        - super + t
+    - paste in terminal
+        - ctrl + alt + v
+    - adjust window
+        - alt + left click  
