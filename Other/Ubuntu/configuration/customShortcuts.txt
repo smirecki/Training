@@ -1,4 +1,7 @@
-Keyboard -> Application Shortcuts 
+Make edits here
+	Keyboard -> Application Shortcuts 
+and here
+	Settings -> Window Manager -> Keyboard  (this area has more presets)
 Custom:
     - sound
         - mute -- "amixer set Master 0%" - "Super+S"
@@ -6,6 +9,8 @@ Custom:
         - Volume up -- "amixer set Master 5%+" - "Super+Q"
     - screen lock
         - lock -- "xflock4" - "Super+L"
+		- Clear desktop
+				- super + d
 Default: (reminder)
     - Clear desktop
         - default key combination
@@ -17,4 +22,6 @@ Default: (reminder)
     - paste in terminal
         - ctrl + alt + v
     - adjust window
-        - alt + left click  
+        - alt + left click
+		- file manager open
+				- super + f  
