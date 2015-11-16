@@ -25,3 +25,8 @@ Default: (reminder)
         - alt + left click
 		- file manager open
 				- super + f  
+
+====================
+problems -
+	- Window manager keybindings don't work after reboot
+		- https://bugs.launchpad.net/ubuntu/+source/xfwm4/+bug/1292290
