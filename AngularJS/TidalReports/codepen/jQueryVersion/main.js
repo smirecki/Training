@@ -7,12 +7,15 @@ $("document").ready(function(){
 
 function getJsonFromServer() {
   console.log("2");
-  var dataInput = $("data").val();
+  //var dataInput = $("data").val();
+  //var dataInput = $('#Form').find('input[data]');
+  var dataInput = $('input').val();
   console.log(dataInput);
+  //console.log(dataInput);
   $.ajax({
+    //var dataInput = $('input').val(),
     type: "GET",
-    url: "http://www.omdbapi.com/?t=" + "Alien",
-    data: { get_param: 'value' },
+    url: "http://www.omdbapi.com/?t=" + $('input').val(),
     datatype: "json",
     success: postToPage
     });
@@ -20,16 +23,27 @@ function getJsonFromServer() {
 
 function postToPage(data) {
   console.log("3");
-  //console.log(data);
+  console.log(data);
+  /*
   $.each(data, function(index, value) {
     console.log(index + ": " + value);
   });
+*/
   $.each(data, function(index, value){
     //var Title = $(this).find('Title').text();
     //$('<div class="Title"></div>').html('Title').appendTo('#main-info');
-    $('body').append($('<div>', { text: value
+    $('#main-info').append($('<div>', { text: index + " : " + value
     }));
   });
+  //var Title = data.Title;
+  //var Year = $(data).find('Year');
+  $('#Title').append("Title : " + data.Title);
+  //$('body').append(data.Year);
+  //var data2 = $(this);
+  //console.log(data2);
+  //var Metascore = $(data).find('Metascore').text();
+  //console.log('Metascore' + " : " + Metascore);
+  //$('<div class="Title"></div>').html('Title').appendTo('#main-info');
 }
   /*
   var id = $(this).attr('id');
