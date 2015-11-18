@@ -35,5 +35,6 @@ angular.module('myApp', [])
 
     $scope.select = function() {
       this.setSelectionRange(0, this.value.length);
-    }
+    };
   });
+  
