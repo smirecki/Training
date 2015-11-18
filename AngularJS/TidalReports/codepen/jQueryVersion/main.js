@@ -12,6 +12,7 @@ function getJsonFromServer() {
   $.ajax({
     type: "GET",
     url: "http://www.omdbapi.com/?t=" + "Alien",
+    data: { get_param: 'value' },
     datatype: "json",
     success: postToPage
     });
@@ -19,13 +20,15 @@ function getJsonFromServer() {
 
 function postToPage(data) {
   console.log("3");
-  console.log(data);
+  //console.log(data);
   $.each(data, function(index, value) {
     console.log(index + ": " + value);
   });
-  $.each(data, function(){
-    var Title = $(this).find('Title').text();
-    $('<div class="Title"></div>').html('Title').appendTo('#main-info');
+  $.each(data, function(index, value){
+    //var Title = $(this).find('Title').text();
+    //$('<div class="Title"></div>').html('Title').appendTo('#main-info');
+    $('body').append($('<div>', { text: value
+    }));
   });
 }
   /*
