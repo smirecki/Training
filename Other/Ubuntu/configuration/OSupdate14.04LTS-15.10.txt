@@ -1,0 +1,13 @@
+OSupdate14.04LTS-15.10.txt
+
+
+
+Problems with new install from 14.04 LTS to 15.10 -
+    
+    - Appearance
+        - File Manager
+            - Missing icons
+                - txt, mkv, epub, zip, opf, img, fooMadeUpName...
+        - Desktop
+            - File System Icon different and low quality when enlarged
+            
