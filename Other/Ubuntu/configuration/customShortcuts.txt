@@ -30,3 +30,6 @@ Default: (reminder)
 problems -
 	- Window manager keybindings don't work after reboot
 		- https://bugs.launchpad.net/ubuntu/+source/xfwm4/+bug/1292290
+        - possible solution
+            - clear preset key combo twice to clear new combo and old combo, then reenter new combo
+            
