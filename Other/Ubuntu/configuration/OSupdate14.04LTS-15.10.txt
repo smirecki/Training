@@ -10,4 +10,6 @@ Problems with new install from 14.04 LTS to 15.10 -
                 - txt, mkv, epub, zip, opf, img, fooMadeUpName...
         - Desktop
             - File System Icon different and low quality when enlarged
-            
+    - Open with settings were changed
+        - notepad instead of mousepad
+	- still a problem!!!
