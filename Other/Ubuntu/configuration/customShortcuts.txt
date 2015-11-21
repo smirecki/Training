@@ -1,4 +1,4 @@
-Make edits here
+zMake edits here
 	Keyboard -> Application Shortcuts 
 and here
 	Settings -> Window Manager -> Keyboard  (this area has more presets)
@@ -12,6 +12,8 @@ Custom:
 		- Clear desktop
 				- super + d
 Default: (reminder)
+    - open app finder
+        Super + z
     - Clear desktop
         - default key combination
             - crtl + alt + d
