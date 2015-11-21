@@ -61,7 +61,7 @@ xUbuntu -
     Window Manager
         Style
             Theme - Numix
-            Title font - Inconsolata Medium 10
+            Title font - SF ---- Inconsolata Medium 10
             Title Alignment - Center
         Keyboard, Focus, Advance - default
             
@@ -80,6 +80,10 @@ xUbuntu -
             - Opacity of windows during move: 75-80%
             - Opacity of windows during resize: 95%
             - Opacity of popup windows: 98%
+
+Window and files - File Manager Preferences
+    - View -> view as detailed list
+    - Edit -> preferences
             
 Application Finder
     - You can change the icon for that app.
