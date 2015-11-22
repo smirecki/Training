@@ -32,6 +32,8 @@ Apps and programs -
     - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
     - sudo apt-get update
     - sudo apt-get install firefox
+- Midori
+    - too slow after OS upgrade
 - Git
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
@@ -40,6 +42,7 @@ Apps and programs -
 - Audio -Clementine
     - Clementine has music streams, including SOMA FM station URLs built in.
     - ERROR - "Gstreamer is missing plug-in"
+    - UI color theme lost after OS update
     FIX:
         - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
 - still not working
