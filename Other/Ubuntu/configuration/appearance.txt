@@ -17,7 +17,7 @@ xUbuntu -
             - sable
             - Yosemite Icon (currently using)
         Fonts
-            - default
+            - SF
         Settings
             - default
     Desktop
