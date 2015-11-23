@@ -36,3 +36,4 @@ problems -
             - Clear preset key combo twice to clear new combo and old combo, then reenter new combo.
             - This worked!
 	- xflock - keyboard shortcut not working after OS update and not auto locking
+		- Working again... auto update?

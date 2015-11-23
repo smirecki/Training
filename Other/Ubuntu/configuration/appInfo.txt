@@ -34,6 +34,7 @@ Apps and programs -
     - sudo apt-get install firefox
 - Midori
     - too slow after OS upgrade
+	- a little improved, still not good enough
 - Git
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)

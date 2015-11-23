@@ -98,3 +98,4 @@ Application Finder
         - solution... 
             - check if it needs a smaller version of that icon
             - check if it needs an svg version of the icon, not a png
+    - OS theme still damaged after OS update.

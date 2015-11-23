@@ -1,5 +1,5 @@
 OSupdate14.04LTS-15.10.txt
-
+	- Start-up screen now showing 15.10 version.
 
 
 Problems with new install from 14.04 LTS to 15.10 -
