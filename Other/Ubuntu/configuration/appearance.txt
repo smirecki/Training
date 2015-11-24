@@ -1,12 +1,12 @@
 xUbuntu - 
     Appearance
         Themes/Style
-            - Dorian-Flat-Root-3.16 
+            - Dorian-Flat-Root-3.16 (currently using)
                 notes: chunky menus
                 dashes around boxes
                     - This fix didn't work for me - "In ~/.config/gtk-3.0/gtk.css add the following line:
                         .undershoot.top, .undershoot.right, .undershoot.bottom, .undershoot.left { background-image: none; }"
-            - elementary Dark (currently using)
+            - elementary Dark 
                 - like Dorian, but without the dashed errors
                 - Software Center
                     - text bg color errors
@@ -15,7 +15,8 @@ xUbuntu -
         Icons
             - Flatter Dark
             - sable
-            - Yosemite Icon (currently using)
+            - Yosemite Icon 
+	    - Ubuntu-Mono-Dark (currently using)
         Fonts
             - SF
         Settings
