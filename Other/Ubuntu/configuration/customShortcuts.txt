@@ -18,7 +18,7 @@ Default: (reminder)
         - default key combination
             - crtl + alt + d
     - Mousepad (Simple Text Editor)
-        - Super + E
+        - Super + e
     - open terminal
         - super + t
     - paste in terminal

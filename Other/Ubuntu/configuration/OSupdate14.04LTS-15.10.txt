@@ -12,6 +12,7 @@ Problems with new install from 14.04 LTS to 15.10 -
 		- fixed by changing Icon/themes, but this is a work-around not a fix.
         - Desktop
             - File System Icon different and low quality when enlarged
+                - fixed with different icon pack
     - Open with settings were changed
         - notepad instead of mousepad
 		- changes have been resolved with autoupdates
