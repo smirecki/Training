@@ -25,14 +25,20 @@ Apps and programs -
             sudo apt-get install -y nodejs
 - Mousepad Text Editor
     - default install
+    - View -> color scheme -> classic
         - Get another text-file be opened in new tab
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
 - FireFox Developer edition
-    - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
-    - sudo apt-get update
-    - sudo apt-get install firefox
+    - Install
+        - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+        - sudo apt-get update
+        - sudo apt-get install firefox
+    - no script
+    - ab plus
+    
 - Midori
+    - no script, no cookies
     - too slow after OS upgrade
 	- a little improved, still not good enough
 - Git
