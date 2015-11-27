@@ -29,6 +29,7 @@ Apps and programs -
         - Get another text-file be opened in new tab
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
+    - AB Plus
 - FireFox Developer edition
     - Install
         - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
@@ -46,7 +47,9 @@ Apps and programs -
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
 - VLC, codex
+    - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
 - Audio -Clementine
+    - Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
     - Clementine has music streams, including SOMA FM station URLs built in.
     - ERROR - "Gstreamer is missing plug-in"
     - UI color theme lost after OS update
