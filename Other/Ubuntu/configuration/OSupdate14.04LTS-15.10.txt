@@ -1,8 +1,8 @@
-OSupdate14.04LTS-15.10.txt
-	- Start-up screen now showing 15.10 version.
+OSupdate14.04LTS-15.04.txt
+	- Start-up screen now showing 15.04 version.
 
 
-Problems with new install from 14.04 LTS to 15.10 -
+Problems with new install from 14.04 LTS to 15.04 -
     
     - Appearance
         - File Manager
@@ -17,3 +17,7 @@ Problems with new install from 14.04 LTS to 15.10 -
         - notepad instead of mousepad
 		- changes have been resolved with autoupdates
 	- still a problem!!!
+
+Newer update 15.10, Wily Werewolf
+	- no new problems
+	- no fixed problems
