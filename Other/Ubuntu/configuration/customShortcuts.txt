@@ -37,3 +37,5 @@ problems -
             - This worked!
 	- xflock - keyboard shortcut not working after OS update and not auto locking
 		- Working again... auto update?
+    - Laptop 14.4
+        - ctrl + a (select all) -- error with another key binding
