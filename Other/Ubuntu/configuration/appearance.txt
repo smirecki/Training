@@ -47,6 +47,7 @@ xUbuntu -
         - Appearance
             - Font - Inconsolata Medium 10
                 - http://www.levien.com/type/myfonts/inconsolata.html
+        - Colors -> Vary the background color for each tab
                 
     Theme Configuration
         NOTE: adjusting here can fix menu text/bg light/dark problems
