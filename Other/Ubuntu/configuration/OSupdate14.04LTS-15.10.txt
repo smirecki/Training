@@ -19,6 +19,8 @@ Problems with new install from 14.04 LTS to 15.04 -
 	- still a problem!!!
 
 Newer update 15.10, Wily Werewolf
+    - Showing basic black start
+    - Laptop showing blue at start v14-LTS
 	- no fixed problems
     
     - Problems
