@@ -12,6 +12,8 @@ xUbuntu -
                     - text bg color errors
             - Vold 3.14 Dark
                 notes: middle gray
+	    - Numix
+		- nice all black
         Icons
             - Flatter Dark
             - sable
