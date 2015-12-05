@@ -104,3 +104,5 @@ Application Finder
             - check if it needs an svg version of the icon, not a png
     - OS theme still damaged after OS update.
 	- Check if the theme can be repaired if missing parts or why old theme lost elements
+    - Check that adding a theme only requires putting the theme pack in the proper folder
+	- having a problem with adding a theme 
