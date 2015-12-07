@@ -20,3 +20,5 @@ Fix #2
 UI
 Down-graded to basic after OS update.  You can download skins.
 
+- Default install has modern UI on 14.x
+

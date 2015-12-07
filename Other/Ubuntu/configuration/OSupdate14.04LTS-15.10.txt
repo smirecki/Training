@@ -6,7 +6,7 @@ Problems with new install from 14.04 LTS to 15.04 -
     
     - Appearance
         - File Manager
-						- Missing drive eject icon
+	    - Missing drive eject icon
             - Missing icons
                 - txt, mkv, epub, zip, opf, img, fooMadeUpName...
 		- fixed by changing Icon/themes, but this is a work-around not a fix.
