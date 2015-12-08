@@ -1,11 +1,11 @@
 xUbuntu - 
 =============
 Adjustments - 
-    - change time to hh:mm:ss
+    - Change time to hh:mm:ss
 
-    - adjusting desktop icon size
+    - Adjusting desktop icon size
         -
-    - customize the File Manager
+    - Customize the File Manager
         - If you do not like the way the icons are displayed, choose View → View as Detailed List to have the contents of the current directory displayed as a list.
 ==============
 Errors and problems
