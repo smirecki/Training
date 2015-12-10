@@ -2,7 +2,6 @@ xUbuntu -
 =============
 Adjustments - 
     - Change time to hh:mm:ss
-
     - Adjusting desktop icon size
         -
     - Customize the File Manager
