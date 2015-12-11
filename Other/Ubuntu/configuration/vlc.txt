@@ -10,7 +10,7 @@ Fix
 Fix #1
     - Open a terminal window and run:
     - sudo apt-get install vlc-plugin-pulse -y
-Fix #2
+Fix #2  < This worked for me
     - Open VLC preferences -> audio
     - Select "Show All Settings".
     - Open Audio > Output Modules > ALSA
@@ -21,7 +21,8 @@ UI
 Down-graded to basic after OS update.  You can download skins.
 
 - Default install has modern UI on 14.x
-- Try to uninstall/restart/reinstall to force UI fix.
+
+Fix - Try to uninstall/restart/reinstall to force UI fix.
 	- restart...
 	- Yes, this worked.
 
