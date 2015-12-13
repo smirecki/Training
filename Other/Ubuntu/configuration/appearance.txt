@@ -16,7 +16,7 @@ xUbuntu -
 		- nice all black
         Icons
             - Flatter Dark
-            - sable
+            - Sable
             - Yosemite Icon 
 	    - Ubuntu-Mono-Dark (currently using)
         Fonts
@@ -103,6 +103,7 @@ Application Finder
             - check if it needs a smaller version of that icon
             - check if it needs an svg version of the icon, not a png
     - OS theme still damaged after OS update.
+        - no auto fix
 	- Check if the theme can be repaired if missing parts or why old theme lost elements
     - Check that adding a theme only requires putting the theme pack in the proper folder
 	- having a problem with adding a theme 
