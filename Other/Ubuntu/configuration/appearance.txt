@@ -102,6 +102,7 @@ Application Finder
         - solution... 
             - check if it needs a smaller version of that icon
             - check if it needs an svg version of the icon, not a png
+            - looks to be related to the damaged theme/icons after os update.
     - OS theme still damaged after OS update.
         - no auto fix
 	- Check if the theme can be repaired if missing parts or why old theme lost elements
