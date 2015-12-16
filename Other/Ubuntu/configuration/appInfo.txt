@@ -83,6 +83,7 @@ Apps and programs -
 
 - Inkscape - not needed
 - Gimp - default installed
+- Stopwatch
 
 -Do I need VMs or Docker images?
   - It would be nice to try
