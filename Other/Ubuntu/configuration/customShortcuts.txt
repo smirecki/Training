@@ -6,8 +6,9 @@ Custom:
     - sound
         - mute -- "amixer set Master 0%" - "Super+S"
             - doesn't go down to 0%
-                - UI volume bar shows 10-20% left and sounds still plays low
+                - UI volume bar shows 10-20% left and sounds still plays low when speakers are at full volume
             - try "amixer -D pulse sset Master 0%"
+                - This works, but locks the volume at 0% and won't allow it to be adjusted afterward with custom keys
                 - url - http://askubuntu.com/questions/454955/using-amixer-to-control-volume
         - Volume down -- "amixer set Master 5%-" - "Super+A"
         - Volume up -- "amixer set Master 5%+" - "Super+Q"
