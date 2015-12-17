@@ -48,14 +48,16 @@ Apps and programs -
     - must install Package Controller first
 - VLC, codex
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
-- Audio -Clementine
-    - Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
-    - Clementine has music streams, including SOMA FM station URLs built in.
-    - ERROR - "Gstreamer is missing plug-in"
-    - UI color theme lost after OS update
-    FIX:
-        - Changing the bg/forground color improves this.        
-    - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
+- Audio 
+    -Clementine
+        - equalizer - techo preset or zero
+        - Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
+        - Clementine has music streams, including SOMA FM station URLs built in.
+        - ERROR - "Gstreamer is missing plug-in"
+        - UI color theme lost after OS update
+        FIX:
+            - Changing the bg/forground color improves this.        
+        - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
 - still not working
     - flux, redshift
     - Brightness Controller "free" with account creation
@@ -84,6 +86,9 @@ Apps and programs -
 - Inkscape - not needed
 - Gimp - default installed
 - Stopwatch
+- PDF Reader 
+    - Document Viewer, not great
+    - Calibre opens Document Viewer to read PDFs
 
 -Do I need VMs or Docker images?
   - It would be nice to try
