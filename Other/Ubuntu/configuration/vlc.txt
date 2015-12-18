@@ -26,3 +26,7 @@ Fix - Try to uninstall/restart/reinstall to force UI fix.
 	- restart...
 	- Yes, this worked.
 
+=====
+Slow Visuals
+    - good movement and frame rate at loqw res, very bad with dropped frames at full
+
