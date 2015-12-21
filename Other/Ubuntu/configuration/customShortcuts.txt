@@ -1,4 +1,4 @@
-zMake edits here
+Make edits here
 	Keyboard -> Application Shortcuts 
 and here
 	Settings -> Window Manager -> Keyboard  (this area has more presets)
