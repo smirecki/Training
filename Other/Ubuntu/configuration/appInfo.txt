@@ -63,6 +63,7 @@ Apps and programs -
     - flux, redshift
     - Brightness Controller "free" with account creation
 - Wallpaper aka "backdrops"
+    - usr/share/xfce4/backdrops
     - Look into better slide show settings
       - Can you get it to do a smooth fade transition in between images?
 - Search for better fonts or to chose better fonts
