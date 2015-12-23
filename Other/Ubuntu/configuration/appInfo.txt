@@ -91,6 +91,10 @@ Apps and programs -
 - PDF Reader 
     - Document Viewer, not great
     - Calibre opens Document Viewer to read PDFs
+- synergy-project app
+    - https://github.com/synergy/synergy
+    - https://help.ubuntu.com/community/SynergyHowto
+    
 
 -Do I need VMs or Docker images?
   - It would be nice to try
