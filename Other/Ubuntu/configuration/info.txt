@@ -39,3 +39,14 @@ Sites:
 		- http://worldofgnome.org/making-gtk3-themes-part-1-basics/
 		- Python Widget Factory
 			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
+
+======
+X-server toast on graphics driver update
+Nvidia 304 on-board, card 334
+
+Grub boot load Recovery
+ctrl + alt + f1 (or through f7)... f7 should be runlevel n 5
+runlevel,
+manual mounting usb drive, find name of drive, create folder, mount drive, unmount drive
+
+Lot of failed ppa updates... why?  
