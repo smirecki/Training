@@ -50,3 +50,12 @@ runlevel,
 manual mounting usb drive, find name of drive, create folder, mount drive, unmount drive
 
 Lot of failed ppa updates... why?  
+
+Reinstall V14 LTS 
+	- poor quality video and rocky load screens
+	- update Nvidia graphics driver
+		- improved graphics, driver install success
+			- 1080p x 2 videos - 65-75% CPU usage, Steam Team Fort works
+			- Graphic test programs needs to be run
+		- check for poor start screens
+		- need to install and configure whole system
