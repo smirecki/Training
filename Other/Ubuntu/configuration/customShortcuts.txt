@@ -15,12 +15,12 @@ Custom:
 
     - screen lock
         - lock -- "xflock4" - "Super+L"
-		- Clear desktop
+		- Clear desktop - "Show Desktop"
 				- super + d
 Default: (reminder)
     - open app finder
         Super + z
-    - Clear desktop
+    - Clear desktop - "Show Desktop"
         - default key combination
             - crtl + alt + d
     - Mousepad (Simple Text Editor)
