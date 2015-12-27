@@ -56,6 +56,8 @@ Reinstall V14 LTS
 	- update Nvidia graphics driver
 		- improved graphics, driver install success
 			- 1080p x 2 videos - 65-75% CPU usage, Steam Team Fort works
+			- 720p X 2 videos - 45%
 			- Graphic test programs needs to be run
 		- check for poor start screens
+			- improved start screen, no red lines or all black bg/fg
 		- need to install and configure whole system
