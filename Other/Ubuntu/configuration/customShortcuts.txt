@@ -3,36 +3,25 @@ Make edits here
 and here
 	Settings -> Window Manager -> Keyboard  (this area has more presets)
 Custom:
-    - sound
-        - mute -- "amixer set Master 0%" - "Super+S"
-            - doesn't go down to 0%
-                - UI volume bar shows 10-20% left and sounds still plays low when speakers are at full volume
-            - try "amixer -D pulse sset Master 0%"
-                - This works, but locks the volume at 0% and won't allow it to be adjusted afterward with custom keys
-                - url - http://askubuntu.com/questions/454955/using-amixer-to-control-volume
-        - Volume down -- "amixer set Master 5%-" - "Super+A"
-        - Volume up -- "amixer set Master 5%+" - "Super+Q"
-
-    - screen lock
-        - lock -- "xflock4" - "Super+L"
-		- Clear desktop - "Show Desktop"
-				- super + d
+    - Volume down --    "amixer set Master 5%-" - "Super+A"
+    - Volume up --      "amixer set Master 5%+" - "Super+Q"
+    - mute --           "amixer set Master 0%" - "Super+S"
+    - Clear desktop -   "Show Desktop" - super + d
+    - screen lock --    "xflock4"
+    - notes:
+        - doesn't go down to 0%
+            - UI volume bar shows 10-20% left and sounds still plays low when speakers are at full volume
+        - try "amixer -D pulse sset Master 0%"
+               - This works, but locks the volume at 0% and won't allow it to be adjusted afterward with custom keys - url - http://- notes:buntu.com/questions/454955/using-amixer-to-control-volume
+    
 Default: (reminder)
-    - open app finder
-        Super + z
-    - Clear desktop - "Show Desktop"
-        - default key combination
-            - crtl + alt + d
-    - Mousepad (Simple Text Editor)
-        - Super + e
-    - open terminal
-        - super + t
-    - paste in terminal
-        - ctrl + alt + v
-    - adjust window
-        - alt + left click
-		- file manager open
-				- super + f  
+    - open app finder               - Super + z
+    - Clear desktop - "Show Desktop"- crtl + alt + d
+    - Mousepad (Simple Text Editor) - Super + e
+    - open terminal                 - super + t
+    - paste in terminal             - ctrl + alt + v
+    - adjust Window                 - alt + left click
+	- file manager open				- super + f  
 
 ====================
 problems -
