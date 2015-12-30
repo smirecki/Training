@@ -10,6 +10,7 @@ Adjustments -
 Errors and problems
 	- Can you adjust the OS window/panel border width to allow better control?
         - no info found
+        - windows can have larger target area with some themes.
 
 =======
 Notes:
