@@ -10,6 +10,7 @@ Adjustments -
 Errors and problems
 	- Can you adjust the OS window/panel border width to allow better control?
         - no info found
+        - windows can have larger target area with some themes.
 
 =======
 Notes:
@@ -41,3 +42,26 @@ Sites:
 		- http://worldofgnome.org/making-gtk3-themes-part-1-basics/
 		- Python Widget Factory
 			-http://gtk-apps.org/content/show.php/Python+Widget+Factory?content=161617
+
+======
+X-server toast on graphics driver update
+Nvidia 304 on-board, card 334
+
+Grub boot load Recovery
+ctrl + alt + f1 (or through f7)... f7 should be runlevel n 5
+runlevel,
+manual mounting usb drive, find name of drive, create folder, mount drive, unmount drive
+
+Lot of failed ppa updates... why?  
+
+Reinstall V14 LTS 
+	- poor quality video and rocky load screens
+	- update Nvidia graphics driver
+		- improved graphics, driver install success
+			- 1080p x 2 videos - 65-75% CPU usage, Steam Team Fort works
+			- 720p X 2 videos - 45%
+			- Graphic test programs needs to be run
+		- check for poor start screens
+			- improved start screen, no red lines or all black bg/fg
+		- need to install and configure whole system
+		- adjust screens with Settings --> NVIDIA X Server Settings "352.63"

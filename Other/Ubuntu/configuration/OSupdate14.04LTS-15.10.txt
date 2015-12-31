@@ -27,3 +27,6 @@ Newer update 15.10, Wily Werewolf
         - settings lost in terminal
             - colors
             - commands, ls
+- Nvidia driver errors
+	- x-server shutdown, gcc same version
+
