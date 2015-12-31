@@ -25,7 +25,7 @@ Apps and programs -
             sudo apt-get install -y nodejs
 - Mousepad Text Editor
     - default install
-    - View -> color scheme -> classic
+    - View -> color scheme -> classic (Use "Oblivion" if default bg is white, bg should be black after theme change)
         - Get another text-file be opened in new tab
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
@@ -47,12 +47,16 @@ Apps and programs -
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
-- VLC, codex
+- VLC, codex (what codex?)
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
+		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
 - Audio 
     -Clementine
         - equalizer - techo preset or zero
-        - Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
+        - Preferences -> Appearance
+					- Colors - "Use a custom color set"
+						- foreground/bg color ...
+						- "No bg image"
         - Clementine has music streams, including SOMA FM station URLs built in.
         - ERROR - "Gstreamer is missing plug-in"
         - UI color theme lost after OS update
@@ -94,7 +98,7 @@ Apps and programs -
 - synergy-project app
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
-    
+- Dropbox    
 
 -Do I need VMs or Docker images?
   - It would be nice to try
@@ -103,3 +107,4 @@ Apps and programs -
         - This app will ONLY support a short list of windows apps.
             - Can you force it to try running other apps?
         - WINE *
+		- What are the security concerns using Windows apps on Linux, escalation of privileges? 
