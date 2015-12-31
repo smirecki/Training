@@ -1,0 +1,12 @@
+Xflock4 is the Command to lock the screen.
+
+Note - Light Locker Settings - This can over ride xflock4 default locking key shortcut with Locking "OFF"
+
+
+
+
+Links:
+	- http://xubuntu.org/news/screen-locking-in-xubuntu-14-04/
+	- http://askubuntu.com/questions/450443/light-locker-stops-background-activities-eg-music-playback-when-screen-is-loc
+
+
