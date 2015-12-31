@@ -15,6 +15,8 @@ Errors and problems
 Notes:
 - Screen will not lock if VLC video player app is open, playing or paused.  Screen no longer auto locks when idle on version 15.x.
 - Default Screen lock with LTS 14.x, version 15.x does not.
+	- Adjusting Screen lock
+			- http://xubuntu.org/news/screen-locking-in-xubuntu-14-04/
 - Update failure
 	- servers not responding
 	- bad configuration???
