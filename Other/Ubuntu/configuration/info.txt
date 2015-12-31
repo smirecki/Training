@@ -62,3 +62,4 @@ Reinstall V14 LTS
 		- check for poor start screens
 			- improved start screen, no red lines or all black bg/fg
 		- need to install and configure whole system
+		- adjust screens with Settings --> NVIDIA X Server Settings "352.63"
