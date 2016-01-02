@@ -30,3 +30,6 @@ Newer update 15.10, Wily Werewolf
 - Nvidia driver errors
 	- x-server shutdown, gcc same version
 
+===========================================
+Downgraded to 14.x TLS
+
