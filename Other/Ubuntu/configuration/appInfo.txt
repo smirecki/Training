@@ -98,7 +98,17 @@ Apps and programs -
 - synergy-project app
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
-- Dropbox    
+- Dropbox
+- lm-sensors
+	- Linux Temp
+		- install lm-sensors
+			-sudo apt-get install lm-sensors 
+					After installation type the following in terminal
+			- sudo sensors-detect
+					You may also need to run
+			- sudo service kmod start
+					It will ask you few questions.Answer Yes for all of them.Finally to get your CPU temperature type sensors in terminal.
+	- http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
 
 -Do I need VMs or Docker images?
   - It would be nice to try
