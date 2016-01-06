@@ -65,3 +65,27 @@ Reinstall V14 LTS
 			- improved start screen, no red lines or all black bg/fg
 		- need to install and configure whole system
 		- adjust screens with Settings --> NVIDIA X Server Settings "352.63"
+==========
+SublimeText
+	- installing via commandline PPA (http://askubuntu.com/questions/521265/how-to-install-sublime-text-2-instead-of-3-from-webupd8team-ppa)
+		- sudo add-apt-repository ppa:webupd8team/sublime-text-2
+		- sudo apt-get update
+		- sudo apt-get install sublime-text
+	- install Package Control
+		- https://packagecontrol.io/installation#st2
+		- via Sublime Text Console
+			- The below code changes for each release - visit site for current version...
+			- ... get code from site... "sublime text 2"
+				- let it update, restart SublimeText, repeat, repeat, repeat...
+	- install sublimetext jshint
+		- https://github.com/victorporof/Sublime-JSHint
+			- Install via sublime package manager
+				- Through Sublime Package Manager
+					- Ctrl+Shift+P or Cmd+Shift+P in Linux/Windows/OS X
+					-	type install, select Package Control: Install Package
+					- type js gutter, select JSHint Gutter
+
+
+
+
+
