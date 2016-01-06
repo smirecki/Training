@@ -13,7 +13,7 @@ Custom:
             - UI volume bar shows 10-20% left and sounds still plays low when speakers are at full volume
         - try "amixer -D pulse sset Master 0%"
                - This works, but locks the volume at 0% and won't allow it to be adjusted afterward with custom keys - url - http://- notes:buntu.com/questions/454955/using-amixer-to-control-volume
-    
+    - page up / page down... what is the "custom script values"?
 Default: (reminder)
     - open app finder               - Super + z
     - Clear desktop - "Show Desktop"- crtl + alt + d
