@@ -84,8 +84,11 @@ SublimeText
 					- Ctrl+Shift+P or Cmd+Shift+P in Linux/Windows/OS X
 					-	type install, select Package Control: Install Package
 					- type js gutter, select JSHint Gutter
-
-
+	- spell checker - (http://www.sublimetext.com/docs/2/spell_checking.html)
+		- Preferences -> Browse Packages... "Preferences.sublime-settings"
+		- .config/sublime-text-2/Packages/Default/Preferences.sublime-settings
+			- " // 	Set to true to turn spell checking on by default
+    				"spell_check": true,"
 
 
 
