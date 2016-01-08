@@ -32,4 +32,5 @@ Newer update 15.10, Wily Werewolf
 
 ===========================================
 Downgraded to 14.x TLS
+    - only base updates
 
