@@ -67,7 +67,7 @@ Reinstall V14 LTS
 		- adjust screens with Settings --> NVIDIA X Server Settings "352.63"
 ==========
 SublimeText
-	- installing via commandline PPA (http://askubuntu.com/questions/521265/how-to-install-sublime-text-2-instead-of-3-from-webupd8team-ppa)
+	- installing via command line PPA (http://askubuntu.com/questions/521265/how-to-install-sublime-text-2-instead-of-3-from-webupd8team-ppa)
 		- sudo add-apt-repository ppa:webupd8team/sublime-text-2
 		- sudo apt-get update
 		- sudo apt-get install sublime-text

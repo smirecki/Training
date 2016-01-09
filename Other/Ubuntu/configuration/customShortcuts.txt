@@ -24,7 +24,7 @@ Default: (reminder)
 	- file manager open				- super + f  
 
 problems -
-	- Window manager keybindings don't work after reboot
+	- Window manager key bindings don't work after reboot
 		- https://bugs.launchpad.net/ubuntu/+source/xfwm4/+bug/1292290
         - Possible solution
             - Clear preset key combo twice to clear new combo and old combo, then reenter new combo.

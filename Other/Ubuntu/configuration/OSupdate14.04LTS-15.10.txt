@@ -15,7 +15,7 @@ Problems with new install from 14.04 LTS to 15.04 -
                 - fixed with different icon pack
     - Open with settings were changed
         - notepad instead of mousepad
-		- changes have been resolved with autoupdates
+		- changes have been resolved with auto updates
 	- Still a problem!!!
 
 Newer update 15.10, Wily Werewolf
