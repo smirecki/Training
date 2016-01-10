@@ -32,5 +32,7 @@ problems -
 	- xflock - keyboard shortcut not working after OS update and not auto locking
 		- Working again... auto update?
         - follow double delete trick to clear memory of key binding.
+        - still has problems
+            - check screen saver time limit foo time/never
     - Laptop 14.4
         - ctrl + a (select all) -- error with another key binding -- bad key binding with (super + a).
