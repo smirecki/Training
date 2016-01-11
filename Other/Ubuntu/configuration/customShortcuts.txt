@@ -34,5 +34,9 @@ problems -
         - follow double delete trick to clear memory of key binding.
         - still has problems
             - check screen saver time limit foo time/never
+            - Light Locker Settings
+                - Locking [ON]
+                - Auto lock
+                - Lock on suspend
     - Laptop 14.4
         - ctrl + a (select all) -- error with another key binding -- bad key binding with (super + a).
