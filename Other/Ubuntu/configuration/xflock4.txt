@@ -2,8 +2,15 @@ Xflock4 is the Command to lock the screen.
 
 Note - Light Locker Settings - This can over ride xflock4 default locking key shortcut with Locking "OFF"
 
-
-
+- xflock - keyboard shortcut not working after OS update and not auto locking
+	- Working again... auto update?
+    - follow double delete trick to clear memory of key binding.
+    - still has problems
+        - check screen saver time limit foo time/never
+        - Light Locker Settings
+            - Locking [ON]
+            - Auto lock
+            - Lock on suspend
 
 Links:
 	- http://xubuntu.org/news/screen-locking-in-xubuntu-14-04/
