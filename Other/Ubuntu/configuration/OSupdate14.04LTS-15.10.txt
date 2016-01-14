@@ -33,4 +33,8 @@ Newer update 15.10, Wily Werewolf
 ===========================================
 Downgraded to 14.x TLS
     - only base updates
+    - base update
+        - wireless card driver errors....
+            - bricked driver or failing hardware...
+                - "No buffer space available"
 
