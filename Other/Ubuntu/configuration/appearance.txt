@@ -1,3 +1,20 @@
+Note:
+    Install these things before adjusting appearance settings
+        - Icons
+            - Yosemite
+            - Ultra Flat Dorian
+        - Themes
+            - Vold 3.14 Dark *****
+            - Dorian-Flat-Root
+            - Elementary Dark
+
+            - Note - XFCE doesn't like the directories too deep, don't nest themes or they will be ignored
+                - A) 1,2,3,4 --- No
+                - A1, A2, A3, A4 --- Yes
+
+        - Fonts
+            - Yosemite
+            - Inconsolata
 xUbuntu - 
     Appearance
         Themes/Style
@@ -6,7 +23,7 @@ xUbuntu -
                 dashes around boxes
                     - This fix didn't work for me - "In ~/.config/gtk-3.0/gtk.css add the following line:
                         .undershoot.top, .undershoot.right, .undershoot.bottom, .undershoot.left { background-image: none; }"
-            - elementary Dark 
+            - Elementary Dark 
                 - like Dorian, but without the dashed errors
                 - Software Center
                     - text bg color errors
@@ -18,36 +35,39 @@ xUbuntu -
             - Flatter Dark
             - Sable
             - Yosemite Icon 
-	    - Ubuntu-Mono-Dark (currently using)
+	   - Ubuntu-Mono-Dark (currently using)
         Fonts
-            - SF
+            - SF - Medium 10???
         Settings
             - default
     Desktop
         -Background - usr/share/xfec4/backdrops
             - Change to whatever suits you.
         -Icons
-            - Icon size 35
-    Panel
-        - Display - Default 
-        - Appearance
-            Background
-                Style: Solid color
-                Alpha: 80
-                Color: #3A3A3A
-            Opacity
-                Enter: 100
-                Leave:  90
-            Items
-                Whisker Menu
-                    Appearance
-                        Default...
-                        Item icon size: Very Small
-                        Category icon size: Very Small
+            - Icon size 32
+    Panel (upper bar, left click to adjust)
         - Items
+            - Display - Default 
+            - Appearance
+                Background
+                    Style: Solid color
+                    Alpha: 80
+                    Color: #3A3A3A
+                Opacity
+                    Enter: 100
+                    Leave:  90
+                Items
+                    Whisker Menu (double click)
+                        Appearance
+                            Panel Button
+                                Default...
+                            Menu
+                                Item icon size: Very Small
+                                Category icon size: Very Small
+        
     Terminal Preferences
         - Appearance
-            - Font - Inconsolata Medium 10
+            - Font - Inconsolata regular 11
                 - http://www.levien.com/type/myfonts/inconsolata.html
         - Colors -> Vary the background color for each tab
                 
