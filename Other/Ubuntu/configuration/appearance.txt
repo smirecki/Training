@@ -14,7 +14,7 @@ Note:
 
         - Fonts
             - Yosemite
-            - Inconsolata
+            - Inconsolata ttf
 xUbuntu - 
     Appearance
         Themes/Style
@@ -30,14 +30,14 @@ xUbuntu -
             - Vold 3.14 Dark
                 notes: middle gray
 	    - Numix
-		- nice all black
+		  - nice all black
         Icons
             - Flatter Dark
             - Sable
-            - Yosemite Icon 
-	   - Ubuntu-Mono-Dark (currently using)
+            - Yosemite Icon
+            - Ubuntu-Mono-Dark (currently using)
         Fonts
-            - SF - Medium 10???
+            - SF - Medium 10
         Settings
             - default
     Desktop
