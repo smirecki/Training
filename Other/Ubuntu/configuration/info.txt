@@ -34,6 +34,8 @@ Sites:
 	- General theme site - 	http://gnome-look.org/
 	- Themes and Icons
 		- Dorian-Flat-3.16 - http://gnome-look.org/content/show.php/Dorian-Flat-3.16?content=170277
+			- http://killhellokitty.deviantart.com/art/Dorian-Flat-3-16-revision-5-537693271
+				- http://www.deviantart.com/download/537693271/dorian_flat_3_16_revision_5_by_killhellokitty-d8w4ms7.zip?token=6db60bd24dd2332880cf6efea6c752d41241ac77&ts=1452873162
 		- Vold (formerly Numoke) 2.1 - http://gnome-look.org/content/show.php/Vold+%28formerly+Numoka%29?content=166922
 		- http://gnome-look.org/content/show.php/Ultra-flat-Yosemite?content=168521
 		- http://gnome-look.org/content/show.php/?content=165732
