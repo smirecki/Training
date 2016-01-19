@@ -41,6 +41,10 @@ Newer update 15.10, Wily Werewolf
 - Check that adding a theme only requires putting the theme pack in the proper folder
 - having a problem with adding a theme 
 
+- Update failure
+    - servers not responding
+    - bad configuration???
+
 ===========================================
 Downgraded to 14.x TLS
     - only base updates

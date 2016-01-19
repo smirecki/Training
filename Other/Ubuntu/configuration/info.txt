@@ -18,10 +18,6 @@ Notes:
 - Default Screen lock with LTS 14.x, version 15.x does not.
 	- Adjusting Screen lock
 			- http://xubuntu.org/news/screen-locking-in-xubuntu-14-04/
-- Update failure
-	- servers not responding
-	- bad configuration???
-
 =======
 
 Sites:
