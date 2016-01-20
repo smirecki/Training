@@ -118,6 +118,19 @@ Application Finder
             - If the one you want isn't there, find an icon you want online and add it to 
                 - /usr/share/icons/FooYourSelectedIconChoice/Source Files/apps  
                 - .../FooYourSelectedIconChoice/48x48/apps
+Clementine - 
+    (If you set a dark theme for the OS, this app will also need to be adjusted to the values below)
+    - Preferences - User Interface - Appearance
+        - Colors
+            - Use a custom color set 
+                
+                    Hue Sat Val Red Green   Blue
+                fg  0   0   170 170 170     170
+                bg  0   0    59  59  59      59
+
+            - Background Image
+                - No background image
+
 
 - Problem
 
