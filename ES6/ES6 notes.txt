@@ -2,29 +2,96 @@ ES6 notes
 (ISO/IEC 16262:2016)
 
 
-JavaScript Fundamentals for ES6
-	- Variables and Parameters
+JavaScript Fundamentals for ES6 (2014)
+	(could be outdated, check Mozilla for current standards)
+- Variables and Parameters
 
-		- let
-			- "The let statement declares a block scope local variable, optionally initializing it to a value."( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let )
-			- not currently supported in Firefox
+	- let
+		- "The let statement declares a block scope local variable, optionally initializing it to a value."( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let )
+		- not currently supported in Firefox
 
-		- const
-			- The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
-			
-		- Destructuring
-			- The destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
+	- const
+		- The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+		
+	- Destructuring
+		- The destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
 
-		- Default Parameter Values
-		- Rest Parameters
-		- Spread Operator
-		- Template Literals
+	- Default Parameter Values
+	- Rest Parameters
+	- Spread Operator
+	- Template Literals
 
-	- Classes
-		- Class compared to Prototype
+- Classes
+	- Class compared to Prototype
 
-		- constructor
-		- Getters and Setters
-		- Inheritance
-		- super
+	- constructor
+	- Getters and Setters
+	- Inheritance
+	- super
 
+- Functional Programming
+	- intro
+	- Arrows
+	- Arrows and Asynch
+	- Iterators
+	- for of
+	- Build you own iterable
+	- generators
+	- Putting it together
+	- calling next
+	- comprehensions
+	- summary
+
+- Built in Objects
+	- Intro
+	- Number
+	- math
+	- array
+	- array comprehensions
+	- set
+	- map
+	- WeakMap and WeakSet
+	- summary
+
+- Asynchronous Development
+	- Intro
+	- Promise Primer
+	- promise basics
+	- advanced promises
+	- basic asynchronous generators
+	- more asynchronous generators
+	- asynchronous generators and promises
+	- summary
+
+- Objects in ES6
+	- Into
+	- Object.is() and Object.assign()
+	- Object shorthand and computed properties
+	- proxies
+	- proxying functions
+	- summary
+
+- Modules
+	- Intro
+	- An IIFE
+	- common JS
+	- AMD
+	- ES6 Modules
+	- Our First Module
+	- Multiple Exports
+	- One and Many Exports
+	- Hiding the Details
+	- Modules All the Way Down
+	- ES6 to AMD
+	- summary
+
+- Using ES6 Today
+	- Intro
+	- Browser
+	- Experimenting with Traceur
+	- Using Traceur in Production
+	- Polyfills
+	- ESNext
+	- ES6-shim
+	- ES6 in Node
+	- summary
