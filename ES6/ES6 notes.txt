@@ -3,7 +3,10 @@ ES6 notes
 
 
 JavaScript Fundamentals for ES6 (2014)
-	(could be outdated, check Mozilla for current standards)
+	
+	Note - this list could be outdated, check Mozilla for current standards
+		- https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla
+
 - Variables and Parameters
 
 	- let
@@ -22,8 +25,8 @@ JavaScript Fundamentals for ES6 (2014)
 	- Template Literals
 
 - Classes
+	- Why classes
 	- Class compared to Prototype
-
 	- constructor
 	- Getters and Setters
 	- Inheritance
