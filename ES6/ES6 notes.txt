@@ -98,3 +98,9 @@ JavaScript Fundamentals for ES6 (2014)
 	- ES6-shim
 	- ES6 in Node
 	- summary
+
+====
+
+- Spread / Rest
+	- ...
+	- The spread operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.
