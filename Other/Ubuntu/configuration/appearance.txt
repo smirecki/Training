@@ -1,3 +1,20 @@
+Note:
+    Install these things before adjusting appearance settings
+        - Icons
+            - Yosemite
+            - Ultra Flat Dorian
+        - Themes
+            - Vold 3.14 Dark *****
+            - Dorian-Flat-Root
+            - Elementary Dark
+
+            - Note - XFCE doesn't like the directories too deep, don't nest themes or they will be ignored
+                - A) 1,2,3,4 --- No
+                - A1, A2, A3, A4 --- Yes
+
+        - Fonts
+            - Yosemite
+            - Inconsolata ttf
 xUbuntu - 
     Appearance
         Themes/Style
@@ -6,48 +23,51 @@ xUbuntu -
                 dashes around boxes
                     - This fix didn't work for me - "In ~/.config/gtk-3.0/gtk.css add the following line:
                         .undershoot.top, .undershoot.right, .undershoot.bottom, .undershoot.left { background-image: none; }"
-            - elementary Dark 
+            - Elementary Dark 
                 - like Dorian, but without the dashed errors
                 - Software Center
                     - text bg color errors
             - Vold 3.14 Dark
                 notes: middle gray
 	    - Numix
-		- nice all black
+		  - nice all black
         Icons
             - Flatter Dark
             - Sable
-            - Yosemite Icon 
-	    - Ubuntu-Mono-Dark (currently using)
+            - Yosemite Icon
+            - Ubuntu-Mono-Dark (currently using)
         Fonts
-            - SF
+            - SF - Medium 10
         Settings
             - default
     Desktop
         -Background - usr/share/xfec4/backdrops
             - Change to whatever suits you.
         -Icons
-            - Icon size 35
-    Panel
-        - Display - Default 
-        - Appearance
-            Background
-                Style: Solid color
-                Alpha: 80
-                Color: #3A3A3A
-            Opacity
-                Enter: 100
-                Leave:  90
-            Items
-                Whisker Menu
-                    Appearance
-                        Default...
-                        Item icon size: Very Small
-                        Category icon size: Very Small
+            - Icon size 32
+    Panel (upper bar, left click to adjust)
         - Items
+            - Display - Default 
+            - Appearance
+                Background
+                    Style: Solid color
+                    Alpha: 80
+                    Color: #3A3A3A
+                Opacity
+                    Enter: 100
+                    Leave:  90
+                Items
+                    Whisker Menu (double click)
+                        Appearance
+                            Panel Button
+                                Default...
+                            Menu
+                                Item icon size: Very Small
+                                Category icon size: Very Small
+        
     Terminal Preferences
         - Appearance
-            - Font - Inconsolata Medium 10
+            - Font - Inconsolata regular 11
                 - http://www.levien.com/type/myfonts/inconsolata.html
         - Colors -> Vary the background color for each tab
                 
@@ -98,15 +118,19 @@ Application Finder
             - If the one you want isn't there, find an icon you want online and add it to 
                 - /usr/share/icons/FooYourSelectedIconChoice/Source Files/apps  
                 - .../FooYourSelectedIconChoice/48x48/apps
+Clementine - 
+    (If you set a dark theme for the OS, this app will also need to be adjusted to the values below)
+    - Preferences - User Interface - Appearance
+        - Colors
+            - Use a custom color set 
+                
+                    Hue Sat Val Red Green   Blue
+                fg  0   0   170 170 170     170
+                bg  0   0    59  59  59      59
+
+            - Background Image
+                - No background image
+
 
 - Problem
-    - new user added icon(s) are too large when asking to open a file in non-default program
-        - solution... 
-            - check if it needs a smaller version of that icon
-            - check if it needs an svg version of the icon, not a png
-            - looks to be related to the damaged theme/icons after os update.
-    - OS theme still damaged after OS update.
-        - no auto fix
-	- Check if the theme can be repaired if missing parts or why old theme lost elements
-    - Check that adding a theme only requires putting the theme pack in the proper folder
-	- having a problem with adding a theme 
+

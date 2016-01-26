@@ -15,7 +15,7 @@ Problems with new install from 14.04 LTS to 15.04 -
                 - fixed with different icon pack
     - Open with settings were changed
         - notepad instead of mousepad
-		- changes have been resolved with autoupdates
+		- changes have been resolved with auto updates
 	- Still a problem!!!
 
 Newer update 15.10, Wily Werewolf
@@ -29,4 +29,27 @@ Newer update 15.10, Wily Werewolf
             - commands, ls
 - Nvidia driver errors
 	- x-server shutdown, gcc same version
+
+- new user added icon(s) are too large when asking to open a file in non-default program
+    - solution... 
+        - check if it needs a smaller version of that icon
+        - check if it needs an svg version of the icon, not a png
+        - looks to be related to the damaged theme/icons after os update.
+- OS theme still damaged after OS update.
+    - no auto fix
+- Check if the theme can be repaired if missing parts or why old theme lost elements
+- Check that adding a theme only requires putting the theme pack in the proper folder
+- having a problem with adding a theme 
+
+- Update failure
+    - servers not responding
+    - bad configuration???
+
+===========================================
+Downgraded to 14.x TLS
+    - only base updates
+    - base update
+        - wireless card driver errors....
+            - bricked driver or failing hardware...
+                - "No buffer space available"
 

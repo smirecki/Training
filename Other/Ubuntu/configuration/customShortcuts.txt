@@ -12,8 +12,8 @@ Custom:
         - doesn't go down to 0%
             - UI volume bar shows 10-20% left and sounds still plays low when speakers are at full volume
         - try "amixer -D pulse sset Master 0%"
-               - This works, but locks the volume at 0% and won't allow it to be adjusted afterward with custom keys - url - http://- notes:buntu.com/questions/454955/using-amixer-to-control-volume
-    
+               - This works, but locks the volume at 0% and won't allow it to be adjusted afterward with custom keys - url - http://askubuntu.com/questions/454955/using-amixer-to-control-volume
+    - page up / page down... what is the "custom script values"?
 Default: (reminder)
     - open app finder               - Super + z
     - Clear desktop - "Show Desktop"- crtl + alt + d
@@ -23,15 +23,11 @@ Default: (reminder)
     - adjust Window                 - alt + left click
 	- file manager open				- super + f  
 
-====================
 problems -
-	- Window manager keybindings don't work after reboot
+	- Window manager key bindings don't work after reboot
 		- https://bugs.launchpad.net/ubuntu/+source/xfwm4/+bug/1292290
         - Possible solution
             - Clear preset key combo twice to clear new combo and old combo, then reenter new combo.
             - This worked!
-	- xflock - keyboard shortcut not working after OS update and not auto locking
-		- Working again... auto update?
-        - follow double delete trick to clear memory of key binding.
     - Laptop 14.4
         - ctrl + a (select all) -- error with another key binding -- bad key binding with (super + a).

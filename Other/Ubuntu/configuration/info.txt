@@ -16,10 +16,8 @@ Errors and problems
 Notes:
 - Screen will not lock if VLC video player app is open, playing or paused.  Screen no longer auto locks when idle on version 15.x.
 - Default Screen lock with LTS 14.x, version 15.x does not.
-- Update failure
-	- servers not responding
-	- bad configuration???
-
+	- Adjusting Screen lock
+			- http://xubuntu.org/news/screen-locking-in-xubuntu-14-04/
 =======
 
 Sites:
@@ -32,6 +30,8 @@ Sites:
 	- General theme site - 	http://gnome-look.org/
 	- Themes and Icons
 		- Dorian-Flat-3.16 - http://gnome-look.org/content/show.php/Dorian-Flat-3.16?content=170277
+			- http://killhellokitty.deviantart.com/art/Dorian-Flat-3-16-revision-5-537693271
+				- http://www.deviantart.com/download/537693271/dorian_flat_3_16_revision_5_by_killhellokitty-d8w4ms7.zip?token=6db60bd24dd2332880cf6efea6c752d41241ac77&ts=1452873162
 		- Vold (formerly Numoke) 2.1 - http://gnome-look.org/content/show.php/Vold+%28formerly+Numoka%29?content=166922
 		- http://gnome-look.org/content/show.php/Ultra-flat-Yosemite?content=168521
 		- http://gnome-look.org/content/show.php/?content=165732
@@ -63,3 +63,30 @@ Reinstall V14 LTS
 			- improved start screen, no red lines or all black bg/fg
 		- need to install and configure whole system
 		- adjust screens with Settings --> NVIDIA X Server Settings "352.63"
+==========
+SublimeText
+	- installing via command line PPA (http://askubuntu.com/questions/521265/how-to-install-sublime-text-2-instead-of-3-from-webupd8team-ppa)
+		- sudo add-apt-repository ppa:webupd8team/sublime-text-2
+		- sudo apt-get update
+		- sudo apt-get install sublime-text
+	- install Package Control
+		- https://packagecontrol.io/installation#st2
+		- via Sublime Text Console
+			- The below code changes for each release - visit site for current version...
+			- ... get code from site... "sublime text 2"
+				- let it update, restart SublimeText, repeat, repeat, repeat...
+	- install sublimetext jshint
+		- https://github.com/victorporof/Sublime-JSHint
+			- Install via sublime package manager
+				- Through Sublime Package Manager
+					- Ctrl+Shift+P or Cmd+Shift+P in Linux/Windows/OS X
+					-	type install, select Package Control: Install Package
+					- type js gutter, select JSHint Gutter
+	- spell checker - (http://www.sublimetext.com/docs/2/spell_checking.html)
+		- Preferences -> Browse Packages... "Preferences.sublime-settings"
+		- .config/sublime-text-2/Packages/Default/Preferences.sublime-settings
+			- " // 	Set to true to turn spell checking on by default
+    				"spell_check": true,"
+
+
+
