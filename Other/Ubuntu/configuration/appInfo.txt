@@ -112,9 +112,11 @@ Apps and programs -
 	- http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
 - Kazam - Screencaster
 - Steam
+[IDEs for TypeScript]
 - Visual Studios???
 - WebStorm???
 - Brackets???
+- Atom???
 
 -Do I need VMs or Docker images?
   - It would be nice to try
