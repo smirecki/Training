@@ -111,6 +111,8 @@ Apps and programs -
 					It will ask you few questions.Answer Yes for all of them.Finally to get your CPU temperature type sensors in terminal.
 	- http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
 - Kazam - Screencaster
+    - frame rate 15 - default
+        - 10 fps only makes a file 10% smaller
 - Steam
 [IDEs for TypeScript]
 - Visual Studios???
