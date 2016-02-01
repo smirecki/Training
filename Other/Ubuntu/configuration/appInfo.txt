@@ -64,16 +64,6 @@ Apps and programs -
         FIX:
             - Changing the bg/forground color improves this.        
         - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
-- still not working
-    - flux, redshift
-    - Brightness Controller "free" with account creation
-- Wallpaper aka "backdrops"
-    - usr/share/xfce4/backdrops
-    - Look into better slide show settings
-      - Can you get it to do a smooth fade transition in between images?
-- Search for better fonts or to chose better fonts
-    - What does OS 10.10 use? San Francisco - "SanFranciscoFont"
-        - So far this is a very usable font
 - Media
     - VLC for video, Clementine for Audio
 - Spotify
@@ -120,6 +110,7 @@ Apps and programs -
 - Brackets???
 - Atom???
 
+========
 -Do I need VMs or Docker images?
   - It would be nice to try
     - apps to run WIN programs/games
@@ -128,3 +119,11 @@ Apps and programs -
             - Can you force it to try running other apps?
         - WINE *
 		- What are the security concerns using Windows apps on Linux, escalation of privileges? 
+=========
+- Wallpaper aka "backdrops"
+    - usr/share/xfce4/backdrops
+    - Look into better slide show settings
+      - Can you get it to do a smooth fade transition in between images?
+- Search for better fonts or to chose better fonts
+    - What does OS 10.10 use? San Francisco - "SanFranciscoFont"
+        - So far this is a very usable font
