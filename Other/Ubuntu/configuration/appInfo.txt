@@ -104,11 +104,16 @@ Apps and programs -
     - frame rate 15 - default
         - 10 fps only makes a file 10% smaller
 - Steam
+
 [IDEs for TypeScript]
-- Visual Studios???
-- WebStorm???
-- Brackets???
-- Atom???
+- Visual Studios - VSCode-linux64
+    - https://code.visualstudio.com/Docs/?dv=linux64
+- WebStorm
+    - Only trial version, 30 days.
+- Brackets - Brackets.Release.1.6.64-bit
+    - https://github.com/adobe/brackets
+- Atom - Unconfirmed 750125
+    - https://atom.io/
 
 ========
 -Do I need VMs or Docker images?
