@@ -108,13 +108,25 @@ Apps and programs -
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
     - https://code.visualstudio.com/Docs/?dv=linux64
+    - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
+    - I'm not sure how useful this IDE will be.
 - WebStorm
     - Only trial version, 30 days.
 - Brackets - Brackets.Release.1.6.64-bit
     - https://github.com/adobe/brackets
+    - 1.6.0-16680
+    - 147.9 MB
+    - the UI is ok
+    - The live preview is really slow.
+    - Looks like a RAM hog!
+    - errors launching Live Preview.... =/
+    - limited 3rd party support for TypeScript
 - Atom - Unconfirmed 750125
     - https://atom.io/
-
+    - version 1.4.2
+    - 220.5 MB
+    - Liking the dark default theme
+    - does have typescript support
 ========
 -Do I need VMs or Docker images?
   - It would be nice to try
@@ -132,3 +144,4 @@ Apps and programs -
 - Search for better fonts or to chose better fonts
     - What does OS 10.10 use? San Francisco - "SanFranciscoFont"
         - So far this is a very usable font
+
