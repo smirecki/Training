@@ -30,3 +30,195 @@ Fix - Try to uninstall/restart/reinstall to force UI fix.
 Slow Visuals
     - good movement and frame rate at loqw res, very bad with dropped frames at full
 
+==================================================
+Shortcuts
+[https://wiki.videolan.org/Hotkeys_table/]
+
+=== Hotkeys table ===
+
+Command             Code                        Hotkey
+Fullscreen          key-toggle-fullscreen           f
+Leave fullscreen    key-leave-fullscreen            Esc
+Play/Pause          key-play-pause                  Space
+Pause only  key-pause   [
+Play only   key-play    ]
+Faster  key-faster  +
+Slower  key-slower  -
+Normal rate key-rate-normal =
+Faster (fine)   key-rate-faster-fine    Unset
+Slower (fine)   key-rate-slower-fine    Unset
+Next    key-next    n
+Previous    key-prev    p
+Stop    key-stop    s
+Position    key-position    t
+Very short backwards jump   key-jump-extrashort Shift-Left
+Very short forward jump key-jump+extrashort Shift-Right
+Short backwards jump    key-jump-short  Alt-Left
+Short forward jump  key-jump+short  Alt-Right
+Medium backwards jump   key-jump-medium Ctrl-Left
+Medium forward jump key-jump+medium Ctrl-Right
+Long backwards jump key-jump-long   Alt-Ctrl-Left
+Long forward jump   key-jump+long   Alt-Ctrl-Right
+Next frame  key-frame-next  e
+Activate    key-nav-activate    Enter
+Navigate up key-nav-up  Up
+Navigate down   key-nav-down    Down
+Navigate left   key-nav-left    Left
+Navigate right  key-nav-right   Right
+Go to the DVD menu  key-disc-menu   Shift-m
+Select previous DVD title   key-title-prev  Shift-o
+Select next DVD title   key-title-next  Shift-b
+Select prev DVD chapter key-chapter-prev    Shift-p
+Select next DVD chapter key-chapter-next    Shift-n
+Quit    key-quit    Ctrl-q
+Volume up   key-vol-up  Ctrl-Up
+Volume down key-vol-down    Ctrl-Down
+Mute    key-vol-mute    m
+Subtitle delay up   key-subdelay-up h
+Subtitle delay down key-subdelay-down   g
+Audio delay up  key-audiodelay-up   k
+Audio delay down    key-audiodelay-down j
+Cycle audio track   key-audio-track b
+Cycle through audio devices key-audiodevice-cycle   Shift-a
+Cycle subtitle track    key-subtitle-track  v
+Cycle source aspect ratio   key-aspect-ratio    a
+Cycle video crop    key-crop    c
+Toggle autoscaling  key-toggle-autoscale    o
+Increase scale factor   key-incr-scalefactor    Alt-o
+Decrease scale factor   key-decr-scalefactor    Alt-Shift-o
+Cycle deinterlace modes key-deinterlace d
+Show interface  key-intf-show   i
+Hide interface  key-intf-hide   Shift-i
+Take video snapshot key-snapshot    Shift-s
+Go back in browsing history key-history-back    Shift-g
+Go forward in browsing history  key-history-forward Shift-h
+Record  key-record  Shift-r
+Dump    key-dump    Shift-d
+Zoom    key-zoom    z
+Un-Zoom key-unzoom  Shift-z
+Toggle wallpaper mode   key-wallpaper   w
+Display OSD menu on top key-menu-on Alt-Shift-m
+Do not display OSD menu key-menu-off    Alt-Ctrl-m
+Highlight widget on the right   key-menu-right  Alt-Shift-Right
+Highlight widget on the left    key-menu-left   Alt-Shift-Left
+Highlight widget on top key-menu-up Alt-Shift-Up
+Highlight widget below  key-menu-down   Alt-Shift-Down
+Select current widget   key-menu-select Alt-Shift-Enter
+Crop one pixel from the top key-crop-top    Alt-r
+Uncrop one pixel from the top   key-uncrop-top  Alt-Shift-r
+Crop one pixel from the left    key-crop-left   Alt-d
+Uncrop one pixel from the left  key-uncrop-left Alt-Shift-d
+Crop one pixel from the bottom  key-crop-bottom Alt-c
+Uncrop one pixel from the bottom    key-uncrop-bottom   Alt-Shift-c
+Crop one pixel from the right   key-crop-right  Alt-f
+Uncrop one pixel from the right key-uncrop-right    Alt-Shift-f
+Random  key-random  r
+Normal/Repeat/Loop  key-loop    l
+1:4 Quarter key-zoom-quarter    Ctrl-1
+1:2 Half    key-zoom-half   Ctrl-2
+1:1 Original    key-zoom-original   Ctrl-3
+2:1 Double  key-zoom-double Ctrl-4
+Very short jump length (integer)    extrashort-jump-size    3
+Set playlist bookmark 1 key-set-bookmark1   Ctrl-F1
+Set playlist bookmark 2 key-set-bookmark2   Ctrl-F2
+Set playlist bookmark 3 key-set-bookmark3   Ctrl-F3
+Set playlist bookmark 4 key-set-bookmark4   Ctrl-F4
+Set playlist bookmark 5 key-set-bookmark5   Ctrl-F5
+Set playlist bookmark 6 key-set-bookmark6   Ctrl-F6
+Set playlist bookmark 7 key-set-bookmark7   Ctrl-F7
+Set playlist bookmark 8 key-set-bookmark8   Ctrl-F8
+Set playlist bookmark 9 key-set-bookmark9   Ctrl-F9
+Set playlist bookmark 10    key-set-bookmark10  Ctrl-F10
+Play playlist bookmark 1    key-play-bookmark1  F1
+Play playlist bookmark 2    key-play-bookmark2  F2
+Play playlist bookmark 3    key-play-bookmark3  F3
+Play playlist bookmark 4    key-play-bookmark4  F4
+Play playlist bookmark 5    key-play-bookmark5  F5
+Play playlist bookmark 6    key-play-bookmark6  F6
+Play playlist bookmark 7    key-play-bookmark7  F7
+Play playlist bookmark 8    key-play-bookmark8  F8
+Play playlist bookmark 9    key-play-bookmark9  F9
+Play playlist bookmark 10   key-play-bookmark10 F10
+
+
+
+
+
+
+
+===================================================
+=== Most used ===
+F                           Fullscreen
+Esc                         Exit full screen mode
+Space                       Pause or play movie
+V                           Subtitles on/ off
+B                           Select audio track
+Ctrl+Arrow Up/Arrow Down    Volume up/ down in 5% increments
+
+=== Jump in playback ===
+Shift+Arrow Right/Arrow Left    Jump 3 seconds forward/ backward
+Alt+Arrow Right/Arrow Left      Jump 10 seconds forward/ backward
+Ctrl+Arrow Right/Arrow Left     Jump 1 minute forward/ backward
+
+=== Mouse actions ===
+Scroll up/ down             Volume or Position (see settings)
+Right-click                 Local menu (play controls, audio/ video)
+▲ up
+
+=== Movie Navigation ===
+Ctrl+D                      Open Disc menu
+Ctrl+F                      Open Folder (browse folder menu)
+Ctrl+R                      Advanced open file
+Ctrl+O                      Open single file(s)
+M                           Mute and unmute audio
+P                           Play movie (from the very beginning)
+S                           Stop movie (not pause; this stops the movie completely)
+[/ ]                        Increase/ decrease playback by 0.1x
+=                           Adjust playback to normal (1.0x)
+C                           Change screen Crop 16:10, 16:9, 4:3, etc.
+A                           Change Aspect ratio 16:10, 16:9, 4.:3, etc.
+G/H                         Decrease/ increase subtitle delay
+J/K                         Decrease/ increase audio delay
+Z                           Change zoom mode
+Ctrl+1 ... 4                Play Recent media (in Media - Recent media menu)
+T                           Show time
+Ctrl+T                      Goto time
+E                           Frame by Frame Mode; continue pressing E to advance one frame at a time.
+Ctrl+H                      Hide Control
+
+=== Manage VLC, Playlists, and Special Commands ===
+Ctrl+P                      Preferences/ interface settings
+Ctrl+E                      Adjustments and audio/ video Effects
+Ctrl+B                      Edit Bookmarks
+Ctrl+M                      Open Messages
+Ctrl+N                      Open Network
+Ctrl+C                      Open Captue device
+Ctrl+L                      Open PlayList; press again to return to movie.
+Ctrl+Y                      Save playlist
+Ctrl+I                      Media Information
+D                           Toggle Deinterlace
+N                           Play next movie from playlist
+F1                          Show help
+F11                         Window full-screen (not equal to pressing F)
+Ctrl+W                      Quit VLC
+
+Choose Subtitle and Audio Tracks
+V                           Toggles subtitles on or off
+B                           Cycle between audio tracks
+
+[http://www.shortcutworld.com/en/win/VLC-Media-Player.html]
+
+[http://www.howtogeek.com/196371/master-vlc-with-these-23-keyboard-shortcuts/]
+"Customize Your Hotkeys
+All of these hotkeys are fully customizable. To customize your hotkeys, click Tools > Preferences in VLC. Select the Hotkeys icon in the Simple preferences view. You can also find these options under Interface > Hotkeys settings in the All preferences view. The All view has a few more options — for example, it lets you change the amount of seconds the “Jump ahead” and “Jump back” key combinations skip back or forward. Double-click a hotkey field to set a new hotkey.
+
+You’ll find lots of options here, including a “Boss key” that isn’t set by default. Set your own boss key and you can make VLC automatically hide itself in the system tray with a single key press. “Boss keys” are so-named because you press them when your boss comes around to check on you so you can pretend you’re actually working.
+
+There’s also an option to control what the mouse wheel does — if the default volume control option doesn’t work for you, you can have the mouse wheel skip back or ahead in the current media file, or tell VLC to ignore the mouse wheel if you just find yourself bumping it accidentally."
+
+"Set Global Hotkeys
+All the hotkeys here only work while the VLC window is in focus. However, VLC also has the ability to create “global hotkeys” that work no matter what program you have visible. These are most useful if you’re using VLC as a background music or audio player — you can set Play/Pause, Next Track, and Previous Track keys to control VLC’s playback while using other applications. But any of VLC’s shortcut key actions can become global hotkeys.
+
+Double-click the Global hotkey field to the right of any hotkey action to set a new global hotkey. If your keyboard has media keys for actions like Play/Pause, they make great global hotkeys."
+
+"These aren’t all of VLC’s hotkeys. You’ll find a complete list in its preferences pane, and you can see hotkeys associated with many of the actions just by opening VLC’s Media, Tools, or View menus. Whatever you want to do with VLC, you can probably do it with a keyboard shortcut."
