@@ -1,5 +1,15 @@
 Apps and programs - 
-- Vim, node, npm, expressjs,
+- Vim, expressjs,
+
+- node
+    === option 1 ====
+    Install newest version of node on Ubuntu [v 4.2.x]
+    http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition
+    
+    - wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
+    - sudo apt-get install --yes nodejs
+
+    ==== option 2 === older version
     - NOTE: apt-get node ... installs Amateur Packet Radio Node Program
     - USE:  sudo apt-get install nodejs-legacy
     - if you need to clean-up a wrong install
@@ -23,6 +33,10 @@ Apps and programs -
 
             # Then install with:
             sudo apt-get install -y nodejs
+- npm
+    -
+    - gulp
+
 - Mousepad Text Editor
     - default install
     - View -> color scheme -> classic (Use "Oblivion" if default bg is white, bg should be black after theme change)
