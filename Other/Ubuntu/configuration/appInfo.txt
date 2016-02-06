@@ -141,6 +141,9 @@ Apps and programs -
     - 220.5 MB
     - Liking the dark default theme
     - does have typescript support
+		- Does this have type completion?
+            - Yes, by Github staff, active repo
+                - https://github.com/atom/autocomplete-plus
 ========
 -Do I need VMs or Docker images?
   - It would be nice to try
