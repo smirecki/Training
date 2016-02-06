@@ -1,0 +1,28 @@
+ReactJS Build Tools
+
+- node
+- npm
+- Gulp - global install
+- Browserify
+- Babel
+- Vinyl-Source-Stream - Takes the code from Browserify and Babel, then alters it to be usable for Gulp.
+
+npm init
+npm install 
+	- react
+	- 
+	- browserify
+	- babelify
+	- vinyl-source-stream
+	- babel-present-es2015
+	- babel-present-react
+
+
+- Project
+  - node models
+  - tests
+  - style
+  - ...
+
+  
+

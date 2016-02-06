@@ -1,0 +1,23 @@
+{
+  "name": "reactbuild",
+  "version": "1.0.0",
+  "description": "An example Build env for React",
+  "main": "app.jsx",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-present-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.2",
+    "gulp": "^3.9.0",
+    "react": "^0.14.6",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.3.13"
+  }
+}
