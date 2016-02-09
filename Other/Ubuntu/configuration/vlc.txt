@@ -37,6 +37,7 @@ Shortcuts
 === Hotkeys table ===
 
 Command                             Code                        Hotkey
+=========================================================================
 Fullscreen                          key-toggle-fullscreen       f
 Leave fullscreen                    key-leave-fullscreen        Esc
 Play/Pause                          key-play-pause              Space
@@ -148,12 +149,12 @@ Play playlist bookmark 10           key-play-bookmark10         F10
 
 ===================================================
 === Most used ===
-F                           Fullscreen
-Esc                         Exit full screen mode
-Space                       Pause or play movie
-V                           Subtitles on/ off
-B                           Select audio track
-Ctrl+Arrow Up/Arrow Down    Volume up/ down in 5% increments
+F                               Fullscreen
+Esc                             Exit full screen mode
+Space                           Pause or play movie
+V                               Subtitles on/ off
+B                               Select audio track
+Ctrl+Arrow Up/Arrow Down        Volume up/ down in 5% increments
 
 === Jump in playback ===
 Shift+Arrow Right/Arrow Left    Jump 3 seconds forward/ backward
@@ -161,50 +162,50 @@ Alt+Arrow Right/Arrow Left      Jump 10 seconds forward/ backward
 Ctrl+Arrow Right/Arrow Left     Jump 1 minute forward/ backward
 
 === Mouse actions ===
-Scroll up/ down             Volume or Position (see settings)
-Right-click                 Local menu (play controls, audio/ video)
+Scroll up/ down                 Volume or Position (see settings)
+Right-click                     Local menu (play controls, audio/ video)
 ▲ up
 
 === Movie Navigation ===
-Ctrl+D                      Open Disc menu
-Ctrl+F                      Open Folder (browse folder menu)
-Ctrl+R                      Advanced open file
-Ctrl+O                      Open single file(s)
-M                           Mute and unmute audio
-P                           Play movie (from the very beginning)
-S                           Stop movie (not pause; this stops the movie completely)
-[/ ]                        Increase/ decrease playback by 0.1x
-=                           Adjust playback to normal (1.0x)
-C                           Change screen Crop 16:10, 16:9, 4:3, etc.
-A                           Change Aspect ratio 16:10, 16:9, 4.:3, etc.
-G/H                         Decrease/ increase subtitle delay
-J/K                         Decrease/ increase audio delay
-Z                           Change zoom mode
-Ctrl+1 ... 4                Play Recent media (in Media - Recent media menu)
-T                           Show time
-Ctrl+T                      Goto time
-E                           Frame by Frame Mode; continue pressing E to advance one frame at a time.
-Ctrl+H                      Hide Control
+Ctrl+D                          Open Disc menu
+Ctrl+F                          Open Folder (browse folder menu)
+Ctrl+R                          Advanced open file
+Ctrl+O                          Open single file(s)
+M                               Mute and unmute audio
+P                               Play movie (from the very beginning)
+S                               Stop movie (not pause; this stops the movie completely)
+[/ ]                            Increase/ decrease playback by 0.1x
+=                               Adjust playback to normal (1.0x)
+C                               Change screen Crop 16:10, 16:9, 4:3, etc.
+A                               Change Aspect ratio 16:10, 16:9, 4.:3, etc.
+G/H                             Decrease/ increase subtitle delay
+J/K                             Decrease/ increase audio delay
+Z                               Change zoom mode
+Ctrl+1 ... 4                    Play Recent media (in Media - Recent media menu)
+T                               Show time
+Ctrl+T                          Goto time
+E                               Frame by Frame Mode; continue pressing E to advance one frame at a time.
+Ctrl+H                          Hide Control
 
 === Manage VLC, Playlists, and Special Commands ===
-Ctrl+P                      Preferences/ interface settings
-Ctrl+E                      Adjustments and audio/ video Effects
-Ctrl+B                      Edit Bookmarks
-Ctrl+M                      Open Messages
-Ctrl+N                      Open Network
-Ctrl+C                      Open Captue device
-Ctrl+L                      Open PlayList; press again to return to movie.
-Ctrl+Y                      Save playlist
-Ctrl+I                      Media Information
-D                           Toggle Deinterlace
-N                           Play next movie from playlist
-F1                          Show help
-F11                         Window full-screen (not equal to pressing F)
-Ctrl+W                      Quit VLC
+Ctrl+P                          Preferences/ interface settings
+Ctrl+E                          Adjustments and audio/ video Effects
+Ctrl+B                          Edit Bookmarks
+Ctrl+M                          Open Messages
+Ctrl+N                          Open Network
+Ctrl+C                          Open Captue device
+Ctrl+L                          Open PlayList; press again to return to movie.
+Ctrl+Y                          Save playlist
+Ctrl+I                          Media Information
+D                               Toggle Deinterlace
+N                               Play next movie from playlist
+F1                              Show help
+F11                             Window full-screen (not equal to pressing F)
+Ctrl+W                          Quit VLC
 
 Choose Subtitle and Audio Tracks
-V                           Toggles subtitles on or off
-B                           Cycle between audio tracks
+V                               Toggles subtitles on or off
+B                               Cycle between audio tracks
 
 [http://www.shortcutworld.com/en/win/VLC-Media-Player.html]
 
