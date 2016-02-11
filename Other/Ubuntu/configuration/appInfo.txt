@@ -117,11 +117,11 @@ Apps and programs -
 - Steam
 
 [IDEs for TypeScript]
-- Visual Studios - VSCode-linux64
+- Visual Studios - VSCode-linux64 - nope
     - https://code.visualstudio.com/Docs/?dv=linux64
     - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
     - I'm not sure how useful this IDE will be.
-- WebStorm
+- WebStorm - nope
     - Only trial version, 30 days.
 - Brackets - Brackets.Release.1.6.64-bit
     - https://github.com/adobe/brackets
@@ -141,6 +141,8 @@ Apps and programs -
 		- Does this have type completion?
             - Yes, by Github staff, active repo
                 - https://github.com/atom/autocomplete-plus
+- Sublime
+    - Find line completion tools
 ========
 -Do I need VMs or Docker images?
   - It would be nice to try
