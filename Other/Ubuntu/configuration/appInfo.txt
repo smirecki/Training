@@ -135,6 +135,9 @@ Apps and programs -
     - Looks like a RAM hog!
     - errors launching Live Preview.... =/
     - limited 3rd party support for TypeScript
+    - built-in linting
+    - Auto created unit tests
+    - grunt hooks
 - Atom - Unconfirmed 750125
     - https://atom.io/
     - version 1.4.2
