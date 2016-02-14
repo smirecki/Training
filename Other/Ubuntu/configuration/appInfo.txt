@@ -1,5 +1,5 @@
 Apps and programs - 
-- Vim, expressjs,
+- Vim
 
 - node
     === option 1 ====
@@ -38,7 +38,7 @@ Apps and programs -
     - gulp
     - handlebars
     - Mocha
-    - 
+    - expressjs
 
 - Mousepad Text Editor
     - default install
@@ -58,6 +58,7 @@ Apps and programs -
 - Midori
     - too broken to use
 - Git
+    - via Github
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
@@ -79,7 +80,7 @@ Apps and programs -
             - Changing the bg/forground color improves this.        
         - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
 - Media
-    - VLC for video, Clementine for Audio
+    - VLC for video
 - Spotify
     - https://www.spotify.com/us/download/linux/
 - Skype
@@ -112,7 +113,7 @@ Apps and programs -
 			- sudo sensors-detect
 					You may also need to run
 			- sudo service kmod start
-					It will ask you few questions.Answer Yes for all of them.Finally to get your CPU temperature type sensors in terminal.
+					It will ask you a few questions.  Answer Yes for all of them.  Finally to get your CPU temperature type sensors in terminal.
 	- http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
 - Kazam - Screencaster
     - frame rate 15 - default
@@ -124,6 +125,7 @@ Apps and programs -
     - https://code.visualstudio.com/Docs/?dv=linux64
     - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
     - I'm not sure how useful this IDE will be.
+    - built-in linting
 - WebStorm - nope
     - Only trial version, 30 days.
 - Brackets - Brackets.Release.1.6.64-bit
@@ -135,7 +137,6 @@ Apps and programs -
     - Looks like a RAM hog!
     - errors launching Live Preview.... =/
     - limited 3rd party support for TypeScript
-    - built-in linting
     - Auto created unit tests
     - grunt hooks
     - https://github.com/cfjedimaster
