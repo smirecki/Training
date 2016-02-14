@@ -138,6 +138,8 @@ Apps and programs -
     - built-in linting
     - Auto created unit tests
     - grunt hooks
+    - https://github.com/cfjedimaster
+        - Brackets - tools
 - Atom - Unconfirmed 750125
     - https://atom.io/
     - version 1.4.2
