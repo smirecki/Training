@@ -119,6 +119,8 @@ Apps and programs -
     - frame rate 15 - default
         - 10 fps only makes a file 10% smaller
 - Steam
+- Furius ISO Mount
+    - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
 
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64 - nope
