@@ -124,25 +124,30 @@ Apps and programs -
 
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64 - nope
-    - "Code" version of VS
-    - https://code.visualstudio.com/Docs/?dv=linux64
-    - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
-    - built-in linting
-    - not linked to app finder
-    - You can Extend Visual Studio Code
-    - TS is built-in to VS Code
-    - intellisense tooling is included
-    - setting up transcoding build task
+    - general
+        - "Code" version of VS
+        - https://code.visualstudio.com/Docs/?dv=linux64
+    - problems
+        - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
+        - not linked to app finder
+    - notes
+        - built-in linting
+        - You can Extend Visual Studio Code
+        - TS is built-in to VS Code
+        - intellisense tooling is included
+    
+    - Notes on - setting up transcoding build task
         - https://code.visualstudio.com/Docs/languages/typescript
-        - http://michaelcrump.net/quick-tip-with-typescript-and-vscode/
-            - sample project to test Task Runner
+
+        - following this example to setup transcriping
+            - http://michaelcrump.net/quick-tip-with-typescript-and-vscode/
+            - sample project on Github to test Task Runner, basic few files
             - CMD-Shift-B (or CTRL-Shift-B for Linux) for opening Task Runner not working
-                - still not working
                 - Task Runner transpiling only (after .ts save)
             - looks to be working if...
-                - "tsc *.ts --watch" is run in the same dir as files
-                    - I think is also needs these files: tasks.json, tsconfig.json
-                    - If all that, then a new .js will be generate from the .ts
+                - you run this "tsc *.ts --watch" in the command line while in the working dir.
+                    - I think this also needs these files: tasks.json, tsconfig.json
+                    - If all that is done, then a new .js will be generate from the .ts and you can run a split screen on VS Code to see the .ts and .js
     - Keybindings
         - https://code.visualstudio.com/Docs/customization/keybindings
 
