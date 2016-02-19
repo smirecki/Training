@@ -124,10 +124,28 @@ Apps and programs -
 
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64 - nope
+    - "Code" version of VS
     - https://code.visualstudio.com/Docs/?dv=linux64
     - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
-    - I'm not sure how useful this IDE will be.
     - built-in linting
+    - not linked to app finder
+    - You can Extend Visual Studio Code
+    - TS is built-in to VS Code
+    - intellisense tooling is included
+    - setting up transcoding build task
+        - https://code.visualstudio.com/Docs/languages/typescript
+        - http://michaelcrump.net/quick-tip-with-typescript-and-vscode/
+            - sample project to test Task Runner
+            - CMD-Shift-B (or CTRL-Shift-B for Linux) for opening Task Runner not working
+                - still not working
+                - Task Runner transpiling only (after .ts save)
+            - looks to be working if...
+                - "tsc *.ts --watch" is run in the same dir as files
+                    - I think is also needs these files: tasks.json, tsconfig.json
+                    - If all that, then a new .js will be generate from the .ts
+    - Keybindings
+        - https://code.visualstudio.com/Docs/customization/keybindings
+
 - WebStorm - nope
     - Only trial version, 30 days.
 - Brackets - Brackets.Release.1.6.64-bit
