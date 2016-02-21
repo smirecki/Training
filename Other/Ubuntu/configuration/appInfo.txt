@@ -121,6 +121,7 @@ Apps and programs -
 - Steam
 - Furius ISO Mount
     - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
+        - it can mount more than one file, but only launch one at a time.
 
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64 - nope
