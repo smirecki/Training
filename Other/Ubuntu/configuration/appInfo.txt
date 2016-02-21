@@ -129,7 +129,7 @@ Apps and programs -
         - https://code.visualstudio.com/Docs/?dv=linux64
     - problems
         - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
-        - not linked to app finder +++
+        - not linked to app finder +++ (cl connected)
     - notes
         - built-in linting
         - You can Extend Visual Studio Code
