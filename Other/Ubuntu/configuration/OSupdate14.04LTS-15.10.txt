@@ -60,6 +60,7 @@ After update custom keybindings not working.
     - the top description of the update was small crypto updates
     - all binding working after restart
     - 14.04.4 all smooth(both), lots of small updates
+    - more update, needs restart, fine for now
 
 
 
