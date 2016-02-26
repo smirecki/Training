@@ -98,6 +98,7 @@ Apps and programs -
 - Inkscape - not needed
 - Gimp - default installed
 - Stopwatch
+    - takes a lot of CPU resources for what it does 9-20%
 - PDF Reader 
     - Document Viewer, not great
     - Calibre opens Document Viewer to read PDFs
