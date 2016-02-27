@@ -119,8 +119,8 @@ Apps and programs -
 - Kazam - Screencaster
     - frame rate 15 - default
         - 10 fps only makes a file 10% smaller
-- Steam
-- Furius ISO Mount
+- Steam - not many Linux games available
+- Furius ISO Mount - has worked well
     - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
         - it can mount more than one file, but only launch one at a time.
 
@@ -154,8 +154,6 @@ Apps and programs -
         - https://code.visualstudio.com/Docs/customization/keybindings
         - comment - highlight and (ctrl + /) 
 
-- WebStorm - nope
-    - Only trial version, 30 days.
 - Brackets - Brackets.Release.1.6.64-bit
     - https://github.com/adobe/brackets
     - 1.6.0-16680
@@ -181,20 +179,14 @@ Apps and programs -
 - Sublime
     - Find line completion tools
 ========
--Do I need VMs or Docker images?
-  - It would be nice to try
-    - apps to run WIN programs/games
-        - PlayOnLinux
-        - This app will ONLY support a short list of windows apps and games.
-            - Can you force it to try running other apps?
-        - WINE *
-		- What are the security concerns using Windows apps on Linux, escalation of privileges? 
+- apps to run WIN programs/games
+    - PlayOnLinux
+    - This app will ONLY support a short list of windows apps and games.
+        - Can you force it to try running other apps?
+    - WINE *
+	- What are the security concerns using Windows apps on Linux, escalation of privileges? 
 =========
 - Wallpaper aka "backdrops"
     - usr/share/xfce4/backdrops
     - Look into better slide show settings
       - Can you get it to do a smooth fade transition in between images?
-- Search for better fonts or to chose better fonts
-    - What does OS 10.10 use? San Francisco - "SanFranciscoFont"
-        - So far this is a very usable font
-
