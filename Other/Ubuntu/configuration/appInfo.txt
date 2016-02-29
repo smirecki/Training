@@ -90,7 +90,7 @@ Apps and programs -
     - software center
     - Use this program to manage a Kindle White-paper
     - the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.
-- .cbr viewer with rar decompression
+- .cbr viewer with rar decompression "Document VIewer 3.10.3"
     - You must install unrar to allow any of these apps to open .cbr files, not just 7-zip (it won't work). 
         - sudo apt-get install unrar
     - Try "comix" or "mcomix"
@@ -178,6 +178,8 @@ Apps and programs -
                 - https://github.com/atom/autocomplete-plus
 - Sublime
     - Find line completion tools
+
+
 ========
 - apps to run WIN programs/games
     - PlayOnLinux
@@ -185,8 +187,3 @@ Apps and programs -
         - Can you force it to try running other apps?
     - WINE *
 	- What are the security concerns using Windows apps on Linux, escalation of privileges? 
-=========
-- Wallpaper aka "backdrops"
-    - usr/share/xfce4/backdrops
-    - Look into better slide show settings
-      - Can you get it to do a smooth fade transition in between images?
