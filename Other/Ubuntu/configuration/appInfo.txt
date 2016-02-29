@@ -137,6 +137,7 @@ Apps and programs -
         - You can Extend Visual Studio Code
         - TS is built-in to VS Code
         - intellisense tooling is included
+        - good support for Bash
     
     - Notes on - setting up transcoding build task
         - https://code.visualstudio.com/Docs/languages/typescript
