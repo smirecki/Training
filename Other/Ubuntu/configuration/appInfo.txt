@@ -55,8 +55,6 @@ Apps and programs -
     - no script
     - AB plus
     
-- Midori
-    - too broken to use
 - Git
     - via Github
 - Python - (v.3.4) Python Interpreter included
@@ -66,25 +64,19 @@ Apps and programs -
 - VLC, codex (what codex?)
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
-- Audio 
-    -Clementine
-        - equalizer - techo preset or zero
-        - Preferences -> Appearance
-					- Colors - "Use a custom color set"
-						- foreground/bg color ...
-						- "No bg image"
-        - Clementine has music streams, including SOMA FM station URLs built in.
-        - ERROR - "Gstreamer is missing plug-in"
-        - UI color theme lost after OS update
-        FIX:
-            - Changing the bg/forground color improves this.        
-        - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
-- Media
-    - VLC for video
-- Spotify
-    - https://www.spotify.com/us/download/linux/
-- Skype
-    - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
+
+-Clementine
+    - equalizer - techo preset or zero
+    - Preferences -> Appearance
+				- Colors - "Use a custom color set"
+					- foreground/bg color ...
+					- "No bg image"
+    - Clementine has music streams, including SOMA FM station URLs built in.
+    - ERROR - "Gstreamer is missing plug-in"
+    - UI color theme lost after OS update
+    FIX:
+        - Changing the bg/forground color improves this.        
+    - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
 - Cheese - webcam software
 - Calibre
     - software center
@@ -93,9 +85,8 @@ Apps and programs -
 - .cbr viewer with rar decompression "Document VIewer 3.10.3"
     - You must install unrar to allow any of these apps to open .cbr files, not just 7-zip (it won't work). 
         - sudo apt-get install unrar
-    - Try "comix" or "mcomix"
+    - Try "Comix" or "mcomix"
 
-- Inkscape - not needed
 - Gimp - default installed
 - Stopwatch
     - takes a lot of CPU resources for what it does 9-20%
@@ -125,7 +116,7 @@ Apps and programs -
         - it can mount more than one file, but only launch one at a time.
 
 [IDEs for TypeScript]
-- Visual Studios - VSCode-linux64 - nope
+- Visual Studios - VSCode-linux64
     - general
         - "Code" version of VS
         - https://code.visualstudio.com/Docs/?dv=linux64
@@ -180,7 +171,16 @@ Apps and programs -
 - Sublime
     - Find line completion tools
 
-
+===
+Might install
+- Gvim
+- Inkscape - not needed
+- Spotify
+    - https://www.spotify.com/us/download/linux/
+- Skype
+    - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
+- Midori
+    - too broken to use
 ========
 - apps to run WIN programs/games
     - PlayOnLinux
