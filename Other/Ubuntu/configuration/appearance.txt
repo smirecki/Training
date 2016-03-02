@@ -66,10 +66,18 @@ xUbuntu -
                                 Category icon size: Very Small
         
     Terminal Preferences
+        -Edit > Preferences
         - Appearance
-            - Font - Inconsolata regular 11
+            - Font 
+                - Inconsolata regular 11
                 - http://www.levien.com/type/myfonts/inconsolata.html
-        - Colors -> Vary the background color for each tab
+        - Colors -> 
+            - General
+                - Text color/Cursor color/Background color/Tab activity color
+                - checkbox - Vary the background color for each tab
+            -Presets
+                - Load Presets ???
+                    - not liking presets
                 
     Theme Configuration
         NOTE: adjusting here can fix menu text/bg light/dark problems
