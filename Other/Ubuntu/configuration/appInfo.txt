@@ -1,6 +1,5 @@
 Apps and programs - 
 - Vim
-
 - node
     === option 1 ====
     Install newest version of node on Ubuntu [v 4.2.x]
