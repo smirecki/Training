@@ -46,6 +46,8 @@ Apps and programs -
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
     - AB Plus
+		- dark reader - testing
+		- youtube - dark skin
 - FireFox Developer edition
     - Install
         - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
