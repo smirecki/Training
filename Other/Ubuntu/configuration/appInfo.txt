@@ -47,6 +47,9 @@ Apps and programs -
 - Chromium
     - AB Plus
 		- dark reader - testing
+            - Better than older ones I've used
+            - has a nice whitelist feature
+            - not perfect with images
 		- youtube - dark skin
 - FireFox Developer edition
     - Install
