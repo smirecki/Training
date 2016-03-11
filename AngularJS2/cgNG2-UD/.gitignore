@@ -1,2 +1,6 @@
-dl-stuff
+dl-stuff/
+npm-debug.log
+node_modules/
+typings/
+src/
 
