@@ -1,13 +1,19 @@
 import {Component} from 'angular2/core';
-import {PuzzleComponent} from "./puzzle/puzzle.component";
+import {InputComponent} from "./bindings/input.component";
 
 @Component({
     selector: 'my-app',
     template:`
-    <my-puzzle></my-puzzle>
+        <div class="container">
+          <my-input (submitted)="onSubmit($event)"></my-input>
+        </div>
+        <div class="container">
+            ...
+        </div>
     `,
-    directives: [PuzzleComponent]
-    })
+    directives: [InputComponent]
+})
 export class AppComponent {
-
+    myself = {name: '', age: ''};
+    confirmedMyself = {name: '', age: ''};
 }
