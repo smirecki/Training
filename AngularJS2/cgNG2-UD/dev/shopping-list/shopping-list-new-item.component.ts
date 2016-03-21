@@ -21,7 +21,7 @@ import {Control} from "angular2/common";
             </div>
             <button type="submit" [disabled]="!myForm.valid">Add Item</button>
         </form>
-    `,
+    `
 })
 export class ShoppingListNewItemComponent implements OnInit {
     item = {name: '', amount: 0};
