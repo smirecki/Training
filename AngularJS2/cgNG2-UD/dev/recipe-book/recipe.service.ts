@@ -8,7 +8,7 @@ export class RecipeService {
         return RECIPES;
     }
     
-    getRecipes(index: number) {
+    getRecipe(index: number) {
         return RECIPES[index];
     }
     
