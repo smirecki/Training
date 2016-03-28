@@ -5,8 +5,6 @@ import {RouteConfig} from "angular2/router";
 import {RecipeDetailComponent} from "./recipe-detail.component";
 import {ROUTER_DIRECTIVES} from "angular2/router";
 
-
-
 @Component({
     selector: 'my-recipes',
     template: `
