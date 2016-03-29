@@ -127,6 +127,12 @@ Apps and programs -
     - problems
         - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
         - not linked to app finder +++ (cl connected)
+        - can you get it to auto complete html tags?
+        - ... html within a TS file?
+        -
+        -
+
+
     - notes
         - built-in linting
         - You can Extend Visual Studio Code
