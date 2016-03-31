@@ -1,0 +1,54 @@
+[IDEs for TypeScript]
+- Visual Studios - VSCode-linux64
+    - general
+        - "Code" version of VS
+        - https://code.visualstudio.com/Docs/?dv=linux64
+    
+    - notes
+        - built-in linting
+        - You can Extend Visual Studio Code
+        - TS is built-in to VS Code
+        - intellisense tooling is included
+        - good support for Bash
+    
+    - Notes on - setting up transcoding build task
+        - https://code.visualstudio.com/Docs/languages/typescript
+
+        - following this example to setup transcriping
+            - http://michaelcrump.net/quick-tip-with-typescript-and-vscode/
+            - sample project on Github to test Task Runner, basic few files
+            - CMD-Shift-B (or CTRL-Shift-B for Linux) for opening Task Runner not working
+                - Task Runner transpiling only (after .ts save)
+            - looks to be working if...
+                - you run this "tsc *.ts --watch" in the command line while in the working dir.
+                    - I think this also needs these files: tasks.json, tsconfig.json
+                    - If all that is done, then a new .js will be generate from the .ts and you can run a split screen on VS Code to see the .ts and .js
+    - Keybindings
+        - https://code.visualstudio.com/Docs/customization/keybindings
+        - comment - highlight and (ctrl + /) 
+
+=============
+- problems
+    - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
+    - not linked to app finder +++ (cl connected)
+    - can you get it to auto complete html tags?
+        - http://stackoverflow.com/questions/30696863/vscode-not-auto-completing-html
+        - enter tag name (html, div, ul, li, a) and press tab to auto-complete
+        - ... html within a TS file?
+
+
+
+Sites with helpful info:
+- https://code.visualstudio.com/Docs/languages/html
+    - read it, know it!
+- http://johnpapa.net/intellisense-witha-visual-studio-code/
+- http://anthonychu.ca/post/enabling-aspnet-razor-tag-helpers-intellisense-visual-studio/
+
+
+Emmet
+    - Emmet is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow:
+    - http://docs.emmet.io/
+    - http://docs.emmet.io/cheat-sheet/
+
+- what is Debug Mode?
+    - what extensions can you get?
