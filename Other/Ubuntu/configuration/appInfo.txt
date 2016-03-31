@@ -128,6 +128,8 @@ Apps and programs -
         - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
         - not linked to app finder +++ (cl connected)
         - can you get it to auto complete html tags?
+            - http://stackoverflow.com/questions/30696863/vscode-not-auto-completing-html
+            - enter tag name (html, div, ul, li, a) and press tab to auto-complete
         - ... html within a TS file?
         -
         -
