@@ -4,6 +4,7 @@ import {RecipeListComponent} from "./recipe-list.component";
 import {RouteConfig} from "angular2/router";
 import {RecipeDetailComponent} from "./recipe-detail.component";
 import {ROUTER_DIRECTIVES} from "angular2/router";
+import {RecipeEditComponent} from "./recipe-edit.component";
 
 @Component({
     selector: 'my-recipes',
@@ -20,7 +21,7 @@ import {ROUTER_DIRECTIVES} from "angular2/router";
 })
 @RouteConfig([
     {path: '/', name: 'RecipeDetail', component: RecipeDetailComponent, useAsDefault: true},
-    {path: '/:editMode', name: 'RecipeEdit', component: RecipeDetailComponent}
+    {path: '/:editMode', name: 'RecipeEdit', component: RecipeEditComponent}
 ])
 export class RecipesComponent {
     
