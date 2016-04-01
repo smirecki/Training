@@ -15,7 +15,7 @@ export let RECIPES: Recipe[] = [
             new Ingredient('Buns', 2),
             new Ingredient('Salad', 1),
             new Ingredient('Paddies', 4),
-            new Ingredient('Vegetables' 2)
+            new Ingredient('Vegetables', 2)
         ]
     )
 ];
