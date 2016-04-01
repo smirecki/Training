@@ -20,6 +20,35 @@ export class RecipeEditComponent implements OnInit {
     
     constructor(private _routeParams: RouteParams, private _recipeService: RecipeService, private _formBuilder: FormBuilder) {}
     
+    
+    onAddItem(itemName: string, itemAmount: string) {
+        (<ControlArray>this.myForm.controls['ingredients']).push(
+            new ControlGroup(
+            {
+                name: new Control(itemName, Validators.required),
+                amount: new Control(itemAmount, Validators.compose([
+                    Validators.required,
+                    hasNumbers,
+                    greaterZero
+                ]))
+             }
+          )
+        );
+    }
+    
+    onRemoveItem(index: number) {
+        (<ControlArray>this.myForm.controls['ingredients']).removeAt(index);
+    }
+    
+    onSubmit() {
+        this.recipe = this.myForm.value;
+        if (this._editMode === 'edit') {
+            this._recipeService.updateRecipe(this._recipeIndex, this.recipe);
+        } else {
+            this._recipeService.insertRecipe(this.recipe);
+        }
+    }
+
     ngOnInit():any {
         this._editMode = this._routeParams.get('editMode');
         let fbRecipeName = '';
