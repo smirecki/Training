@@ -8,17 +8,21 @@ import {RecipeService} from "./recipe.service";
 import {Control} from "angular2/common";
 import {Validators} from "angular2/common";
 import {FormBuilder} from "angular2/common";
+import {Router} from "angular2/router";
+import {CanDeactivate} from "angular2/router";
+import {ComponentInstruction} from "angular2/router";
 
 @Component({
     templateUrl: 'template/recipes/recipe-edit.tpl.html'
 })
-export class RecipeEditComponent implements OnInit {
+export class RecipeEditComponent implements OnInit, CanDeactivate {
     myForm: ControlGroup;
     recipe: Recipe;
     private _editMode = 'create';
     private _recipeIndex: number;
+    private _submitted = false;
     
-    constructor(private _routeParams: RouteParams, private _recipeService: RecipeService, private _formBuilder: FormBuilder) {}
+    constructor(private _routeParams: RouteParams, private _recipeService: RecipeService, private _formBuilder: FormBuilder, private _router: Router) {}
     
     
     onAddItem(itemName: string, itemAmount: string) {
@@ -47,7 +51,17 @@ export class RecipeEditComponent implements OnInit {
         } else {
             this._recipeService.insertRecipe(this.recipe);
         }
+        this._submitted = true;
+        this.navigateBack();
     }
+    
+    onCancel() {
+        this.navigateBack();
+    }
+
+    private navigateBack() {
+         this._router.navigate(['RecipeDetail', {recipeIndex: this._recipeIndex}]);       
+    }   
 
     ngOnInit():any {
         this._editMode = this._routeParams.get('editMode');
@@ -85,6 +99,13 @@ export class RecipeEditComponent implements OnInit {
             ingredients: this._formBuilder.array(fbIngredients.controls)
             
         });
+    }
+    
+    routerCanDeactivate(nextInstruction: ComponentInstruction, prevInstruction: ComponentInstruction) {
+        if (this._submitted || this.myForm.pristine) {
+            return true;
+        }
+        return confirm("Sure?");
     }
 }
 
