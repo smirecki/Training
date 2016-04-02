@@ -43,6 +43,10 @@ Sites with helpful info:
     - read it, know it!
 - http://johnpapa.net/intellisense-witha-visual-studio-code/
 - http://anthonychu.ca/post/enabling-aspnet-razor-tag-helpers-intellisense-visual-studio/
+- https://channel9.msdn.com/Events/Build/2016/B887
+		- Good stuff, not the most entertaining speaker
+- https://github.com/Microsoft/vscode-tips-and-tricks
+		- Good stuff
 
 
 Emmet
