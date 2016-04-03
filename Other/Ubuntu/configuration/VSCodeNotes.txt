@@ -33,9 +33,8 @@
     - not linked to app finder +++ (cl connected)
     - can you get it to auto complete html tags?
         - http://stackoverflow.com/questions/30696863/vscode-not-auto-completing-html
-        - enter tag name (html, div, ul, li, a) and press tab to auto-complete
-        - ... html within a TS file?
-
+        		- enter tag name (html, div, ul, li, a) and press tab to auto-complete
+        - ... html correction within a TS file?
 
 
 Sites with helpful info:
@@ -47,6 +46,7 @@ Sites with helpful info:
 		- Good stuff, not the most entertaining speaker
 - https://github.com/Microsoft/vscode-tips-and-tricks
 		- Good stuff
+		- slow page load with all the gifs.
 
 
 Emmet
