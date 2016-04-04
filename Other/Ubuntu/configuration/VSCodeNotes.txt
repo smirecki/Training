@@ -47,6 +47,7 @@ Sites with helpful info:
 - https://github.com/Microsoft/vscode-tips-and-tricks
 		- Good stuff
 		- slow page load with all the gifs.
+- http://video.ch9.ms/ch9/9372/f7342f0f-d302-4c9e-a913-79b6dc5d9372/C9LIVE026TypeScriptandAngular2_high.mp4
 
 
 Emmet
