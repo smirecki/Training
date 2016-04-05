@@ -55,5 +55,9 @@ Emmet
     - http://docs.emmet.io/
     - http://docs.emmet.io/cheat-sheet/
 
+    - Test
+        - "ul.generic-list>lorem10.item*4" and then press TAB
+        ... works... no Emmet install required =)
+
 - what is Debug Mode?
     - what extensions can you get?
