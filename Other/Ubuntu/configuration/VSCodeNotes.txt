@@ -1,9 +1,4 @@
-[IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
-    - general
-        - "Code" version of VS
-        - https://code.visualstudio.com/Docs/?dv=linux64
-    
     - notes
         - built-in linting
         - You can Extend Visual Studio Code
