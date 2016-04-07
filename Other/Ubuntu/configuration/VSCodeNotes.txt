@@ -26,9 +26,6 @@
 - problems
     - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
     - not linked to app finder +++ (cl connected)
-    - can you get it to auto complete html tags?
-        - http://stackoverflow.com/questions/30696863/vscode-not-auto-completing-html
-        		- enter tag name (html, div, ul, li, a) and press tab to auto-complete
         - ... html correction within a TS file?
 
 
@@ -44,9 +41,13 @@ Sites with helpful info:
 		- slow page load with all the gifs.
 - http://video.ch9.ms/ch9/9372/f7342f0f-d302-4c9e-a913-79b6dc5d9372/C9LIVE026TypeScriptandAngular2_high.mp4
 
+HTML help
+
+    - it will auto complete html tags by typing tag name and tab
+        - h1 + tab or div + tab
 
 Emmet
-    - Emmet is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow:
+    - Emmet is a web-developer’s toolkit that can greatly improve your HTML & CSS work flow:
     - http://docs.emmet.io/
     - http://docs.emmet.io/cheat-sheet/
 
