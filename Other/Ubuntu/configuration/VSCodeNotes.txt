@@ -1,5 +1,6 @@
 - Visual Studios - VSCode-linux64
-    - notes
+    - features
+        - it is open source
         - built-in linting
         - You can Extend Visual Studio Code
         - TS is built-in to VS Code
@@ -9,7 +10,7 @@
     - Notes on - setting up transcoding build task
         - https://code.visualstudio.com/Docs/languages/typescript
 
-        - following this example to setup transcriping
+        - following this example to setup transcribing
             - http://michaelcrump.net/quick-tip-with-typescript-and-vscode/
             - sample project on Github to test Task Runner, basic few files
             - CMD-Shift-B (or CTRL-Shift-B for Linux) for opening Task Runner not working
@@ -22,12 +23,6 @@
         - https://code.visualstudio.com/Docs/customization/keybindings
         - comment - highlight and (ctrl + /) 
 
-=============
-- problems
-    - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
-    - not linked to app finder +++ (cl connected)
-        - ... html correction within a TS file?
-
 
 Sites with helpful info:
 - https://code.visualstudio.com/Docs/languages/html
@@ -35,14 +30,12 @@ Sites with helpful info:
 - http://johnpapa.net/intellisense-witha-visual-studio-code/
 - http://anthonychu.ca/post/enabling-aspnet-razor-tag-helpers-intellisense-visual-studio/
 - https://channel9.msdn.com/Events/Build/2016/B887
-		- Good stuff, not the most entertaining speaker
-- https://github.com/Microsoft/vscode-tips-and-tricks
-		- Good stuff
-		- slow page load with all the gifs.
+        - Good stuff, not the most entertaining speaker
+        - Notes and links from this talk
+            - - https://github.com/Microsoft/vscode-tips-and-tricks
 - http://video.ch9.ms/ch9/9372/f7342f0f-d302-4c9e-a913-79b6dc5d9372/C9LIVE026TypeScriptandAngular2_high.mp4
 
 HTML help
-
     - it will auto complete html tags by typing tag name and tab
         - h1 + tab or div + tab
 
@@ -57,3 +50,9 @@ Emmet
 
 - what is Debug Mode?
     - what extensions can you get?
+
+========
+problems
+    - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
+    - not linked to app finder +++ (cl connected)
+        - ... html correction within a TS file?
