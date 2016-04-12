@@ -23,16 +23,15 @@
         - https://code.visualstudio.com/Docs/customization/keybindings
         - comment - highlight and (ctrl + /) 
 
-
 Sites with helpful info:
 - https://code.visualstudio.com/Docs/languages/html
     - read it, know it!
 - http://johnpapa.net/intellisense-witha-visual-studio-code/
 - http://anthonychu.ca/post/enabling-aspnet-razor-tag-helpers-intellisense-visual-studio/
 - https://channel9.msdn.com/Events/Build/2016/B887
-        - Good stuff, not the most entertaining speaker
-        - Notes and links from this talk
-            - - https://github.com/Microsoft/vscode-tips-and-tricks
+    - Good stuff, not the most entertaining speaker
+    - Notes and links from this talk
+        - - https://github.com/Microsoft/vscode-tips-and-tricks
 - http://video.ch9.ms/ch9/9372/f7342f0f-d302-4c9e-a913-79b6dc5d9372/C9LIVE026TypeScriptandAngular2_high.mp4
 - free ebook - VisualStudioCode-TipsAndTricks-Vol.1.pdf
 
