@@ -46,6 +46,7 @@ Apps and programs -
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
     - AB Plus
+        - anyway to avoid sites that block ad blocker
 	- dark reader - testing
         - Better than older ones I've used
         - has a nice whitelist feature
