@@ -1,4 +1,14 @@
 - Visual Studios - VSCode-linux64
+
+    - install notes
+        - download from MS site
+            - http://code.visualstudio.com/download
+            - version 1. 4/14/16
+        - the easy way.....
+            - double click .deb
+                - GUI software installer opens
+                    - follow installer
+                    - all should install perfectly
     - features
         - it is open source
         - built-in linting
@@ -55,4 +65,5 @@ Emmet
 problems
     - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
     - not linked to app finder +++ (cl connected)
+        - fixed with new install
         - ... html correction within a TS file?
