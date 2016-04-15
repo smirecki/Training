@@ -1,0 +1,18 @@
+
+Dev env 
+  - tut uses c9.io
+    - create work space
+    - use php
+    - install Laravel
+      - If you are not using Cloud9
+        - get link from Laravel.com  
+        - "Via Composer Create-Project"
+      - If you are using c9
+        - search for install docs for Laravel on c9.io via shell
+        - use the shell command in the c9 terminal, at bottom of screen or with window new terminal
+        - check that "shopt -s dotglab" and "mv laravel/* ./" complete
+        - if the install fails reread directions and retry the steps that failed to load, this is a c9 system problem you just have to deal with.
+        - follow directions to change default directory that the files are served from
+        - follow dir. load updates
+        - run project and click link to check to see if the install was successful. 
+
