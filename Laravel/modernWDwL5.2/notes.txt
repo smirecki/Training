@@ -16,3 +16,7 @@ Dev env
         - follow dir. load updates
         - run project and click link to check to see if the install was successful. 
 
+=====
+trying - https://laracasts.com/discuss/channels/tips/testing-cloud9-ide-with-composer-laravel
+	- moved hello.php to dir-old instead of deleting as it has instructions on cloud 9 setup.
+
