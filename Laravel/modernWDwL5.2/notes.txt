@@ -18,5 +18,11 @@ Dev env
 
 =====
 trying - https://laracasts.com/discuss/channels/tips/testing-cloud9-ide-with-composer-laravel
-	- moved hello.php to dir-old instead of deleting as it has instructions on cloud 9 setup.
-
+	- note on step 8 - moved hello.php to dir-old instead of deleting as it has instructions on cloud 9 setup.
+  - step 9
+		- composer create-project laravel/laravel YourProjectName dev-develop
+			- error
+				- [InvalidArgumentException]                                        
+				  Could not find package laravel/laravel with version dev-develop.
+  
+                                                                    
