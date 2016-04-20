@@ -24,5 +24,10 @@ trying - https://laracasts.com/discuss/channels/tips/testing-cloud9-ide-with-com
 			- error
 				- [InvalidArgumentException]                                        
 				  Could not find package laravel/laravel with version dev-develop.
+........
+Which to - https://community.c9.io/t/getting-started-with-laravel/1608
+... stopped at DB setup.. need to see what the tut required..
+	- last CLI entered... "mysql-ctl cli"
+  ... no need for DB setup at this point.
   
                                                                     
