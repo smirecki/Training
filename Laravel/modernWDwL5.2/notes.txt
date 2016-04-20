@@ -29,5 +29,15 @@ Which to - https://community.c9.io/t/getting-started-with-laravel/1608
 ... stopped at DB setup.. need to see what the tut required..
 	- last CLI entered... "mysql-ctl cli"
   ... no need for DB setup at this point.
-  
+
+- installed correctly, Laravel 5 running.
+- create sub-folders
+  - Public -> src
+    - css
+    - js
+- resources
+  - where we do our templating with Blade    
+- make a basic change to default "hello world" Laravel 5 install
+  - resources -> views -> vendor -> welcome.blade.php
+    - you can edit the html to say whatever you want... Your First Laravel application!
                                                                     
