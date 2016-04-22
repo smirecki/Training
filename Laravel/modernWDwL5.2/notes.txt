@@ -44,7 +44,9 @@ Which to - https://community.c9.io/t/getting-started-with-laravel/1608
 - start section 3
   - Views
     - create main.css (in Public -> src -> css)
-    - 
+  - edit welcome.blade.php to home.blade.php
+  - edit routes to open "home"
+  - edit master.blade.php
 
 
                                                                     
