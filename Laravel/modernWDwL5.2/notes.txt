@@ -40,4 +40,11 @@ Which to - https://community.c9.io/t/getting-started-with-laravel/1608
 - make a basic change to default "hello world" Laravel 5 install
   - resources -> views -> vendor -> welcome.blade.php
     - you can edit the html to say whatever you want... Your First Laravel application!
+- end section 2
+- start section 3
+  - Views
+    - create main.css (in Public -> src -> css)
+    - 
+
+
                                                                     
