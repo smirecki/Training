@@ -17,14 +17,6 @@ Dev env
         - run project and click link to check to see if the install was successful. 
 
 =====
-trying - https://laracasts.com/discuss/channels/tips/testing-cloud9-ide-with-composer-laravel
-	- note on step 8 - moved hello.php to dir-old instead of deleting as it has instructions on cloud 9 setup.
-  - step 9
-		- composer create-project laravel/laravel YourProjectName dev-develop
-			- error
-				- [InvalidArgumentException]                                        
-				  Could not find package laravel/laravel with version dev-develop.
-........
 Which to - https://community.c9.io/t/getting-started-with-laravel/1608
 ... stopped at DB setup.. need to see what the tut required..
 	- last CLI entered... "mysql-ctl cli"
