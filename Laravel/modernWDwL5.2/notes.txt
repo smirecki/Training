@@ -1,4 +1,3 @@
-
 Dev env 
   - tut uses c9.io
     - create work space
@@ -39,6 +38,7 @@ Which to - https://community.c9.io/t/getting-started-with-laravel/1608
   - edit welcome.blade.php to home.blade.php
   - edit routes to open "home"
   - edit master.blade.php
+    - templating with @yield
 
 
                                                                     
