@@ -63,7 +63,3 @@ Emmet
 
 ========
 problems
-    - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
-    - not linked to app finder +++ (cl connected)
-        - fixed with new install
-        - ... html correction within a TS file?
