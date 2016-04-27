@@ -1,5 +1,6 @@
 Dev env 
   - tut uses c9.io
+    - c9 appears to take a lot of resources to run it's in-browser IDE, it might be worth the time to redo this in a VM with vagrant.
     - create work space
     - use php
     - install Laravel
