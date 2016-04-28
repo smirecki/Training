@@ -39,7 +39,9 @@ Which to - https://community.c9.io/t/getting-started-with-laravel/1608
   - edit welcome.blade.php to home.blade.php
   - edit routes to open "home"
   - edit master.blade.php
-    - templating with @yield
+    - templating with @yield, @include
+  - make and edit headers
+  - @for/@endfor, @if/@endif for templating
 
 
                                                                     
