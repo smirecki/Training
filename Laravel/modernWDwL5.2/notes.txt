@@ -42,6 +42,8 @@ Which to - https://community.c9.io/t/getting-started-with-laravel/1608
     - templating with @yield, @include
   - make and edit headers
   - @for/@endfor, @if/@endif for templating
+  - Emmet enabled with c9.io
+  - 
 
 
                                                                     
