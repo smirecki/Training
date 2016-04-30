@@ -133,8 +133,7 @@ Apps and programs -
             - http://stackoverflow.com/questions/30696863/vscode-not-auto-completing-html
             - enter tag name (html, div, ul, li, a) and press tab to auto-complete
         - ... html within a TS file?
-        -
-        -
+            - doesn't auto correct or warn if you are missing tags, maybe it will with a extension 
 
     - notes
         - built-in linting
