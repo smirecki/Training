@@ -47,6 +47,7 @@ Apps and programs -
 - Chromium
     - AB Plus
         - anyway to avoid sites that block ad blocker
+            - can we find a list of sites that block ab blocker?
 	- dark reader - testing
         - Better than older ones I've used
         - has a nice whitelist feature
