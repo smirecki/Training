@@ -55,7 +55,7 @@ Apps and programs -
         - has a nice whitelist feature
         - not perfect with images
 	- youtube - dark skin
-- FireFox Developer edition
+- FireFox Developer edition - not currently using
     - Install
         - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
         - sudo apt-get update
@@ -71,7 +71,6 @@ Apps and programs -
 - VLC, codex (what codex?)
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
-
 -Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
