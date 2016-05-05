@@ -161,6 +161,7 @@ Apps and programs -
         - comment - highlight and (ctrl + /) 
 
 - Brackets - Brackets.Release.1.6.64-bit
+    - only reason to run this app is if you love the Adobe ecosystem
     - https://github.com/adobe/brackets
     - 1.6.0-16680
     - 147.9 MB
