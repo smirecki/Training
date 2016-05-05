@@ -62,8 +62,9 @@ Apps and programs -
         - sudo apt-get install firefox
     - no script (updated for security hole)
     - AB plus
+    - dark background app broken with new install update
 - Git
-    - via Github
+    - via Github website
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
@@ -136,7 +137,6 @@ Apps and programs -
             - enter tag name (html, div, ul, li, a) and press tab to auto-complete
         - ... html within a TS file?
             - doesn't auto correct or warn if you are missing tags, maybe it will with a extension 
-
     - notes
         - built-in linting
         - You can Extend Visual Studio Code
@@ -185,13 +185,9 @@ Apps and programs -
                 - https://github.com/atom/autocomplete-plus
 - Sublime
     - Find line completion tools
-
 ===
 Might install
-- Gvim
 - Inkscape - not needed
-- Spotify
-    - https://www.spotify.com/us/download/linux/
 - Skype
     - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
 - Midori
