@@ -105,6 +105,8 @@ Apps and programs -
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
 - Dropbox
+    - Do I still need or want this?
+    - What kind of resources does this use?
 - lm-sensors
 	- Linux Temp
 		- install lm-sensors
