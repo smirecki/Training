@@ -143,5 +143,15 @@ Pointer dark -
     - I don't remember if this was auto set when I changed the theme or I did this on it's own.
 
 
+Second display - mount vertically
+    - NVIDIA X Server Settings
+        - X Server Display Configuration
+            - select second monitor
+                - Orientation
+                    - Rotate Right/Left
+                        - Apply - ok - 
+                            - Save to X Configuration File
+                            ----- Note if you skip that last step, the setting will not be remembered on restart!
+
 - Problem
 
