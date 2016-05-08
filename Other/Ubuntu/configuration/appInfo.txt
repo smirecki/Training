@@ -55,6 +55,7 @@ Apps and programs -
         - has a nice whitelist feature
         - not perfect with images
 	- youtube - dark skin
+    - Instapaper
 - FireFox Developer edition - not currently using
     - Install
         - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
@@ -72,6 +73,8 @@ Apps and programs -
 - VLC, codex (what codex?)
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
+    - problem
+        - Are there safe codex packs or updates for non-default installed codex?
 -Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
