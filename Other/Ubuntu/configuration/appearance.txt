@@ -140,8 +140,7 @@ Clementine -
                 - No background image
 
 Pointer dark -
-    - I don't remember if this was auto set when I changed the theme or I did this on it's own.
-
+    - I don't remember if this was auto set when I changed the theme or It did this on it's own.
 
 Second display - mount vertically
     - NVIDIA X Server Settings
