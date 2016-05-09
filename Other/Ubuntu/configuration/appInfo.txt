@@ -203,4 +203,9 @@ Might install
     - This app will ONLY support a short list of windows apps and games.
         - Can you force it to try running other apps?
     - WINE *
-	- What are the security concerns using Windows apps on Linux, escalation of privileges? 
+	- What are the security concerns using Windows apps on Linux, escalation of privileges?
+===
+Consider php environment
+    - vagrant
+    - docker
+    - LAMP
