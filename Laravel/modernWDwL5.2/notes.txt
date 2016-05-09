@@ -1,4 +1,4 @@
-Dev env 
+Dev env
   - tut uses c9.io
     - c9 appears to take a lot of resources to run it's in-browser IDE, it might be worth the time to redo this in a VM with vagrant.
     - create work space
@@ -45,5 +45,7 @@ Which to - https://community.c9.io/t/getting-started-with-laravel/1608
   - Emmet enabled with c9.io
   - 
 
-
+Other notes:
+- This tut is a little slow.
+- I might switch to the 6 hour tut, instead of the 12.5 hour tut.
                                                                     
