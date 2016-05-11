@@ -153,4 +153,4 @@ Second display - mount vertically
                             ----- Note if you skip that last step, the setting will not be remembered on restart!
 
 - Problem
-
+    - desktop UI flashes basic before theme kicks in
