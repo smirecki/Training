@@ -17,7 +17,7 @@ Dev env
         - run project and click link to check to see if the install was successful. 
 
 =====
-Which to - https://community.c9.io/t/getting-started-with-laravel/1608
+Switch to - https://community.c9.io/t/getting-started-with-laravel/1608
 ... stopped at DB setup.. need to see what the tut required..
 	- last CLI entered... "mysql-ctl cli"
   ... no need for DB setup at this point.
