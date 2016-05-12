@@ -104,6 +104,9 @@ Apps and programs -
 - PDF Reader 
     - Document Viewer, not great
     - Calibre opens Document Viewer to read PDFs
+- PHP
+    - Composer and PHP installed - php dependency management tool
+        - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
 - synergy-project app
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
@@ -207,6 +210,10 @@ Might install
 ===
 Consider php environment
     - vagrant
+        - needs VM software to run
+            - VirtualBox, VMware, KVM, Linux Containers(LXC)...
     - docker
+        - vagrant and use docker images
     - LAMP
     - c9.io
+        - very resource intense with JS rendered VM IDE 90-95% CPU/RAM
