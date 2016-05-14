@@ -1,4 +1,5 @@
 Apps and programs - 
+- edit dns records if isp's dns can't reach some sites.
 - Vim
 - node
     === option 1 ====
