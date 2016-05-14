@@ -1,0 +1,11 @@
+Useful links:
+https://getcomposer.org/download/
+
+https://community.c9.io/t/getting-started-with-laravel/1608
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
+
+
+installing Laravel
+	- https://laravel.com/docs/5.0
+	
