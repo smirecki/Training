@@ -8,4 +8,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 
 installing Laravel
 	- https://laravel.com/docs/5.0
+	- put laravel in PATH
+
+
+- http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
+
+- give the correct permissions to PHP and or the directories for Laravel to create a new project in Foo directory /var/www/html/foobar
 	
