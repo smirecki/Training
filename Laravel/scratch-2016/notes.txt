@@ -14,4 +14,9 @@ installing Laravel
 - http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
 
 - give the correct permissions to PHP and or the directories for Laravel to create a new project in Foo directory /var/www/html/foobar
+
+add this if sqlite "can't find driver", should be included in PHP install, but isn't
+	- sudo apt-get install php5-sqlite
 	
+
+Stop at 07 10:00 after sqlite migration (fixed)
