@@ -1,10 +1,7 @@
 Useful links:
 https://getcomposer.org/download/
-
 https://community.c9.io/t/getting-started-with-laravel/1608
-
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
-
 
 installing Laravel
 	- https://laravel.com/docs/5.0
@@ -13,9 +10,11 @@ installing Laravel
 
 - http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
 
-- give the correct permissions to PHP and or the directories for Laravel to create a new project in Foo directory /var/www/html/foobar
 
-add this if sqlite "can't find driver", should be included in PHP install, but isn't
+Random errors:
+- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
+
+- add this if sqlite "can't find driver", should be included in PHP install, but isn't
 	- sudo apt-get install php5-sqlite
 	
 
