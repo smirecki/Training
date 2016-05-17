@@ -1,4 +1,8 @@
-Useful links:
+
+Best instructions on installing Laravel and all software it needs
+	- http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
+
+Other useful links:
 https://getcomposer.org/download/
 https://community.c9.io/t/getting-started-with-laravel/1608
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
@@ -8,14 +12,10 @@ installing Laravel
 	- put laravel in PATH
 
 
-- http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
+Random errors while installing or running:
+	- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
 
-
-Random errors:
-- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
-
-- add this if sqlite "can't find driver", should be included in PHP install, but isn't
-	- sudo apt-get install php5-sqlite
+	- add "php5-sqlite" if sqlite "can't find driver", should be included in PHP install, but isn't with *Ubuntu
+		- sudo apt-get install php5-sqlite
 	
-
-Stop at 07 10:00 after sqlite migration (fixed)
+Stopped at 07 10:00 after sqlite migration (fixed)
