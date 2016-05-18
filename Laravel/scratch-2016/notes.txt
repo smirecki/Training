@@ -9,8 +9,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 
 installing Laravel
 	- https://laravel.com/docs/5.0
-	- put laravel in PATH
-
+	- put Laravel in PATH
 
 Random errors while installing or running:
 	- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
@@ -19,3 +18,13 @@ Random errors while installing or running:
 		- sudo apt-get install php5-sqlite
 	
 Stopped at 07 10:00 after sqlite migration (fixed)
+
+php artisan tinker
+	- use to create new "card" adding to DB
+		- DB::table('cards')->insert([title => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+		- DB::table('cards')->insert([title => 'My Second New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+	- query
+		- DB::table('cards')->get();
+		- DB::table('cards')->where('title', 'My New Cards')->first();
+	- delete
+		- DB::table('cards')->where('title', 'My New Cards')->delete();
