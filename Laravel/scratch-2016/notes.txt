@@ -16,15 +16,27 @@ Random errors while installing or running:
 
 	- add "php5-sqlite" if sqlite "can't find driver", should be included in PHP install, but isn't with *Ubuntu
 		- sudo apt-get install php5-sqlite
+
+serve the project/site with this stack
+	- "php artisan serve" within the root directory
 	
-Stopped at 07 10:00 after sqlite migration (fixed)
+
+===
+Stopped at 08 - 4:00
+
 
 php artisan tinker
 	- use to create new "card" adding to DB
-		- DB::table('cards')->insert([title => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
-		- DB::table('cards')->insert([title => 'My Second New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+		- DB::table('cards')->insert(['title' => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+		- DB::table('cards')->insert(['title' => 'My Second New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
 	- query
 		- DB::table('cards')->get();
-		- DB::table('cards')->where('title', 'My New Cards')->first();
+		- DB::table('cards')->where('title', 'My New Card')->first();
 	- delete
 		- DB::table('cards')->where('title', 'My New Cards')->delete();
+
+	note: be careful not to tab or escape out of Tinker into the normal CLI, Tinker and CLI look very similar and none of the DB commands will work the same in the CLI.
+
+php artisan make:model Card
+
+Relationships in DB w/Eloguent.. errors.. missing "notes" or other errors, restart
