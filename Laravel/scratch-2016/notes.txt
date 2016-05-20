@@ -22,7 +22,7 @@ serve the project/site with this stack
 	
 
 ===
-Stopped at 08 - 4:00
+Stopped at 09 content not correct
 
 
 php artisan tinker
@@ -39,4 +39,5 @@ php artisan tinker
 
 php artisan make:model Card
 
-Relationships in DB w/Eloguent.. errors.. missing "notes" or other errors, restart
+making relationships (wording)
+
