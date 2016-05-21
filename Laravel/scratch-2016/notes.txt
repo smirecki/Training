@@ -21,10 +21,6 @@ serve the project/site with this stack
 	- "php artisan serve" within the root directory
 	
 
-===
-Stopped at 09 content not correct
-
-
 php artisan tinker
 	- use to create new "card" adding to DB
 		- DB::table('cards')->insert(['title' => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
@@ -39,5 +35,16 @@ php artisan tinker
 
 php artisan make:model Card
 
+===
+Stopped at 
+
+
 making relationships (wording)
+
+problems
+	- Breaking changes from version Laravel 5.0 -5.2
+		 - "token mismatch exception"
+		 	- work around for dev env tut 
+		 		- edit App\Http\Middleware\VerifyCsrfToken
+		 			- add pages that you want to bypass check... all = '*' or some = 'foo/bar/row/*'
 
