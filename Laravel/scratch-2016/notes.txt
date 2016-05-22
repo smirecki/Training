@@ -46,5 +46,7 @@ problems
 		 - "token mismatch exception"
 		 	- work around for dev env tut 
 		 		- edit App\Http\Middleware\VerifyCsrfToken
-		 			- add pages that you want to bypass check... all = '*' or some = 'foo/bar/row/*'
+		 			- add pages that you want to bypass check... all = '*' or some =' foo/bar/row/*'
+
+migrations and rolling back, refresh, 
 
