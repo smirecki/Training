@@ -50,3 +50,66 @@ problems
 
 migrations and rolling back, refresh, 
 
+note:
+
+    - CLI  // list of commands, not a logical list
+    	- php artisan // version, options, commands list
+    	- php artisan help foo:bar  // get info on foo:bar
+
+    	-	php artisan make:migration create_user_table --create=users
+    			// creating a migration file, with some default values
+    		php artisan migrate
+    			// implement the migration you just created
+    		php artisan migrate:refresh
+    			// drop all data in DB and reimplement migration DB setup 
+    		php artisan Schema::drop('users');
+
+	- php artisan tinker
+		- check User(s) in the DB
+			- App\User::all();
+		- check Note(s) in the DB
+			- App\Note::all();
+		- Create a new User the long way
+			-	namespace App;
+				$card = new Card;
+				$card->title = 'My First Card';
+				$card->save();
+
+				$note = new Note;
+				$note->user_id = 1;
+				$note->body = 'The body of the note.';
+				$card->addNote($note); // note data is printed to screen
+
+				$user = new User;
+				$user->username = 'FooName';
+				$user->email = 'FooName@Bar.com';
+				$user->password = bcrypt('FooPassword');
+				$user->save();
+
+				User::all(); // data for user printed to screen
+
+
+
+
+			-	$user = new User;
+
+				$user->username = 'fooName';
+				$user->email = 'fooName@fooemail.com';
+				$user->password = bcrypt('fooPassword');
+				$user->save();
+			-	$note = new Note;
+				$note->user_id = foo1;
+				$note->body = 'Foo note';
+				$card->addNote($note);
+
+
+
+redo 10
+	- error with showing data in cards/1 input field
+	- possible DB schema error or naming error(s)
+		- delete old migrations, create new ones, add user and notes
+
+	- redid all DB data
+	- might be problem with breaking change
+	- consider restarting fresh and sprinting through.
+
