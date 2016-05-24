@@ -1,16 +1,90 @@
+Laravel Notes - notes.txt
 
-Best instructions on installing Laravel and all software it needs
-	- http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
+=============
+meta notes
+	- get spell check to work on VS Code
+=============
 
-Other useful links:
-https://getcomposer.org/download/
-https://community.c9.io/t/getting-started-with-laravel/1608
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
+Links
+	- Software site
+		- https://laravel.com/docs/5.0
+	- Best instructions on installing Laravel and all software it needs
+		- http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
 
-installing Laravel
-	- https://laravel.com/docs/5.0
-	- put Laravel in PATH
+	- Other useful links:
+	-	https://getcomposer.org/download/
+	-	https://community.c9.io/t/getting-started-with-laravel/1608
+	-	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
 
+Installing Laravel
+	# download installer
+		- composer global require "laravel/installer=~1.1"
+	#setting up path
+		- export PATH="~/.composer/vendor/bin:$PATH" 
+	# change dir where to install
+		- cd /var/www/html/
+	# download and installing
+		- laravel new laravelnew
+	# giving permission
+		- chmod -R 777 laravelnew
+
+FAQ
+	- Where are these files?
+		- You can quickly search for a file with CTRL + p (in Sublime & VS Code)
+		- Routes.php				app/Http/Requests/routes.php
+		- Template foo.blade.php	resources/views/foo.blade.php
+		- Contorlers				app/Http/Controlers/FooControllerName.php
+		- CSS style sheet			public/css/style.css
+		- sass or less				resources/assets/sass/app.scss
+		- config files				config/foo.php
+		
+	- Where can I find help?
+		- php artisan
+			- this will show you the help file
+			
+	- How do serve the pages or start the server?
+		- php artisan serve
+	
+	- Elixir, what is it?
+		- Predefined mixin to perform common tasks or an API for defining basic Gulp tasks for your Laravel application.
+		- it needs npm to run Gulp and finish the build
+		- "gulp --production" will run the sass and minify
+		- "gulp watch" to update automatically 
+
+Make(ing)
+	- Controllers
+		- php artisan make:controller FooControllerName
+	- migrations
+		- php artisan make:migration FooNameOfFile
+Setting up the DB
+	- for sqlite
+		- create folder and file
+			- touch database/database.sqlite
+Create migration
+	- 
+	- fail... file access error
+		- check .env
+			- DB_CONNECTION=sqlite  // defaults to mysql... must be change to use sqlite
+		- correct config/database.php
+			- 'database' => database_path('database.sqlite') // no ENV data
+		- do not need to change sqlite dev default values for...
+			- 	DB_DATABASE=homestead
+				DB_USERNAME=homestead
+				DB_PASSWORD=secret
+		- might not need permissions changes
+			- I made changes before correcting the other files
+DB - Create tables...
+	- php artisan
+		- (use query builder) 
+			- DB::table('cards')->insert(['title' => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+		- error at 07 10:33 ---- typo error... will cause this
+			- Illuminate\Database\QueryException with message 'SQLSTATE[HY000]': General error: 1 table cards has no column name update_at (SQL: insert into "cards" ("title", "created_at", "update_at") values (foo bar))'	
+			
+			
+
+
+
+============
 Random errors while installing or running:
 	- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
 
@@ -36,9 +110,6 @@ php artisan tinker
 php artisan make:model Card
 
 ===
-Stopped at 
-
-
 making relationships (wording)
 
 problems
@@ -113,3 +184,7 @@ redo 10
 	- might be problem with breaking change
 	- consider restarting fresh and sprinting through.
 
+
+
+===
+current to 07 10:45 ... all working
