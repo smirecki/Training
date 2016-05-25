@@ -3,6 +3,8 @@ Laravel Notes - notes.txt
 =============
 meta notes
 	- get spell check to work on VS Code
+		- https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff
+		- https://code.visualstudio.com/Docs/extensions/example-hello-world
 =============
 
 Links
@@ -44,6 +46,9 @@ FAQ
 			
 	- How do serve the pages or start the server?
 		- php artisan serve
+	- Tinker, allows you to make changes in your build via CLI like npm
+		- php artisan tinker
+			- check data, add data
 	
 	- Elixir, what is it?
 		- Predefined mixin to perform common tasks or an API for defining basic Gulp tasks for your Laravel application.
@@ -80,10 +85,6 @@ DB - Create tables...
 		- error at 07 10:33 ---- typo error... will cause this
 			- Illuminate\Database\QueryException with message 'SQLSTATE[HY000]': General error: 1 table cards has no column name update_at (SQL: insert into "cards" ("title", "created_at", "update_at") values (foo bar))'	
 			
-			
-
-
-
 ============
 Random errors while installing or running:
 	- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
@@ -172,7 +173,6 @@ note:
 				$note->user_id = foo1;
 				$note->body = 'Foo note';
 				$card->addNote($note);
-
 
 
 redo 10
