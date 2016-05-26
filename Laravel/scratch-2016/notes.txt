@@ -65,6 +65,7 @@ Setting up the DB
 	- for sqlite
 		- create folder and file
 			- touch database/database.sqlite
+		- change presets in .env & config/database.php or the migrations will fail.
 Create migration
 	- 
 	- fail... file access error
