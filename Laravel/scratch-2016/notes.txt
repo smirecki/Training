@@ -109,7 +109,7 @@ php artisan tinker
 
 	note: be careful not to tab or escape out of Tinker into the normal CLI, Tinker and CLI look very similar and none of the DB commands will work the same in the CLI.
 
-php artisan make:model Card
+php artisan make:model Card  //Eloquent 
 
 ===
 making relationships (wording)
@@ -189,3 +189,6 @@ redo 10
 
 ===
 current to 07 10:45 ... all working
+			07 18:31 ... data not right
+				19:35 ... work data
+				end ... data still showing wrong.  Is my data wrong or displayed wrong or both?
