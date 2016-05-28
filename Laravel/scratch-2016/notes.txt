@@ -188,7 +188,10 @@ redo 10
 
 
 ===
-current to 07 10:45 ... all working
-			07 18:31 ... data not right
-				19:35 ... work data
-				end ... data still showing wrong.  Is my data wrong or displayed wrong or both?
+current to 08
+  - end of 7  ... data still showing wrong.  Is my data wrong or displayed wrong or both?
+  - It was showing cached data.  It looks like I have more than one DB, cards made on different days with different names.
+  - Serving DB and php artisan tinker DB show different
+  - Data is now showing in web and CLI the same
+  - add another card to match what the tut shows.
+  
