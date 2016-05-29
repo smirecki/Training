@@ -194,4 +194,9 @@ current to 08
   - Serving DB and php artisan tinker DB show different
   - Data is now showing in web and CLI the same
   - add another card to match what the tut shows.
+  	- done
+	  
+08
+	- php artisan make:migration create_notes_table --create=notes
+
   
