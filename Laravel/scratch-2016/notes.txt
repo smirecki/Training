@@ -198,5 +198,30 @@ current to 08
 	  
 08
 	- php artisan make:migration create_notes_table --create=notes
+	- $cards->notes;  // this will get the relationship
+	- @ 08 5:00 Tinker CLI not showing relationship for Card/Note correctly
+		- $card = App\Card::first();
+		- $card->notes;  // should fetch relationship
+			- shows "[]" empty set?
+			App\Note::all();
+				- show data that is the same as his data.
+			- maybe his method no longer works or I made an error.
+	- $card->notes[0] // this fails... maybe the method notes is broken
+	- added a new Note, so now we have a Note for both id 1 and 2.
+	- working now
+		- must first "$card = App\Card::first();"
+		- then "$card->notes;"
+	- About Tinker
+		- remember to enter/exit it to refresh (I assume it could have data problems if you didn't).
+	- watch the SQL queries - 08 @7:00?
+		- this is a lesson that Laravel caches the SQL queries
+		- DB::listen(function($query) { var_dump($query->sql); });
+	- creating a Note all in one line
+		- $card->notes()->create(['body' => 'The third note.']);
+			- "MassAssignmentException", got to set properties for 'body'
+- end 8... everything is working perfectly
+		
+	
+			
 
   
