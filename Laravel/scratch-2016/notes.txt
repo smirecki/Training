@@ -220,6 +220,13 @@ current to 08
 		- $card->notes()->create(['body' => 'The third note.']);
 			- "MassAssignmentException", got to set properties for 'body'
 - end 8... everything is working perfectly
+- start 9
+	- @ 6:59 - had to do the very silly "token mismatch exception" work around in "VerifyCsrfToken"
+- end 9 - all working
+- start 10
+	- @9:49 - still perfect
+	- 
+	
 		
 	
 			
