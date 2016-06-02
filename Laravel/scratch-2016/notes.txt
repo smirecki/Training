@@ -2,9 +2,16 @@ Laravel Notes - notes.txt
 
 =============
 meta notes
-	- get spell check to work on VS Code
-		- https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff
-		- https://code.visualstudio.com/Docs/extensions/example-hello-world
+	- VS Code
+		- Word wrap
+			- http://askubuntu.com/questions/622631/how-to-wrap-text-comments-in-visual-studio-code
+			- File/Preferences/User Settings
+				- settings.json
+					- Add -  "editor.wrappingColumn": 0
+		- get spell check
+			- more complex than it should be (guess that's a pay feature)
+			- https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff
+			- https://code.visualstudio.com/Docs/extensions/example-hello-world
 =============
 
 Links
@@ -171,8 +178,15 @@ note:
 				
 			-	$note = new Note;
 				$note->user_id = foo1;
+				$note->card_id = fooNumber;
 				$note->body = 'Foo note';
 				$card->addNote($note);
+				
+				notes needs
+					$table->increments('id');
+            		$table->integer('user_id')->unsigned()->index();
+            		$table->integer('card_id')->unsigned()->index();
+            		$table->text('body');
 
 
 redo 10
@@ -236,7 +250,53 @@ current to 08
 		- refresh.. looks like create_cards_table works perfect on migration, but Cards and Users don't
 		- fails to add User(s), but can add Cards and Notes.
 		- how do I fix this?
-		
+			- try refresh the long way without Laravels help
+				- save affected files else where
+					- DB /database/database.sqlite
+					- migrations
+						- Cards /database/FooDate_create_cards_table.php
+						- Notes ..._notes_table.php
+						- Users ..._users_table.php
+				- delete/remove migration files and database
+				- create them again with help from the old files...
+					- You would need to make the adjustments to the config files for using sqlite instead of the default mysql DB, but I don't because I already did. 
+					- create empty DB file
+						- 'touch database.sql'
+					- create migrations
+						- Create migration file
+							-'php artisan make:migration create_cards_table --create=cards'
+						- Edit migration file to reflex what you need
+						- Migrate file do/make/initialise migration
+							- 'php artisan migrate' 
+						- The tut added data to the DB this way, I'm not sure if this is requried 
+							- in Tinker
+								- 'DB::table('cards')->insert(['title' => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime])';
+								- Check what was created
+									- DB::table('cards')->get();
+								- Delete foo
+									- DB::table('cards')->where('title', 'My New Card')->delete();
+								- created again, but now the id is one greater
+								- added second new card
+						- created migrations for Note and User
+						- add data for User
+				- will it work?
+					- yes and no
+						- yes all the data can be added and the DB is working great, but you can't add more Notes via the web page.
+							- The error shows a problem with the user_id field.
+								- Maybe the Cards Contorler needs to be fixed..?
+					- How does the app know which User is adding data, bc that seems to be the error it is having?
+					- Looks fine @15:47
+					- Problems @17:01
+						- Showing the User Name instead of ID...
+					- @17:26
+						- I'm not sure why his code can get the user data from this
+							- return $card->notes[0]->user;
+					- broken at this point
+						- I'm guessing we are using differnt versions of the framework, which is causing errors and or differences in the code.
+				    - I will save a compressed version at this point and continue on with what ever version was working last. =(
+- end 10 - with it not working 100% bc of above reasons.
+- start 11
+	- 		
 	
 	
 		
