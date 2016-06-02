@@ -163,13 +163,12 @@ note:
 
 
 
-
-			-	$user = new User;
-
+			-   $user = new App\User; or 	$user = new User; if you are not in App
 				$user->username = 'fooName';
 				$user->email = 'fooName@fooemail.com';
 				$user->password = bcrypt('fooPassword');
 				$user->save();
+				
 			-	$note = new Note;
 				$note->user_id = foo1;
 				$note->body = 'Foo note';
@@ -225,7 +224,20 @@ current to 08
 - end 9 - all working
 - start 10
 	- @9:49 - still perfect
-	- 
+	- @13:20 - still good post USER table creation
+	- @14:21 - errors with DB refresh [drop/migrations]
+		- error while refreshing migrations, typo... typo fixed
+		- retried refreshing migration... errors
+		- rollback migration
+		- refresh migration... error
+			- error from not having data in new/old tables???
+			- added Card, Notes still exist???, Added One User
+			???
+		- refresh.. looks like create_cards_table works perfect on migration, but Cards and Users don't
+		- fails to add User(s), but can add Cards and Notes.
+		- how do I fix this?
+		
+	
 	
 		
 	
