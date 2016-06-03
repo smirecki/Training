@@ -129,7 +129,7 @@ problems
 		 			- add pages that you want to bypass check... all = '*' or some =' foo/bar/row/*'
 
 migrations and rolling back, refresh, 
-
+			- he covers this much later @ vid11 12:47
 note:
 
     - CLI  // list of commands, not a logical list
@@ -296,7 +296,8 @@ current to 08
 				    - I will save a compressed version at this point and continue on with what ever version was working last. =(
 - end 10 - with it not working 100% bc of above reasons.
 - start 11
-	- 		
+	- @06:42 working fine, aside from the problem from video 10
+	- @14:48 errors detailed message doesn't output like he shows
 	
 	
 		
