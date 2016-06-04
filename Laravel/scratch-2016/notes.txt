@@ -68,18 +68,25 @@ Make(ing)
 		- php artisan make:controller FooControllerName
 	- migrations
 		- php artisan make:migration FooNameOfFile
-Setting up the DB
-	- for sqlite
-		- create folder and file
-			- touch database/database.sqlite
-		- change presets in .env & config/database.php or the migrations will fail.
+Setting up the DB for sqlite
+	- create folder and file
+		- touch database/database.sqlite
+	- change presets in .env from mysql to sqlite
+	- change presents in config/database.php at line 29 & 51
+		- 29 "'default' => env('DB_CONNECTION', 'sqlite'),"
+		- 51 "'database' => database_path('database.sqlite'),"
+
 Create migration
-	- 
 	- fail... file access error
 		- check .env
 			- DB_CONNECTION=sqlite  // defaults to mysql... must be change to use sqlite
 		- correct config/database.php
 			- 'database' => database_path('database.sqlite') // no ENV data
+			- original
+				- 'database' => env('DB_DATABASE', database_path('database.sqlite')),
+				- 'database' => database_path('database.sqlite'),
+
+
 		- do not need to change sqlite dev default values for...
 			- 	DB_DATABASE=homestead
 				DB_USERNAME=homestead
@@ -298,6 +305,24 @@ current to 08
 - start 11
 	- @06:42 working fine, aside from the problem from video 10
 	- @14:48 errors detailed message doesn't output like he shows
+- end 11
+- start/end 12
+- start 13
+	- Fresh copy, starting with Auth User setup.
+		- php artisan make:auth;
+		- create DB file
+		- adjust DB config files to use sqlite
+		- migrate default migrations
+			- php artisan migrate
+				- must setup DB files first, check notes on adjusting the three files
+		- auth working
+		- get user lost password/password reset working
+		- setup mail with email.php and .env and send data to 'log'
+			- MAIL_DRIVER=log
+			- restart server to refresh files
+		-  
+
+
 	
 	
 		
