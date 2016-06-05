@@ -320,7 +320,17 @@ current to 08
 		- setup mail with email.php and .env and send data to 'log'
 			- MAIL_DRIVER=log
 			- restart server to refresh files
-		-  
+- end 13
+- start 14
+	- middleware
+	- no changes made to project
+		- jumping back to old project?
+			- it looks like he has done the auth config in the old CRUD project, but never showed it being done there, which is strange and troubling.
+		- I'm not sure if any of that was required for the project
+		- @10:00 he makes middleware
+			- php artisan make:middleware MustBeAdministrator
+			- 
+		- 
 
 
 	
