@@ -137,6 +137,10 @@ problems
 
 migrations and rolling back, refresh, 
 			- he covers this much later @ vid11 12:47
+
+===========
+raw notes
+===========
 note:
 
     - CLI  // list of commands, not a logical list
@@ -329,8 +333,8 @@ current to 08
 		- I'm not sure if any of that was required for the project
 		- @10:00 he makes middleware
 			- php artisan make:middleware MustBeAdministrator
-			- 
-		- 
+- end 14
+- start 15 
 
 
 	
