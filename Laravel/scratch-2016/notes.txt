@@ -338,6 +338,10 @@ current to 08
 	- It looks like he is using a fresh copy of a Laravel install for Flashing to the Session
 	- I'm going to try and add it to the last fresh copy.
 	- 
+		- Session::flash('status', 'Hello There');
+		  Session::get('status')
+		  - that works
+		- @8:00
 
 
 	
