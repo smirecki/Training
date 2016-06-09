@@ -341,8 +341,20 @@ current to 08
 		- Session::flash('status', 'Hello There');
 		  Session::get('status')
 		  - that works
-		- @8:00
-
+		- @8:00 stopped
+- start 16
+	- "fresh install" again
+	- no follow along, just explanation
+- end 16
+- start 17
+	- Useful code you can use for testing in Laravel
+		- dd
+		- var dump
+		- DB::listen(function($query) {
+			var_dump($query->sql, $query->bindings);
+		})
+	- he was using Laravel version 5.2 for this tut
+	- routes code that showed all routes within 'middleware' are been extracted into a service provider
 
 	
 	
