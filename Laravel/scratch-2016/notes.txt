@@ -160,17 +160,20 @@ note:
 			- App\User::all();
 		- check Note(s) in the DB
 			- App\Note::all();
-		- Create a new User the long way
-			-	namespace App;
-				$card = new Card;
-				$card->title = 'My First Card';
-				$card->save();
+		- Create a new foo the long way
+			- create a Card
+				-	namespace App;
+					$card = new Card;
+					$card->title = 'My First Card';
+					$card->save();
 
+			- create a Note
 				$note = new Note;
 				$note->user_id = 1;
 				$note->body = 'The body of the note.';
 				$card->addNote($note); // note data is printed to screen
 
+			- create a User				
 				$user = new User;
 				$user->username = 'FooName';
 				$user->email = 'FooName@Bar.com';
