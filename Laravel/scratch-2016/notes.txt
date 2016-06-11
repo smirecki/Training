@@ -99,7 +99,14 @@ DB - Create tables...
 			- DB::table('cards')->insert(['title' => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
 		- error at 07 10:33 ---- typo error... will cause this
 			- Illuminate\Database\QueryException with message 'SQLSTATE[HY000]': General error: 1 table cards has no column name update_at (SQL: insert into "cards" ("title", "created_at", "update_at") values (foo bar))'	
-			
+
+Routes
+	- list in CLI
+		- php artisan route::list
+	- Create CRUD routes
+		- this line should be in your routes.php file
+		- "Route::resource('post', 'PostController');"
+
 ============
 Random errors while installing or running:
 	- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
