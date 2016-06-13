@@ -365,11 +365,29 @@ current to 08
 		})
 	- he was using Laravel version 5.2 for this tut
 	- routes code that showed all routes within 'middleware' are been extracted into a service provider
+=====
+-start new tut
+- Udemy - PHP with Laravel for beginners - Become a Master in Laravel
+- end @ section 6... 
+- Mostly basics 
+	- Laravel blade templeting 
+		- 'foreach'
+		- php built in functionality 'compact'
+		- dependence injection
+- DB tables, creating a new column to an existing table without dropping the table/data
+	- php artisan make:migration add_is_admin_column_to_posts_tables --table="posts"
+		- creates migration file
+			- you fill in the data, that references the table that you want to add a column to and the info for the new column
+				- $table->integer('is_admin')->unsigned();
+				  ...
+				  to drop it
+				  $table->dropColumn('is_admin');
+		- php artisan migrate  [this will initiate the change]
+- php artisan migrate:status
+	- list of migrations that have ran
+- Raw SQL queries [section 9-2/3]
+	- Insert - created a route with a DB insert method
+	- Read - route that queries selected Foo/column/cell/etc and returns data
 
-	
-	
-		
-	
-			
 
   
