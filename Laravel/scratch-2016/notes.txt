@@ -388,6 +388,14 @@ current to 08
 - Raw SQL queries [section 9-2/3]
 	- Insert - created a route with a DB insert method
 	- Read - route that queries selected Foo/column/cell/etc and returns data
+	- Update - 
+	- Delete -
+- Eloquent - active records, DB - section 10 CRUD plus trash
+	- nice section of pragmatic data CRUD
+	- php artisan make:model Post -m
+		- creates post file
+- Eloquent relationships
+	- functions 
 
 
   
