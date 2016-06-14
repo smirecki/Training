@@ -368,6 +368,7 @@ current to 08
 =====
 -start new tut
 - Udemy - PHP with Laravel for beginners - Become a Master in Laravel
+- he is using mysql with phpMyAdmin for convenience updates and changes
 - end @ section 6... 
 - Mostly basics 
 	- Laravel blade templeting 
@@ -394,8 +395,13 @@ current to 08
 	- nice section of pragmatic data CRUD
 	- php artisan make:model Post -m
 		- creates post file
-- Eloquent relationships
-	- functions 
+- Eloquent relationships - section 11
+	- functions
+	- Laravel uses Method Chaining foo->bar->goo->dar
+	- "return" will only return a single value, not many... [not an array/object?]
+	-
+
+	end 11/4
 
 
   
