@@ -10,6 +10,7 @@ meta notes
 					- Add -  "editor.wrappingColumn": 0
 		- get spell check
 			- more complex than it should be (guess that's a pay feature)
+			- https://code.visualstudio.com/Docs/editor/extension-gallery
 			- https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff
 			- https://code.visualstudio.com/Docs/extensions/example-hello-world
 =============
@@ -369,6 +370,16 @@ current to 08
 -start new tut
 - Udemy - PHP with Laravel for beginners - Become a Master in Laravel
 - he is using mysql with phpMyAdmin for convenience updates and changes
+	- remember to install phpMyAdmin if you don't have it
+		- CLI install
+		    - sudo apt-get install phpmyadmin
+        	    - https://help.ubuntu.com/community/phpMyAdmin
+                - poorly default configuration file need to be fixed
+                	- sudo dpkg-reconfigure phpmyadmin
+                	http://stackoverflow.com/questions/20731487/phpmyadmin-pma-table-uiprefs-doesnt-exist
+                - default login/pass root/root
+                - create database in phpmyadmin
+                	- remember to update .env file in Laravel to reflect correct: DB name, username, and password  
 - end @ section 6... 
 - Mostly basics 
 	- Laravel blade templeting 
@@ -399,9 +410,15 @@ current to 08
 	- functions
 	- Laravel uses Method Chaining foo->bar->goo->dar
 	- "return" will only return a single value, not many... [not an array/object?]
-	-
+	- echo can show more than one value
+	- relating tables - roles, pivot table
 
-	end 11/4
 
 
-  
+===========
+migrations
+
+	- add column to existing table
+		- php artisan make:migration add_is_admin_column_to_posts_tables --table="posts"
+	- migrate:rollback
+		- this will drop all of the tables for this project in mysql, except Laravel's Migration table that it uses to keep track of things.
