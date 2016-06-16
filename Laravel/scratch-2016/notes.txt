@@ -406,6 +406,7 @@ current to 08
 	- nice section of pragmatic data CRUD
 	- php artisan make:model Post -m
 		- creates post file
+	- note not all of his code worked in today's Laravel version
 - Eloquent relationships - section 11
 	- functions
 	- Laravel uses Method Chaining foo->bar->goo->dar
@@ -422,3 +423,6 @@ migrations
 		- php artisan make:migration add_is_admin_column_to_posts_tables --table="posts"
 	- migrate:rollback
 		- this will drop all of the tables for this project in mysql, except Laravel's Migration table that it uses to keep track of things.
+	- use var_dump for more info on results
+		- return var_dump($results);
+		- must have the underscore _
