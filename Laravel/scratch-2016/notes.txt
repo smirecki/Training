@@ -430,6 +430,11 @@ migrations
 
 	- @10-02 migrate:refresh fails, bc he asks to drop deleted_at column, I was able to clear the error by commenting out his Down method and not dropping the deleted_at column
 
+
+	- one to many, tips, many to many, 'has many to relation', querying intermediate table, polymorphic relation, inverse polymorphic, many to many polymorphic
+	- using a pivot or look up table @11/7
+
+
 ===
 stop@11-4 follow along
 
