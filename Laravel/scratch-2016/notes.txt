@@ -439,3 +439,7 @@ migrations
 stop@11-4 follow along
 
 php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
+11/8-1
+// Has many through relation
+// finding a value of an object through a distant object... or
+// two degrees of separation
