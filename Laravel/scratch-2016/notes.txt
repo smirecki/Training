@@ -440,6 +440,46 @@ stop@11-4 follow along
 
 php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 11/8-1
+
 // Has many through relation
 // finding a value of an object through a distant object... or
 // two degrees of separation
+- Users table, Posts table, Countries table
+	- From Foo-post to Users country
+		- foo-post -- foo-user -- foo-user's country id -- country with bar id
+- files to change
+	- Add route
+		- /user/country
+	- Add table for countries
+		- CLI php artisan make:model Country -m
+			- made ...create_countries_table
+	- Add column for User country
+		- php artisan make:migration add_country_id_column_to_users --table=users
+	- ... model in /app/Providers/Country.php
+- the connection for the relation is in the model
+	- another model in app/Providers/User.php
+		- foreign keys -- user_id and role_id 
+			- public function roles(){
+				return $this->belongsToMany('App\Role', 'user_roles', 'user_id', 'role_id');
+			}
+		- if you follow 'convention' you don't need to give the foreign keys in Laravel
+			... return $this->belongsToMany('App\Role');
+- polymorphic relations
+	- allow a model to be loaned to more than one model in a single association 
+	- Parts
+		- Make model
+			- php artisan make:model Photo -m
+			- ...create_photo_table
+				- creates models file
+				- creates migration file
+		- comment out 
+			- migration create_post line post user_id
+		- refresh migrations
+			- php artisan migrate:refresh
+		- Add data to the DB, as all the old data was destroyed with the refresh
+		- add methods to the models
+		- Add Routes 
+		-
+		-
+
+		10-2 3:17
