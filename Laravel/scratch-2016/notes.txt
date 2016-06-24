@@ -470,7 +470,7 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- Make model
 			- php artisan make:model Photo -m
 			- ...create_photo_table
-				- creates models file
+				 - creates models file
 				- creates migration file
 		- comment out 
 			- migration create_post line post user_id
@@ -482,4 +482,15 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 
 
 ==========================
-		start 10/11
+10/12
+ - migration
+ 	- php artisan make:model Video -m
+ 	- php artisan make:model Tag -m
+ 	- php artisan make:model Taggable -m
+
+12/... Tinker
+	- very basic cases and instructions
+13/ Eloquent One to One CRUD
+	- 
+
+
