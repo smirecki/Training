@@ -492,5 +492,43 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- very basic cases and instructions
 13/ Eloquent One to One CRUD
 	- 
+	- create new Laravel install and DB for this portion
+		- new Laravel
+			- edit .env
+		- new DB
+	-CRUD... C.  Create
+		- create Address model plus migration
+			- php artisan make:model Address -m
+			- migrate the migrations
+		- ... add user_id column to Address table, migrate:refresh
+		- create route that will add address to user db
+			- error
+				- 'MassAssignmentException' error
+					- edit Address.php Model
+						- protected $fillable = ['name'];
+			- add address #1 and #2 for the same user_id...  created a user with two addresses
+	- CRUD U. Update
+		- just route creation with data find and change
+	- CRUD R. D. Read and Delete
+		- 
+14 Eloquent One to Many
+	- He creates a new install for this, I'm going to use the one from 13
+	- make Post model and migration
+		- php artisan make:model Post -m
+			- edit Post migration
+				- Add: user_id, title, body
+		- migrate
+		- edit Post.php model
+			- allow mass assignment for title and body
+15 Many to Many relations
+	-make Role model and migration
+		- called "create_role_user_table"... for the two table that it is linking role and user
+		- note: this is a Pivot Table, follow the naming convention alphabetical_ordered_with_underscore
+			... role_user
+		- php artisan make:migration model Role -m
+	- make migration
+		- php artisan make:migration create_role_user_table --create=role_user
+	- routes
+	- 
 
 
