@@ -117,7 +117,6 @@ Random errors while installing or running:
 
 serve the project/site with this stack
 	- "php artisan serve" within the root directory
-	
 
 php artisan tinker
 	- use to create new "card" adding to DB
@@ -190,8 +189,6 @@ note:
 
 				User::all(); // data for user printed to screen
 
-
-
 			-   $user = new App\User; or 	$user = new User; if you are not in App
 				$user->username = 'fooName';
 				$user->email = 'fooName@fooemail.com';
@@ -210,7 +207,6 @@ note:
             		$table->integer('card_id')->unsigned()->index();
             		$table->text('body');
 
-
 redo 10
 	- error with showing data in cards/1 input field
 	- possible DB schema error or naming error(s)
@@ -219,8 +215,6 @@ redo 10
 	- redid all DB data
 	- might be problem with breaking change
 	- consider restarting fresh and sprinting through.
-
-
 
 ===
 current to 08
@@ -414,8 +408,6 @@ current to 08
 	- echo can show more than one value
 	- relating tables - roles, pivot table
 
-
-
 ===========
 migrations
 
@@ -427,13 +419,11 @@ migrations
 		- return var_dump($results);
 		- must have the underscore _
 
-
 	- @10-02 migrate:refresh fails, bc he asks to drop deleted_at column, I was able to clear the error by commenting out his Down method and not dropping the deleted_at column
 
 
 	- one to many, tips, many to many, 'has many to relation', querying intermediate table, polymorphic relation, inverse polymorphic, many to many polymorphic
 	- using a pivot or look up table @11/7
-
 
 ===
 stop@11-4 follow along
@@ -479,7 +469,6 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- Add data to the DB, as all the old data was destroyed with the refresh
 		- add methods to the models
 		- Add Routes 
-
 
 ==========================
 10/12
