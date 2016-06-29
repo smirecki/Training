@@ -211,7 +211,6 @@ redo 10
 	- error with showing data in cards/1 input field
 	- possible DB schema error or naming error(s)
 		- delete old migrations, create new ones, add user and notes
-
 	- redid all DB data
 	- might be problem with breaking change
 	- consider restarting fresh and sprinting through.
@@ -426,8 +425,6 @@ migrations
 	- using a pivot or look up table @11/7
 
 ===
-stop@11-4 follow along
-
 php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 11/8-1
 
