@@ -47,6 +47,8 @@ FAQ
 		- CSS style sheet			public/css/style.css
 		- sass or less				resources/assets/sass/app.scss
 		- config files				config/foo.php
+		- models					/app/foo.php
+		- .env 						/.env
 		
 	- Where can I find help?
 		- php artisan
