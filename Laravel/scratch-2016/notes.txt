@@ -43,7 +43,7 @@ FAQ
 		- You can quickly search for a file with CTRL + p (in Sublime & VS Code)
 		- Routes.php				app/Http/Requests/routes.php
 		- Template foo.blade.php	resources/views/foo.blade.php
-		- Contorlers				app/Http/Controlers/FooControllerName.php
+		- Controllers				app/Http/Controlers/FooControllerName.php
 		- CSS style sheet			public/css/style.css
 		- sass or less				resources/assets/sass/app.scss
 		- config files				config/foo.php
@@ -51,13 +51,12 @@ FAQ
 		- .env 						/.env
 		
 	- Where can I find help?
-		- php artisan
+		- 'php artisan'
 			- this will show you the help file
-			
-	- How do serve the pages or start the server?
-		- php artisan serve
+	- How do you serve the pages or start the server?
+		- 'php artisan serve'
 	- Tinker, allows you to make changes in your build via CLI like npm
-		- php artisan tinker
+		- 'php artisan tinker'
 			- check data, add data
 	
 	- Elixir, what is it?
@@ -88,7 +87,6 @@ Create migration
 			- original
 				- 'database' => env('DB_DATABASE', database_path('database.sqlite')),
 				- 'database' => database_path('database.sqlite'),
-
 
 		- do not need to change sqlite dev default values for...
 			- 	DB_DATABASE=homestead
