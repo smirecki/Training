@@ -108,6 +108,15 @@ Apps and programs -
 - PHP
     - Composer and PHP installed - php dependency management tool
         - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
+		- Laravel
+		- sqlite
+			- sudo apt-get install php5-sqlite
+		- 
+- php my admin
+    - phpmyadmin
+        - sudo apt-get install phpmyadmin
+            - https://help.ubuntu.com/community/phpMyAdmin
+                - default login/pass root/root
 - synergy-project app
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
