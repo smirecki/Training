@@ -549,6 +549,7 @@ Course halfway point
 		- php artisan make:model Video -m
 		- php artisan make:model Tag -m
 		- php artisan make:model Taggable -m
+	- keep tack of the pivot table values and the taggable associations  
 	My data model is different than the tut bc I didn't do a free install for each section.... FYI
 18 Forms and Validation
 	- without extensions
