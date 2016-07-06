@@ -552,6 +552,7 @@ Course halfway point
 	- keep tack of the pivot table values and the taggable associations  
 	My data model is different than the tut bc I didn't do a new install for each section.... FYI
 18 Forms and Validation
+	- fresh copy
 	- without extensions
 	- with extensions
 		- follow vendor install tut
