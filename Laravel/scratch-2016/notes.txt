@@ -552,8 +552,15 @@ Course halfway point
 	- keep tack of the pivot table values and the taggable associations  
 	My data model is different than the tut bc I didn't do a new install for each section.... FYI
 18 Forms and Validation
-	- fresh copy
+	- fresh copy... no you have to use the old one with foo migrations
+		- Country, Photo, Post, Role, Tag, Taggable, User, Video
+	- errors...
+	- routes
+		- Route::resource('/posts', 'PostController');
+		- this comes with built in methods
+			- store, index, create, destroy, update, show, edit
 	- without extensions
+		- creating posts, 
 	- with extensions
 		- follow vendor install tut
 			- composer.json
