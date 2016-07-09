@@ -561,7 +561,9 @@ Course halfway point
 			- store, index, create, destroy, update, show, edit
 	- without extensions
 		- creating posts, 
+19 Forms - Package and validation
 	- with extensions
+		- using laravelcollective/html
 		- follow vendor install tut
 			- composer.json
 			- rules...
