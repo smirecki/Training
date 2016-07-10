@@ -562,11 +562,24 @@ Course halfway point
 	- without extensions
 		- creating posts, 
 19 Forms - Package and validation
+	- errors with posts/READ, CREATE working with DB 
 	- with extensions
 		- using laravelcollective/html
 		- follow vendor install tut
 			- composer.json
 			- rules...
+20 DB model more
+	- Dates
+		- using Carbon for Dates, which makes dealing with dates quick and easy.
+			- Carbon is included in Laravel, add it with nesbot/carbon for other projects
+	- Accessors (pulling data out of the DB and alter it before presentation)
+		- in model, getNameAttribute method.. must use 'get' and 'Attribute'
+		- this wasn't explained in full, research
+			- it looks like the method name is linked/influenced by the URL name... i.e. 'get'
+	- Mutators
+		- changes value before it gets to the DB
+		- same as about but using 'set' instead of 'get'
+		
 
 
 
