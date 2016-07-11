@@ -582,7 +582,14 @@ Course halfway point
 	- Query Scope
 		- "shortcuts for complex operations"
 		- 
-
+21 Forms - Uploading files
+22 Form - Login
+	- most basic
+		- php artisan make:auth
+		- tour of some of the auto created files for auth...
+23 Middleware 
+24 Sessions and flasing data
+25 email API Mailgun API
 
 
 
