@@ -579,7 +579,10 @@ Course halfway point
 	- Mutators
 		- changes value before it gets to the DB
 		- same as about but using 'set' instead of 'get'
-		
+	- Query Scope
+		- "shortcuts for complex operations"
+		- 
+
 
 
 
