@@ -587,7 +587,8 @@ Course halfway point
 	- most basic
 		- php artisan make:auth
 		- tour of some of the auto created files for auth...
-23 Middleware 
+23 Middleware
+	- walk through of files to add you middleware to 
 24 Sessions and flasing data
 25 email API Mailgun API
 
