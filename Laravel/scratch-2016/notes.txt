@@ -589,8 +589,15 @@ Course halfway point
 		- tour of some of the auto created files for auth...
 23 Middleware
 	- walk through of files to add you middleware to 
-24 Sessions and flasing data
+24 Sessions and flashing data
 25 email API Mailgun API
+	- Laravel has official step to integrate Mailgun and/or Mandrill
+	- he says SMTP has some problems with Laravel, better to use an API.
+	- covers step to use a custom domain name for your emails, which entails getting premissions from your domain host if you have a site/host domain name you want to use.
+
+26 Git and Github
+	- general information about git and github
+30 Full app tut 
 
 
 
