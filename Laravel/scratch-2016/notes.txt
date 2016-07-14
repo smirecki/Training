@@ -556,6 +556,9 @@ Course halfway point
 		- Country, Photo, Post, Role, Tag, Taggable, User, Video
 	- errors...
 	- routes
+		- *********************************************** * bc it's
+		- *********************************************** * important!
+		- ****** this is the route you use to auto create a lot of routes.
 		- Route::resource('/posts', 'PostController');
 		- this comes with built in methods
 			- store, index, create, destroy, update, show, edit
@@ -597,7 +600,16 @@ Course halfway point
 
 26 Git and Github
 	- general information about git and github
-30 Full app tut 
+30 Full app tut
+	- new clean install of a Laravel app
+	- setup DB, .env,
+		- test DB migrations - working
+	- make:auth
+		- "success"
+	- Create folders
+		- create: resources/views/admin/index.blade/php, .../ 
+		- he chose to create folder, but it isn't required or the only way.
+
 
 
 
