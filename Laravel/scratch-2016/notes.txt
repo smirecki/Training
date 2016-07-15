@@ -606,9 +606,43 @@ Course halfway point
 		- test DB migrations - working
 	- make:auth
 		- "success"
-	- Create folders
-		- create: resources/views/admin/index.blade/php, .../ 
-		- he chose to create folder, but it isn't required or the only way.
+	- Create folders for views
+		- create
+			- resources/views/admin/index.blade/php
+			- ...admin/categories/index.blade.php
+			- ...admin/posts/index.blade.php
+			- ...admin/users/index.blade.php
+			- 
+		- he chose to create folders for views, but it isn't required or the only way.
+	- Track with Git...
+	- edit migrations
+		- users add rows for role_id, is_active
+	- create make:model Role -m
+	- setup Relationship
+	- migrate:refresh to make changes
+	- populate roles in DB - Admin, Author, Subscriber
+	- make user with register function on the new website
+	- change users role_id to Admin
+	- checking relationships with Tinker
+		- $user = App\User::find(1) 
+			- (outputs User info)
+		- $user->role
+			- (outputs info)
+		- create user in Tinker App\User::create(['name'=>'John Doe', 'email'=>'JDoe@example.com', 'password'=>'thisIsAnExample', 'role_id'=>'2', 'is_active'=>'1'])
+			- how do you use the crypt method for a password via Tinker?
+	- create a 'resource' route
+	- make:controller --resource AdminUsersController
+		- file generated app/Http/Controllers/Auth/AdminUsersController	
+	- check list of routes
+		- php artisan route:list
+	- add admin.users.index to AdminUsersController - index route
+	- add some random test content to app/resources/views/admin/users/index.blade.php
+		- test the the above page
+	-  fill in some of the other routes like the one you just did in that same controller
+		- return view('admin.users.foo');
+
+==========	
+stopped at start of 27/6
 
 
 
