@@ -640,9 +640,16 @@ Course halfway point
 		- test the the above page
 	-  fill in some of the other routes like the one you just did in that same controller
 		- return view('admin.users.foo');
+	- He lead you through installing node, npm install --global gulp
+		- I already have them
+	- Download css/fonts/js files he provides for the app
+		- 27/10/3:08
+		- bootstrap, jquery
+	- create and paste in resources/views/layouts/admin.blade.php
+		- still dealing with this file
 
 ==========	
-stopped at start of 27/6
+stopped at start of 27/11/01:00
 
 
 
