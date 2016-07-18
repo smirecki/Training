@@ -646,7 +646,7 @@ Course halfway point
 		- 27/10/3:08
 		- bootstrap, jquery
 	- create and paste in resources/views/layouts/admin.blade.php
-		- still dealing with this file
+		- still dealing with this file... got it!
 		- I'm not sure why bootstrap is in his sass styles, I thought that it was included in Laravel
 		-
 
