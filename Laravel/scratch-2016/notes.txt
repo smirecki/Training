@@ -65,6 +65,10 @@ FAQ
 		- "gulp --production" will run the sass and minify
 		- "gulp watch" to update automatically 
 
+	- Database setup
+		- create new DB with the name you want
+		- edit the .env with the name of your new DB, the correct login name/pw
+
 Make(ing)
 	- Controllers
 		- php artisan make:controller FooControllerName
