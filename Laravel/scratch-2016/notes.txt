@@ -653,7 +653,8 @@ Course halfway point
 		- still dealing with this file... got it!
 		- I'm not sure why bootstrap is in his sass styles, I thought that it was included in Laravel
 		-
-		- all included...
+		- all included...  Clean installs with Gulp
+		- 
 ==========	
 stopped at start of 27/11/01:00
 
