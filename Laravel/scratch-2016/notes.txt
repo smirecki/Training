@@ -598,7 +598,8 @@ Course halfway point
 	- walk through of files to add you middleware to 
 24 Sessions and flashing data
 25 email API Mailgun API
-	- Laravel has official step to integrate Mailgun and/or Mandrill
+	- his example was for a account step-up confirmation email sent with Mailgun.
+	- Laravel has official step-by-step guide to integrate Mailgun and/or Mandrill
 	- he says SMTP has some problems with Laravel, better to use an API.
 	- covers step to use a custom domain name for your emails, which entails getting premissions from your domain host if you have a site/host domain name you want to use.
 
