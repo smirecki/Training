@@ -528,12 +528,6 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- detach
 			- removes the above role(s), one or many
 
-==========================
-Course halfway point
-16-30 left
-12hrs 20mins remaining
-==========================
-
 16 Eloquent Has many through relationship - polymorphic
 	- "polymorphic relations allow a model to belong to more than one another model on a single association"
 	- he is following "an example", from where... the Laravel site?
