@@ -644,10 +644,21 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- Download css/fonts/js files he provides for the app
 		- 27/10/3:08
 		- bootstrap, jquery
-	- create and paste in resources/views/layouts/admin.blade.php
+		- create and paste in resources/views/layouts/admin.blade.php
 		- still dealing with this file... got it!
 		- I'm not sure why bootstrap is in his sass styles, I thought that it was included in Laravel
 		- all included...  Clean installs with Gulp
+		- one page damaged, recreating....
+	- creating master page for admin page
+	- 
+
+
+
+
+
+
+
+
 
 ==========	
 stopped at start of 27/11/01:00
