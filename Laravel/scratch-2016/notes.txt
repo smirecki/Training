@@ -652,6 +652,7 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- creating master page for admin page
 	- working admin/user page, working fine
 		- still have bootstrap dropdown menu problems
+	- 
 
 
 
@@ -660,7 +661,7 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 
 
 ==========	
-stopped at start of 27/12
+stopped at start of 27/19
 
 
 
