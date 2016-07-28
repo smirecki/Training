@@ -652,8 +652,19 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- creating master page for admin page
 	- working admin/user page, working fine
 		- still have bootstrap dropdown menu problems
-	- 
+	- 19 PW field and custom requests
+	 	- add field to form
+	 	- make sure the field can't be empty
+	 	 	- php artisan make:request UsersRequest
+	 	 	- edit the UsersRequest RULES... for the form fields
+	- 21 file upload
+		- adding photos column to Users migration
+			- php artisan make:migration add_photo_id_to_users --table=users
+			- edit new file and add column info
+			- migrate
 
+	- 22
+	- 23 
 
 
 
