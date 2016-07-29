@@ -673,17 +673,22 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 			- role and active still not getting sent to the DB
 				- is this a template problem?
 			- no photo id
-				- his had a series of numbers and then it proper name
+				- his had a series of numbers and then it's proper name
 			- photo added to DB but name is wrong, is it even there?
 				- it's there  /public/images
-
+			- "remember token" field empty, should this me filled in?
+				- his is the same "NULL"
+			--- Providers/User.php
+				- $fillable wasn't filled in completely, the missing fields would not fill, bc they were not on the list!!!
+				- this fix cleared up old problems with route admin/users, it must have failed bc the DM column is empty or NULL
+				- still have problem with Photos names in DB
 
 
 
 
 
 ==========	
-stopped at start of 27/19
+stopped at start of 27/
 
 
 
