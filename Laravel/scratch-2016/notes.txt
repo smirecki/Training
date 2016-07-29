@@ -668,11 +668,14 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- php artisan make:model Photo -m 
 
 	- 25
-
-error - role and active still not getting sent to the DB
-		- no photo id
-		- photo added to DB but name is wrong, is it even there?
-			- it's there
+		- go back to this section to hunt the errors
+		error 
+			- role and active still not getting sent to the DB
+				- is this a template problem?
+			- no photo id
+				- his had a series of numbers and then it proper name
+			- photo added to DB but name is wrong, is it even there?
+				- it's there  /public/images
 
 
 
