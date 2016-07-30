@@ -13,6 +13,9 @@ meta notes
 			- https://code.visualstudio.com/Docs/editor/extension-gallery
 			- https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff
 			- https://code.visualstudio.com/Docs/extensions/example-hello-world
+
+		- I've forgot the name of the built in "snippit" tab completion function they have in Sublime and other Code editors and IDEs
+			- "div.col-sm-9"  
 =============
 
 Links
@@ -676,6 +679,9 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 				- his had a series of numbers and then it's proper name
 			- photo added to DB but name is wrong, is it even there?
 				- it's there  /public/images
+				- within the AdminUserControler... the value is literally '$name', not $name
+				- still has problem with the prefixes
+					- it has an extra "image" and then date and file name
 			- "remember token" field empty, should this me filled in?
 				- his is the same "NULL"
 			--- Providers/User.php
@@ -688,7 +694,7 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 
 
 ==========	
-stopped at start of 27/
+stopped at start of 27/27
 
 
 
