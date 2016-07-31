@@ -682,6 +682,7 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 				- within the AdminUserControler... the value is literally '$name', not $name
 				- still has problem with the prefixes
 					- it has an extra "image" and then date and file name
+					- this was a problem with the app/Providers/Photo.php '/images', instead of '/images/'
 			- "remember token" field empty, should this me filled in?
 				- his is the same "NULL"
 			--- Providers/User.php
@@ -689,7 +690,9 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 				- this fix cleared up old problems with route admin/users, it must have failed bc the DM column is empty or NULL
 				- still have problem with Photos names in DB
 
-
+	- 27
+		- To make pw not a required field that need to be updated in the User edit page
+			- php artisan make:request UsersEditRequest
 
 
 
