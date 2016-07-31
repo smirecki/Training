@@ -693,6 +693,13 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- 27
 		- To make pw not a required field that need to be updated in the User edit page
 			- php artisan make:request UsersEditRequest
+			- error... watch your closing tags, Laravel will throw crazy errors
+
+	- 31 clean up
+		- error...
+			- $input = $request->except('password');
+
+
 
 
 
