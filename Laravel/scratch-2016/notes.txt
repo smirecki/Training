@@ -599,7 +599,6 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- Laravel has official step-by-step guide to integrate Mailgun and/or Mandrill
 	- he says SMTP has some problems with Laravel, better to use an API.
 	- covers step to use a custom domain name for your emails, which entails getting premissions from your domain host if you have a site/host domain name you want to use.
-
 26 Git and Github
 	- general information about git and github
 30 Full app tut
@@ -665,11 +664,9 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 			- php artisan make:migration add_photo_id_to_users --table=users
 			- edit new file and add column info
 			- migrate
-
 	- 22
 	- 23 User photos migrations
 		- php artisan make:model Photo -m 
-
 	- 25
 		- go back to this section to hunt the errors
 		error 
@@ -689,15 +686,15 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 				- $fillable wasn't filled in completely, the missing fields would not fill, bc they were not on the list!!!
 				- this fix cleared up old problems with route admin/users, it must have failed bc the DM column is empty or NULL
 				- still have problem with Photos names in DB
-
 	- 27
-		- To make pw not a required field that need to be updated in the User edit page
+		- To make pw not a required field that needs to be updated in the User edit page
 			- php artisan make:request UsersEditRequest
 			- error... watch your closing tags, Laravel will throw crazy errors
-
 	- 31 clean up
 		- error...
 			- $input = $request->except('password');
+		- working perfectly
+		
 
 
 
