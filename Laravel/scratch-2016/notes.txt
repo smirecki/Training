@@ -694,8 +694,52 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- error...
 			- $input = $request->except('password');
 		- working perfectly
-		
+	- 32 security
+		- carbon is a class that deals with dates
+		- create middleware and route group
+			- php artisan make:middleware Admin
+			- register it in Http/Kernel.php
+				- protected $routeMiddleware = [
+				...
+				'admin' => \App\Http\Middleware\Admin::class,
+				]
+			- create route group
+				- Route::group(['middleware'=>'admin'], function (){
+				  Route::resource('admin/users', 'AdminUsersController');	
+				  });
+			- app\User.php
+				- create setpassword and isadmin functionality
+		- make 404
+	- 33
+		- error ... login pw check is now failing
+			- he tells you to bcrypt the PW and then shows it bcrypted a second time... so you are hashing it twice, which makes impossible to know your pw
+			- I commented out the bcrypt in app/User.php
+			- it's much like this http://stackoverflow.com/questions/29452497/laravel-5-auth-these-credentials-do-not-match-our-records
+				- "I had the same issue. The reason for mine was that I defined setPasswordAttribute in my User model so every time, I enter plain password, it hashes before sending to DB.
 
+					public function setPasswordAttribute($password)
+					{
+					    $this->attributes['password'] = \Hash::make($password);
+					}
+				and in my db:seed, I was creating a user with hashed password with Hash::make("password"), too. So laravel hashes hashed password :)
+				answered May 26 '15 at 20:07
+					mervasdayi
+					884
+	- 34 deleting Users
+		- app/Http/AdminUsersController
+			- destroy...
+		- add delete button on user template
+			- app/resources/views/admin/users/edit.blade.php
+		- his bootstrap button layout was not the same as mine, maybe their is a version difference or other code he had.
+	- 35 messages
+		- session ui message to show User deleted
+	- 36 remove photo locally
+		- add code to remove photo in AdminUsersController
+	- 37 add more security
+		-  app/User.php add check for is_active for auth section
+		- redirect to admin edit to app/Http/Contorllers/Auth/AuthController.php
+		
+			- 
 
 
 
