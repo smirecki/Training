@@ -1,0 +1,12 @@
+===
+
+First notes on OS update 16.??
+
+- laptop update
+	- UI appearance / desktop had been changed
+		- they installed a new background
+		- upper bar color changed
+	- error 
+		- icon for battery on upper bar is have covered and dropped partially behind lower background
+	- chrome UI colors wrong
+	- 
