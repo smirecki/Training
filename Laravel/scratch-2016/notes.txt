@@ -739,14 +739,39 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		-  app/User.php add check for is_active for auth section
 		- redirect to admin edit to app/Http/Contorllers/Auth/AuthController.php
 		
-			- 
+	- 28/01
+		- Setting Route files
+		- improve the 404
+		- create route 
+			- add route in routes.php
+			- make contorller
+				- php artisan make:controller --resource AdminPostsController
+			- edit controller in app/Http/Controllers/AdminPostsController.php
+				- add route to   return view('admin.posts.index');
+			- edit resources/views/admin/posts/index.blade.php
+			- fix link to Posts in template resources/views/admin.blade.php with blade {{}}
+			- add layouts to create and edit posts
+			- set it up in AdminPostsController
+	- 02
+		- create model and migration
+			- php artisan make:model Post -m
+			- edit the migrate, adding columns
+			- migrate
+		- edit protected
+		- add data with Tinker
+			- $post = App\Post::create(['title'=>'my first post', 'body'=>'I love Laravel with Edwin Diaz.']);
+		- add data to page
+			- 	$posts = Post::all();
+        		return view('admin.posts.index', compact('posts'));
+        - 
+
+
 
 
 
 
 ==========	
-stopped at start of 27/27
-
+stopped at start of 28/00
 
 
 
