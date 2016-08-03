@@ -763,15 +763,24 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- add data to page
 			- 	$posts = Post::all();
         		return view('admin.posts.index', compact('posts'));
-        - 
-
-
+     - 03
+     - 04 relationship setup
+     	- edit Post,
+     - 05 creating form for Posts
+     	- edit posts/create.blade.php
+     - 06  form part 2
+     	- edit AdminPostControler
+     	- make:request
+     		- php artisan make:request PostsCreateRequest
+     		- edit app/Http/Requests/PostCreateRequest
+     - 07 request rules off for testing and back on for frontside UI bootstrap warnings about missing fields.
+     - 08
 
 
 
 
 ==========	
-stopped at start of 28/00
+stopped at start of 28/08
 
 
 
