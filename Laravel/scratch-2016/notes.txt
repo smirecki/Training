@@ -775,15 +775,46 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
      		- edit app/Http/Requests/PostCreateRequest
      - 07 request rules off for testing and back on for frontside UI bootstrap warnings about missing fields.
      - 08
+     - 09 
+     	- update template add Category options in app/resources/views/posts/create.blade.php
+     	- Error... After post add, redirect to admin/posts is a blank page??
+     		- 
+     	- Error.. it's also not adding a new post to the DB
+     		- did I skip a video? nope.
+     		- it is adding the image to the local /images file and the DB, but not to the posts
+     		- I was missing one line he didn't go over
+     			-"$user->posts()->create($input);"
+     	- edit include image on Posts page, edit template
+     	- Post categories still only show an ID number for the subject name.  Are we going to add a DB table for that or will it be somewhere else in the code? Yes, he creates a migration and model
+
+     - 10 
+     	- Create migration for categories
+     		-  php artisan make:model Category -m
+     			- auto add Category.php file to app/
+     				- add "protected fillable" to allow fields in DB to be filled.
+     		- edit migration (add string 'name') and migrate it
+     		- add data to Categories via the phpMyAdmin
+     - 11
+     	- I had to change a name for it to work, otherwise the page gave an error about an unexpected char
+     		- "<td>{{$post->categories ? $post->categories->name : 'Uncategorized'}}</td>"
+     			- his version used '$post->category' and worked
+     - 12 creating/pushing to  a Git repository 
+     - 13 warnings about Git
+     - 14
+     - 15 
+     	- he missed tell us to add a use on the top
+     	- reminds us to look up helper functions from PHP on the Laravel site
+
+
 
 
 
 
 ==========	
-stopped at start of 28/08
+stopped at start of 28/16
 
-
-
+example
+	 - ... push -m "message"
 
 
 
