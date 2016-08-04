@@ -11,4 +11,7 @@ First notes on OS update 16.??
 	- chrome UI colors wrong
 	- 
 
+	- boot UI different, but functioning perfectly
+	- 
+
 - Hold off on update main system...
