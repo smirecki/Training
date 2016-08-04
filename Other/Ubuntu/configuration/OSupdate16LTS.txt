@@ -15,3 +15,4 @@ First notes on OS update 16.??
 	- 
 
 - Hold off on update main system...
+	- Checked notes on last major OS update, I had to downgrade bc of all the problems.
