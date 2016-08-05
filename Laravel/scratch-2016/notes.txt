@@ -804,7 +804,12 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
      - 15 
      	- he missed tell us to add a use on the top
      	- reminds us to look up helper functions from PHP on the Laravel site
-
+     - 16
+     - 17
+     	- deleting posts
+     - 18
+     	- deleting users and relations
+     - 19 
 
 
 
