@@ -805,12 +805,22 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
      	- he missed tell us to add a use on the top
      	- reminds us to look up helper functions from PHP on the Laravel site
      - 16
+     	- edit template for post delete
      - 17
-     	- deleting posts
+     	- edit AdminPostController  - function destroy
+     	- deleting posts and photos
      - 18
      	- deleting users and relations
+     	- edit Posts migration
+     		- $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+     		- php artisan migrate:refresh
      - 19 
-
+     	- ...
+     29/1
+     	- create categories controller
+     	- php artisan make:controller --resource AdminCategoriesController
+     		- edit index route
+     		- edit main admin template to get categories link working 
 
 
 
