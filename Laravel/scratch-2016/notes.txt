@@ -101,6 +101,17 @@ Create migration
 				DB_PASSWORD=secret
 		- might not need permissions changes
 			- I made changes before correcting the other files
+
+
+
+
+Create a Model...
+
+Other common tasks...
+
+
+
+
 DB - Create tables...
 	- php artisan
 		- (use query builder) 
@@ -110,7 +121,7 @@ DB - Create tables...
 
 Routes
 	- list in CLI
-		- php artisan route::list
+		- php artisan route:list
 	- Create CRUD routes
 		- this line should be in your routes.php file
 		- "Route::resource('post', 'PostController');"
@@ -820,13 +831,23 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
      	- create categories controller
      	- php artisan make:controller --resource AdminCategoriesController
      		- edit index route
-     		- edit main admin template to get categories link working 
-
+     		- edit main admin template to get categories link working
+     - 2
+     	- edit to add categories  
+     - 3
+     - 1
+     	- creating a media page for photos
+     - 2
+     - 3
+     	- he uses a plug-in for the upload functionality
+     		- dropzone.js
+     -4
+   	 -5 deleting images
 
 
 
 ==========	
-stopped at start of 28/16
+stopped at start of 29/3
 
 example
 	 - ... push -m "message"
