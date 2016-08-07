@@ -52,6 +52,8 @@ FAQ
 		- config files				config/foo.php
 		- models					/app/foo.php
 		- .env 						/.env
+		- images					public/images
+		- DB migrations				database/migrations
 		
 	- Where can I find help?
 		- 'php artisan'
