@@ -176,6 +176,11 @@ note:
 
     	-	php artisan make:migration create_user_table --create=users
     			// creating a migration file, with some default values
+
+  			make a model
+  				// ???????? php artisan make:migration foo_names_table  ???? 
+    		
+
     		php artisan migrate
     			// implement the migration you just created
     		php artisan migrate:refresh
@@ -270,6 +275,7 @@ current to 08
 - end 8... everything is working perfectly
 - start 9
 	- @ 6:59 - had to do the very silly "token mismatch exception" work around in "VerifyCsrfToken"
+			- I find out later that you can fix this with one line of code adding a cert token.
 - end 9 - all working
 - start 10
 	- @9:49 - still perfect
@@ -318,7 +324,7 @@ current to 08
 					- yes and no
 						- yes all the data can be added and the DB is working great, but you can't add more Notes via the web page.
 							- The error shows a problem with the user_id field.
-								- Maybe the Cards Contorler needs to be fixed..?
+								- Maybe the Cards Controller needs to be fixed..?
 					- How does the app know which User is adding data, bc that seems to be the error it is having?
 					- Looks fine @15:47
 					- Problems @17:01
@@ -327,7 +333,7 @@ current to 08
 						- I'm not sure why his code can get the user data from this
 							- return $card->notes[0]->user;
 					- broken at this point
-						- I'm guessing we are using differnt versions of the framework, which is causing errors and or differences in the code.
+						- I'm guessing we are using different versions of the framework, which is causing errors and or differences in the code.
 				    - I will save a compressed version at this point and continue on with what ever version was working last. =(
 - end 10 - with it not working 100% bc of above reasons.
 - start 11
@@ -379,7 +385,8 @@ current to 08
 		})
 	- he was using Laravel version 5.2 for this tut
 	- routes code that showed all routes within 'middleware' are been extracted into a service provider
-=====
+=============================
+=============================
 -start new tut
 - Udemy - PHP with Laravel for beginners - Become a Master in Laravel
 - he is using mysql with phpMyAdmin for convenience updates and changes
