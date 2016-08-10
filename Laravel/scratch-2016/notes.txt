@@ -164,6 +164,32 @@ problems
 
 migrations and rolling back, refresh, 
 			- he covers this much later @ vid11 12:47
+======
+Very common mistakes
+
+	-- All of these errors are simple and dumb when you see what they are, but you will make these errors.
+
+	- Normal misspelling
+		- typing something that isn't a word.  This is easy to find with spell check on.
+	- Plurality error
+		- this one is huge and can take a lot of time to find, because it looks correct as it's a real word and the spell check doesn't catch it
+	- Missing brackets or quotation marks
+		- this is common when a section is retyped
+	- Missing data in the database
+		- Laravel will throw an error if your page asks for data that the database doesn't have.
+	- Array bracketing
+		- if you pass an array, it must be bracketed correctly.
+	- Retrieving and passing correctly
+		- This happened to the author many times, you need to call all the properties that you want to pass and pass them.
+	- properly setup your .env file
+		- Make sure your .env file is configured for the correct database type (sqlite, mysql, foo), you have a database by that name in your database, and it's the same name you are specifying in your .env file for the db.
+	- Includes...
+		- If you missed including the code to link the main content to the new page you've made, it will fail to show any page data, even the stuff that would come after the main includes. (@extends('layouts.foo')  @section('content'))
+	- Mixing a scope resolution operator and the syntax for the Laravel facades
+		- Using :: when you should have used a colon :
+	- 
+
+
 
 ===========
 raw notes
