@@ -44,6 +44,7 @@ Installing Laravel
 FAQ
 	- Where are these files?
 		- You can quickly search for a file with CTRL + p (in Sublime & VS Code)
+
 		- Routes.php				app/Http/Requests/routes.php
 		- Template foo.blade.php	resources/views/foo.blade.php
 		- Controllers				app/Http/Controlers/FooControllerName.php
@@ -54,6 +55,7 @@ FAQ
 		- .env 						/.env
 		- images					public/images
 		- DB migrations				database/migrations
+		- token controller 			App\Http\Middleware\VerifyCsrfToken
 		
 	- Where can I find help?
 		- 'php artisan'
