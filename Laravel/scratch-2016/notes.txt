@@ -120,8 +120,21 @@ Random errors while installing or running:
 	- add "php5-sqlite" if sqlite "can't find driver", should be included in PHP install, but isn't with *Ubuntu
 		- sudo apt-get install php5-sqlite
 
+problems
+	- Breaking changes from version Laravel 5.0 -5.2
+		 - "token mismatch exception"
+		 	- work around for dev env tut 
+		 		- edit App\Http\Middleware\VerifyCsrfToken
+		 			- add pages that you want to bypass check... all = '*' or some =' foo/bar/row/*'
+
+migrations and rolling back, refresh, 
+			- he covers this much later @ vid11 12:47
+
+
 serve the project/site with this stack
 	- "php artisan serve" within the root directory
+
+
 
 php artisan tinker
 	- use to create new "card" adding to DB
@@ -140,15 +153,6 @@ php artisan make:model Card  //Eloquent
 ===
 making relationships (wording)
 
-problems
-	- Breaking changes from version Laravel 5.0 -5.2
-		 - "token mismatch exception"
-		 	- work around for dev env tut 
-		 		- edit App\Http\Middleware\VerifyCsrfToken
-		 			- add pages that you want to bypass check... all = '*' or some =' foo/bar/row/*'
-
-migrations and rolling back, refresh, 
-			- he covers this much later @ vid11 12:47
 ======
 Very common mistakes
 
@@ -191,7 +195,6 @@ note:
   			make a model
   				// ???????? php artisan make:migration foo_names_table  ???? 
     		
-
     		php artisan migrate
     			// implement the migration you just created
     		php artisan migrate:refresh
@@ -199,6 +202,8 @@ note:
     		php artisan Schema::drop('users');
 
 	- php artisan tinker
+		- adding data to db via tinker
+
 		- check User(s) in the DB
 			- App\User::all();
 		- check Note(s) in the DB
