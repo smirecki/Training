@@ -1,23 +1,6 @@
 Laravel Notes - notes.txt
 
-=============
-meta notes
-	- VS Code
-		- Word wrap
-			- http://askubuntu.com/questions/622631/how-to-wrap-text-comments-in-visual-studio-code
-			- File/Preferences/User Settings
-				- settings.json
-					- Add -  "editor.wrappingColumn": 0
-		- get spell check
-			- more complex than it should be (guess that's a pay feature)
-			- https://code.visualstudio.com/Docs/editor/extension-gallery
-			- https://visualstudiogallery.msdn.microsoft.com/a23de100-31a1-405c-b4b7-d6be40c3dfff
-			- https://code.visualstudio.com/Docs/extensions/example-hello-world
-
-		- I've forgot the name of the built in "snippit" tab completion function they have in Sublime and other Code editors and IDEs
-			- "div.col-sm-9"  
-=============
-
+================================
 Links
 	- Software site
 		- https://laravel.com/docs/5.0
