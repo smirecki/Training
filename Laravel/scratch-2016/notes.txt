@@ -97,8 +97,6 @@ Create a Model...
 Other common tasks...
 
 
-
-
 DB - Create tables...
 	- php artisan
 		- (use query builder) 
@@ -133,8 +131,6 @@ migrations and rolling back, refresh,
 
 serve the project/site with this stack
 	- "php artisan serve" within the root directory
-
-
 
 php artisan tinker
 	- use to create new "card" adding to DB
@@ -177,8 +173,6 @@ Very common mistakes
 	- Mixing a scope resolution operator and the syntax for the Laravel facades
 		- Using :: when you should have used a colon :
 	- 
-
-
 
 ===========
 raw notes
@@ -247,7 +241,6 @@ note:
             		$table->integer('user_id')->unsigned()->index();
             		$table->integer('card_id')->unsigned()->index();
             		$table->text('body');
-
 redo 10
 	- error with showing data in cards/1 input field
 	- possible DB schema error or naming error(s)
@@ -449,7 +442,6 @@ current to 08
 	- "return" will only return a single value, not many... [not an array/object?]
 	- echo can show more than one value
 	- relating tables - roles, pivot table
-
 ===========
 migrations
 
@@ -460,17 +452,12 @@ migrations
 	- use var_dump for more info on results
 		- return var_dump($results);
 		- must have the underscore _
-
 	- @10-02 migrate:refresh fails, bc he asks to drop deleted_at column, I was able to clear the error by commenting out his Down method and not dropping the deleted_at column
-
-
 	- one to many, tips, many to many, 'has many to relation', querying intermediate table, polymorphic relation, inverse polymorphic, many to many polymorphic
 	- using a pivot or look up table @11/7
-
 ===
 php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 11/8-1
-
 // Has many through relation
 // finding a value of an object through a distant object... or
 // two degrees of separation
@@ -509,18 +496,15 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- Add data to the DB, as all the old data was destroyed with the refresh
 		- add methods to the models
 		- Add Routes 
-
 ==========================
 10/12
  - migration
  	- php artisan make:model Video -m
  	- php artisan make:model Tag -m
  	- php artisan make:model Taggable -m
-
 12/... Tinker
 	- very basic cases and instructions
 13/ Eloquent One to One CRUD
-	- 
 	- create new Laravel install and DB for this portion
 		- new Laravel
 			- edit .env
@@ -539,7 +523,6 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- CRUD U. Update
 		- just route creation with data find and change
 	- CRUD R. D. Read and Delete
-		- 
 14 Eloquent One to Many
 	- He creates a new install for this, I'm going to use the one from 13
 	- make Post model and migration
@@ -558,7 +541,6 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 	- make migration
 		- php artisan make:migration create_role_user_table --create=role_user
 		- migrate
-
 	- routes
 	- relations and mass assignments
 	/8
@@ -566,7 +548,6 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 			- used in this context to change the role of a user.. i.e. User role id changed
 		- detach
 			- removes the above role(s), one or many
-
 16 Eloquent Has many through relationship - polymorphic
 	- "polymorphic relations allow a model to belong to more than one another model on a single association"
 	- he is following "an example", from where... the Laravel site?
@@ -621,7 +602,6 @@ php artisan make:migration add_deleted_at_column_to_posts_tables --table=posts
 		- same as about but using 'set' instead of 'get'
 	- Query Scope
 		- "shortcuts for complex operations"
-		- 
 21 Forms - Uploading files
 22 Form - Login
 	- most basic
