@@ -1,0 +1,192 @@
+Laravel Notes - notes.txt
+
+===============================
+A collection of notes...
+
+
+================================
+Links
+	- Software site
+		- https://laravel.com/docs/5.0
+	- Best instructions on installing Laravel and all software it needs
+		- http://tutsnare.com/how-to-install-laravel-on-ubuntu-lamp/
+
+	- Other useful links:
+	-	https://getcomposer.org/download/
+	-	https://community.c9.io/t/getting-started-with-laravel/1608
+	-	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
+
+Installing Laravel [composer... Global-Locally, i.e. not a VM]
+	# download installer
+		- composer global require "laravel/installer=~1.1"
+	#setting up path
+		- export PATH="~/.composer/vendor/bin:$PATH" 
+	# change dir where to install
+		- cd /var/www/html/
+	# download and installing
+		- laravel new laravelnew
+	# giving permission to the development install
+		- chmod -R 777 laravelnew
+
+
+Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, in Ubuntu or FOO-buntu]
+	- ...
+
+
+
+
+FAQ
+	- Where are these files?
+		- You can quickly search for a file with CTRL + p (in Sublime & VS Code)
+
+		- Routes.php				app/Http/Requests/routes.php
+		- Template foo.blade.php	resources/views/foo.blade.php
+		- Controllers				app/Http/Controlers/FooControllerName.php
+		- CSS style sheet			public/css/style.css
+		- sass or less				resources/assets/sass/app.scss
+		- config files				config/foo.php
+		- models					/app/foo.php
+		- .env 						/.env
+		- images					public/images
+		- DB migrations				database/migrations
+		- token controller 			App\Http\Middleware\VerifyCsrfToken
+		
+	- Where can I find help?
+		- 'php artisan'
+			- this will show you the help file
+	- How do you serve the pages or start the server?
+		- 'php artisan serve'
+	- Tinker, allows you to make changes in your build via CLI like npm
+		- 'php artisan tinker'
+			- check data, add data
+	
+	- Elixir, what is it?
+		- Predefined mixin to perform common tasks or an API for defining basic Gulp tasks for your Laravel application.
+		- it needs npm to run Gulp and finish the build
+		- "gulp --production" will run the sass and minify
+		- "gulp watch" to update automatically 
+
+	- Database setup
+		- create new DB with the name you want
+		- edit the .env with the name of your new DB, the correct login name/pw
+
+Make(ing)
+	- Controllers
+		- php artisan make:controller FooControllerName
+	- migrations
+		- php artisan make:migration FooNameOfFile
+Setting up the DB for sqlite
+	- create folder and file
+		- touch database/database.sqlite
+	- change presets in .env from mysql to sqlite
+	- change presents in config/database.php at line 29 & 51
+		- 29 "'default' => env('DB_CONNECTION', 'sqlite'),"
+		- 51 "'database' => database_path('database.sqlite'),"
+
+Create migration
+	- fail... file access error
+		- check .env
+			- DB_CONNECTION=sqlite  // defaults to mysql... must be change to use sqlite
+		- correct config/database.php
+			- 'database' => database_path('database.sqlite') // no ENV data
+			- original
+				- 'database' => env('DB_DATABASE', database_path('database.sqlite')),
+				- 'database' => database_path('database.sqlite'),
+
+		- do not need to change sqlite dev default values for...
+			- 	DB_DATABASE=homestead
+				DB_USERNAME=homestead
+				DB_PASSWORD=secret
+		- might not need permissions changes
+			- I made changes before correcting the other files
+
+
+
+
+Create a Model...
+
+Other common tasks...
+
+
+DB - Create tables...
+	- php artisan
+		- (use query builder) 
+			- DB::table('cards')->insert(['title' => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+		- error at 07 10:33 ---- typo error... will cause this
+			- Illuminate\Database\QueryException with message 'SQLSTATE[HY000]': General error: 1 table cards has no column name update_at (SQL: insert into "cards" ("title", "created_at", "update_at") values (foo bar))'	
+
+Routes
+	- list in CLI
+		- php artisan route:list
+	- Create CRUD routes
+		- this line should be in your routes.php file
+		- "Route::resource('post', 'PostController');"
+
+============
+Random errors while installing or running:
+	- give the correct permissions to PHP and or the directories so Laravel can create a new project in Foo directory /var/www/html/foobar
+
+	- add "php5-sqlite" if sqlite "can't find driver", should be included in PHP install, but isn't with *Ubuntu
+		- sudo apt-get install php5-sqlite
+
+problems
+	- Breaking changes from version Laravel 5.0 -5.2
+		 - "token mismatch exception"
+		 	- work around for dev env tut 
+		 		- edit App\Http\Middleware\VerifyCsrfToken
+		 			- add pages that you want to bypass check... all = '*' or some =' foo/bar/row/*'
+
+migrations and rolling back, refresh, 
+			- he covers this much later @ vid11 12:47
+
+
+serve the project/site with this stack
+	- "php artisan serve" within the root directory
+
+php artisan tinker
+	- use to create new "card" adding to DB
+		- DB::table('cards')->insert(['title' => 'My New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+		- DB::table('cards')->insert(['title' => 'My Second New Card', 'created_at' => new DateTime, 'updated_at' => new DateTime]);
+	- query
+		- DB::table('cards')->get();
+		- DB::table('cards')->where('title', 'My New Card')->first();
+	- delete
+		- DB::table('cards')->where('title', 'My New Cards')->delete();
+
+	note: be careful not to tab or escape out of Tinker into the normal CLI, Tinker and CLI look very similar and none of the DB commands will work the same in the CLI.
+
+php artisan make:model Card  //Eloquent 
+
+===
+making relationships (wording)
+
+=====
+- use Faker for seeding a DB with dumb data
+	- https://github.com/fzaninotto/Faker
+======
+- laravel facades use aliases
+	- foo::bar   is like foo:: bam/ram/jam/bar
+======
+Very common mistakes
+
+	-- All of these errors are simple and dumb when you see what they are, but you will make these errors.
+
+	- Normal misspelling
+		- typing something that isn't a word.  This is easy to find with spell check on.
+	- Plurality error
+		- this one is huge and can take a lot of time to find, because it looks correct as it's a real word and the spell check doesn't catch it
+	- Missing brackets or quotation marks
+		- this is common when a section is retyped
+	- Missing data in the database
+		- Laravel will throw an error if your page asks for data that the database doesn't have.
+	- Array bracketing
+		- if you pass an array, it must be bracketed correctly.
+	- Retrieving and passing correctly
+		- This happened to the author many times, you need to call all the properties that you want to pass and pass them.
+	- properly setup your .env file
+		- Make sure your .env file is configured for the correct database type (sqlite, mysql, foo), you have a database by that name in your database, and it's the same name you are specifying in your .env file for the db.
+	- Includes...
+		- If you missed including the code to link the main content to the new page you've made, it will fail to show any page data, even the stuff that would come after the main includes. (@extends('layouts.foo')  @section('content'))
+	- Mixing a scope resolution operator and the syntax for the Laravel facades
+		- Using :: when you should have used a colon :
+	- 
