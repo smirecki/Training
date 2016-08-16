@@ -149,6 +149,12 @@ php artisan make:model Card  //Eloquent
 ===
 making relationships (wording)
 
+=====
+- use Faker for seeding a DB with dumb data
+	- https://github.com/fzaninotto/Faker
+======
+- laravel facades use aliases
+	- foo::bar   is like foo:: bam/ram/jam/bar
 ======
 Very common mistakes
 
