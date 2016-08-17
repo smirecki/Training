@@ -1,0 +1,77 @@
+Laravel-Homestead-notes.txt
+=============================
+
+
+
+Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, in Ubuntu or FOO-buntu]
+	- following Laravel Homestead instructions
+		- https://laravel.com/docs/5.2/homestead
+			- Install VirtualBox via Software Center
+				- no further action needed.
+			- Install Vagrant
+				- via Vagrant site, 64bit - Deb, click, local Software Center assisted install, accept, check "vagrant -v" via CLI ... all good
+			- Install the Homestead Vagrant Box
+				- "vagrant box add laravel/homestead"
+					-  download take a few minutes
+			- Download Homestead
+				- get Homestead main project from Github
+			- Making a place for your Homestead
+				- They recommend creating a folder for all your Homestead files in you "home" directory /FooHome/Homestead
+			- "Configuring Homestead"
+				- edit the Homestead.yaml file
+					- edit provider: virtualbox
+					- edit folders ...
+					- check sites
+						- default site: http://homestead.app
+				- edit your host file to match you Homestead.yaml
+				-
+			- Launch The Vagrant Box.............
+
+				- to avoid the errors below check these files for misconfigured paths 'C:/ paths'
+					- .homestead/Homestead.yaml
+					- Homestead/Homestead/homestead
+					- Homestead/Homestead/scripts/homestead.rd
+						- "#Configure Public Key For SSH Access"
+					- ... maybe more
+					- you might need to close the CLI terminal and open a new one for changes to go into effect or so a help page told me.
+					
+
+				- errors....
+					- I missed something or the instructions were not correct. Vagrant Box will not boot up.
+						- 'vagrant up'... error... 
+						- you must 'vagrant init' first... 'vagrant up'... error... 
+						- try to configure and boot VirtualBox... error no OS... locked on dead VM... CTRL + 1234 something to escape... =/
+
+						- go to Homestead dir... run 'vagrant up'... errors... run composer... updating... error
+						- It looks to have bad configuration info, setup for a Window C:/ drive by default...
+							- Checked Homestead.yaml file... doesn't have any C:/ locations... maybe the config is somewhere else???
+								- wrong PATH in Homestead/homestead
+								- edit Homestead/Vagrantfile  three PATHS were C:/
+								- fix my typo error =/ and continue
+							- started to load, but failed on ssh... again it was looking for a C:/ PATH
+								- edit /Homestead/scripts/homestead.rb... again C:/ PATH
+							- 'vagrant up'... check up to date... already provisioned... run 'vagrant provision'
+							- run 'vagrant provision'... error...
+						- checking VirtualBox.. homestead is running and can be turned off
+							- CLI still has problems and can't ssh
+							-  
+						- 'vagrant ssh' from /Homestead/Homestead...
+							- can ssh... works... =)
+
+						- ssh
+							- Address: 127.0.0.1:2222    username: vagrant
+								- not connecting with this
+							- The username and password for both databases is homestead / secret.
+				- Working... the basic install is working
+					- file share working.
+
+					- there are a lot of other things that can be configured like other DBs if you want or need them.
+
+						- sidenote... ~ has Homestead dir that is linked to home/steve/Homestead
+
+				- vagrant init
+				- vagrant up
+				-
+
+
+
