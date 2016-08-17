@@ -69,10 +69,18 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 								- edit /Homestead/scripts/homestead.rb... again C:/ PATH
 							- 'vagrant up'... check up to date... already provisioned... run 'vagrant provision'
 							- run 'vagrant provision'... error...
-							- 
+						- checking VirtualBox.. homestead is running and can be turned off
+							- CLI still has problems and can't ssh
+							-  
+						- 'vagrant ssh' from /Homestead/Homestead...
+							- can ssh... works... =)
 
-
-
+						- ssh
+							- Address: 127.0.0.1:2222    username: vagrant
+								- not connecting with this
+							- The username and password for both databases is homestead / secret.
+				- Working... the basic install is working
+					- there are a lot of other things that can be configured like other DBs if you want or need them.
 
 						- sidenote... ~ has Homestead dir that is linked to home/steve/Homestead
 
