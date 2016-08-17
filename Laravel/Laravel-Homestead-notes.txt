@@ -4,6 +4,7 @@ Laravel-Homestead-notes.txt
 
 
 Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, in Ubuntu or FOO-buntu]
+===============
 	- following Laravel Homestead instructions
 		- https://laravel.com/docs/5.2/homestead
 			- Install VirtualBox via Software Center
@@ -72,6 +73,98 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 				- vagrant init
 				- vagrant up
 				-
+===================
+
+Normal vagrant commands
+
+- 'vagrant up'			Bring the server up
+- 'vagrant init'		??? initialize ???
+- 'vagrant destroy'		destroy the vagrant BlahBlah
+-
+
+Found better more complete list than mine... below
+===============================
+ 
+Jerzy J. Gangi [ http://notes.jerzygangi.com/vagrant-cheat-sheet/ ]
+Vagrant cheat sheet
+
+Developing robust software requires an accurate testing and staging environment. Vagrant provides just that. It lets you mimic your production server map on your computer.
+
+N.B. Keep in mind, everything typed herein is case sensitive.
+
+Creating the Vagrantfile
+
+Command					Description
+- vagrant init
+				-Initialize Vagrant with a Vagrantfile and ./.vagrant directory, using no specified base image. Before you can do vagrant up, you'll need to specify a base image in the Vagrantfile. I rarely initialize Vagrant this way.
+- vagrant init boxpath	
+				- Initialize Vagrant with a specific box. To find a box, go shopping. When you find one you like, just replace it's name with boxpath. For example, vagrant init chef/centos-6.5. This is how I typically initialize Vagrant.
 
 
 
+Miscallenous Vagrantfile customizations
+
+- Specifying which box to use
+				- vagrant.configure("2") do |config| config.vm.box = "chef/centos-6.5" # or whatever box you want to use end
+- Starting a VM
+ - vagrant up	
+ 				- Boot the VM's specified in your Vagrantfile. Equivalent to pressing the power buttons on your "servers."
+- vagrant reload	
+				- The equivalent of vagrant halt followed by vagrant up
+
+
+Getting into a VM
+
+- vagrant ssh	
+				-	Open an ssh session to the default box specified in your working directory's Vagrantfile. If you only have one box in your Vagrantfile, that's the default one and this command will ssh into it.
+- vagrant ssh boxname	
+				-	If you give your box a name in your Vagrantfile, you can ssh into it with boxname. Works from any directory.
+- vagrant ssh boxid	
+				- The boxid can be obtained from vagrant global-status. Works from any directory.
+
+
+Cleaning up a VM
+
+- vagrant destroy	
+				- Stop and delete the default VM. The next time you vagrant up, the VM will be created from scratch.
+vagrant destroy -f	
+				- Vagrant does this annoying thing where it prompts you before destroying a VM. -f is short for force, which will destroy the VM without confirming first.
+
+
+Boxes
+Boxes are prebuilt VM images. You never modify your box images.
+
+- vagrant box list	
+				- See a list of all installed boxes on your computer
+- vagrant box add	
+				- Download a box image to your computer
+
+
+Networking into and out of VM's
+
+- Forward a port from the VM to your computer
+				- vagrant.configure("2") do |config| config.vm.network "forwarded_port", guest: 80, host: 8080 # guest is the VM; host is your computer end
+
+
+Provisioning stuff on your VM's
+Provisioning lets you execute commands on the VM when vagrant up is run.
+
+- vagrant reload --provision	
+				- Run provisioners without halting the VM and running vagrant up
+-Run a shell script when you vagrant up (a.k.a., when a VM is created)
+				- vagrant.configure("2") do |config| config.vm.provision :shell, path: "my_bash_script.sh" # path is relative to your `Vagrantfile` end
+
+- Share folders between your VM and your computer
+				- By default ./ on your computer is shared as /vagrant on the VM.
+
+
+- Letting other people access your VM's
+Vagrant has a cool feature that lets you publicly share your VM's with anyone, through a sort-of "DynDNS" solution. This is a great way to let stakeholders view your devbox.
+
+- vagrant login	
+				- Log in to HashiCorp's Atlas on your computer
+- vagrant share	
+				- Shares your VM and provides you with the public URL
+- ctrl+c	
+				- Quits the sharing session
+====
