@@ -1,8 +1,6 @@
 Laravel-Homestead-notes.txt
 =============================
 
-
-
 Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, in Ubuntu or FOO-buntu]
 ===============
 	- following Laravel Homestead instructions
@@ -39,9 +37,8 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 				- errors....
 					- I missed something or the instructions were not correct. Vagrant Box will not boot up.
 						- 'vagrant up'... error... 
-						- you must 'vagrant init' first... 'vagrant up'... error... 
+						- "you must 'vagrant init' first"... 'vagrant up'... error... 
 						- try to configure and boot VirtualBox... error no OS... locked on dead VM... CTRL + 1234 something to escape... =/
-
 						- go to Homestead dir... run 'vagrant up'... errors... run composer... updating... error
 						- It looks to have bad configuration info, setup for a Window C:/ drive by default...
 							- Checked Homestead.yaml file... doesn't have any C:/ locations... maybe the config is somewhere else???
@@ -57,16 +54,13 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 							-  
 						- 'vagrant ssh' from /Homestead/Homestead...
 							- can ssh... works... =)
-
 						- ssh
 							- Address: 127.0.0.1:2222    username: vagrant
 								- not connecting with this
 							- The username and password for both databases is homestead / secret.
 				- Working... the basic install is working
 					- file share working.
-
 					- there are a lot of other things that can be configured like other DBs if you want or need them.
-
 						- sidenote... ~ has Homestead dir that is linked to home/steve/Homestead
 
 				- vagrant init
