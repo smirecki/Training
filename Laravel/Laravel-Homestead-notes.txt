@@ -11,10 +11,10 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 				- no further action needed.
 			- Install Vagrant
 				- via Vagrant site, 64bit - Deb, click, local Software Center assisted install, accept, check "vagrant -v" via CLI ... all good
-			- Install the Homestead Vagrant Box
+			- Install the Homestead Vagrant Box via CLI
 				- "vagrant box add laravel/homestead"
 					-  download take a few minutes
-			- Download Homestead
+			- Download Homestead via Github
 				- get Homestead main project from Github
 			- Making a place for your Homestead
 				- They recommend creating a folder for all your Homestead files in you "home" directory /FooHome/Homestead
@@ -36,7 +36,6 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 					- ... maybe more
 					- you might need to close the CLI terminal and open a new one for changes to go into effect or so a help page told me.
 					
-
 				- errors....
 					- I missed something or the instructions were not correct. Vagrant Box will not boot up.
 						- 'vagrant up'... error... 
