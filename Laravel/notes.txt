@@ -29,6 +29,8 @@ Installing Laravel [composer... Global-Locally, i.e. not a VM]
 		- chmod -R 777 laravelnew
 
 - For Homestead - Vagrant Laravel install check Laravel-Homestead-notes.txt
+- version 5.3 is out, but is not the stable version... stick with 5.2 till 5.3 is stable
+
 
 FAQ
 	- Where are these files?
@@ -49,6 +51,8 @@ FAQ
 	- Where can I find help?
 		- 'php artisan'
 			- this will show you the help file
+	- How do I check the version I'm running from the CLI?
+		- 'php artisan --version'
 	- How do you serve the pages or start the server?
 		- 'php artisan serve'
 	- Tinker, allows you to make changes in your build via CLI like npm
