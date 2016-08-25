@@ -7,7 +7,7 @@ First notes on OS update 16.??
 		- they installed a new background
 		- upper bar color changed
 	- error 
-		- icon for battery on upper bar is have covered and dropped partially behind lower background
+		- icon for battery on upper bar is half covered and dropped partially behind lower background
 	- chrome UI colors wrong
 	- 
 
