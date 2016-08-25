@@ -5,7 +5,8 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 ===============
 	- following Laravel Homestead instructions
 		- https://laravel.com/docs/5.2/homestead
-			- Install VirtualBox via Software Center
+			- Install VirtualBox 
+				- via Software Center
 				- no further action needed.
 			- Install Vagrant
 				- via Vagrant site, 64bit - Deb, click, local Software Center assisted install, accept, check "vagrant -v" via CLI ... all good
@@ -19,11 +20,10 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 			- "Configuring Homestead"
 				- edit the Homestead.yaml file
 					- edit provider: virtualbox
-					- edit folders ...
+					- edit folders, per the laravel.com instructions ...
 					- check sites
 						- default site: http://homestead.app
 				- edit your host file to match you Homestead.yaml
-				-
 			- Launch The Vagrant Box.............
 
 				- to avoid the errors below check these files for misconfigured paths 'C:/ paths'
@@ -62,10 +62,9 @@ Installing Laravel Homestead and all the packaged tools [i.e. the VM Homestead, 
 					- file share working.
 					- there are a lot of other things that can be configured like other DBs if you want or need them.
 						- sidenote... ~ has Homestead dir that is linked to home/steve/Homestead
-
 				- vagrant init
 				- vagrant up
-				-
+				
 ===================
 
 Normal vagrant commands
