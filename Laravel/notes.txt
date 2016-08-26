@@ -3,7 +3,6 @@ Laravel Notes - notes.txt
 ===============================
 A collection of notes...
 
-
 ================================
 Links
 	- Software site
@@ -100,12 +99,11 @@ Create migration
 			- I made changes before correcting the other files
 
 
-
-
 Create a Model...
 
 Other common tasks...
-
+	- Setting up email for password confirmation, recovery, or blasts
+		- the tut teachers recommended using an outside service, some of which have "drivers for the Mailgun and Mandrill HTTP APIs".
 
 DB - Create tables...
 	- php artisan
