@@ -203,6 +203,9 @@ Apps and programs -
                 - https://github.com/atom/autocomplete-plus
 - Sublime
     - Find line completion tools
+
+- FileZila - For FTP
+    - works fine so far.
 ===
 Might install
 - Inkscape - not needed
