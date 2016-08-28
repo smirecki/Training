@@ -3,3 +3,5 @@ Emmet-notes.txt
 
 Emmet notes, tip, tricks, and snippets
 =========
+
+- For off-line reference, look for Emmet HTML page in Docs.
