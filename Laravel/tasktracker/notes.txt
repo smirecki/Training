@@ -1,0 +1,28 @@
+note.txt
+
+Basic build:
+	Laravel project, SQLite, bootstrap 4, ng2/react?, hosted?
+
+tasktracker app ideas-
+
+CRUD...
+
+- Create tasks (todo?)
+	- This could be a todo, in it's most basic form
+	- It could be for larger project also, for example: losing weight over months, building project, 
+
+- Read tasks
+	- It will need to display the task(s).
+
+- Update tasks
+	- You will need to update the task(s).
+
+- Delete tasks
+	- ... ect.
+
+- Extras for later
+	- graphs for progress tracking or future planning
+	- alerts - email, sms, mobile app???
+	- first built for one person with no sharing or social functions
+		- later it could be more open with public pages and friends or follows
+	- ???
