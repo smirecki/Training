@@ -1,21 +1,25 @@
 note.txt
 
-Basic build:
-	Laravel project, SQLite, bootstrap 4, ng2/react?, hosted?
+- Basic build
+	-Laravel
+	- SQLite (fine for one user), mysql (for many users)
+	- bootstrap 4
+	- ng2/react
+	- hosted?
 
 tasktracker app ideas-
 
 CRUD...
 
 - Create tasks (todo?)
-	- This could be a todo, in it's most basic form
+	- This could be a todo app, in it's most basic form.
 	- It could be for larger project also, for example: losing weight over months, building project, 
 
 - Read tasks
 	- It will need to display the task(s).
 
 - Update tasks
-	- You will need to update the task(s).
+	- It will need to update the task(s).
 
 - Delete tasks
 	- ... ect.
