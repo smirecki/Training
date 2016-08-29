@@ -31,6 +31,15 @@ CRUD...
 		- later it could be more open with public pages and friends or follows
 	- ???
 
+===
+"how-to-build-a-minimum-viable-product"
+1. Skateboard
+	- Auth, basic task list/todo
+2. Scooter
+3. Bike
+4. Motorcycle
+5. Car
+
 ==========================
 - Follow along notes... some of this will be added to permanent notes
 
@@ -54,3 +63,25 @@ Setup DB for MySQL
 		- this file should be default configured correctly for MySQL
 
 Migrate DB configurations to DB... ie. create the table in MySQL
+	- php artisan migrate
+
+Make User via webpage, check in phpAdmin if it was created correctly
+	- looks good
+
+Question...
+	- Do I build out page views now or keep adding to the DB with tasks?
+
+Add Tasks to DB
+	- 'php artisan make:migration create_tasks_table --create=tasks'
+	- add a 'name' string to task migration
+	- Question
+		- Do I want to add a state to a task (not started, in progress, finished) or should I save that for later?  Keep it simple, add it later.
+	- php artisan migrate
+	
+	- Question if you have a system that has users, which you do, won't you need to know who's task is in column Foo row Bar?  Yes you will... Add a user column to tasks table.
+	- add foreign key of User_id to tasks
+		-   $table->integer('user_id')->unsigned()->index();
+			...
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade'); 
+    - php artisan migrate:refresh
+
