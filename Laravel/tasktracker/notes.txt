@@ -30,3 +30,27 @@ CRUD...
 	- first built for one person with no sharing or social functions
 		- later it could be more open with public pages and friends or follows
 	- ???
+
+==========================
+- Follow along notes... some of this will be added to permanent notes
+
+Creating a new project
+	- new project via composer
+		- composer create-project laravel/laravel myapp
+		- note this will create a new folder/dir named myapp with Laravel project contents inside.
+	- new project via Github
+		- "If you prefer, you can alternatively download a copy of the Laravel repository from GitHub manually. Next run the composer install command in the root of your manually created project directory. This command will download and install the framework's dependencies."
+
+Auth Scaffolding
+	- php artisan make:auth
+
+Setup DB for MySQL
+	- create database in MySQL fooName
+	- .env change
+		- DB_DATABASE = fooName
+		- DB_USERNAME = ...
+		- DB_PASSWORD = ...
+	- config/database.php
+		- this file should be default configured correctly for MySQL
+
+Migrate DB configurations to DB... ie. create the table in MySQL
