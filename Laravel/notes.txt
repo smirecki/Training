@@ -27,16 +27,6 @@ Installing Laravel [composer... Global-Locally, i.e. not a VM]
 	# giving permission to the development install
 		- chmod -R 777 laravelnew
 
-Creating a new project
-	- new project via composer
-		- composer create-project laravel/laravel myapp
-		- note this will create a new folder/dir named myapp with Laravel project contents inside.
-	- new project via Github
-		- "If you prefer, you can alternatively download a copy of the Laravel repository from GitHub manually. Next run the composer install command in the root of your manually created project directory. This command will download and install the framework's dependencies."
-
-Auth Scaffolding
-	- php artisan make:auth
-
 - For Homestead - Vagrant Laravel install check Laravel-Homestead-notes.txt
 - version 5.3 is out, but is not the stable version... stick with 5.2 till 5.3 is stable
 
