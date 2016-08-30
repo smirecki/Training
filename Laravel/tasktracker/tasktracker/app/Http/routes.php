@@ -1,5 +1,9 @@
 <?php
 
+use App\Task;
+use Illuminate\Http\Request;
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,10 +15,27 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+/**
+ * Show Task Dashboard
+ */
+Route::get('/', function () {
+    return view('task');
+});
+
+/**
+ * Add New Task
+ */
+Route::post('/task', function (Request $request) {
+    //
+});
+
+/**
+ * Delete Task
+ */
+Route::delete('/task/{task}', function (Task $task) {
+    //
+});
