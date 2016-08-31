@@ -20,7 +20,6 @@ Route::auth();
 //login page reroute
 Route::get('/home', 'HomeController@index');
 
-//Route::group(['middleware'=>'admin'], function (){
 
 	/**
 	 * Show Task Dashboard
@@ -66,4 +65,3 @@ Route::get('/home', 'HomeController@index');
 
 	    return redirect('/');
 	});
-//});
