@@ -135,3 +135,21 @@ Looks like the Intermediate task list is doing the exact thing I wanted to do.  
 	- php artisan make:controller TaskController
 
 - remove old routes
+- add new routes
+- use middleware for routes
+	- another important step for the process to work
+	- "To require an authenticated users for all actions on the controller, we can add a call to the middleware method from the controller's constructor. All available route middleware are defined in the app/Http/Kernel.php file. In this case, we want to assign the auth middleware to all actions on the controller:"
+
+	- Not the best directions... this tut... 
+		- path to file missing for code above this link
+			- https://laravel.com/docs/5.2/quickstart-intermediate#building-layouts-and-views
+		- app/Http/Controllers/TaskController.php
+- views
+	- I might not need these files from the last build
+		- resources/views/
+			- app.blade.php
+			- home.blade.php
+			- task.blade.php
+
+- Next Adding Tasks
+	- https://laravel.com/docs/5.2/quickstart-intermediate#adding-tasks
