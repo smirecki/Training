@@ -131,3 +131,7 @@ Looks like the Intermediate task list is doing the exact thing I wanted to do.  
 		- "Once the auth routes are registered, verify that the $redirectTo property on the app/Http/Controllers/Auth/AuthController controller is set to '/tasks':"
 		- "It is also necessary to update the app/Http/Middleware/RedirectIfAuthenticated.php file with the proper redirect path:"
 			- "return redirect('/tasks');"
+- create Task Controller
+	- php artisan make:controller TaskController
+
+- remove old routes
