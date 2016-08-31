@@ -23,7 +23,11 @@ Route::get('/home', 'HomeController@index');
  * Show Task Dashboard
  */
 Route::get('/', function () {
-    return view('task');
+    $tasks = Task::orderBy('created_at', 'asc')->get();
+
+    return view('tasks', [
+        'tasks' => $tasks
+    ]);
 });
 
 /**
@@ -41,11 +45,21 @@ Route::post('/task', function (Request $request) {
     }
 
     // Create The Task...
+    // it wants a user_id also
+    $task = new Task;
+    $task->name = $request->name;
+    $task->user_id = 1;
+    $task->save();
+
+    return redirect('/');
+
 });
 
 /**
  * Delete Task
  */
 Route::delete('/task/{task}', function (Task $task) {
-    //
+	$task->delete();
+
+    return redirect('/');
 });
