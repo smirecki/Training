@@ -98,4 +98,20 @@ Current state
 	- create resource/views/task.blade.php
 - adding tasks - validation
 	- the laravel tut is very close to what I want to make, but it looks like the are throwing validation into the routes file, which is odd... maybe I'm wrong.
-	
+==
+current state
+	- basic tut completed and it conflicts with the Auth scaffolding, I will need to trouble shoot a fix.
+		- bad file name error fixed
+	- page looks fine, tried to enter task and failed with error... looks like SQL conflict... it hates my use of Auth...
+		- add User to DB
+		- add default user_id to created task... the app is happy... task created.
+	- are there other problems???
+		- can it delete a task? .. Yes
+
+Next
+	- make the code make sense for more than one user
+		- Have it add the correct user_id for whichever user is logged in
+		- put the tasks behind the Auth routes
+		- make the routes for each user be private to only that users
+
+	- add photos for users
