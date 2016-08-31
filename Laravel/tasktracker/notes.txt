@@ -96,3 +96,6 @@ Current state
 	- add route for show/add/delete
 - make page for show view
 	- create resource/views/task.blade.php
+- adding tasks - validation
+	- the laravel tut is very close to what I want to make, but it looks like the are throwing validation into the routes file, which is odd... maybe I'm wrong.
+	
