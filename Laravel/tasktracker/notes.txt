@@ -123,3 +123,11 @@ Looks like the Intermediate task list is doing the exact thing I wanted to do.  
 
 "Eloquent Models" - stored in app/foo.php (this a 'model')
 
+- edited the Models to tell Elouent Models.  Told User what Task(s) are (hasMany)and told Task what User is (belongsTo).
+
+- edit routing
+...  IMP!!!!!!!!!! ::::::::::::::::
+	- this looks like the very important parts that I missed trying to make the auth play nice on my own.
+		- "Once the auth routes are registered, verify that the $redirectTo property on the app/Http/Controllers/Auth/AuthController controller is set to '/tasks':"
+		- "It is also necessary to update the app/Http/Middleware/RedirectIfAuthenticated.php file with the proper redirect path:"
+			- "return redirect('/tasks');"
