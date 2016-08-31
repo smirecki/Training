@@ -84,4 +84,15 @@ Add Tasks to DB
 			...
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade'); 
     - php artisan migrate:refresh
+==
+Current state
+	- has Users and Tasks in DB
 
+- make model for Task
+	- php artisan make:model Task
+- fill in Task model
+	- must add 'name' to protected $fillable
+- add routing
+	- add route for show/add/delete
+- make page for show view
+	- create resource/views/task.blade.php
