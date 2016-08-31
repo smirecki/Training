@@ -17,49 +17,53 @@ use Illuminate\Http\Request;
 
 Route::auth();
 
+//login page reroute
 Route::get('/home', 'HomeController@index');
 
-/**
- * Show Task Dashboard
- */
-Route::get('/', function () {
-    $tasks = Task::orderBy('created_at', 'asc')->get();
+//Route::group(['middleware'=>'admin'], function (){
 
-    return view('tasks', [
-        'tasks' => $tasks
-    ]);
-});
+	/**
+	 * Show Task Dashboard
+	 */
+	Route::get('/', function () {
+	    $tasks = Task::orderBy('created_at', 'asc')->get();
 
-/**
- * Add New Task
- */
-Route::post('/task', function (Request $request) {
-    $validator = Validator::make($request->all(), [
-        'name' => 'required|max:255',
-    ]);
+	    return view('tasks', [
+	        'tasks' => $tasks
+	    ]);
+	});
 
-    if ($validator->fails()) {
-        return redirect('/')
-            ->withInput()
-            ->withErrors($validator);
-    }
+	/**
+	 * Add New Task
+	 */
+	Route::post('/task', function (Request $request) {
+	    $validator = Validator::make($request->all(), [
+	        'name' => 'required|max:255',
+	    ]);
 
-    // Create The Task...
-    // it wants a user_id also
-    $task = new Task;
-    $task->name = $request->name;
-    $task->user_id = 1;
-    $task->save();
+	    if ($validator->fails()) {
+	        return redirect('/')
+	            ->withInput()
+	            ->withErrors($validator);
+	    }
 
-    return redirect('/');
+	    // Create The Task...
+	    // it wants a user_id also
+	    $task = new Task;
+	    $task->name = $request->name;
+	    $task->user_id = 1;
+	    $task->save();
 
-});
+	    return redirect('/');
 
-/**
- * Delete Task
- */
-Route::delete('/task/{task}', function (Task $task) {
-	$task->delete();
+	});
 
-    return redirect('/');
-});
+	/**
+	 * Delete Task
+	 */
+	Route::delete('/task/{task}', function (Task $task) {
+		$task->delete();
+
+	    return redirect('/');
+	});
+//});
