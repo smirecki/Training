@@ -120,6 +120,7 @@ Next
 	- add photos for users
 ===
 Looks like the Intermediate task list is doing the exact thing I wanted to do.  I can follow it and compare what I've done.
+	- code here - https://github.com/laravel/quickstart-intermediate
 
 "Eloquent Models" - stored in app/foo.php (this a 'model')
 
@@ -153,3 +154,30 @@ Looks like the Intermediate task list is doing the exact thing I wanted to do.  
 
 - Next Adding Tasks
 	- https://laravel.com/docs/5.2/quickstart-intermediate#adding-tasks
+- stopped at
+	- Creating A Policy...
+Creating a Policy
+	- this wasn't covered in other tuts... why?
+	- 'php artisan make:policy TaskPolicy'
+		- this was placed here app/Policies/TaskPolicy.php
+
+- Finished last parts of tut and not all parts are working
+
+	- working
+		- login of existing user
+		- create new user
+			- no tasks or form to add new tasks displayed
+				- fixed
+			- can add new task
+			- can't delete tasks
+				- 'HttpException in Handler.php line 107:'
+				- 'This action is unauthorized.'
+				- the error has nothing to do with the above file
+
+	- create task form was never added
+		- the whole template hierarchy is different
+
+	- fix...
+		- Eloquent Models Task.php, they never included this code in the tut, must find it in the Github codes
+			-     	protected $casts = [
+        			'user_id' => 'int',
