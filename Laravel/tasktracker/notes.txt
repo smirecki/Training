@@ -1,11 +1,14 @@
 note.txt
 
-- Basic build
-	-Laravel
-	- SQLite (fine for one user), mysql (for many users)
-	- bootstrap 4
-	- ng2/react
-	- hosted?
+What it's made with
+	- Laravel 5.2
+	- mysql
+	- twitter-bootstrap/3.3.6
+
+What I could add to it
+	- bootstrap 4 (what would be the advantage of this?)
+	- An active frontend
+		- react or ng2
 
 tasktracker app ideas-
 
