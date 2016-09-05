@@ -15,7 +15,21 @@ Fix #2  < This worked for me
     - Select "Show All Settings".
     - Open Audio > Output Modules > ALSA
     - Select your audio output device. You may have to try different values. Hit save, close and reopen VLC to test if the current value is the right one.
+===============
+PLAY HEVC files
 
+VLC out of the box does not play HEVC files. To fix this we need to install libde265 via PPA, which is an open source implementation of the h.265 video codec.
+
+Open up the Terminal and run the commands below:
+
+sudo apt-add-repository ppa:strukturag/libde265 
+sudo apt-get update 
+sudo apt-get install vlc-plugin-libde265
+VLC should now play these media files.
+
+Source: http://www.unixmen.com/fix-vlc-not-support-audio-video-format-hevc/
+
+http://askubuntu.com/questions/631200/unable-to-play-hevc-files-on-ubuntu-14-04-lte
 ========
 UI
 Down-graded to basic after OS update.  You can download skins.
