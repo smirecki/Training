@@ -23,6 +23,7 @@ CRUD...
 
 - Update tasks
 	- It will need to update the task(s).
+=== this isn't done yet
 
 - Delete tasks
 	- ... ect.
@@ -32,6 +33,7 @@ CRUD...
 	- alerts - email, sms, mobile app???
 	- first built for one person with no sharing or social functions
 		- later it could be more open with public pages and friends or follows
+=== it currently has a system for many ppl
 	- ???
 
 ===
