@@ -11,7 +11,7 @@ Route::group(['middleware' => ['web']], function () {
 	    return view('welcome');
 	})->middleware('guest');
 
-	// "Stub(bed) out routes", to be changed... are these behind the auth routes yet???
+	// These are behind the auth
 	Route::get('/tasks', 'TaskController@index');
 	Route::post('/task', 'TaskController@store');
 	Route::delete('/task/{task}', 'TaskController@destroy');
