@@ -1,0 +1,20 @@
+kazam.txt
+
+Note for this app.
+
+
+Errors:
+
+- No sound is being recorded in Kazam using Ubuntu
+	- Check settings, they might get reset on app updates
+
+	- File-> Preferences-> Speakers-> 
+			- Speakers: 'Monitor of Built-in Audio Analog Stereo...'* or other option???
+			- Speakers: ... VOLUME Icon... -> click and adjust 'max'*
+			- Microphone
+			- Countdown splash
+
+	- The above settings fixed this problem
+
+- Studdering video on some capture...?
+	- hardware bottleneck??
