@@ -2,8 +2,9 @@ note.txt
 
 Notes for Vue.js -
 
-resources:
+Resources -
 	- Laracon US 2016: Evan You - Vue.js Workshop (Day 1)
+		- video 1:36
 
 
 
