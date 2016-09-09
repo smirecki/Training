@@ -213,6 +213,7 @@ Might install
     - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
 - Midori
     - too broken to use
+		- reinstalled seems to work fine without extentions
 ========
 - apps to run WIN programs/games
     - PlayOnLinux
