@@ -117,6 +117,10 @@ Apps and programs -
         - sudo apt-get install phpmyadmin
             - https://help.ubuntu.com/community/phpMyAdmin
                 - default login/pass root/root
+- Laravel 
+- Composer
+	- Did I install this independently?  
+
 - synergy-project app
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
