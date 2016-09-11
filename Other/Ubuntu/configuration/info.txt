@@ -2,6 +2,8 @@ xUbuntu -
 =============
 Adjustments - 
     - Change time to hh:mm:ss
+			- Layout
+				- LCD -- this will give you a constent width font and avoid the upper bar icon dance
     - Adjusting desktop icon size
         -
     - Customize the File Manager
