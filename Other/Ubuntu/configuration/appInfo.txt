@@ -80,7 +80,9 @@ Apps and programs -
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
     - problem
         - Are there safe codex packs or updates for non-default installed codex?
--Clementine
+- mpv media player
+- Parole media player
+- Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
 		- Colors - "Use a custom color set"
