@@ -112,6 +112,14 @@ Apps and programs -
     - Document Viewer, not great
     - Calibre opens Document Viewer to read PDFs
 - PHP
+		- upgrading to 5.6.*
+			- sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+			- sudo apt-get update
+			- sudo apt-get install php5.6
+
+			- need to also install this for Laravel
+				- sudo apt-get install php5.6-xml
+
     - Composer and PHP installed - php dependency management tool
         - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
 		- Laravel
