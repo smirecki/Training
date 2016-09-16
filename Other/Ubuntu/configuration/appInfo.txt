@@ -113,6 +113,7 @@ Apps and programs -
     - Calibre opens Document Viewer to read PDFs
 - PHP
 		- upgrading to 5.6.*
+			- third party ppa.. might not work by the time I need this again
 			- sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 			- sudo apt-get update
 			- sudo apt-get install php5.6
@@ -123,6 +124,7 @@ Apps and programs -
     - Composer and PHP installed - php dependency management tool
         - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
 		- Laravel
+			- project based via Github or use a fresh copy of homestead
 		- sqlite
 			- sudo apt-get install php5-sqlite
 		- 
@@ -130,14 +132,15 @@ Apps and programs -
     - phpmyadmin
         - sudo apt-get install phpmyadmin
             - https://help.ubuntu.com/community/phpMyAdmin
-                - default login/pass root/root
-- Laravel 
+                - default login/pass root/root 
 - Composer
 	- Did I install this independently?  
+		- yes, Composer is it's own install.
 
 - synergy-project app
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
+		- not really needed
 - Dropbox
     - Do I still need or want this?
     - What kind of resources does this use?
@@ -221,6 +224,7 @@ Apps and programs -
                 - https://github.com/atom/autocomplete-plus
 - Sublime
     - Find line completion tools
+		- Find tut for custom UI adjustments
 
 - FileZila - For FTP
     - works fine so far.
