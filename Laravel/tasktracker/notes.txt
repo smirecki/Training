@@ -8,7 +8,7 @@ What it's made with
 What I could add to it
 	- bootstrap 4 (what would be the advantage of this?)
 	- An active frontend
-		- react or ng2
+		- react or ng2... vue.js
 
 tasktracker app ideas-
 
@@ -51,9 +51,15 @@ CRUD...
 Creating a new project
 	- new project via composer
 		- composer create-project laravel/laravel myapp
+			- literal above command fails
+				- ErrorException mkdir(): Permission denied.... sudo?
+					- No sudo.. it will give the whole install root access.. BAD!
+					- 
+			- I'm failing at this... try Github method?? ? 
 		- note this will create a new folder/dir named myapp with Laravel project contents inside.
 	- new project via Github
 		- "If you prefer, you can alternatively download a copy of the Laravel repository from GitHub manually. Next run the composer install command in the root of your manually created project directory. This command will download and install the framework's dependencies."
+			- this downloaded fine, but Laravel 5.3 required an update of php, which required an update of other php packages for Laravel to run composer install/update
 
 Auth Scaffolding
 	- php artisan make:auth
