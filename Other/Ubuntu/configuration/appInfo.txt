@@ -47,15 +47,11 @@ Apps and programs -
         - Get another text-file be opened in new tab
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
-    - AB Plus
-        - anyway to avoid sites that block ad blocker
-            - can we find a list of sites that block ab blocker?
-                - none integrated, feature(s) proposed. 
-            
-	- dark reader - testing
-        - Better than older ones I've used
-        - has a nice whitelist feature
-        - not perfect with images
+  - AB Plus
+  - dark reader - testing
+  	- Better than older ones I've used
+    - has a nice whitelist feature
+    - not perfect with images
 	- youtube - dark skin
   - Instapaper
 - Midori
@@ -72,7 +68,8 @@ Apps and programs -
     - AB plus
     - dark background app broken with new install update
 - Git
-    - via Github website
+	- via Github website
+	- Consider exploring Git GUI for exploring projects and better understanding errors and conflicts
 - Python - (v.3.4) Python Interpreter included
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
