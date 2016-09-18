@@ -1,5 +1,6 @@
 Apps and programs - 
 - edit dns records if isp's dns can't reach some sites.
+	- google DNS 8.8.8.8 or 8.8.4.4
 - Vim
 - node
     === option 1 ====
@@ -59,6 +60,7 @@ Apps and programs -
   - Instapaper
 - Midori
     - was too broken to use
+			- it must have been extentions or the no scripts option that killed it...
 		- reinstalled seems to work fine without extentions
 - FireFox - normal edition
 - FireFox Developer edition - not currently using
