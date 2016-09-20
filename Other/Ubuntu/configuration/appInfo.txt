@@ -2,6 +2,8 @@ Apps and programs -
 - edit dns records if isp's dns can't reach some sites.
 	- google DNS 8.8.8.8 or 8.8.4.4
 - Vim
+	- current default 7.*
+	- new version 8 out
 - node
     === option 1 ====
     Install newest version of node on Ubuntu [v 4.2.x]
