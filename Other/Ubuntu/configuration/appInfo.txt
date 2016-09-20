@@ -113,6 +113,7 @@ Apps and programs -
     - Document Viewer, not great
     - Calibre opens Document Viewer to read PDFs
 - PHP
+		- newer versions of Ubuntu will install php 5.6* or > by default
 		- upgrading to 5.6.*
 			- third party ppa.. might not work by the time I need this again
 			- sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
@@ -121,6 +122,17 @@ Apps and programs -
 
 			- need to also install this for Laravel
 				- sudo apt-get install php5.6-xml
+		- upgrading to 7.*
+			- nice tut for this
+				- https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04
+			- sudo add-apt-repository ppa:ondrej/php
+			- sudo apt-get update
+			- sudo apt-get install php7.0
+			- sudo apt-get install php7.0-mysql
+			- sudo apt-get install php7.0-fpm
+			- check it
+				- php -v
+			
 
     - Composer and PHP installed - php dependency management tool
         - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
