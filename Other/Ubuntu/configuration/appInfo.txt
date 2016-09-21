@@ -132,6 +132,8 @@ Apps and programs -
 			- sudo apt-get install php7.0-fpm
 			- check it
 				- php -v
+
+			- will I need to reinstall a file for mcrypt?
 			
 
     - Composer and PHP installed - php dependency management tool
