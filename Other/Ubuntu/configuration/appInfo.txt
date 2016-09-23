@@ -241,6 +241,14 @@ Apps and programs -
 - Sublime
     - Find line completion tools
 		- Find tut for custom UI adjustments
+- PHPStorm 
+	- is it worth it?
+	- what is the feature that askes to add import to top of doc/.php file?
+		- auto import???
+		- sublime... https://packagecontrol.io/packages/AutoImport
+		- VS Code... http://stackoverflow.com/questions/38210604/visual-studio-code-automatic-imports
+			- https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/13344849-auto-imports-in-typescript
+
 
 - FileZila - For FTP
     - works fine so far.
