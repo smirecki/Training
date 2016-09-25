@@ -244,6 +244,10 @@ Apps and programs -
 - Sublime
     - Find line completion tools
 		- Find tut for custom UI adjustments
+			- yes, the left side bar is too bright
+		- find tut for custom snippets
+			- Star comments suck to write /* ***
+			- I've seen snippets for including variables after writing a method
 - PHPStorm 
 	- is it worth it?
 	- what is the feature that askes to add import to top of doc/.php file?
