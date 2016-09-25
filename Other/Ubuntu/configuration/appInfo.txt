@@ -179,6 +179,7 @@ Apps and programs -
         - it can mount more than one file, but only launch one at a time.
 
 [IDEs for TypeScript]
+- new version available
 - Visual Studios - VSCode-linux64
     - you can download a small install file from the main VSC site, which when run will open your OS software installer and install VSC perfectly. 
     - general
@@ -198,6 +199,8 @@ Apps and programs -
         - TS is built-in to VS Code
         - intellisense tooling is included
         - good support for Bash
+		- questions
+				- can you get it to do spell checking?
     
     - Notes on - setting up transcoding build task
         - https://code.visualstudio.com/Docs/languages/typescript
