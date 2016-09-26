@@ -1,6 +1,6 @@
 Apps and programs - 
 - edit dns records if isp's dns can't reach some sites.
-	- google DNS 8.8.8.8 or 8.8.4.4
+	- Google DNS 8.8.8.8 or 8.8.4.4
 - Vim
 	- current default 7.*
 	- new version 8 out
@@ -58,8 +58,8 @@ Apps and programs -
   - Instapaper
 - Midori
     - was too broken to use
-			- it must have been extentions or the no scripts option that killed it...
-		- reinstalled seems to work fine without extentions
+			- it must have been extensions or the no scripts option that killed it...
+		- reinstalled seems to work fine without extensions
 - FireFox - normal edition
 - FireFox Developer edition - not currently using
     - Install
@@ -281,3 +281,13 @@ Consider php environment
     - LAMP
     - c9.io
         - very resource intense with JS rendered VM IDE 90-95% CPU/RAM
+
+===============
+Questions:
+
+	- System reinstall or OS upgrading
+		- Auto configure and install all programs and preferences
+            - This is exactly what SysAdmins do with provisioning, can this be done for your one main system? ... Can you keep a running log or recipe of your personal system to provision another on new LTS upgrade or fresh install ( and or new hardware)?
+            - Are tools like Chef, Puppet, and the like the correct ones for this task?
+            - 
+
