@@ -252,11 +252,14 @@ Apps and programs -
 			- I've seen snippets for including variables after writing a method
 - PHPStorm 
 	- is it worth it?
-	- what is the feature that askes to add import to top of doc/.php file?
+	- what is the feature that asks to add import to top of doc/.php file?
 		- auto import???
 		- sublime... https://packagecontrol.io/packages/AutoImport
 		- VS Code... http://stackoverflow.com/questions/38210604/visual-studio-code-automatic-imports
 			- https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/13344849-auto-imports-in-typescript
+
+- Netbean
+    - does anyone use this with: php, python, or JS?
 
 
 - FileZila - For FTP
@@ -275,6 +278,7 @@ Might install
 	- What are the security concerns using Windows apps on Linux, escalation of privileges?
 ===
 Consider php environment
+    - local
     - vagrant
         - needs VM software to run
             - VirtualBox, VMware, KVM, Linux Containers(LXC)...
