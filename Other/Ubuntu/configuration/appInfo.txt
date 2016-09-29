@@ -286,7 +286,7 @@ Consider php environment
         - vagrant and use docker images
     - LAMP
     - c9.io
-        - very resource intense with JS rendered VM IDE 90-95% CPU/RAM
+        - very resource intense with JS rendered-VM-IDE in browser taking 90-95% CPU/RAM
 
 ===============
 Questions:
