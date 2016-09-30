@@ -261,6 +261,10 @@ Apps and programs -
 - Netbean
     - does anyone use this with: php, python, or JS?
 
+- Eclipse
+    - I'm not sure if it's good for general web programming, but I've seen it used for JAVA programming and it was impressive with all of the auto addition and completions; adding all of the required methods for an interface contract... lots of error checking for complex code. 
+    - it also looks complex or feature rich, you need to learn a new way of building programs.
+    - hear it's pretty slow
 
 - FileZila - For FTP
     - works fine so far.
