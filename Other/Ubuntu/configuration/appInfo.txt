@@ -171,6 +171,8 @@ Apps and programs -
 					You may also need to run
 			- sudo service kmod start
 					It will ask you a few questions.  Answer Yes for all of them.  Finally to get your CPU temperature type sensors in terminal.
+        - error... An update might have broken this... not working...
+        
 	- http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
 - Kazam - Screencaster
     - frame rate 15 - default
