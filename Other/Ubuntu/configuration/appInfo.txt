@@ -271,6 +271,9 @@ Apps and programs -
 
 - FileZila - For FTP
     - works fine so far.
+
+- Chat
+    - default install???
 ===
 Might install
 - Inkscape - not needed
