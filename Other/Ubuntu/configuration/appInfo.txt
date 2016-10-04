@@ -82,6 +82,7 @@ Apps and programs -
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
     - problem
         - Are there safe codex packs or updates for non-default installed codex?
+            - ppa are used, so the packs are more of a Windows thing
 - mpv media player
 - Parole media player
 - Clementine
