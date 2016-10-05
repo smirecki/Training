@@ -77,6 +77,9 @@ Apps and programs -
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
     - default color scheme Monokai
+    - errors with themes
+        - top tabs become a mess
+        - the left sidebar doesn't change colors
 - VLC, codex (what codex?)
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
