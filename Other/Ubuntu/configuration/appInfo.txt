@@ -278,6 +278,8 @@ Apps and programs -
 
 - Chat
     - default install???
+    - plugins and scripts?????
+        - check Github
 ===
 Might install
 - Inkscape - not needed
