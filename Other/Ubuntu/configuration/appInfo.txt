@@ -1,10 +1,10 @@
 Apps and programs - 
-- edit dns records if isp's dns can't reach some sites.
+- DNS records if isp's dns can't reach some sites.
 	- Google DNS 8.8.8.8 or 8.8.4.4
 - Vim
 	- current default 7.*
 	- new version 8 out
-- node
+- Node
     === option 1 ====
     Install newest version of node on Ubuntu [v 4.2.x]
     http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition
@@ -54,8 +54,9 @@ Apps and programs -
   	- Better than older ones I've used
     - has a nice whitelist feature
     - not perfect with images
-	- youtube - dark skin
+  - Youtube Dark Skin
   - Instapaper
+  - ABP
 - Midori
     - was too broken to use
 			- it must have been extensions or the no scripts option that killed it...
@@ -118,6 +119,7 @@ Apps and programs -
     - Document Viewer, not great
     - Calibre opens Document Viewer to read PDFs
 - PHP
+        - check Laravel notes for other php packages that should be installed, but aren't defaults.
 		- newer versions of Ubuntu will install php 5.6* or > by default
 		- upgrading to 5.6.*
 			- third party ppa.. might not work by the time I need this again
