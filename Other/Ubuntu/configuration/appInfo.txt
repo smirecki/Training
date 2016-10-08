@@ -50,7 +50,9 @@ Apps and programs -
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
 - Chromium
   - AB Plus
-  - dark reader - testing
+    - ads get through on some sites
+    - other sites are hostel to this app
+  - Dark Reader - testing
   	- Better than older ones I've used
     - has a nice whitelist feature
     - not perfect with images
