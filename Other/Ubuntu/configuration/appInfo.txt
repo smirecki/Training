@@ -80,9 +80,11 @@ Apps and programs -
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
     - default color scheme Monokai
-    - errors with themes
-        - top tabs become a mess
-        - the left sidebar doesn't change colors
+    - errors 
+        -with themes
+            - top tabs become a mess
+            - the left sidebar doesn't change colors
+        - Sublime crashing, it blames a plug in... research plugin...
 - VLC, codex (what codex?)
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
@@ -167,6 +169,8 @@ Apps and programs -
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
 		- not really needed
+    - note for future, Apple (3rd party) has a pay app that will allow use your ipad as a second monitor.
+
 - Dropbox
     - Do I still need or want this?
 			- Think it's more trouble than it's worth for me.
