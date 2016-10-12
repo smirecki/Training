@@ -36,12 +36,18 @@ Apps and programs -
 
             # Then install with:
             sudo apt-get install -y nodejs
-- npm
-    - babel
-    - gulp
-    - handlebars
-    - Mocha
-    - expressjs
+Package management
+    - yarn - Facebook's JS package manager
+        - https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/
+        - install
+            - npm install -g yarn
+            - yarn
+    - npm
+        - babel
+        - gulp
+        - handlebars
+        - Mocha
+        - expressjs
 
 - Mousepad Text Editor
     - default install
