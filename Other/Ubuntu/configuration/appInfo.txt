@@ -295,6 +295,12 @@ Package management
 
 - Chat
     - default install???
+        - Pidgin
+    - Other
+        - Web based
+            - FB
+            - G
+            - slack
     - plugins and scripts?????
         - check Github
 ===
