@@ -129,6 +129,8 @@ Package management
 - PDF Reader 
     - Document Viewer, not great
     - Calibre opens Document Viewer to read PDFs
+        - Locks/freezes and fails to recover... have to kill it
+            - no info on web search for this problem
 - PHP
         - check Laravel notes for other php packages that should be installed, but aren't defaults.
 		- newer versions of Ubuntu will install php 5.6* or > by default
