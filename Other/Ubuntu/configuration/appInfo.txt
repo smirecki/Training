@@ -154,6 +154,7 @@ Package management
 				- php -v
 
 			- will I need to reinstall a file for mcrypt?
+            - Will anything break from this upgrade?
 			
 
     - Composer and PHP installed - php dependency management tool
@@ -286,7 +287,7 @@ Package management
 
 - Netbean
     - does anyone use this with: php, python, or JS?
-    - I see ppl use this for ng2 and react.
+    - I have seen ppl use this for ng2 and react.
 
 - Eclipse
     - I'm not sure if it's good for general web programming, but I've seen it used for JAVA programming and it was impressive with all of the auto addition and completions; adding all of the required methods for an interface contract... lots of error checking for complex code. 
