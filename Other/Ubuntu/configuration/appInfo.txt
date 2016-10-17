@@ -205,6 +205,8 @@ Package management
 - Furius ISO Mount - has worked well
     - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
         - it can mount more than one file, but only launch one at a time.
+- Skype
+    - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
 
 [IDEs for TypeScript]
 - new version available
@@ -310,8 +312,6 @@ Package management
 ===
 Might install
 - Inkscape - not needed
-- Skype
-    - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
 ========
 - apps to run WIN programs/games
     - PlayOnLinux
