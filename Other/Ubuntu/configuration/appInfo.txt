@@ -339,4 +339,8 @@ Questions:
             - This is exactly what SysAdmins do with provisioning, can this be done for your one main system? ... Can you keep a running log or recipe of your personal system to provision another on new LTS upgrade or fresh install ( and or new hardware)?
             - Are tools like Chef, Puppet, and the like the correct ones for this task?
             - 
+===============
+Problem:
+    - Ubuntu Software Center
+        - My UI theme changes aren't working correctly here, the bg fg are too similar in value, which makes the text difficult to read.
 
