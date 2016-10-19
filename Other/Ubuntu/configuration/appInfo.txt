@@ -343,4 +343,5 @@ Questions:
 Problem:
     - Ubuntu Software Center
         - My UI theme changes aren't working correctly here, the bg fg are too similar in value, which makes the text difficult to read.
-
+    - Hang or freeze when web browsing, opening a new page/site.
+        - Could this be my ad blocker?
