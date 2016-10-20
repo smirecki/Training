@@ -166,7 +166,11 @@ Package management
 		- PhpUnit
 			- composer global require "phpunit/phpunit=5.5.*"
                 - 5.5.4
-		- 
+		-
+- php testing
+    - codeception
+        - http://codeception.com/
+
 - php my admin
     - phpmyadmin
         - sudo apt-get install phpmyadmin
