@@ -299,6 +299,7 @@ Package management
     - I'm not sure if it's good for general web programming, but I've seen it used for JAVA programming and it was impressive with all of the auto addition and completions; adding all of the required methods for an interface contract... lots of error checking for complex code. 
     - it also looks complex or feature rich, you need to learn a new way of building programs.
     - hear it's pretty slow
+    - great for search and replace capability to the entire project.
 
 - FileZila - For FTP
     - works fine so far.
@@ -345,6 +346,7 @@ Questions:
             -
     - What software and tools would I need to do scraping?
         - Do you have a project?  What are it's needs?  What do you want to do with the data?  How will you do the scrape, local or proxy?  What is the information you want, text, prices, images?  How will you store them?  How will you retrieve them?
+        - It more common to use Python than PHP.
 ===============
 Problem:
     - Ubuntu Software Center
