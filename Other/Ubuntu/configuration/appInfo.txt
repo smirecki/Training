@@ -211,6 +211,10 @@ Package management
         - it can mount more than one file, but only launch one at a time.
 - Skype
     - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
+    - Setup notes...
+        - Remember your sign-in name and password, without these two things you aren't getting in.
+        - Your sound needs to be enabled, they disable this by default... and I think the video is also disabled by default. =/
+        - Hover over the app window to reveal hidden settings icons, like the video and sound settings.
 
 [IDEs for TypeScript]
 - new version available
@@ -291,7 +295,7 @@ Package management
 		- VS Code... http://stackoverflow.com/questions/38210604/visual-studio-code-automatic-imports
 			- https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/13344849-auto-imports-in-typescript
 
-- Netbean
+- Netbeans
     - does anyone use this with: php, python, or JS?
     - I have seen ppl use this for ng2 and react.
 
