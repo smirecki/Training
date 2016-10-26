@@ -65,6 +65,13 @@ Package management
   - Youtube Dark Skin
   - Instapaper
   - ABP
+  - Problems..
+    - slow load times
+        - Is this because of Ads loading
+        - Is this from extensions
+            - Ad Block Plus
+            - Dark Reader
+            - Instapaper
 - Midori
     - was too broken to use
 			- it must have been extensions or the no scripts option that killed it...
