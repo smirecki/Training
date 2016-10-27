@@ -65,6 +65,9 @@ Package management
   - Youtube Dark Skin
   - Instapaper
   - ABP
+    - not all ads are being blocked now.
+        - are there better apps for this?
+    - you can customize the filters, but must follow their API doc.
   - Problems..
     - slow load times
         - Is this because of Ads loading
