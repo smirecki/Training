@@ -75,6 +75,7 @@ Package management
             - Ad Block Plus
             - Dark Reader
             - Instapaper
+        - Check it the load times and freezing will also happen with the same pages in Firefox.
 - Midori
     - was too broken to use
 			- it must have been extensions or the no scripts option that killed it...
