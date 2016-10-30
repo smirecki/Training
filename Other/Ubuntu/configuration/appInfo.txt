@@ -114,6 +114,7 @@ Package management
     - ubuntu/trusty64
         - Note this will not have the tools for you to develop with, this is a general OS.  You will need to install or upgrade for your backend stack and tooling... php7, fooSQL, ect.
         - Updating the OS can take a long time and can hang/fail on restart.
+            - PHP7, sqlite, postgresql, nginx, mariadb, php-mycrypty, mailcatcher [needs ruby > 2 and a lot of other apps... still having problems with this]
 - mpv media player
 - Parole media player
 - Clementine
