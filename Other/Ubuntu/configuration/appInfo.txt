@@ -209,6 +209,9 @@ Package management
 		- not really needed
     - note for future, Apple (3rd party) has a pay app that will allow use your ipad as a second monitor.
 
+- Ruby
+    - look into a way to cleanly install along with RVM, it hates apt-get.
+
 - Dropbox
     - Do I still need or want this?
 			- Think it's more trouble than it's worth for me.
