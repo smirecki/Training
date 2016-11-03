@@ -210,7 +210,7 @@ Package management
     - note for future, Apple (3rd party) has a pay app that will allow use your ipad as a second monitor.
 
 - Ruby
-    - look into a way to cleanly install along with RVM, it hates apt-get.
+    - look into a way to cleanly install along with RVM, it hates apt-get.code
 
 - Dropbox
     - Do I still need or want this?
@@ -246,7 +246,10 @@ Package management
 - new version available
     - get update... is there a Ubuntu Software Center version or do I have to install directly for VSC site... or a funky PPA?
 - Visual Studios - VSCode-linux64
-    - you can download a small install file from the main VSC site, which when run will open your OS software installer and install VSC perfectly. 
+    - current version 1.7.*
+    - you can download a small install file from the main VSC site, which when run will open your OS software installer and install VSC perfectly.
+        - The file is a .dep
+        - It will open the Softwear Updater and auto install.
     - general
         - "Code" version of VS
         - https://code.visualstudio.com/Docs/?dv=linux64
