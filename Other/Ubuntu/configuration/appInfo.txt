@@ -117,6 +117,8 @@ Package management
             - the fresh install is going to need a lot of apps to run a LAMP stack, many of which you never knew you needed for things you know you need.
             - zip, git, PHP7, php5-curl, php-curl, php-xml, php7.0-mbstring, php libapache2-mod-php, php-mcrypt, sqlite, postgresql, nginx, mariadb, php-mycrypty, mailcatcher, 
 
+            - Can you find a provisioning script for this LAMP stack for trusty64?
+
                 - errors
                     - needs ruby > 2 and a lot of other apps... still having problems with this
                     - I've gotten Ruby > 2 installed, but it also needs (or I think it does) RVM.  I've installed all this and the builds have errors and the link file sharing between Host and VM was not working files any more.
