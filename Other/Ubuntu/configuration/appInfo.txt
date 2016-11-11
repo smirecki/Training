@@ -366,7 +366,6 @@ Consider php environment
             - VirtualBox*, VMware, KVM, Linux Containers(LXC)...
     - docker
         - docker images
-    - LAMP
     - c9.io
         - very resource intense with JS rendered-VM-IDE in browser taking 90-95% CPU/RAM
 
