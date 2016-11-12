@@ -58,6 +58,7 @@ Package management
   - AB Plus
     - ads get through on some sites
     - other sites are hostel to this app
+    - they are letting some ads get past the filter
   - Dark Reader - testing
   	- Better than older ones I've used
     - has a nice whitelist feature
