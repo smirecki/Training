@@ -65,6 +65,7 @@ Package management
     - not perfect with images
   - Youtube Dark Skin
   - Instapaper
+    - free whole platform now.
   - ABP
     - not all ads are being blocked now.
         - are there better apps for this?
