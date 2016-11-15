@@ -360,6 +360,8 @@ Might install
         - Can you force it to try running other apps?
     - WINE *
 	- What are the security concerns using Windows apps on Linux, escalation of privileges?
+        - The apps run in Wine have the same privileges as the/a User, it can and has damaged systems.  Install apps with caution.
+        
 ===
 Consider php environment
     - local
