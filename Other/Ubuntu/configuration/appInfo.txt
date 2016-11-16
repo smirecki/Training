@@ -111,6 +111,7 @@ Package management
     - problem
         - Are there safe codex packs or updates for non-default installed codex?
             - ppa are used, so the packs are more of a Windows thing
+        - Sound adjustments, can't make the sound mono.
 - VirtualBox
 - Vagrant
     - ubuntu/trusty64
