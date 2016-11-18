@@ -71,6 +71,7 @@ Package management
         - are there better apps for this?
     - you can customize the filters, but must follow their API doc.
   - Problems..
+    - strange problems with some https sites
     - slow load times
         - Is this because of Ads loading
         - Is this from extensions
