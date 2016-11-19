@@ -117,6 +117,9 @@ Package management
             - ppa are used, so the packs are more of a Windows thing
         - Sound adjustments, can't make the sound mono.
 - VirtualBox
+    - Ubuntu
+    - RaspberryPi FOO
+        - This won't work because VirtualBox is built for x86 and Pi is ARM.
 - Vagrant
     - ubuntu/trusty64
         - Note this will not have the tools for you to develop with, this is a general OS.  You will need to install or upgrade for your backend stack and tooling... php7, fooSQL, ect.
