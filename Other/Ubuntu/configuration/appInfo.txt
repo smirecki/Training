@@ -53,6 +53,8 @@ Package management
     - not working...
     - must have roms that match emulation version
     - can Mame handle NeoGeo roms on Linux
+        - read/follow http://fantasyanime.com/emuhelp/mame#neogeo-games-need-neogeo-zip
+            - must have neogeo.zip setup files to run neogeo roms
 
 - Mousepad Text Editor
     - default install
