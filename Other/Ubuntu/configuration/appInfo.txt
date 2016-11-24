@@ -52,6 +52,9 @@ Package management
 - Mame
     - not working...
     - must have roms that match emulation version
+        - must have roms that have supporting files
+    - Is there another app to audit roms or does Mame on Linux have a hidden function for this?
+        - It just has a Config Inputs function, nothing to audit roms.
     - can Mame handle NeoGeo roms on Linux
         - read/follow http://fantasyanime.com/emuhelp/mame#neogeo-games-need-neogeo-zip
             - must have neogeo.zip setup files to run neogeo roms
