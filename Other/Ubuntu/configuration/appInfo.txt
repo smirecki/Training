@@ -63,6 +63,12 @@ Package management
             - must have neogeo.zip setup files to run neogeo roms
     - Can I install older versions of Mame?
         - Yes, but they are from source, only the Windows version has an installer and/or is only built for Windows.
+        - http://docs.mamedev.org/initialsetup/compilingmame.html
+    - Default version for Software Center is .152 from 2014!!!!
+    - Try newer Windows version through Wine...
+        - App .17x runs, but roms are still not working for whatever reason.
+            - run auditing app
+
 
 - Mousepad Text Editor
     - default install
