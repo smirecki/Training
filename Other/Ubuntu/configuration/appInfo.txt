@@ -67,7 +67,7 @@ Package management
     - Can I install older versions of Mame?
         - Yes, but they are from source, only the Windows version has an installer and/or is only built for Windows.
         - http://docs.mamedev.org/initialsetup/compilingmame.html
-    - Default version for Software Center is .152 from 2014!!!!
+    - Default version for Software Center is .152 from March 19 2014 - old!
     - Try newer Windows version through Wine...
         - App .17x runs, but roms are still not working for whatever reason.
             - run auditing app
