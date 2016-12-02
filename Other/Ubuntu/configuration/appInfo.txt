@@ -59,7 +59,7 @@ Package management
         - nope, but there use to be on another OS
         - It just has a Config Inputs function, nothing to audit roms.
         - You can run a Mame auditing app via Wine on Linux.
-            - It will try to fix you roms, but it won't fix lost files or till you which are missing.
+            - It will try to fix you roms, but it won't fix lost files or tell you which are missing.
                 - how can you find out which files are missing?
     - can Mame handle NeoGeo roms on Linux - YES!!!
         - read/follow http://fantasyanime.com/emuhelp/mame#neogeo-games-need-neogeo-zip
