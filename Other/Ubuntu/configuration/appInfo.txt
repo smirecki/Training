@@ -140,6 +140,7 @@ Package management
     - Ubuntu
     - RaspberryPi FOO
         - This won't work because VirtualBox is built for x86 and Pi is ARM.
+        - The most popular OS is RASPBIAN, which is a Debian-based.
 - Vagrant
     - ubuntu/trusty64
         - Note this will not have the tools for you to develop with, this is a general OS.  You will need to install or upgrade for your backend stack and tooling... php7, fooSQL, ect.
