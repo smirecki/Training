@@ -96,6 +96,8 @@ Package management
     - not all ads are being blocked now.
         - are there better apps for this?
     - you can customize the filters, but must follow their API doc.
+  - Vue.js Dev tools extension
+    - this helps with programming Vue.js apps
   - Problems..
     - strange problems with some https sites
     - slow load times
