@@ -124,6 +124,7 @@ Package management
     - Flash enabling and disabling questionable results from sites
         - It could be some kind of cached settings interfering with changes
         - Some sites might have some content only in Flash and fail silently( or catastrophically)
+        - Flash alternatives seem to work intermittently.
 - Git
 	- via Github website
 	- Consider exploring Git GUI for exploring projects and better understanding errors and conflicts
