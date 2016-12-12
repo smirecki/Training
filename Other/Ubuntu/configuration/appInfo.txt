@@ -151,6 +151,23 @@ Package management
         - This won't work because VirtualBox is built for x86 and Pi is ARM.
         - The most popular OS is RASPBIAN, which is a Debian-based.
         - There isn't much reason to virtualize this, it's better to just develop on the correct hardware. 
+    - What kind of specs do you need to run a VM for a full OS install (not just a CLI) of: 
+        - Foo Linux
+            - 700 MHz processor (about Intel Celeron or better)
+            - 512 MiB RAM (system memory)
+            - 5 GB of hard-drive space (or USB stick, memory card or external drive but see LiveCD for an alternative approach)
+            - VGA capable of 1024x768 screen resolution.
+            - Either a CD/DVD drive or a USB port for the installer media.
+            - Internet access is helpful.
+        - Win 10 (min specs)
+            - Processor: 1 gigahertz (GHz) or faster.
+            - RAM: 1 gigabyte (GB) (32-bit) or 2 GB (64-bit)
+            - Free hard disk space: 16 GB.
+            - Graphics card: Microsoft DirectX 9 graphics device with WDDM driver.
+            - A Microsoft account and Internet access.
+        - Apple Foo Animal?
+            - https://www.virtualbox.org/wiki/Mac%20OS%20X%20build%20instructions
+
 - Vagrant
     - ubuntu/trusty64
         - Note this will not have the tools for you to develop with, this is a general OS.  You will need to install or upgrade for your backend stack and tooling... php7, fooSQL, ect.
