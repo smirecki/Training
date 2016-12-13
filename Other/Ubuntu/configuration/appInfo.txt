@@ -167,6 +167,7 @@ Package management
             - A Microsoft account and Internet access.
         - Apple Foo Animal?
             - https://www.virtualbox.org/wiki/Mac%20OS%20X%20build%20instructions
+            - I'm not sure if OSX can run on a chip that is not i/3/5/7, Xeon, AMD.
 
 - Vagrant
     - ubuntu/trusty64
