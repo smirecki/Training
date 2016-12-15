@@ -140,7 +140,7 @@ Package management
             - still crashing, no error warning about plug in
 - VLC, codex (what codex?)
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
-		- Tools -> Pref. -> Audio -> output -> "ALSA audio ouput" (sound can stop when running on Linux)
+		- Tools -> Pref. -> Audio -> output -> "ALSA audio output" (sound can stop when running on Linux)
     - problem
         - Are there safe codex packs or updates for non-default installed codex?
             - ppa are used, so the packs are more of a Windows thing
@@ -150,9 +150,13 @@ Package management
     - RaspberryPi FOO
         - This won't work because VirtualBox is built for x86 and Pi is ARM.
         - The most popular OS is RASPBIAN, which is a Debian-based.
-        - There isn't much reason to virtualize this, it's better to just develop on the correct hardware. 
+        - There isn't much reason to virtualize this, it's better to just develop on the correct hardware.
+        - Which Raspberry hardware can run Raspbian,  min req to run this OS?
+            Install Type    RAM (minimal)   RAM (recommended)   Hard Drive
+            No desktop      64 megabytes    256 megabytes   1 gigabyte
+            With Desktop    64 megabytes    512 megabytes   5 gigabytes 
     - What kind of specs do you need to run a VM for a full OS install (not just a CLI) of:
-        - There will be minimums, but you will need to configure what resources each VM is allowed.  If you have a single chip with 4-12 cores or two chips with multi-cores (Xeno), you should have more than enough CPUs.  Other things to consider, fast enough chip(s) to run the app you need(as some will only use a single CPU, video rendering, gaming, Adobe apps),enough RAM for each VM, and a strong/fast/powerfull enough graphics card to run your apps. 
+        - There will be minimums, but you will need to configure what resources each VM is allowed.  If you have a single chip with 4-12 cores or two chips with multi-cores (Xeno), you should have more than enough CPUs.  Other things to consider, fast enough chip(s) to run the app you need(as some will only use a single CPU, video rendering, gaming, Adobe apps),enough RAM for each VM, and a strong/fast/powerful enough graphics card to run your apps. 
         - Foo Linux
             - 700 MHz processor (about Intel Celeron or better)
             - 512 MiB RAM (system memory)
