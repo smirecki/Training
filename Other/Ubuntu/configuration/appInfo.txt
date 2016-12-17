@@ -139,6 +139,10 @@ Package management
         - Sublime crashing, it blames a plug in... research plugin...
             - still crashing, no error warning about plug in
 - VLC, codex (what codex?)
+    - adjustments for performance improvements (Some videos would peg the CPU, but with these changes,I believe, the GPU is used more and the CPU does minimum work.)
+        - Tools > Preferences > 
+            - Input & Codecs Settings > Codecs > Hardware-accelerated decoding . "Automatic"
+            - > Video > Video > Deinterlacing "Automatic"
     - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
 		- Tools -> Pref. -> Audio -> output -> "ALSA audio output" (sound can stop when running on Linux)
     - problem
@@ -251,6 +255,11 @@ Package management
 
 			- will I need to reinstall a file for mcrypt?
             - Will anything break from this upgrade?
+        - PHPUnit
+            - xdeBug
+                - https://php-built.com/2016/01/20/installing-xdebug-for-php7/
+                    - follow the instructions
+                        - apt install php7.0-dev
 			
 
     - Composer and PHP installed - php dependency management tool
