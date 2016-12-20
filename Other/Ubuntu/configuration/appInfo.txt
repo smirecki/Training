@@ -209,6 +209,7 @@ Package management
     - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
 - Cheese - webcam software
     - Haven't used it to send/upload video, don't know if this app is needed.
+    - doesn't seem to be needed for Skype.
 - Calibre
     - software center
     - Use this program to manage a Kindle White-paper
