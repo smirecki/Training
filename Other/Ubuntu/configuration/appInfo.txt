@@ -121,11 +121,13 @@ Package management
         - serving a malware site... not safe???
     - AB plus
     - dark background app broken with new install update
+    - Flash related content resource problems, run away process. Kill all flash content.
     - Flash enabling and disabling questionable results from sites
         - It could be some kind of cached settings interfering with changes
         - Some sites might have some content only in Flash and fail silently( or catastrophically)
         - Flash alternatives seem to work intermittently.
         - It seems to not run Flash, which is much less taxing on the cpu, but then it will cause the content to fail and it will then show an error about failing drivers.
+    - odd errors with find command, highlighting not working or my UI customizations are causing it to fail.
 - Git
 	- via Github website
 	- Consider exploring Git GUI for exploring projects and better understanding errors and conflicts
