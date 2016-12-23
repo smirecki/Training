@@ -433,6 +433,10 @@ Package management
             - slack
     - plugins and scripts?????
         - check Github
+- System utility
+    - Disk Utility - partition drive and change formats 
+        - tuts talk about this app as a default install, but it is not on v 14.foo
+        - 
 ===
 Might install
 - Inkscape - not needed
