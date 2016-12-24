@@ -158,6 +158,11 @@ Package management
         - This won't work because VirtualBox is built for x86 and Pi is ARM.
         - The most popular OS is RASPBIAN, which is a Debian-based.
         - There isn't much reason to virtualize this, it's better to just develop on the correct hardware.
+        - New prototype release today (12/23/2016), the Raspberry Pi Foundation has released an OS for x86, "powered by Raspbian"...
+            - So this is an OS that was made from x86 Debian to run on Arm processors and then back to x86.  
+            - Why do all of this?
+                - So you can have the same OS to create and test with on both the Pi and x86 system.
+                - It is also an alternative for older x86 systems.
         - Which Raspberry hardware can run Raspbian,  min req to run this OS?
             Install Type    RAM (minimal)   RAM (recommended)   Hard Drive
             No desktop      64 megabytes    256 megabytes   1 gigabyte
