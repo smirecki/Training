@@ -240,6 +240,7 @@ Package management
             - load in browser works
                 - save to PDF yields a file that is still broken/altered
                 - print and then save to PDF yields working version that is smaller
+    - It like to open on to a specific screen, even though it wasn't open/called/executed there. 
 - PHP
         - check Laravel notes for other php packages that should be installed, but aren't defaults.
 		- newer versions of Ubuntu will install php 5.6* or > by default
