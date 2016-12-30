@@ -492,4 +492,5 @@ Problem:
             - I've never has this freezing when using Firefox.
     - Updates errors in failed ppa.
         - boot folder version files not consistent, problems with updates and cleaning.
-        - unchecked ppas for old php version that seem to not longer work.  So far the system says it is up to date, this could change on restart.  
+        - unchecked ppas for old php version that seem to not longer work.  So far the system says it is up to date, this could change on restart.
+            - no problems after changes 
