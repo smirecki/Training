@@ -323,6 +323,7 @@ Package management
 - Kazam - Screencaster
     - frame rate 15 - default
         - 10 fps only makes a file 10% smaller
+    - errors with motion blur and dropped frames when recording at the limits of system resources, which isn't surprising, but it should be expected and accounted for.
 - Steam - not many Linux games available
 - Furius ISO Mount - has worked well
     - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
