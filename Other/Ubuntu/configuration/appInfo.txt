@@ -90,6 +90,7 @@ Package management
     - has a nice whitelist feature
     - not perfect with images
   - Youtube Dark Skin
+  - grammarly
   - Instapaper
     - free whole platform now.
   - ABP
@@ -485,13 +486,13 @@ Questions:
 ===============
 Problem:
     - Ubuntu Software Center
-        - My UI theme changes aren't working correctly here, the bg fg are too similar in value, which makes the text difficult to read.
+        - My UI theme changes aren't working correctly here, the background foreground are too similar in value, which makes the text difficult to read.
     - Hang or freeze when web browsing, opening a new page/site.
         - Could this be my ad blocker?
         - "Chrome is freezing Ubuntu when opening a tab or restarting" 
             - http://askubuntu.com/questions/651574/chrome-is-freezing-ubuntu-when-opening-a-tab-or-restarting
             - Might be driver issue and I'm not willing to change drivers.  That kind of thing can be catastrophic an OS and I have already fought to get the video driver that works best installed correctly.
-            - I've never has this freezing when using Firefox.
+            - I've never had this freezing when using Firefox.
     - Updates errors in failed ppa.
         - boot folder version files not consistent, problems with updates and cleaning.
         - unchecked ppas for old php version that seem to not longer work.  So far the system says it is up to date, this could change on restart.
