@@ -497,3 +497,7 @@ Problem:
         - boot folder version files not consistent, problems with updates and cleaning.
         - unchecked ppas for old php version that seem to not longer work.  So far the system says it is up to date, this could change on restart.
             - no problems after changes, still good.
+    - file folder management run away process, Xubuntu tumblerd
+        - It was using 50% of CPU process and causing the system fan to run at full.
+        - http://askubuntu.com/questions/89826/what-is-tumblerd
+
