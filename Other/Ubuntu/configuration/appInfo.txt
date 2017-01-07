@@ -153,6 +153,10 @@ Package management
         - Are there safe codex packs or updates for non-default installed codex?
             - ppa are used, so the packs are more of a Windows thing
         - Sound adjustments, can't make the sound mono.
+        - dropped frames on large file playback despite system cpu less than 80%, Ram less than 20% and gpu/cpu fans not on high.
+            - Could this be a problem of drive throughput?
+            - one adjustment that has helped lessen the drops 50%
+                - Preferences > (tab) Input / Codecs > (tab) Other codecs > FFmpeg > (check the "Advanced options" box) "Skip the loop filter for H.264 decoding" -> chose All,
 - VirtualBox
     - Ubuntu
     - RaspberryPi FOO
