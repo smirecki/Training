@@ -257,6 +257,7 @@ Package management
 
 			- need to also install this for Laravel
 				- sudo apt-get install php5.6-xml
+            - Note: ppa failing - had to remove it from updates
 		- upgrading to 7.*
 			- nice tut for this
 				- https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04
