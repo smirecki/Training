@@ -325,6 +325,8 @@ Package management
         - error... An update might have broken this... not working...
         
 	- http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
+- htop
+    - sudo apt-get install htop
 - Kazam - Screencaster
     - frame rate 15 - default
         - 10 fps only makes a file 10% smaller
