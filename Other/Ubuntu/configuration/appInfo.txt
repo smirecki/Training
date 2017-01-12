@@ -91,6 +91,7 @@ Package management
     - not perfect with images
   - Youtube Dark Skin
   - grammarly
+    - I'm not sure this is a better option than the browsers built in tools, this one will miss words or not give options for correcting words.
   - Instapaper
     - free whole platform now.
   - ABP
