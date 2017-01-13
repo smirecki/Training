@@ -511,4 +511,6 @@ Problem:
     - file folder management run away process, Xubuntu tumblerd
         - It was using 50% of CPU process and causing the system fan to run at full.
         - http://askubuntu.com/questions/89826/what-is-tumblerd
+    - Issue with Boot folder filling and the updates failing.
+        - Why does the boot folder need to be manually cleaned to complete updates, should this be automatic?  What is wrong with this?  Do I need to make adjustments to the settings or a configuration file?  Do I need a new app to manage this?  Are there recommendations for allocating more than the default size, is this a bad practice?  
 
