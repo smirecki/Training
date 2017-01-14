@@ -334,6 +334,7 @@ Package management
         - 10 fps only makes a file 10% smaller
     - errors with motion blur and dropped frames when recording at the limits of system resources, which isn't surprising, but it should be expected and accounted for.
 - Steam - not many Linux games available
+    - demands two-factor auth 
 - Furius ISO Mount - has worked well
     - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
         - it can mount more than one file, but only launch one at a time.
@@ -512,5 +513,7 @@ Problem:
         - It was using 50% of CPU process and causing the system fan to run at full.
         - http://askubuntu.com/questions/89826/what-is-tumblerd
     - Issue with Boot folder filling and the updates failing.
-        - Why does the boot folder need to be manually cleaned to complete updates, should this be automatic?  What is wrong with this?  Do I need to make adjustments to the settings or a configuration file?  Do I need a new app to manage this?  Are there recommendations for allocating more than the default size, is this a bad practice?  
+        - Why does the boot folder need to be manually cleaned to complete updates, should this be automatic?  What is wrong with this?  Do I need to make adjustments to the settings or a configuration file?  Do I need a new app to manage this?  Are there recommendations for allocating more than the default size, is this a bad practice?
+        - The same thing happens on version 16.xx.
+        
 
