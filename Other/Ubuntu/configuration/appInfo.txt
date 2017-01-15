@@ -277,6 +277,8 @@ Package management
                 - https://php-built.com/2016/01/20/installing-xdebug-for-php7/
                     - follow the instructions
                         - apt install php7.0-dev
+        - Laravel
+        - CakePHP, Codeigniter, maybe FuelPHP, Yii2... (future)
 			
 
     - Composer and PHP installed - php dependency management tool
