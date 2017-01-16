@@ -294,6 +294,8 @@ Package management
 - php testing
     - codeception
         - http://codeception.com/
+    - PHPUnit
+        - https://phpunit.de/
 
 - php my admin
     - phpmyadmin
@@ -460,9 +462,10 @@ Package management
             - if you want to make a drving into one large partition, you need to delete one of them.  There is no option to combine two partitions.
 ===
 Might install
-- Inkscape - not needed
+    - Inkscape - not needed
 ========
-- apps to run WIN programs/games
+Running Windows apps 
+    - apps to run WIN programs/games
     - PlayOnLinux
     - This app will ONLY support a short list of windows apps and games.
         - Can you force it to try running other apps?
@@ -473,14 +476,18 @@ Might install
         
 ===
 Consider php environment
-    - local
-    - vagrant
-        - needs VM software to run
-            - VirtualBox*, VMware, KVM, Linux Containers(LXC)...
-    - docker
-        - docker images
-    - c9.io
-        - very resource intense with JS rendered-VM-IDE in browser taking 90-95% CPU/RAM
+    - Local
+        - LAMP
+    - Virtual Machine
+        - vagrant
+            - needs VM software to run
+                - VirtualBox*, VMware, KVM, Linux Containers(LXC)...
+    - Linux containers
+        - docker
+            - docker images
+    - Web based
+        - c9.io
+            - very resource intense with JS rendered-VM-IDE in browser taking 90-95% CPU/RAM
 
 ===============
 Questions:
