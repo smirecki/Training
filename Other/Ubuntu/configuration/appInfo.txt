@@ -1,4 +1,72 @@
 Apps and programs - 
+
+===================
+These notes are getting to large, I need to sort and organize them.
+
+Contents
+==
+
+DNS
+Vim
+Node
+Package management
+Mame
+RetroArch
+Mousepad Text Editor
+Chromium
+Midori
+Firefox
+Firefox Dev edition
+Git
+Python
+Sublime Text 2
+VLC
+VirtualBox
+Vagrant
+MVP media player
+Parole media player
+Cheese webcam software
+Calibre
+cbr viewer
+Gimp
+Stopwatch
+PDF Reader
+PHP
+PHP testing
+Composer
+Synergy Project app
+Ruby
+Dropbox
+lm-sensors
+htop
+Furius ISO Mount
+Skype
+IDEs
+    Visual Studios - VS Code
+    Brackets
+    Atom
+    Sublime Text 2
+    PHPStorm
+    Netbeans
+    Eclipse
+FileZila
+Chat
+    Pidgin
+    web based
+System Utility
+Running Windows Apps
+    Wine
+    PlayOnLinux
+PHP environments 
+    Local
+    Virtual Machine
+    Linux Containers
+    Wed based
+Questions
+Problems
+
+
+===================
 - DNS records if isp's dns can't reach some sites.
 	- Google DNS 8.8.8.8 or 8.8.4.4
 - Vim
