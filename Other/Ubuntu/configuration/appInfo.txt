@@ -6,6 +6,12 @@ These notes are getting to large, I need to sort and organize them.
 Contents
 ==
 
+----- Installed
+    Basic OS tools
+    Dev setup
+    Extra media stuff
+    ...?
+
 DNS
 Vim
 Node
@@ -41,6 +47,7 @@ lm-sensors
 htop
 Furius ISO Mount
 Skype
+---- should make a break here
 IDEs
     Visual Studios - VS Code
     Brackets
