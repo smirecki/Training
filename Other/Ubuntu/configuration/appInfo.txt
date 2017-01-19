@@ -3,50 +3,69 @@ Apps and programs -
 ===================
 These notes are getting to large, I need to sort and organize them.
 
-Contents
+Contents - new planned order
 ==
-
------ Installed
-    Basic OS tools
-    Dev setup
-    Extra media stuff
-    ...?
-
-DNS
-Vim
-Node
-Package management
-Mame
-RetroArch
-Mousepad Text Editor
-Chromium
-Midori
-Firefox
-Firefox Dev edition
-Git
-Python
-Sublime Text 2
-VLC
-VirtualBox
-Vagrant
-MVP media player
-Parole media player
-Cheese webcam software
-Calibre
-cbr viewer
-Gimp
-Stopwatch
-PDF Reader
-PHP
-PHP testing
-Composer
-Synergy Project app
-Ruby
-Dropbox
-lm-sensors
-htop
-Furius ISO Mount
-Skype
+a
+b
+c
+    Calibre
+    cbr viewer
+    Cheese webcam software
+    Chromium
+    Composer
+d
+    DNS
+    Dropbox
+e
+f
+    Firefox
+    Firefox Dev edition
+    Furius ISO Mount
+g
+    Git
+    Gimp
+h
+    htop
+i
+j
+k
+l
+    lm-sensors
+m
+    Mame
+    Midori
+    Mousepad Text Editor
+    MVP media player
+n
+    Node
+o
+p
+    Package management
+    Parole media player
+    PDF Reader
+    PHP
+    PHP testing
+    Python
+q
+r
+    RetroArch
+    Ruby
+s
+    Skype
+    Stopwatch
+    Sublime Text 2
+    Synergy Project app
+t
+u
+v
+    Vagrant
+    Vim
+    VirtualBox
+    VLC
+w
+x
+y
+z
 ---- should make a break here
 IDEs
     Visual Studios - VS Code
@@ -71,7 +90,6 @@ PHP environments
     Wed based
 Questions
 Problems
-
 
 ===================
 - DNS records if isp's dns can't reach some sites.
