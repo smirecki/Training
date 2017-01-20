@@ -12,6 +12,7 @@ c
     cbr viewer
     Cheese webcam software
     Chromium
+    Clementine
     Composer
 d
     DNS
@@ -92,8 +93,71 @@ Questions
 Problems
 
 ===================
+C ====================
+- Calibre
+    - software center
+    - Use this program to manage a Kindle White-paper
+    - the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.
+- .cbr viewer with rar decompression "Document VIewer 3.10.3"
+    - You must install unrar to allow any of these apps to open .cbr files, not just 7-zip (it won't work). 
+        - sudo apt-get install unrar
+    - Try "Comix" or "mcomix"
+- Cheese - webcam software
+    - Haven't used it to send/upload video, don't know if this app is needed.
+    - doesn't seem to be needed for Skype.
+- Chromium
+  - AB Plus
+    - ads get through on some sites
+    - other sites are hostel to this app
+    - they are letting some ads get past the filter
+  - Dark Reader - testing
+    - Better than older ones I've used
+    - has a nice whitelist feature
+    - not perfect with images
+  - Youtube Dark Skin
+  - grammarly
+    - I'm not sure this is a better option than the browsers built in tools, this one will miss words or not give options for correcting words.
+  - Instapaper
+    - free whole platform now.
+  - ABP
+    - not all ads are being blocked now.
+        - are there better apps for this?
+    - you can customize the filters, but must follow their API doc.
+  - Vue.js Dev tools extension
+    - this helps with programming Vue.js apps
+  - Problems..
+    - strange problems with some https sites
+    - slow load times
+        - Is this because of Ads loading
+        - Is this from extensions
+            - Ad Block Plus
+            - Dark Reader
+            - Instapaper
+        - Check if load times and freezing will also happen with the same pages in Firefox. Some claim that Chrome in Ubuntu uses hardware graphics acceleration, which causes the freezing.
+- Clementine
+    - equalizer - techo preset or zero
+    - Preferences -> Appearance
+        - Colors - "Use a custom color set"
+            - foreground/bg color ...
+            - "No bg image"
+    - Clementine has music streams, including SOMA FM station URLs built in.
+    - ERROR - "Gstreamer is missing plug-in"
+    - UI color theme lost after OS update
+    FIX:
+        - Changing the bg/forground color improves this.        
+    - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
+- Composer
+    - Did I install this independently?  
+        - yes, Composer is it's own install.
 - DNS records if isp's dns can't reach some sites.
 	- Google DNS 8.8.8.8 or 8.8.4.4
+- Dropbox
+    - Do I still need or want this?
+            - Think it's more trouble than it's worth for me.
+    - What kind of resources does this use?
+
+
+
 - Vim
 	- current default 7.*
 	- new version 8 out
@@ -173,35 +237,7 @@ Package management
     - View -> color scheme -> classic (Use "Oblivion" if default bg is white, bg should be black after theme change)
         - Get another text-file be opened in new tab
             - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
-- Chromium
-  - AB Plus
-    - ads get through on some sites
-    - other sites are hostel to this app
-    - they are letting some ads get past the filter
-  - Dark Reader - testing
-  	- Better than older ones I've used
-    - has a nice whitelist feature
-    - not perfect with images
-  - Youtube Dark Skin
-  - grammarly
-    - I'm not sure this is a better option than the browsers built in tools, this one will miss words or not give options for correcting words.
-  - Instapaper
-    - free whole platform now.
-  - ABP
-    - not all ads are being blocked now.
-        - are there better apps for this?
-    - you can customize the filters, but must follow their API doc.
-  - Vue.js Dev tools extension
-    - this helps with programming Vue.js apps
-  - Problems..
-    - strange problems with some https sites
-    - slow load times
-        - Is this because of Ads loading
-        - Is this from extensions
-            - Ad Block Plus
-            - Dark Reader
-            - Instapaper
-        - Check if load times and freezing will also happen with the same pages in Firefox. Some claim that Chrome in Ubuntu uses hardware graphics acceleration, which causes the freezing.
+
 - Midori
     - was too broken to use
 			- it must have been extensions or the no scripts option that killed it...
@@ -301,30 +337,6 @@ Package management
 
 - mpv media player
 - Parole media player
-- Clementine
-    - equalizer - techo preset or zero
-    - Preferences -> Appearance
-		- Colors - "Use a custom color set"
-			- foreground/bg color ...
-			- "No bg image"
-    - Clementine has music streams, including SOMA FM station URLs built in.
-    - ERROR - "Gstreamer is missing plug-in"
-    - UI color theme lost after OS update
-    FIX:
-        - Changing the bg/forground color improves this.        
-    - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
-- Cheese - webcam software
-    - Haven't used it to send/upload video, don't know if this app is needed.
-    - doesn't seem to be needed for Skype.
-- Calibre
-    - software center
-    - Use this program to manage a Kindle White-paper
-    - the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.
-- .cbr viewer with rar decompression "Document VIewer 3.10.3"
-    - You must install unrar to allow any of these apps to open .cbr files, not just 7-zip (it won't work). 
-        - sudo apt-get install unrar
-    - Try "Comix" or "mcomix"
-
 - Gimp - default installed
 - Stopwatch
     - takes a lot of CPU resources for what it does 9-20%
@@ -395,9 +407,7 @@ Package management
         - sudo apt-get install phpmyadmin
             - https://help.ubuntu.com/community/phpMyAdmin
                 - default login/pass root/root 
-- Composer
-	- Did I install this independently?  
-		- yes, Composer is it's own install.
+
 
 - synergy-project app
     - https://github.com/synergy/synergy
@@ -408,10 +418,6 @@ Package management
 - Ruby
     - look into a way to cleanly install along with RVM, it hates apt-get.code
 
-- Dropbox
-    - Do I still need or want this?
-			- Think it's more trouble than it's worth for me.
-    - What kind of resources does this use?
 - lm-sensors
 	- Linux Temp
 		- install lm-sensors
