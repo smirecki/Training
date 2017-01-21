@@ -30,6 +30,7 @@ h
 i
 j
 k
+    kazam
 l
     lm-sensors
 m
@@ -149,6 +150,7 @@ C ====================
 - Composer
     - Did I install this independently?  
         - yes, Composer is it's own install.
+D  ===============
 - DNS records if isp's dns can't reach some sites.
 	- Google DNS 8.8.8.8 or 8.8.4.4
 - Dropbox
@@ -156,11 +158,95 @@ C ====================
             - Think it's more trouble than it's worth for me.
     - What kind of resources does this use?
 
+F =================
+- FireFox - normal edition
+- FireFox Developer edition - not currently using
+    - Install
+        - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+        - sudo apt-get update
+        - sudo apt-get install firefox
+    - no script (updated for security hole)
+        - serving a malware site... not safe???
+    - AB plus
+    - dark background app broken with new install update
+    - Flash related content resource problems, run away process. Kill all flash content.
+    - Flash enabling and disabling questionable results from sites
+        - It could be some kind of cached settings interfering with changes
+        - Some sites might have some content only in Flash and fail silently( or catastrophically)
+        - Flash alternatives seem to work intermittently.
+        - It seems to not run Flash, which is much less taxing on the cpu, but then it will cause the content to fail and it will then show an error about failing drivers.
+    - odd errors with find command, highlighting not working or my UI customizations are causing it to fail.
+- Furius ISO Mount - has worked well
+    - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
+        - it can mount more than one file, but only launch one at a time.
+    - the default OS iso mounter will work sometimes.
 
 
-- Vim
-	- current default 7.*
-	- new version 8 out
+G =================
+- Gimp - default installed
+- Git
+    - via Github website
+    - Consider exploring Git GUI for exploring projects and better understanding errors and conflicts
+
+H =================
+- htop
+    - sudo apt-get install htop
+
+K =================
+- Kazam - Screencaster
+    - frame rate 15 - default
+        - 10 fps only makes a file 10% smaller
+    - errors with motion blur and dropped frames when recording at the limits of system resources, which isn't surprising, but it should be expected and accounted for.
+
+L =================
+- lm-sensors
+    - Linux Temp
+        - install lm-sensors
+            -sudo apt-get install lm-sensors 
+                    After installation type the following in terminal
+            - sudo sensors-detect
+                    You may also need to run
+            - sudo service kmod start
+                    It will ask you a few questions.  Answer Yes for all of them.  Finally to get your CPU temperature type sensors in terminal.
+        - error... An update might have broken this... not working...
+        
+    - http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
+
+M =================
+- Mame
+    - not working...
+    - must have roms that match emulation version
+        - must have roms that have supporting files
+    - Can you determine what version of Mame will support the files you have?
+        - nope
+    - Is there another app to audit roms or does Mame on Linux have a hidden function for this?
+        - nope, but there use to be on another OS
+        - It just has a Config Inputs function, nothing to audit roms.
+        - You can run a Mame auditing app via Wine on Linux.
+            - It will try to fix you roms, but it won't fix lost files or tell you which are missing.
+                - how can you find out which files are missing?
+    - can Mame handle NeoGeo roms on Linux - YES!!!
+        - read/follow http://fantasyanime.com/emuhelp/mame#neogeo-games-need-neogeo-zip
+            - must have neogeo.zip setup files to run neogeo roms
+    - Can I install older versions of Mame?
+        - Yes, but they are from source, only the Windows version has an installer and/or is only built for Windows.
+        - http://docs.mamedev.org/initialsetup/compilingmame.html
+    - Default version for Software Center is .152 from March 19 2014 - old!
+    - Try newer Windows version through Wine...
+        - App .17x runs, but roms are still not working for whatever reason.
+            - run auditing app
+- Midori
+    - was too broken to use
+            - it must have been extensions or the no scripts option that killed it...
+        - reinstalled seems to work fine without extensions
+- Mousepad Text Editor
+    - default install
+    - View -> color scheme -> classic (Use "Oblivion" if default bg is white, bg should be black after theme change)
+        - Get another text-file be opened in new tab
+            - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
+- MVP media player
+
+N =================
 - Node
     === option 1 ====
     Install newest version of node on Ubuntu [v 4.2.x]
@@ -193,6 +279,9 @@ C ====================
 
             # Then install with:
             sudo apt-get install -y nodejs
+
+
+P =================
 Package management
     - yarn - Facebook's JS package manager
         - https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/
@@ -205,64 +294,101 @@ Package management
         - handlebars
         - Mocha
         - expressjs
+- Parole media player
+- PDF Reader 
+    - Document Viewer, not great
+    - Calibre opens Document Viewer to read PDFs
+        - Locks/freezes and fails to recover... have to kill it
+            - no info on web search for this problem
+            - still a problem
+    - failed PDF document
+        - possible corrupt or altered
+            - load in browser works
+                - save to PDF yields a file that is still broken/altered
+                - print and then save to PDF yields working version that is smaller
+    - It likes to open on to a specific screen, even though it wasn't open/called/executed there. 
+- PHP
+        - check Laravel notes for other php packages that should be installed, but aren't defaults.
+        - newer versions of Ubuntu will install php 5.6* or > by default
+        - upgrading to 5.6.*
+            - third party ppa.. might not work by the time I need this again
+            - sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+            - sudo apt-get update
+            - sudo apt-get install php5.6
 
-- Mame
-    - not working...
-    - must have roms that match emulation version
-        - must have roms that have supporting files
-    - Can you determine what version of Mame will support the files you have?
-        - nope
-    - Is there another app to audit roms or does Mame on Linux have a hidden function for this?
-        - nope, but there use to be on another OS
-        - It just has a Config Inputs function, nothing to audit roms.
-        - You can run a Mame auditing app via Wine on Linux.
-            - It will try to fix you roms, but it won't fix lost files or tell you which are missing.
-                - how can you find out which files are missing?
-    - can Mame handle NeoGeo roms on Linux - YES!!!
-        - read/follow http://fantasyanime.com/emuhelp/mame#neogeo-games-need-neogeo-zip
-            - must have neogeo.zip setup files to run neogeo roms
-    - Can I install older versions of Mame?
-        - Yes, but they are from source, only the Windows version has an installer and/or is only built for Windows.
-        - http://docs.mamedev.org/initialsetup/compilingmame.html
-    - Default version for Software Center is .152 from March 19 2014 - old!
-    - Try newer Windows version through Wine...
-        - App .17x runs, but roms are still not working for whatever reason.
-            - run auditing app
+            - need to also install this for Laravel
+                - sudo apt-get install php5.6-xml
+            - Note: ppa failing - had to remove it from updates
+        - upgrading to 7.*
+            - nice tut for this
+                - https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04
+            - sudo add-apt-repository ppa:ondrej/php
+            - sudo apt-get update
+            - sudo apt-get install php7.0
+            - sudo apt-get install php7.0-mysql
+            - sudo apt-get install php7.0-fpm
+            - check it
+                - php -v
+
+            - will I need to reinstall a file for mcrypt?
+            - Will anything break from this upgrade?
+        - PHPUnit
+            - xdeBug
+                - https://php-built.com/2016/01/20/installing-xdebug-for-php7/
+                    - follow the instructions
+                        - apt install php7.0-dev
+        - Laravel
+        - CakePHP, Codeigniter, maybe FuelPHP, Yii2... (future)
+            
+
+    - Composer and PHP installed - php dependency management tool
+        - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
+        - Laravel
+            - project based via Github or use a fresh copy of homestead
+        - sqlite
+            - sudo apt-get install php5-sqlite
+        - PhpUnit
+            - composer global require "phpunit/phpunit=5.5.*"
+                - 5.5.4
+        -
+- php testing
+    - codeception
+        - http://codeception.com/
+    - PHPUnit
+        - https://phpunit.de/
+
+- php my admin
+    - phpmyadmin
+        - sudo apt-get install phpmyadmin
+            - https://help.ubuntu.com/community/phpMyAdmin
+                - default login/pass root/root 
+- Python - (v.3.4) Python Interpreter included
+
+R =================
 - RetroArch
     - gaming emulation
     - have yet to test
+- Ruby
+    - look into a way to cleanly install along with RVM, it hates apt-get.code
 
-- Mousepad Text Editor
-    - default install
-    - View -> color scheme -> classic (Use "Oblivion" if default bg is white, bg should be black after theme change)
-        - Get another text-file be opened in new tab
-            - Drag and drop another file into an open Mousepad file and it will me shown in a tab.
+S =================
+- Skype
+    - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
+    - Setup notes...
+        - Remember your sign-in name and password, without these two things you aren't getting in.
+        - Your sound needs to be enabled, they disable this by default... and I think the video is also disabled by default. =/
+        - Hover over the app window to reveal hidden settings icons, like the video and sound settings.
+- Stopwatch
+    - takes a lot of CPU resources for what it does 9-20%
 
-- Midori
-    - was too broken to use
-			- it must have been extensions or the no scripts option that killed it...
-		- reinstalled seems to work fine without extensions
-- FireFox - normal edition
-- FireFox Developer edition - not currently using
-    - Install
-        - sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
-        - sudo apt-get update
-        - sudo apt-get install firefox
-    - no script (updated for security hole)
-        - serving a malware site... not safe???
-    - AB plus
-    - dark background app broken with new install update
-    - Flash related content resource problems, run away process. Kill all flash content.
-    - Flash enabling and disabling questionable results from sites
-        - It could be some kind of cached settings interfering with changes
-        - Some sites might have some content only in Flash and fail silently( or catastrophically)
-        - Flash alternatives seem to work intermittently.
-        - It seems to not run Flash, which is much less taxing on the cpu, but then it will cause the content to fail and it will then show an error about failing drivers.
-    - odd errors with find command, highlighting not working or my UI customizations are causing it to fail.
-- Git
-	- via Github website
-	- Consider exploring Git GUI for exploring projects and better understanding errors and conflicts
-- Python - (v.3.4) Python Interpreter included
+
+? =================
+? =================
+
+- Vim
+	- current default 7.*
+	- new version 8 out
+
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
     - default color scheme Monokai
@@ -335,79 +461,6 @@ Package management
                     - I've gotten Ruby > 2 installed, but it also needs (or I think it does) RVM.  I've installed all this and the builds have errors and the link file sharing between Host and VM was not working files any more.
                     - need rvm installed to do clean gem installs
 
-- mpv media player
-- Parole media player
-- Gimp - default installed
-- Stopwatch
-    - takes a lot of CPU resources for what it does 9-20%
-- PDF Reader 
-    - Document Viewer, not great
-    - Calibre opens Document Viewer to read PDFs
-        - Locks/freezes and fails to recover... have to kill it
-            - no info on web search for this problem
-            - still a problem
-    - failed PDF document
-        - possible corrupt or altered
-            - load in browser works
-                - save to PDF yields a file that is still broken/altered
-                - print and then save to PDF yields working version that is smaller
-    - It likes to open on to a specific screen, even though it wasn't open/called/executed there. 
-- PHP
-        - check Laravel notes for other php packages that should be installed, but aren't defaults.
-		- newer versions of Ubuntu will install php 5.6* or > by default
-		- upgrading to 5.6.*
-			- third party ppa.. might not work by the time I need this again
-			- sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
-			- sudo apt-get update
-			- sudo apt-get install php5.6
-
-			- need to also install this for Laravel
-				- sudo apt-get install php5.6-xml
-            - Note: ppa failing - had to remove it from updates
-		- upgrading to 7.*
-			- nice tut for this
-				- https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04
-			- sudo add-apt-repository ppa:ondrej/php
-			- sudo apt-get update
-			- sudo apt-get install php7.0
-			- sudo apt-get install php7.0-mysql
-			- sudo apt-get install php7.0-fpm
-			- check it
-				- php -v
-
-			- will I need to reinstall a file for mcrypt?
-            - Will anything break from this upgrade?
-        - PHPUnit
-            - xdeBug
-                - https://php-built.com/2016/01/20/installing-xdebug-for-php7/
-                    - follow the instructions
-                        - apt install php7.0-dev
-        - Laravel
-        - CakePHP, Codeigniter, maybe FuelPHP, Yii2... (future)
-			
-
-    - Composer and PHP installed - php dependency management tool
-        - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
-		- Laravel
-			- project based via Github or use a fresh copy of homestead
-		- sqlite
-			- sudo apt-get install php5-sqlite
-		- PhpUnit
-			- composer global require "phpunit/phpunit=5.5.*"
-                - 5.5.4
-		-
-- php testing
-    - codeception
-        - http://codeception.com/
-    - PHPUnit
-        - https://phpunit.de/
-
-- php my admin
-    - phpmyadmin
-        - sudo apt-get install phpmyadmin
-            - https://help.ubuntu.com/community/phpMyAdmin
-                - default login/pass root/root 
-
 
 - synergy-project app
     - https://github.com/synergy/synergy
@@ -415,39 +468,14 @@ Package management
 		- not really needed
     - note for future, Apple (3rd party) has a pay app that will allow use your ipad as a second monitor.
 
-- Ruby
-    - look into a way to cleanly install along with RVM, it hates apt-get.code
 
-- lm-sensors
-	- Linux Temp
-		- install lm-sensors
-			-sudo apt-get install lm-sensors 
-					After installation type the following in terminal
-			- sudo sensors-detect
-					You may also need to run
-			- sudo service kmod start
-					It will ask you a few questions.  Answer Yes for all of them.  Finally to get your CPU temperature type sensors in terminal.
-        - error... An update might have broken this... not working...
-        
-	- http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
-- htop
-    - sudo apt-get install htop
-- Kazam - Screencaster
-    - frame rate 15 - default
-        - 10 fps only makes a file 10% smaller
-    - errors with motion blur and dropped frames when recording at the limits of system resources, which isn't surprising, but it should be expected and accounted for.
+
+
+
 - Steam - not many Linux games available
     - demands two-factor auth 
-- Furius ISO Mount - has worked well
-    - The default iso mounting app fails on some ISOs, mounting files which fail when opened (Archive Manager, Brasero, Xfburn).
-        - it can mount more than one file, but only launch one at a time.
-    - the default OS iso mounter will work sometimes.
-- Skype
-    - http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64
-    - Setup notes...
-        - Remember your sign-in name and password, without these two things you aren't getting in.
-        - Your sound needs to be enabled, they disable this by default... and I think the video is also disabled by default. =/
-        - Hover over the app window to reveal hidden settings icons, like the video and sound settings.
+
+
 
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
