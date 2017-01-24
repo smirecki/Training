@@ -461,21 +461,14 @@ S =================
                     - I've gotten Ruby > 2 installed, but it also needs (or I think it does) RVM.  I've installed all this and the builds have errors and the link file sharing between Host and VM was not working files any more.
                     - need rvm installed to do clean gem installs
 
-
 - synergy-project app
     - https://github.com/synergy/synergy
     - https://help.ubuntu.com/community/SynergyHowto
 		- not really needed
     - note for future, Apple (3rd party) has a pay app that will allow use your ipad as a second monitor.
 
-
-
-
-
 - Steam - not many Linux games available
     - demands two-factor auth 
-
-
 
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
