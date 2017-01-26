@@ -378,17 +378,10 @@ S =================
         - Remember your sign-in name and password, without these two things you aren't getting in.
         - Your sound needs to be enabled, they disable this by default... and I think the video is also disabled by default. =/
         - Hover over the app window to reveal hidden settings icons, like the video and sound settings.
+- Steam - not many Linux games available
+    - demands two-factor auth 
 - Stopwatch
     - takes a lot of CPU resources for what it does 9-20%
-
-
-? =================
-? =================
-
-- Vim
-	- current default 7.*
-	- new version 8 out
-
 - Sublime Text 2, jshint(linting for Sublime)
     - must install Package Controller first
     - default color scheme Monokai
@@ -398,21 +391,28 @@ S =================
             - the left sidebar doesn't change colors
         - Sublime crashing, it blames a plug in... research plugin...
             - still crashing, no error warning about plug in
-- VLC, codex (what codex?)
-    - adjustments for performance improvements (Some videos would peg the CPU, but with these changes,I believe, the GPU is used more and the CPU does minimum work.)
-        - Tools > Preferences > 
-            - Input & Codecs Settings > Codecs > Hardware-accelerated decoding . "Automatic"
-            - > Video > Video > Deinterlacing "Automatic"
-    - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
-		- Tools -> Pref. -> Audio -> output -> "ALSA audio output" (sound can stop when running on Linux)
-    - problem
-        - Are there safe codex packs or updates for non-default installed codex?
-            - ppa are used, so the packs are more of a Windows thing
-        - Sound adjustments, can't make the sound mono.
-        - dropped frames on large file playback despite system cpu less than 80%, Ram less than 20% and gpu/cpu fans not on high.
-            - Could this be a problem of drive throughput?
-            - one adjustment that has helped lessen the drops 50%
-                - Preferences > (tab) Input / Codecs > (tab) Other codecs > FFmpeg > (check the "Advanced options" box) "Skip the loop filter for H.264 decoding" -> chose All,
+- synergy-project app
+    - https://github.com/synergy/synergy
+    - https://help.ubuntu.com/community/SynergyHowto
+        - not really needed
+    - note for future, Apple (3rd party) has a pay app that will allow use your ipad as a second monitor.
+V =================
+- Vagrant
+    - ubuntu/trusty64
+        - Note this will not have the tools for you to develop with, this is a general OS.  You will need to install or upgrade for your backend stack and tooling... php7, fooSQL, ect.
+        - Updating the OS can take a long time and can hang/fail on restart.
+            - the fresh install is going to need a lot of apps to run a LAMP stack, many of which you never knew you needed for things you know you need.
+            - zip, git, PHP7, php5-curl, php-curl, php-xml, php7.0-mbstring, php libapache2-mod-php, php-mcrypt, sqlite, postgresql, nginx, mariadb, php-mycrypty, mailcatcher, 
+
+            - Can you find a provisioning script for this LAMP stack for trusty64?
+
+                - errors
+                    - needs ruby > 2 and a lot of other apps... still having problems with this
+                    - I've gotten Ruby > 2 installed, but it also needs (or I think it does) RVM.  I've installed all this and the builds have errors and the link file sharing between Host and VM was not working files any more.
+                    - need rvm installed to do clean gem installs
+- Vim
+	- current default 7.*
+	- new version 8 out
 - VirtualBox
     - Ubuntu
     - RaspberryPi FOO
@@ -446,30 +446,23 @@ S =================
         - Apple Foo Animal?
             - https://www.virtualbox.org/wiki/Mac%20OS%20X%20build%20instructions
             - I'm not sure if OSX can run on a chip that is not i/3/5/7, Xeon, AMD.
+- VLC, codex (what codex?)
+    - adjustments for performance improvements (Some videos would peg the CPU, but with these changes,I believe, the GPU is used more and the CPU does minimum work.)
+        - Tools > Preferences > 
+            - Input & Codecs Settings > Codecs > Hardware-accelerated decoding . "Automatic"
+            - > Video > Video > Deinterlacing "Automatic"
+    - Tools -> preferences -> Playlist and Instances -> uncheck "allow only one instance"/"use only one instance when started from file manager"
+        - Tools -> Pref. -> Audio -> output -> "ALSA audio output" (sound can stop when running on Linux)
+    - problem
+        - Are there safe codex packs or updates for non-default installed codex?
+            - ppa are used, so the packs are more of a Windows thing
+        - Sound adjustments, can't make the sound mono.
+        - dropped frames on large file playback despite system cpu less than 80%, Ram less than 20% and gpu/cpu fans not on high.
+            - Could this be a problem of drive throughput?
+            - one adjustment that has helped lessen the drops 50%
+                - Preferences > (tab) Input / Codecs > (tab) Other codecs > FFmpeg > (check the "Advanced options" box) "Skip the loop filter for H.264 decoding" -> chose All,
 
-- Vagrant
-    - ubuntu/trusty64
-        - Note this will not have the tools for you to develop with, this is a general OS.  You will need to install or upgrade for your backend stack and tooling... php7, fooSQL, ect.
-        - Updating the OS can take a long time and can hang/fail on restart.
-            - the fresh install is going to need a lot of apps to run a LAMP stack, many of which you never knew you needed for things you know you need.
-            - zip, git, PHP7, php5-curl, php-curl, php-xml, php7.0-mbstring, php libapache2-mod-php, php-mcrypt, sqlite, postgresql, nginx, mariadb, php-mycrypty, mailcatcher, 
-
-            - Can you find a provisioning script for this LAMP stack for trusty64?
-
-                - errors
-                    - needs ruby > 2 and a lot of other apps... still having problems with this
-                    - I've gotten Ruby > 2 installed, but it also needs (or I think it does) RVM.  I've installed all this and the builds have errors and the link file sharing between Host and VM was not working files any more.
-                    - need rvm installed to do clean gem installs
-
-- synergy-project app
-    - https://github.com/synergy/synergy
-    - https://help.ubuntu.com/community/SynergyHowto
-		- not really needed
-    - note for future, Apple (3rd party) has a pay app that will allow use your ipad as a second monitor.
-
-- Steam - not many Linux games available
-    - demands two-factor auth 
-
+=====================================
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
     - current version 1.7.*
