@@ -575,7 +575,7 @@ V =================
             - if you want to make a drving into one large partition, you need to delete one of them.  There is no option to combine two partitions.
 ===
 Might install
-    - Inkscape - not needed
+    -
 ========
 Running Windows apps 
     - apps to run WIN programs/games
@@ -614,7 +614,7 @@ Questions:
             -
     - What software and tools would I need to do scraping?
         - Do you have a project?  What are it's needs?  What do you want to do with the data?  How will you do the scrape, local or proxy?  What is the information you want, text, prices, images?  How will you store them?  How will you retrieve them?
-        - It more common to use Python than PHP.
+        - It's more common to use Python than PHP.
 ===============
 Problem:
     - Ubuntu Software Center
