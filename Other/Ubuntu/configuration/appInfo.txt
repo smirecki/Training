@@ -466,7 +466,7 @@ V =================
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
     - older version 1.7.1
-    - current version 1.8.?
+    - current version 1.8.1  Nov 2016
     - updated UI will check for updates automatically 
     - impressive support and progress for this app
     - you can download a small install file from the main VSC site, which when run will open your OS software installer and install VSC perfectly.
@@ -509,7 +509,13 @@ V =================
     - Notes - Problems
         - VS Code is some how associated with FireFox
             - I can't open a new FireFox window if VS Code is open.    
-        - VS Code will tell you that an update is available, but when you accept the update now it doesn't show any in process bar or notice... and the About section still shows the last version of the software.  
+        - VS Code will tell you that an update is available, but when you accept the update now it doesn't show any in process bar or notice... and the About section still shows the last version of the software.
+        - Version update failed in app.
+            - Go to apps website download .deb
+            - open .deb
+                - Ubuntu Software center will open
+                    - chose Update this app
+                        - YES!!! that did work. v 1.8.1
 
 - Brackets - Brackets.Release.1.6.64-bit
     - only reason to run this app is if you love the Adobe ecosystem
