@@ -1,7 +1,5 @@
 Apps and programs - 
 
-===================
-These notes are getting to large, I need to sort and organize them.
 
 Contents - new planned order
 ==
@@ -94,7 +92,7 @@ Questions
 Problems
 
 ===================
-C ====================
+C =================
 - Calibre
     - software center
     - Use this program to manage a Kindle White-paper
