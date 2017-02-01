@@ -337,8 +337,7 @@ Package management
                         - apt install php7.0-dev
         - Laravel
         - CakePHP, Codeigniter, maybe FuelPHP, Yii2... (future)
-            
-
+        
     - Composer and PHP installed - php dependency management tool
         - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
         - Laravel
@@ -348,7 +347,7 @@ Package management
         - PhpUnit
             - composer global require "phpunit/phpunit=5.5.*"
                 - 5.5.4
-        -
+        
 - php testing
     - codeception
         - http://codeception.com/
@@ -427,7 +426,7 @@ V =================
             No desktop      64 megabytes    256 megabytes   1 gigabyte
             With Desktop    64 megabytes    512 megabytes   5 gigabytes 
     - What kind of specs do you need to run a VM for a full OS install (not just a CLI) of:
-        - There will be minimums, but you will need to configure what resources each VM is allowed.  If you have a single chip with 4-12 cores or two chips with multi-cores (Xeno), you should have more than enough CPUs.  Other things to consider, fast enough chip(s) to run the app you need(as some will only use a single CPU, video rendering, gaming, Adobe apps),enough RAM for each VM, and a strong/fast/powerful enough graphics card to run your apps. 
+        - There will be minimums, but you will need to configure what resources each VM is allowed.  If you have a single chip with 4-12 cores or two chips with multi-cores (Xeon), you should have more than enough CPUs.  Other things to consider, fast enough chip(s) to run the app you need(as some will only use a single CPU, video rendering, gaming, Adobe apps),enough RAM for each VM, and a strong/fast/powerful enough graphics card to run your apps. 
         - Foo Linux
             - 700 MHz processor (about Intel Celeron or better)
             - 512 MiB RAM (system memory)
