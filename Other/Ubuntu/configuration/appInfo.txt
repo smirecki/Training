@@ -469,7 +469,14 @@ V =================
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
     - older version 1.7.1
-    - current version 1.8.1  Nov 2016
+    - older version 1.8.1  Nov 2016
+    - current version 1.9  Feb 2017
+
+    -  Best update method
+        - Go to apps website download .deb
+            - open .deb
+                - Ubuntu Software center will open
+                    - chose Update this app
     - updated UI will check for updates automatically 
     - impressive support and progress for this app
     - you can download a small install file from the main VSC site, which when run will open your OS software installer and install VSC perfectly.
