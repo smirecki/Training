@@ -660,6 +660,7 @@ Problem:
         - The same thing happens on version 16.xx.
         - still the same boot file problems
             - It keeps old and newer files, it also keep mixed or unmatching version files.
+        - You can use gparted to resize the partition size.  You will need to do it in the CLI if it's not a simple setup and you can loss data in the process.
             
         
 
