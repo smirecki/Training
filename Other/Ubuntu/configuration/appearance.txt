@@ -43,6 +43,9 @@ xUbuntu -
     Desktop
         -Background - usr/share/xfec4/backdrops
             - Change to whatever suits you.
+						- If you want no background
+							- Display -> Desktop
+								- Style "None"
         -Icons
             - Icon size 32
     Panel (upper bar, left click to adjust)
