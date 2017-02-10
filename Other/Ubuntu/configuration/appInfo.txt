@@ -666,10 +666,10 @@ Problem:
                 - it was failing because of deleted older version of OS not being present, but there is no way to have both the older version and the newer version it wants to install all within the default directory size.
                 - Considering 14.4LTS is getting older and now 16.xLTS is the current version (plus 17.x alpha is out ), it might be time to consider a full and clean sweep.
     - Does the default install include a swap folder/directory?
-        - errors with Lubuntu install nondefault install, must create directories, fails on install because of swap. Fails to write to boot.
+        - errors with Lubuntu install non-default install, must create directories, fails on install because of swap. Fails to write to boot.
     - Xubuntu will do an error free install when Lubuntu won't (no complaining about swap folders).
     - Can you do a clean install and still adjust the boot folder/directory size on install?
-        - No you have to do the default or a custom.  The default will make all the choices for you, the custom will leave you to partion the hard drive, so you have to know all of the technique requirements for that custom install (no hand holding).
+        - No you have to do the default or a custom.  The default will make all the choices for you, the custom will leave you to partition the hard drive, so you have to know all of the technique requirements for that custom install (no hand holding).
     - the default 16.10 LTS has a larger /boot size, up to 470mb+.
             
         
