@@ -520,6 +520,7 @@ V =================
         - VS Code is some how associated with FireFox
             - I can't open a new FireFox window if VS Code is open.    
         - VS Code will tell you that an update is available, but when you accept the update now it doesn't show any in process bar or notice... and the About section still shows the last version of the software.
+            - This is still happening months later.  Why show an in app update path when it will fail to complete.
         - Version update failed in app.
             - Go to apps website download .deb
             - open .deb
