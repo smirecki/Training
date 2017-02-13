@@ -591,10 +591,13 @@ V =================
     - plugins and scripts?????
         - check Github
 - System utility
+    - gparted
+        - GUI base disk management
+        - it has limited abilities, the CLI is still more powerful.
     - Disk Utility - partition drive and change formats 
         - tuts talk about this app as a default install, but it is not on v 14.foo
         - Note on use
-            - if you want to make a drving into one large partition, you need to delete one of them.  There is no option to combine two partitions.
+            - if you want to make a drive into one large partition, you need to delete one of them.  There is no option to combine two partitions.
 ===
 Might install
     -
