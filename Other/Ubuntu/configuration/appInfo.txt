@@ -676,6 +676,10 @@ Problem:
     - Can you do a clean install and still adjust the boot folder/directory size on install?
         - No you have to do the default or a custom.  The default will make all the choices for you, the custom will leave you to partition the hard drive, so you have to know all of the technique requirements for that custom install (no hand holding).
     - the default 16.10 LTS has a larger /boot size, up to 470mb+.
+    - Crashes
+        - It doesn't look like Ubuntu has a system event log like Window to track crashes and important events
+        - it has a reporting system for apps that have crashed, but no log of full system failures.
+
             
         
 
