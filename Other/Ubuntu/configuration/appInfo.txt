@@ -373,6 +373,8 @@ R =================
     - have yet to test
 - Ruby
     - look into a way to cleanly install along with RVM, it hates apt-get.code
+        - maybe a ruby VM box
+            - https://atlas.hashicorp.com/boxes/search?utf8=%E2%9C%93&sort=&provider=&q=ruby+dev
 
 S =================
 - Skype
