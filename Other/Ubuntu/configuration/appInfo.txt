@@ -343,6 +343,7 @@ Package management
                         - apt install php7.0-dev
         - Laravel
         - CakePHP, Codeigniter, maybe FuelPHP, Yii2... (future)
+        - Symfony, Twig
         
     - Composer and PHP installed - php dependency management tool
         - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
