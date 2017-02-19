@@ -134,6 +134,7 @@ C =================
             - Dark Reader
             - Instapaper
         - Check if load times and freezing will also happen with the same pages in Firefox. Some claim that Chrome in Ubuntu uses hardware graphics acceleration, which causes the freezing.
+    - Gmail no longer supports this browser.
 - Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
