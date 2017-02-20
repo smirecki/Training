@@ -468,6 +468,8 @@ V =================
             - Could this be a problem of drive throughput?
             - one adjustment that has helped lessen the drops 50%
                 - Preferences > (tab) Input / Codecs > (tab) Other codecs > FFmpeg > (check the "Advanced options" box) "Skip the loop filter for H.264 decoding" -> chose All,
+- Xchat
+    - IRC client
 
 =====================================
 [IDEs for TypeScript]
