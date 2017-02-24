@@ -687,6 +687,7 @@ Problem:
         - It doesn't look like Ubuntu has a system event log like Window to track crashes and important events
         - it has a reporting system for apps that have crashed, but no log of full system failures.
     - tumblr error, all file directories close, but cpu ramping up ever few seconds, tumblr taking 50% plus while seemingly not doing anything.
+    - More browser OS freeze and tumbler run away process.
 
             
         
