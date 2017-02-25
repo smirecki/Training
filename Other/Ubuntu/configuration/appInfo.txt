@@ -1,5 +1,6 @@
 Apps and programs - 
 
+All based on Xubuntu 14.04 LTS
 
 Contents - new planned order
 ==
