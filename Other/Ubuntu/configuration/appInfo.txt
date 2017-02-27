@@ -471,6 +471,7 @@ V =================
                 - Preferences > (tab) Input / Codecs > (tab) Other codecs > FFmpeg > (check the "Advanced options" box) "Skip the loop filter for H.264 decoding" -> chose All,
 - Xchat
     - IRC client
+	- does not currently exist in the software center, they only have xchat-gnome
 
 =====================================
 [IDEs for TypeScript]
