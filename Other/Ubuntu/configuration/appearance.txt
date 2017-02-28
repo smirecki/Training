@@ -120,7 +120,17 @@ Window and files - File Manager Preferences
     - View -> view as detailed list
     - Edit -> preferences
             
-Application Finder
+Workspaces
+    - Settings -> Workspaces
+        - General
+            - Layout 2
+    - Note - this is one workspace by default, not 2 from the previous LTS or 4 from older versions.
+
+Extra App or Icon tweaks =========
+
+Application Finder - fixing wrong icons
+    - Note: some themes will or icon pack will not use the correct icon for a fe of your apps.
+    you might need to replace a wrong icon.
     - You can change the icon for that app.
         - type the name of the one you want
         - right click it, select edit
@@ -130,6 +140,7 @@ Application Finder
                 - /usr/share/icons/FooYourSelectedIconChoice/Source Files/apps  
                 - .../FooYourSelectedIconChoice/48x48/apps
 Clementine - 
+    - Note: it is better to adjust your theme first before adjusting the in app theme, as the OS will over ride the in app settings.
     (If you set a dark theme for the OS, this app will also need to be adjusted to the values below)
     - Preferences - User Interface - Appearance
         - Colors
@@ -146,6 +157,9 @@ Pointer dark -
     - I don't remember if this was auto set when I changed the theme or It did this on it's own.
 
 Second display - mount vertically
+    - xfec or ubuntu/xubuntu OS can and will allow you to adjust the monitor.
+        - The trick - you need to unplug and replug the second monitor in while the OS is running to trigger the OS monitor settings menu.
+        - The in OS handling of the monitor is easier/better, but simpler than the graphics card software.
     - NVIDIA X Server Settings
         - X Server Display Configuration
             - select second monitor
@@ -157,3 +171,7 @@ Second display - mount vertically
 
 - Problem
     - desktop UI flashes basic before theme kicks in
+    - This is still a problem with 16.0x LTS.
+        - At start up it shows a missized spash screen.
+        - It starts without the correct wallpaper.
+        - It sometimes start by showing the super basic unthemed menus.
