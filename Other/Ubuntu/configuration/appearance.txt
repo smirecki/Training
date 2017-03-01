@@ -84,6 +84,7 @@ xUbuntu -
                 
     Theme Configuration
         NOTE: adjusting here can fix menu text/bg light/dark problems
+        Option #1 - Blue highlights
         - Custom highlight colors - ON
             Highlight background - #0021FF
             Highlight text - #EEEEEE
@@ -93,6 +94,17 @@ xUbuntu -
         - Custom menu colors - ON
             Menu background - #EEEEEE
             Menu text - #333333
+        Option #2 - Purple Highlights
+        - Custom highlight colors - ON
+            Highlight background - #0021FF
+            Highlight text - #FFFFFF
+        - Custom panel colors - ON
+            Panel background - #686868
+            Panel text - #fcfcfc
+        - Custom menu colors - ON
+            Menu background - #EEEEEE
+            Menu text - #333333 
+
     Window Manager
         Style
             Theme - Numix
@@ -152,6 +164,19 @@ Clementine -
 
             - Background Image
                 - No background image
+Mousepad -
+    View -> Select Font
+        - InconsolataGo Regular - 10 point
+
+Hex -
+    Settings -> Colors
+        - Test Colors
+            - Forground - #E8E8E8
+            - Background - #000000
+        - Selected Text
+            - Forground - #CCCCCC
+            - Background - #751478
+
 
 Pointer dark -
     - I don't remember if this was auto set when I changed the theme or It did this on it's own.
