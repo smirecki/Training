@@ -81,6 +81,7 @@ FileZila
 Chat
     Pidgin
     web based
+    xchat
 System Utility
 Running Windows Apps
     Wine
