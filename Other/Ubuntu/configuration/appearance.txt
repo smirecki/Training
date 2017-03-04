@@ -46,6 +46,7 @@ xUbuntu -
 						- If you want no background
 							- Display -> Desktop
 								- Style "None"
+            - I've had problems getting a wallpaper that fits correctly and isn't pixelated when stretched or adjusted. 
         -Icons
             - Icon size 32
     Panel (upper bar, left click to adjust)
@@ -179,7 +180,7 @@ Hex -
 
 
 Pointer dark -
-    - I don't remember if this was auto set when I changed the theme or It did this on it's own.
+    - Not auto set when I changed the theme, I had to do this.
 
 Second display - mount vertically
     - xfec or ubuntu/xubuntu OS can and will allow you to adjust the monitor.
