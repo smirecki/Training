@@ -47,6 +47,8 @@ xUbuntu -
 							- Display -> Desktop
 								- Style "None"
             - I've had problems getting a wallpaper that fits correctly and isn't pixelated when stretched or adjusted. 
+            - If you use a backgroud/wallpaper that is localed in a folder that is not the above OS correct folder, your wallpaper can fail to render if it's home folder is altered.
+
         -Icons
             - Icon size 32
     Panel (upper bar, left click to adjust)
