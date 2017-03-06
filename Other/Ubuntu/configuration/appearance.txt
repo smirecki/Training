@@ -179,7 +179,12 @@ Hex -
         - Selected Text
             - Forground - #CCCCCC
             - Background - #751478
+Chrome
+    - Dark reader
+    - darkskin Youtube
 
+Firefox
+    - Darkbackground Light Text
 
 Pointer dark -
     - Not auto set when I changed the theme, I had to do this.
