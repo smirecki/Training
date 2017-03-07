@@ -172,6 +172,7 @@ F =================
     - AB plus
     - dark background app broken with new install update
     - Flash related content resource problems, run away process. Kill all flash content.
+        - Test playing with clicking option "Enable hardware acceleration".
     - Flash enabling and disabling questionable results from sites
         - It could be some kind of cached settings interfering with changes
         - Some sites might have some content only in Flash and fail silently( or catastrophically)
