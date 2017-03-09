@@ -125,6 +125,7 @@ C =================
     - not all ads are being blocked now.
         - are there better apps for this?
     - you can customize the filters, but must follow their API doc.
+  - React Developer Tools
   - Vue.js Dev tools extension
     - this helps with programming Vue.js apps
   - Problems..
@@ -696,7 +697,7 @@ Problem:
     - Major freeze three times in 6 hours.
         - Tried changing video driver to newist propritiary tested version, from open source version.  Afterwards it would boot with a misconfigured welcome screen with unresponsive screen (no visual output when typing).
         - Tried earlier propritiary driver, not tested, working so far.
-        
+
             
         
 
