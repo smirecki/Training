@@ -697,7 +697,8 @@ Problem:
     - Major freeze three times in 6 hours.
         - Tried changing video driver to newist propritiary tested version, from open source version.  Afterwards it would boot with a misconfigured welcome screen with unresponsive screen (no visual output when typing).
         - Tried earlier propritiary driver, not tested, working so far.
-        - Next day, 13 hours up and no crash or freeze with propritiary not tested graphics driver.
+        - Next day, 13 hours up and no crash or freeze with propritiary not tested graphics driver. Third day 12 hours up, still good.
+        - Also post graphics driver update, local HD contet plays well with only 30-40% CPU usage; it must be using the video card more than before.
 
             
         
