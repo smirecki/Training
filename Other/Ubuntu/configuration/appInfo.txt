@@ -482,7 +482,9 @@ V =================
     - older version 1.7.1
     - older version 1.8.1  Nov 2016
     - current version 1.9  Feb 2017
-
+    - UI adjustment
+        - zoom out once - this will make all of the fonts smaller
+        - View -> zoom out
     -  Best update method
         - Go to apps website download .deb
             - open .deb
