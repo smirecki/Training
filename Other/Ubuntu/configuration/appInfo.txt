@@ -472,6 +472,7 @@ V =================
             - Could this be a problem of drive throughput?
             - one adjustment that has helped lessen the drops 50%
                 - Preferences > (tab) Input / Codecs > (tab) Other codecs > FFmpeg > (check the "Advanced options" box) "Skip the loop filter for H.264 decoding" -> chose All,
+        - After OS to 16.x install, full HD play back is great with low CPU useage, but if you just ahead it can get blocky and discolored.  I'm not sure if an app adjustment would help or if it is just the hard drive can't keep up. 
 - Xchat
     - IRC client
 	- does not currently exist in the software center, they only have xchat-gnome
