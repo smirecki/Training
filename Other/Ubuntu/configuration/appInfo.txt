@@ -542,6 +542,7 @@ V =================
                     - chose Update this app
                         - YES!!! that did work. v 1.8.1
             - failed to install update at Software center level, blank box.
+            - download .deb, launch Software Center,install pop-up,installed 1.10.2  
 
 - Brackets - Brackets.Release.1.6.64-bit
     - only reason to run this app is if you love the Adobe ecosystem
