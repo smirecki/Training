@@ -139,6 +139,7 @@ C =================
         - Check if load times and freezing will also happen with the same pages in Firefox. Some claim that Chrome in Ubuntu uses hardware graphics acceleration, which causes the freezing.
         - Still have problems with Chrome during browsing new pages heavy with ads.  I think the ad blocking is having problems.  Most often the system will freeze, including the clock, but the system processes will not be over 30%.  Recently, the system will still recover from the freeze after a few seconds.
     - Gmail no longer supports this browser.
+        - it doesn't complain about this any more.
 - Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
