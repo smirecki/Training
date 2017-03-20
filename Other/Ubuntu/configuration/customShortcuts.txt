@@ -8,7 +8,7 @@ Custom:
     - mute --           "amixer set Master 0%" - "Super+S"
     - Clear desktop -   "Show Desktop" - super + d
     - screen lock --    "xflock4"
-		- xfce4-appfinder		"super+z"
+    - xfce4-appfinder		"super+z"
     - notes:
         - doesn't go down to 0%
             - UI volume bar shows 10-20% left and sounds still plays low when speakers are at full volume
@@ -29,7 +29,7 @@ problems -
 		- https://bugs.launchpad.net/ubuntu/+source/xfwm4/+bug/1292290
         - Possible solution
             - Clear preset key combo twice to clear new combo and old combo, then reenter new combo.
-            - This worked!
+            - This worked!   
             - tried on OS version 16.x LTS, did not work
     - Laptop 14.4
         - ctrl + a (select all) -- error with another key binding -- bad key binding with (super + a).
