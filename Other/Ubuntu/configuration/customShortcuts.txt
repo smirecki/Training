@@ -8,6 +8,7 @@ Custom:
     - mute --           "amixer set Master 0%" - "Super+S"
     - Clear desktop -   "Show Desktop" - super + d
     - screen lock --    "xflock4"
+		- xfce4-appfinder		"super+z"
     - notes:
         - doesn't go down to 0%
             - UI volume bar shows 10-20% left and sounds still plays low when speakers are at full volume
