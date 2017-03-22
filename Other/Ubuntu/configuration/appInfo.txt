@@ -696,6 +696,7 @@ Problem:
     - Crashes
         - It doesn't look like Ubuntu has a system event log like Window to track crashes and important events
         - it has a reporting system for apps that have crashed, but no log of full system failures.
+            - it should have this, I have read posts about it.
     - tumblr error, all file directories close, but cpu ramping up ever few seconds, tumblr taking 50% plus while seemingly not doing anything.
     - More browser OS freeze and tumbler run away process.
     - Version 16.x LTS still has freezing with Chrome.
@@ -706,5 +707,8 @@ Problem:
         - Also post graphics driver update, local HD contet plays well with only 30-40% CPU usage; it must be using the video card more than before.
         - Ten second freeze, no restarted needed when opening a web page with Chrome and opeing VS Code. 
         - Another day later no problems.
+    - After new 16.x LTS OS install
+        - Temporary freezes with web browsing
+        - Freeze while computer locked, could not get a login or terminal.  I could get the hardware to shutdown with manual power button push.
         
 
