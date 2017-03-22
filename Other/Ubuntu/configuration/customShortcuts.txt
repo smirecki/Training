@@ -35,4 +35,4 @@ problems -
         - ctrl + a (select all) -- error with another key binding -- bad key binding with (super + a).
     - super + d show desktop is not working
         - Settings Editor -> Channel -> xfce4-keyboard-shortcuts
-            - this works it should be working, but when you try to use it it fails.
+            - this fails and was disabling the default shortcut, but after a restart the default works again. 
