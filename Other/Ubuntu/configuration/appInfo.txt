@@ -710,5 +710,5 @@ Problem:
     - After new 16.x LTS OS install
         - Temporary freezes with web browsing
         - Freeze while computer locked, could not get a login or terminal.  I could get the hardware to shutdown with manual power button push.
-        
+    - Get or find spell checker for VS Code.
 
