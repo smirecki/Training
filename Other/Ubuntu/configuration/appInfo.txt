@@ -710,6 +710,7 @@ Problem:
     - After new 16.x LTS OS install
         - Temporary freezes with web browsing
         - Freeze while computer locked, could not get a login or terminal.  I could get the hardware to shutdown with manual power button push.
+        - More Freeze/Crash lock, this happened again on trying to login after a screen lock.  The screen showed a oddly blinking cursors, but would not respond.  
     - Get or find spell checker for VS Code.
         - https://github.com/Microsoft/vscode-spell-check
             - this service must use a web service to check spelling, i.e. no connection, no service.
