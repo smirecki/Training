@@ -428,6 +428,7 @@ V =================
                     - needs ruby > 2 and a lot of other apps... still having problems with this
                     - I've gotten Ruby > 2 installed, but it also needs (or I think it does) RVM.  I've installed all this and the builds have errors and the link file sharing between Host and VM was not working files any more.
                     - need rvm installed to do clean gem installs
+    - homestead for Laravel
 - Vim
 	- current default 7.*
 	- new version 8 out
