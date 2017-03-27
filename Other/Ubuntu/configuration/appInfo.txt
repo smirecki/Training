@@ -365,6 +365,7 @@ Package management
         - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-14-04
         - Laravel
             - project based via Github or use a fresh copy of homestead
+                - Homestead is for the VM Vargant work environment, not local.
         - sqlite
             - sudo apt-get install php5-sqlite
         - PhpUnit
