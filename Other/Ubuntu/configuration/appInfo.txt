@@ -206,6 +206,9 @@ K =================
     - errors with motion blur and dropped frames when recording at the limits of system resources, which isn't surprising, but it should be expected and accounted for.
 
 L =================
+- Laravel
+    - installed with composer
+        - it also needs to be added to $PATH
 - lm-sensors
     - Linux Temp
         - install lm-sensors
