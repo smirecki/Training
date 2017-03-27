@@ -155,6 +155,7 @@ C =================
 - Composer
     - Did I install this independently?  
         - yes, Composer is it's own install.
+        - Global and it need to be added to $PATH
 D  ===============
 - DNS records if isp's dns can't reach some sites.
 	- Google DNS 8.8.8.8 or 8.8.4.4
