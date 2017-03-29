@@ -513,8 +513,10 @@ V =================
     - problems
         - in /opt/ ... missing /usr/share/applications/foo.desktop configuration file
         - can you get it to auto complete html tags?
+            - it is currently auto completing for HTML files
             - http://stackoverflow.com/questions/30696863/vscode-not-auto-completing-html
             - enter tag name (html, div, ul, li, a) and press tab to auto-complete
+
         - ... html within a TS file?
             - doesn't auto correct or warn if you are missing tags, maybe it will with a extension 
         - Can it remember to keep word wrap on, at least for certain file types like txt?
@@ -729,4 +731,5 @@ Problem:
         - https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
             - ext install code-spell-checker
             - all local spell checking
+
 
