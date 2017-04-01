@@ -368,7 +368,8 @@ Package management
             - project based via Github or use a fresh copy of homestead
                 - Homestead is for the VM Vargant work environment, not local.
         - sqlite
-            - sudo apt-get install php5-sqlite
+            - Current installed 2.6.17
+            - Not current version(sudo apt-get install php5-sqlite)
         - PhpUnit
             - composer global require "phpunit/phpunit=5.5.*"
                 - 5.5.4
