@@ -166,7 +166,8 @@ D  ===============
     - Do I still need or want this?
             - Think it's more trouble than it's worth for me.
             - I haven't used it in months and haven't missed it.
-
+            - I just used it.
+                - It can be helpful for sharing files or accessing files away from home.
     - What kind of resources does this use?
 
 F =================
