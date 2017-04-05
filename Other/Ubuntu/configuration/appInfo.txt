@@ -165,6 +165,8 @@ D  ===============
 - Dropbox
     - Do I still need or want this?
             - Think it's more trouble than it's worth for me.
+            - I can't used it in months and haven't missed it.
+
     - What kind of resources does this use?
 
 F =================
