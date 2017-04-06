@@ -113,6 +113,7 @@ C =================
     - ads get through on some sites
     - other sites are hostel to this app
     - they are letting some ads get past the filter
+		- deactivated this app - It fails to block ads and has paid whitelisted ads
   - Dark Reader - testing
     - Better than older ones I've used
     - has a nice whitelist feature
@@ -130,6 +131,9 @@ C =================
   - React Developer Tools
   - Vue.js Dev tools extension
     - this helps with programming Vue.js apps
+	- uBlock Origin
+		- So far this is a perfect replacement for AdBlock Plus
+		- It is even blocking Facebook ads.
   - Problems..
     - strange problems with some https sites
     - slow load times
@@ -179,8 +183,10 @@ F =================
         - sudo apt-get install firefox
     - no script (updated for security hole)
         - serving a malware site... not safe???
-    - AB plus
+    - AB plus - deactivated
     - dark background app broken with new install update
+		- uBlock Origin
+			- replacement for AdBlock Plus
     - Flash related content resource problems, run away process. Kill all flash content.
         - Test playing with clicking option "Enable hardware acceleration".
     - Flash enabling and disabling questionable results from sites
