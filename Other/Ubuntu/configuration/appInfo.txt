@@ -185,8 +185,9 @@ F =================
         - serving a malware site... not safe???
     - AB plus - deactivated
     - dark background app broken with new install update
-		- uBlock Origin
-			- replacement for AdBlock Plus
+	- uBlock Origin
+		- replacement for AdBlock Plus
+        - Much better than AsBlock Plus, it blocks pop ups and other things missed by the latter. 
     - Flash related content resource problems, run away process. Kill all flash content.
         - Test playing with clicking option "Enable hardware acceleration".
     - Flash enabling and disabling questionable results from sites
