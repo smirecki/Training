@@ -509,6 +509,7 @@ V =================
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
     - current version 1.10.2  March 2017
+    - Update available
     - UI adjustment
         - zoom out once - this will make all of the fonts smaller
         - View -> zoom out
