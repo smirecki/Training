@@ -131,9 +131,10 @@ C =================
   - React Developer Tools
   - Vue.js Dev tools extension
     - this helps with programming Vue.js apps
-	- uBlock Origin
-		- So far this is a perfect replacement for AdBlock Plus
-		- It is even blocking Facebook ads.
+  - uBlock Origin
+    - So far this is a perfect replacement for AdBlock Plus
+    - It is even blocking Facebook ads.
+    - Much better than AdBlock Plus.
   - Problems..
     - strange problems with some https sites
     - slow load times
