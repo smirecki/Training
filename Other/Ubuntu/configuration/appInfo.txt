@@ -536,6 +536,8 @@ V =================
         - ... html within a TS file?
             - doesn't auto correct or warn if you are missing tags, maybe it will with a extension 
         - Can it remember to keep word wrap on, at least for certain file types like txt?
+        - the git integration isn't always solid.
+            - how do you fix the git hooks?
     - notes
         - built-in linting
         - You can Extend Visual Studio Code
