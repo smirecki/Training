@@ -128,6 +128,7 @@ C =================
     - not all ads are being blocked now.
         - are there better apps for this?
     - you can customize the filters, but must follow their API doc.
+    - not worth keeping
   - React Developer Tools
   - Vue.js Dev tools extension
     - this helps with programming Vue.js apps
