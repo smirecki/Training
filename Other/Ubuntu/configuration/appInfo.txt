@@ -754,5 +754,5 @@ Problem:
         - https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
             - ext install code-spell-checker
             - all local spell checking
-
+    - limited freezing during web browsing since OS 16.x update.
 
