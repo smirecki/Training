@@ -734,25 +734,25 @@ Problem:
         - It doesn't look like Ubuntu has a system event log like Window to track crashes and important events
         - it has a reporting system for apps that have crashed, but no log of full system failures.
             - it should have this, I have read posts about it.
-    - tumblr error, all file directories close, but cpu ramping up ever few seconds, tumblr taking 50% plus while seemingly not doing anything.
-    - More browser OS freeze and tumbler run away process.
-    - Version 16.x LTS still has freezing with Chrome.
-    - Major freeze three times in 6 hours.
-        - Tried changing video driver to newist propritiary tested version, from open source version.  Afterwards it would boot with a misconfigured welcome screen with unresponsive screen (no visual output when typing).
-        - Tried earlier propritiary driver, not tested, working so far.
-        - Next day, 13 hours up and no crash or freeze with propritiary not tested graphics driver. Third day 12 hours up, still good.
-        - Also post graphics driver update, local HD contet plays well with only 30-40% CPU usage; it must be using the video card more than before.
-        - Ten second freeze, no restarted needed when opening a web page with Chrome and opeing VS Code. 
-        - Another day later no problems.
-    - After new 16.x LTS OS install
-        - Temporary freezes with web browsing
-        - Freeze while computer locked, could not get a login or terminal.  I could get the hardware to shutdown with manual power button push.
-        - More Freeze/Crash lock, this happened again on trying to login after a screen lock.  The screen showed a oddly blinking cursors, but would not respond.  
-    - Get or find spell checker for VS Code.
-        - https://github.com/Microsoft/vscode-spell-check
-            - this service must use a web service to check spelling, i.e. no connection, no service.
-        - https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
-            - ext install code-spell-checker
-            - all local spell checking
-    - limited freezing during web browsing since OS 16.x update.
+        - tumblr error, all file directories close, but cpu ramping up ever few seconds, tumblr taking 50% plus while seemingly not doing anything.
+        - More browser OS freeze and tumbler run away process.
+        - Version 16.x LTS still has freezing with Chrome.
+        - Major freeze three times in 6 hours.
+            - Tried changing video driver to newist propritiary tested version, from open source version.  Afterwards it would boot with a misconfigured welcome screen with unresponsive screen (no visual output when typing).
+            - Tried earlier propritiary driver, not tested, working so far.
+            - Next day, 13 hours up and no crash or freeze with propritiary not tested graphics driver. Third day 12 hours up, still good.
+            - Also post graphics driver update, local HD contet plays well with only 30-40% CPU usage; it must be using the video card more than before.
+            - Ten second freeze, no restarted needed when opening a web page with Chrome and opeing VS Code. 
+            - Another day later no problems.
+        - After new 16.x LTS OS install
+            - Temporary freezes with web browsing
+            - Freeze while computer locked, could not get a login or terminal.  I could get the hardware to shutdown with manual power button push.
+            - More Freeze/Crash lock, this happened again on trying to login after a screen lock.  The screen showed a oddly blinking cursors, but would not respond.  
+        - Get or find spell checker for VS Code.
+            - https://github.com/Microsoft/vscode-spell-check
+                - this service must use a web service to check spelling, i.e. no connection, no service.
+            - https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+                - ext install code-spell-checker
+                - all local spell checking
+        - limited freezing during web browsing since OS 16.x update.
 
