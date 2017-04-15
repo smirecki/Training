@@ -159,7 +159,7 @@ C =================
     - ERROR - "Gstreamer is missing plug-in"
     - UI color theme lost after OS update
     FIX:
-        - Changing the bg/forground color improves this.        
+        - Changing the bg/foreground color improves this.        
     - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
 - Composer
     - Did I install this independently?  
