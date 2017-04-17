@@ -688,6 +688,9 @@ Questions:
     - What software and tools would I need to do scraping?
         - Do you have a project?  What are it's needs?  What do you want to do with the data?  How will you do the scrape, local or proxy?  What is the information you want, text, prices, images?  How will you store them?  How will you retrieve them?
         - It's more common to use Python than PHP.
+
+    - I think this whole document needs to be reviewed after the main OS upgrade.  It might need to be split to old OS and current OS.
+    - I still need check for provisioning methods with Ubuntu.
 ===============
 Problem:
     - Ubuntu Software Center
