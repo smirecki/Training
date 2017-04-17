@@ -522,7 +522,7 @@ V =================
     - impressive support and progress for this app
     - you can download a small install file from the main VSC site, which when run will open your OS software installer and install VSC perfectly.
         - The file is a .dep
-        - It will open the Softwear Updater and auto install.
+        - It will open the Software Updater and auto install.
     - general
         - "Code" version of VS
         - https://code.visualstudio.com/Docs/?dv=linux64
