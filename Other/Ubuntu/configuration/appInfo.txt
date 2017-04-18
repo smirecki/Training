@@ -761,5 +761,6 @@ Problem:
                 - all local spell checking
         - limited freezing during web browsing since OS 16.x update.
         - Screen Lock and freeze ( no response ) on trying to go active with mouse or keyboard.
+        - Lots of freezing and stalling while browsing mostly in Chrome.  The memory usage looks very high.
              
 
