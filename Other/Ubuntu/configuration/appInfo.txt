@@ -186,7 +186,10 @@ F =================
     - no script (updated for security hole)
         - serving a malware site... not safe???
     - AB plus - deactivated
-    - dark background app broken with new install update
+    - dark background app 
+        - broken with new install update
+        - currently working perfectly
+
 	- uBlock Origin
 		- replacement for AdBlock Plus
         - Much better than AsBlock Plus, it blocks pop ups and other things missed by the latter. 
