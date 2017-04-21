@@ -149,6 +149,9 @@ C =================
         - Still have freezing, too many gif and imagines on Twitter or maybe AdBlock problems with Twitter might be the reason.
     - Gmail no longer supports this browser.
         - it doesn't complain about this any more.
+    - Memory usage seems to be high.
+        - Why does Gmail need almost 1GB of memory?
+        - The extensions I've added use < 200 MB, which is fine. 
 - Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
