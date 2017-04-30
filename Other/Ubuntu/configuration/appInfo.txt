@@ -154,6 +154,8 @@ C =================
     - Memory usage seems to be high.
         - Why does Gmail need almost 1GB of memory?
         - The extensions I've added use < 200 MB, which is fine. 
+    - They have added a zoom-in transition when the app is opened.
+        - I hate this feature and can't find an option to stop it, nor can I find any posts on this.
 - Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
