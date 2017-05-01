@@ -587,6 +587,8 @@ V =================
             - failed to install update at Software center level, blank box.
             - download .deb, launch Software Center,install pop-up,installed 1.10.2 
         - The app will keep showing an app info page when the program is opened instead of the last file that was worked on.  I'm not sure if this is a setting change I made by mistake or a default change after an update.
+            - After opening a folder for a project and closing the app, it will open to the last project; maybe if I do that, the app will stop loading the welcome screen on start-up.
+            
         
 
 - Brackets - Brackets.Release.1.6.64-bit
