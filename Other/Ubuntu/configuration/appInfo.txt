@@ -138,6 +138,11 @@ C =================
     - So far this is a perfect replacement for AdBlock Plus
     - It is even blocking Facebook ads.
     - Much better than AdBlock Plus.
+    - problems
+        - It will block some progress to a site via a link and show a code screen with message about action.
+            - Is this for safety?
+            - Can I still go to this link?
+            - Can I tell it to not block links I have clicked?
   - Problems..
     - strange problems with some https sites
     - slow load times
