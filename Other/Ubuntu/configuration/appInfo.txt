@@ -189,6 +189,7 @@ D  ===============
                 - It can be helpful for sharing files or accessing files away from home.
     - What kind of resources does this use?
 
+
 F =================
 - FireFox - normal edition
 - FireFox Developer edition - not currently using
@@ -229,6 +230,12 @@ G =================
 H =================
 - htop
     - sudo apt-get install htop
+
+I ===================
+- Internet Explorer
+    - I've had to use this for work and should install it to be more familiar with it.
+        - It look like it can only be run under WINE. 
+
 
 K =================
 - Kazam - Screencaster
