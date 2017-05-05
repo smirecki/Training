@@ -606,7 +606,8 @@ V =================
         - How did I setup spell checking for basic txt type files?  I should have documented this the first time VS Code was installed.
             - correction, I am getting green underscores for words being spelled, but for poorly spelled words the app has very few answers... not very useful.
             - possible solution -   https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
-
+        - How can I find out which extensions I've installed on this app?
+            - https://code.visualstudio.com/docs/editor/extension-gallery
 
 - Brackets - Brackets.Release.1.6.64-bit
     - only reason to run this app is if you love the Adobe ecosystem
