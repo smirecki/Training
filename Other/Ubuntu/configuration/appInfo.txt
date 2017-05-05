@@ -604,6 +604,9 @@ V =================
             - After opening a folder for a project and closing the app, it will open to the last project; maybe if I do that, the app will stop loading the welcome screen on start-up.
             - It looks like it will do this with whatever documents you have left open in the app.
         - How did I setup spell checking for basic txt type files?  I should have documented this the first time VS Code was installed.
+            - correction, I am getting green underscores for words being spelled, but for poorly spelled words the app has very few answers... not very useful.
+            - possible solution -   https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
 
 - Brackets - Brackets.Release.1.6.64-bit
     - only reason to run this app is if you love the Adobe ecosystem
