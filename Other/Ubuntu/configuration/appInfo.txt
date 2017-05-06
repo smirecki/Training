@@ -27,6 +27,7 @@ g
 h
     htop
 i
+    internet explorer
 j
 k
     kazam
