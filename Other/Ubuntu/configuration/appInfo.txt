@@ -32,7 +32,7 @@ j
 k
     kazam
 l
-		Laravel
+	Laravel
     lm-sensors
 m
     Mame
