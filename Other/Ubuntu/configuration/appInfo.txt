@@ -130,6 +130,7 @@ C =================
     - It seems to pop-up in off an on, I'm not sure when it is working or how to force it to work when it isn't.  It has a sign-up for more features, but none of them are to make it work better.
   - Instapaper
     - free whole platform now.
+    - If the webpage you want to save is too complex with ads, the service will fail to deliver a readable version to Instapaper.
   - ABP
     - not all ads are being blocked now.
         - are there better apps for this?
