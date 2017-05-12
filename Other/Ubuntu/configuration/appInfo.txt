@@ -540,7 +540,7 @@ V =================
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
     - current version 1.12.1 April 2017
-        - they  did a great job with the notes for this release, remember to read through them more, maybe put them on my Instapaper. 
+        - they did a great job with the notes for this release, remember to read through them more, maybe put them on my Instapaper. 
             - notes put on Instapaper, but the gifs won't be saved.
     - UI adjustment
         - zoom out once - this will make all of the fonts smaller
