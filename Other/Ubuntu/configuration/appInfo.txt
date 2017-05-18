@@ -807,5 +807,5 @@ Problem:
         - this system is stalling out on large Excell files, all the RAM is being used.
         - I'm still getting weird freezing and system problems, much more so than a few months back.  I'm not sure if it is because of software updates with problems or failing hardware.
         - System updates, it looks like it will not default to daily update checks.  After settings adjustments, I am getting daily updates, but they updates are not on startup and sometimeneed to be asked for.
-        - It has started asking for more free space on the boot directory like the last OS version.
+        - It has started asking for more free space on the boot directory like the last OS version.  After removing one middle initrd.img-FOO, the update completed.
              
