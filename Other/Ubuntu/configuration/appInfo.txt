@@ -810,5 +810,5 @@ Problem:
         - It has started asking for more free space on the boot directory like the last OS version.  After removing one middle initrd.img-FOO, the update completed.
             - It will tell you to fix the free space issue use "sudo apt-get clean", but that does nothing.
             - I've had to remove files and hope the OS won't need them at a later time like the last LTS OS version did.
-            
+            - No current problems with updates or boot cleaning.
              
