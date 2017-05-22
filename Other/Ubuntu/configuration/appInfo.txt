@@ -534,6 +534,7 @@ V =================
         - After pausing, the image can go grey and not change back to proper video unless you jump back in the video.
             - Still having this problem and even jumping back will sometimes not bring the image back.
         - Computer freezing while jumping ahead in a video.  I'm not sure if this problems is related to: too much system resources used, video driver problems, hard drive problems.
+            - It still has problems with video when jumping ahead, it will pixelate green. 
 - Xchat
     - IRC client
 	- does not currently exist in the software center, they only have xchat-gnome
