@@ -807,7 +807,8 @@ Problem:
         - Lots of freezing and stalling while browsing mostly in Chrome.  The memory usage looks very high.
         - this system is stalling out on large Excell files, all the RAM is being used.
         - I'm still getting weird freezing and system problems, much more so than a few months back.  I'm not sure if it is because of software updates with problems or failing hardware.
-        - System updates, it looks like it will not default to daily update checks.  After settings adjustments, I am getting daily updates, but they updates are not on startup and sometimeneed to be asked for.
+        - System updates, it looks like it will not default to daily update checks.  After settings adjustments, I am getting daily updates, but the updates are not on startup and sometime I need to be asked for.
+            - It looks like minor updates are not installed daily.
         - It has started asking for more free space on the boot directory like the last OS version.  After removing one middle initrd.img-FOO, the update completed.
             - It will tell you to fix the free space issue use "sudo apt-get clean", but that does nothing.
             - I've had to remove files and hope the OS won't need them at a later time like the last LTS OS version did.
