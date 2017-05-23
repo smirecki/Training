@@ -812,4 +812,5 @@ Problem:
             - It will tell you to fix the free space issue use "sudo apt-get clean", but that does nothing.
             - I've had to remove files and hope the OS won't need them at a later time like the last LTS OS version did.
             - No current problems with updates or boot cleaning.
+        - Whole system freeze with jumpping ahead while watching a video on VLC.
              
