@@ -148,6 +148,7 @@ C =================
             - Is this for safety?
             - Can I still go to this link?
             - Can I tell it to not block links I have clicked?
+        - I think it blocked a strange tab based webpage layout section.
   - Problems..
     - strange problems with some https sites
     - slow load times
