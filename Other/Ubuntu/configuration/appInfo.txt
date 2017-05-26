@@ -131,6 +131,7 @@ C =================
   - Instapaper
     - free whole platform now.
     - If the webpage you want to save is too complex with ads, the service will fail to deliver a readable version to Instapaper.
+    - Question... look into easier way to remove content.
   - ABP
     - not all ads are being blocked now.
         - are there better apps for this?
