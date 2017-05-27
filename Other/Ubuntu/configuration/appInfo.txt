@@ -124,6 +124,7 @@ C =================
     - can fail on dynamic content
     - Can it not invert image colors?
         - I don't see options to change this.
+    - If will fail to invert some background colors or make them darker.
   - Youtube Dark Skin
   - grammarly
     - I'm not sure this is a better option than the browsers built in tools, this one will miss words or not give options for correcting words.
