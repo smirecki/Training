@@ -816,5 +816,12 @@ Problem:
             - It will tell you to fix the free space issue use "sudo apt-get clean", but that does nothing.
             - I've had to remove files and hope the OS won't need them at a later time like the last LTS OS version did.
             - No current problems with updates or boot cleaning.
+            - Mostly clean update
+                - PHP7 was updated and it asked to update php.ini, but I have altered, the then current, php.ini.
+                    - I asked it to do a "side by side comparison", but the update finished without adressing the comparison.  At this point, I don't know what it has done.
+                    - I think the diff betweet the new and old will be the upload size defualts that I had changed to allow me to upload a large SQL file to phpMyAdmin.
+                    - It has updated the file.
+                    - It did create a php.ini.ucf-dist.
+                        - It looks like I might need to do a query to see which version PHP is using.
         - Whole system freeze with jumpping ahead while watching a video on VLC.
              
