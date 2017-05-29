@@ -823,5 +823,5 @@ Problem:
                     - It has updated the file.
                     - It did create a php.ini.ucf-dist.
                         - It looks like I might need to do a query to see which version PHP is using.
-        - Whole system freeze with jumpping ahead while watching a video on VLC.
+        - Whole system freeze with jumping ahead while watching a video on VLC.
              
