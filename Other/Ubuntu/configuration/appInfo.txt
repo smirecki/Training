@@ -712,6 +712,8 @@ Running Windows apps
 Consider php environment
     - Local
         - LAMP
+            - remember to save php.ini file or create document with edited info... or version control.
+                - Some auto updates will over write this file.
     - Virtual Machine
         - vagrant
             - needs VM software to run
