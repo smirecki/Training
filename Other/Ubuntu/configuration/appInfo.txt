@@ -170,7 +170,10 @@ C =================
     - They have added a zoom-in transition when the app is opened.
         - I hate this feature and can't find an option to stop it, nor can I find any posts on this.
         - Still doing this days later, 5/5/17 still hasn't changed.
-            - I should see if any new questions have been posted to fix/change this setting.  
+            - I should see if any new questions have been posted to fix/change this setting. 
+    - Recent change on Youtube
+        - Files that were 720p60 would stall and have problems playing.
+        - New files that are 720p50 play perfectly. 
 - Clementine
     - equalizer - techo preset or zero
     - Preferences -> Appearance
