@@ -117,7 +117,7 @@ C =================
     - other sites are hostel to this app
     - they are letting some ads get past the filter
 		- deactivated this app - It fails to block ads and has paid white listed ads
-  - Dark Reader - testing
+  - Dark Reader
     - Better than older ones I've used
     - has a nice whitelist feature
     - not perfect with images
