@@ -169,7 +169,8 @@ C =================
         - it doesn't complain about this any more.
     - Memory usage seems to be high.
         - Why does Gmail need almost 1GB of memory?
-        - The extensions I've added use < 200 MB, which is fine. 
+        - The extensions I've added use < 200 MB, which is fine.
+        - Memory usage seems to be very high again (6/6/17).
     - They have added a zoom-in transition when the app is opened.
         - I hate this feature and can't find an option to stop it, nor can I find any posts on this.
         - Still doing this days later, 5/5/17 still hasn't changed.
