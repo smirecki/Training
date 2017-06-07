@@ -98,7 +98,7 @@ Problems
 ===================
 C =================
 - Calibre
-    - I don't use that at all these days.
+    - I don't use this at all these days.
     - software center
     - Use this program to manage a Kindle White-paper
     - the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.  The OS has no problems writing to a micro-SD card.
@@ -153,6 +153,7 @@ C =================
             - Is this for safety?
             - Can I still go to this link?
             - Can I tell it to not block links I have clicked?
+            - i.e. it will block custom ad-tracking links you get in emails, which is good for privacy, but bad if you want to take the bait and find out about today's "amazing deals".
         - I think it blocked a strange tab based webpage layout section.
   - Problems..
     - strange problems with some https sites
