@@ -552,7 +552,8 @@ V =================
 =====================================
 [IDEs for TypeScript]
 - Visual Studios - VSCode-linux64
-    - current version 1.12.1 April 2017
+    - current version 1.13 June 2017 
+    - older 1.12.1 April 2017
         - they did a great job with the notes for this release, remember to read through them more, maybe put them on my Instapaper. 
             - notes put on Instapaper, but the gifs won't be saved.
     - UI adjustment
@@ -565,6 +566,7 @@ V =================
                     - chose Update this app
     - updated UI will check for updates automatically 
     - impressive support and progress for this app
+        - They have put even more tools and functionality into this app.
     - you can download a small install file from the main VSC site, which when run will open your OS software installer and install VSC perfectly.
         - The file is a .dep
         - It will open the Software Updater and auto install.
