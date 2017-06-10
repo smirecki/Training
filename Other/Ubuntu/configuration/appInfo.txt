@@ -149,6 +149,7 @@ C =================
     - It is even blocking Facebook ads.
     - Much better than AdBlock Plus.
     - problems
+        - This app can and will lock up my computer on a page with too much ad content (cnet).
         - It will block some progress to a site via a link and show a code screen with message about action.
             - Is this for safety?
             - Can I still go to this link?
