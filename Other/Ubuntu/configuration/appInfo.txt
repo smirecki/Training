@@ -827,6 +827,7 @@ Problem:
             - It will tell you to fix the free space issue use "sudo apt-get clean", but that does nothing.
             - I've had to remove files and hope the OS won't need them at a later time like the last LTS OS version did.
             - No current problems with updates or boot cleaning.
+            - I had to remove a file in the boot folder to allow room for a new update, in the past this has caused problems.
             - Mostly clean update
                 - PHP7 was updated and it asked to update php.ini, but I have altered, the then current, php.ini.
                     - I asked it to do a "side by side comparison", but the update finished without adressing the comparison.  At this point, I don't know what it has done.
