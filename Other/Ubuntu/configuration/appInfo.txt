@@ -182,6 +182,8 @@ C =================
         - New files that are 720p50 play perfectly. 
 - Clementine
     - equalizer - techo preset or zero
+        - you can save custom settings with a unique name.
+            - I made one for improve vocals.
     - Preferences -> Appearance
         - Colors - "Use a custom color set"
             - foreground/bg color ...
