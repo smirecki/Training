@@ -180,6 +180,7 @@ C =================
             - I should see if any new questions have been posted to fix/change this setting. 
     - Recent change on Youtube
         - Files that were 720p60 would stall and have problems playing.
+            - It seems they still have problems playing.
         - New files that are 720p50 play perfectly. 
 - Clementine
     - equalizer - techo preset or zero
