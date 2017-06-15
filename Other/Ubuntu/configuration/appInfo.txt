@@ -637,6 +637,7 @@ V =================
             - You can add to the locally searched dictionary.  I'm not sure if I should try to make this work as well as a common office type word processing app or not use VS Code for basic note taking.
         - How can I find out which extensions I've installed on this app?
             - https://code.visualstudio.com/docs/editor/extension-gallery
+        - This app is now updating through the OS software updater, progress.
 
 - Brackets - Brackets.Release.1.6.64-bit
     - only reason to run this app is if you love the Adobe ecosystem
