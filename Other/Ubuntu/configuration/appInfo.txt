@@ -847,3 +847,5 @@ Problem:
                 - I can jump ahead or back prefectly and very quickly with Parole Media player, not large pixialzation or system freezes. 
         - Failed update 6/16/17
             - check to see is it can re-update.
+        - Look into VLC errors and system problems.
+            - It seems to have way too many errors and system failures.
