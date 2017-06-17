@@ -845,4 +845,5 @@ Problem:
             - This is still happening.  I'm not sure if it is a RAM bottleneck, hard drive issue/limitation, graphic card problem, or a greater OS problem, but I don't remember this being a problem in the past.
             - Can I jump ahead in a video that gives me problems while using a diferent video player and have the same issue?
                 - I can jump ahead or back prefectly and very quickly with Parole Media player, not large pixialzation or system freezes. 
-             
+        - Failed update 6/16/17
+            - check to see is it can re-update.
