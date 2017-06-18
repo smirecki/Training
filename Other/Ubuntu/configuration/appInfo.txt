@@ -151,6 +151,7 @@ C =================
     - Much better than AdBlock Plus.
     - problems
         - This app can and will lock up my computer on a page with too much ad content (cnet).
+            - This happened again, I tried to close the page before it had a chance to load, but it was too late and my whole system froze for 15 plus seconds.  After the system started responding, the browser was still unresponsive.  The OS and browser recovered after a minute or so.
         - It will block some progress to a site via a link and show a code screen with message about action.
             - Is this for safety?
             - Can I still go to this link?
