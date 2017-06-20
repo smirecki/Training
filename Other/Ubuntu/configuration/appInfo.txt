@@ -462,6 +462,7 @@ S =================
         - Remember your sign-in name and password, without these two things you aren't getting in.
         - Your sound needs to be enabled, they disable this by default... and I think the video is also disabled by default. =/
         - Hover over the app window to reveal hidden settings icons, like the video and sound settings.
+    - Skype is asking for a reinstall because of a app or other major policy update.
 - Steam - not many Linux games available
     - demands two-factor auth 
 - Stopwatch
