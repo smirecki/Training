@@ -853,4 +853,9 @@ Problem:
             - It seems to have way too many errors and system failures.
         - Failed update for base system
             - lots of strange errors along with request for more space.
-            - Will this get resoled with a restart and another attempt?
+            - Will this get resolved with a restart and another attempt?
+            - It did not get fixed with a restart and reload.
+                - I followed the instructions to "apt-get install -f"
+                - I removed the third party ppa for VS Code.
+                - It tried to update and then started trying to download every initrd.img file that had been released since I installed the system, which would fill the boot directory and kill the install.
+                - In the past when this had happened I needed to do a full reinstall to clear everything up.
