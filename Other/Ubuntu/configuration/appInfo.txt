@@ -859,3 +859,5 @@ Problem:
                 - I removed the third party ppa for VS Code.
                 - It tried to update and then started trying to download every initrd.img file that had been released since I installed the system, which would fill the boot directory and kill the install.
                 - In the past when this had happened I needed to do a full reinstall to clear everything up.
+            - Command - boot$ sudo apt-get autoremove
+                - seemed to clean the directory, but was doing a lot of work to do so.
