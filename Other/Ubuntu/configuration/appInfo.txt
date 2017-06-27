@@ -861,3 +861,6 @@ Problem:
                 - In the past when this had happened I needed to do a full reinstall to clear everything up.
             - Command - boot$ sudo apt-get autoremove
                 - seemed to clean the directory, but was doing a lot of work to do so.
+                - It lead to a clean boot directory, a good restart, and a fully functioning system.
+                    - https://help.ubuntu.com/community/RemoveOldKernels
+                - no further problems
