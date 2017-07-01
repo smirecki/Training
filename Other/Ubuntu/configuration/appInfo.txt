@@ -865,6 +865,7 @@ Problem:
                     - https://help.ubuntu.com/community/RemoveOldKernels
                 - no further problems
                 - auto update without asking for approval, but asking to restart.
+                - More updates installing daily and cleanly.
                 
         - Odd errors with open folder locking up and not responding
             - The folders have to be closed, which requires clicking "yes" to the none responsive app warning pop-up.
