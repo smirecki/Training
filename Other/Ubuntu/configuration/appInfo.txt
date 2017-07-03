@@ -870,3 +870,5 @@ Problem:
                 
         - Odd errors with open folder locking up and not responding
             - The folders have to be closed, which requires clicking "yes" to the none responsive app warning pop-up.
+        - Some Chrome webpages are freezing my whole system for a few seconds.
+            - This is not acceptable.
