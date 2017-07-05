@@ -873,3 +873,4 @@ Problem:
             - The OS os still locking up directories.
         - Some Chrome webpages are freezing my whole system for a few seconds.
             - This is not acceptable.
+        - update to Chromium - 7/4/17
