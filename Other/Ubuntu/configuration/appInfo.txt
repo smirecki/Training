@@ -875,4 +875,7 @@ Problem:
             - This is not acceptable.
         - update to Chromium - 7/4/17
         - Old mp3 player Zune will not allow access.
-            - There might be a github project that allows my OS to talk with the Zune. 
+            - There might be a github project that allows my OS to talk with the Zune.
+        - Chromium browser
+            - Youtube tab closed, but still maxing out one cpu at 100%.
+                - I had to use Chromium task manager to kill the process.
