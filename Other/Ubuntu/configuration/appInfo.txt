@@ -137,6 +137,7 @@ C =================
     - If the webpage you want to save is too complex with ads, the service will fail to deliver a readable version to Instapaper.
         - This problem is especial bad with news sites like the NY Times when the article is filled with info graphics.
     - Question... look into easier way to remove content.
+    - The optional weekly articles collection will email the same articles because it just sends the first Foo amount without regard for what it has already sent. 
   - ABP
     - not all ads are being blocked now.
         - are there better apps for this?
