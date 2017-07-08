@@ -880,3 +880,4 @@ Problem:
         - Chromium browser
             - Youtube tab closed, but still maxing out one cpu at 100%.
                 - I had to use Chromium task manager to kill the process.
+        - Research, has FireFox become a better browser for Linux than Chromium?
