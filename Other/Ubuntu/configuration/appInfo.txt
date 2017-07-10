@@ -96,6 +96,12 @@ Questions
 Problems
 
 ===================
+A =================
+
+- Audacity
+    - "Audacity is a free, easy-to-use, multi-track audio editor and recorder..."
+    - plays back audio files and allows adjustment to playback speed - via Tempo.
+
 C =================
 - Calibre
     - I don't use this at all these days.
@@ -195,6 +201,7 @@ C =================
     - Clementine has music streams, including SOMA FM station URLs built in.
     - ERROR - "Gstreamer is missing plug-in"
     - UI color theme lost after OS update
+    - Clementine doesn't have a feature to control play back speed, but Audacity does.
     FIX:
         - Changing the bg/foreground color improves this.        
     - Although this is a feature rich app, I would like a version of the UI that takes up less real estate.  Look for directions or tutorial on customizing this app.
