@@ -4,6 +4,7 @@ All based on Xubuntu 14.04 LTS, 16.x LTS
 
 ==
 a
+    Audacity
 b
 c
     Calibre
@@ -101,6 +102,7 @@ A =================
 - Audacity
     - "Audacity is a free, easy-to-use, multi-track audio editor and recorder..."
     - plays back audio files and allows adjustment to playback speed - via Tempo.
+    - The UI is very old looking.
 
 C =================
 - Calibre
