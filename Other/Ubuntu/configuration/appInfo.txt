@@ -562,6 +562,7 @@ V =================
             - Still having this problem and even jumping back will sometimes not bring the image back.
         - Computer freezing while jumping ahead in a video.  I'm not sure if this problems is related to: too much system resources used, video driver problems, hard drive problems.
             - It still has problems with video when jumping ahead, it will pixelate green. 
+        - Video goes to a black screen and won't recover after a long pause.  It has to be clicked to an earlier time to recover.
 - Xchat
     - IRC client
 	- does not currently exist in the software center, they only have xchat-gnome
