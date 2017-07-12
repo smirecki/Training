@@ -361,10 +361,10 @@ N =================
             sudo apt-get install -y nodejs
 
 O =================
-    -OS screen Settings
-        - Unplugging and replugging the second monitor will force a system controlled monitor settings screen to appear to adjust second screen location and other settings (rotation)
-            - I had used my video card's software to control the settings before
-                - Settings -> NVIDIA X Server Settings -> X Server Display Configuration... etc. 
+-OS screen Settings
+    - Unplugging and replugging the second monitor will force a system controlled monitor settings screen to appear to adjust second screen location and other settings (rotation)
+        - I had used my video card's software to control the settings before
+            - Settings -> NVIDIA X Server Settings -> X Server Display Configuration... etc. 
 
 P =================
 Package management
