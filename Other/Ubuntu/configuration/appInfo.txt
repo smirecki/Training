@@ -893,4 +893,6 @@ Problem:
         - Research, has FireFox become a better browser for Linux than Chromium?
         - Xubuntu alternate version or custom xfce
             - German Linux harware maker - Tuxedo
-                TUXEDO Xubuntu 16.04 (Xfce): 304 MB
+                - TUXEDO Xubuntu 16.04 (Xfce): 304 MB
+                - https://www.tuxedocomputers.com/Hardware/Linux-USB-Sticks/Xubuntu.geek
+                - I don't see a link to download their custom version, just ubs stick to buy a copy.
