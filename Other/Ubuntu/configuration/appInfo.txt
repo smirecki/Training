@@ -896,3 +896,4 @@ Problem:
                 - TUXEDO Xubuntu 16.04 (Xfce): 304 MB
                 - https://www.tuxedocomputers.com/Hardware/Linux-USB-Sticks/Xubuntu.geek
                 - I don't see a link to download their custom version, just ubs stick to buy a copy.
+        - Xubuntu naming rules vs. external media naming rules seem to be different, allowable characters.
