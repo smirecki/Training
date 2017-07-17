@@ -897,3 +897,6 @@ Problem:
                 - https://www.tuxedocomputers.com/Hardware/Linux-USB-Sticks/Xubuntu.geek
                 - I don't see a link to download their custom version, just ubs stick to buy a copy.
         - Xubuntu naming rules vs. external media naming rules seem to be different, allowable characters.
+        - Is sandboxing a thing on Linux or is it more common to use VMs or Docker images for untrusted setups and apps?
+            - https://askubuntu.com/questions/859620/sandbox-overlay-for-ubuntu
+            - 
