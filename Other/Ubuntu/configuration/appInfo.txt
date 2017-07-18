@@ -899,4 +899,5 @@ Problem:
         - Xubuntu naming rules vs. external media naming rules seem to be different, allowable characters.
         - Is sandboxing a thing on Linux or is it more common to use VMs or Docker images for untrusted setups and apps?
             - https://askubuntu.com/questions/859620/sandbox-overlay-for-ubuntu
-            - 
+        - Is it better to run a WIN OS as a VM or with Linux as the core OS?
+            - This looks like a very common thing to do, which could help to fight a compromised WIN system.
