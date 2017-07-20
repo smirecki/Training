@@ -904,3 +904,4 @@ Problem:
         - Strange error or me not knowing what is going on with an app that is getting lost on my screen.  It's not in either workspace or monitor and I can't find a way to bring it back with upper tool-bar right click options.
         - VLC blank screen error on playback after pause.
             - Trying a fix with increasing the file caching to 1000ms instead of 300.  
+            - This "fix" hasn't produced any results as bad as the origial error or none have been seen yet, but it does cause a temporary lag and echo effect, which is not what I want.
