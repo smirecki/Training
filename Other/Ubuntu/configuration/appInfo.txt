@@ -902,6 +902,7 @@ Problem:
         - Is it better to run a WIN OS as a VM or with Linux as the core OS?
             - This looks like a very common thing to do, which could help to fight a compromised WIN system.
         - Strange error or me not knowing what is going on with an app that is getting lost on my screen.  It's not in either workspace or monitor and I can't find a way to bring it back with upper tool-bar right click options.
+            - I'm still not sure what happened with this hidden GUI app.
         - VLC blank screen error on playback after pause.
             - Trying a fix with increasing the file caching to 1000ms instead of 300.  
             - This "fix" hasn't produced any results as bad as the origial error or none have been seen yet, but it does cause a temporary lag and echo effect, which is not what I want.
