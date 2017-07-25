@@ -908,3 +908,5 @@ Problem:
             - This "fix" hasn't produced any results as bad as the origial error or none have been seen yet, but it does cause a temporary lag and echo effect, which is not what I want.
             - Still no black/blank screen error, but still a delay effect with this fix.
             - No, this fix did not fix the long pause black screen error.
+        - No problems with printing.
+            - The printer GUI app is a little simple.
