@@ -899,8 +899,10 @@ Problem:
         - Xubuntu naming rules vs. external media naming rules seem to be different, allowable characters.
         - Is sandboxing a thing on Linux or is it more common to use VMs or Docker images for untrusted setups and apps?
             - https://askubuntu.com/questions/859620/sandbox-overlay-for-ubuntu
-        - Is it better to run a WIN OS as a VM or with Linux as the core OS?
+        - Is it better to run a WIN 10 OS as a VM or with Linux as the core OS?
             - This looks like a very common thing to do, which could help to fight a compromised WIN system.
+            - Something to think about.
+                - "VM's can run things like photoshop, video editing, video playback etc these days - but serious gaming is another proposition where you will need to be able to access the hardware directly (GPU, CPU, Graphics particularly) or the experience will be a bit of a flop."
         - Strange error or me not knowing what is going on with an app that is getting lost on my screen.  It's not in either workspace or monitor and I can't find a way to bring it back with upper tool-bar right click options.
             - I'm still not sure what happened with this hidden GUI app.
         - VLC blank screen error on playback after pause.
@@ -911,5 +913,6 @@ Problem:
             - Testing this solution
                 - https://superuser.com/questions/1091199/vlc-not-working-well-black-screen-with-sound-for-videos-while-other-playe
                 - "change the output module to OpenGL, you need to select "all" in options to see the advanced options, and this one is at: preferences->video->output module"
+                - That fix didn't work. =(
         - No problems with printing.
             - The printer GUI app is a little simple.
