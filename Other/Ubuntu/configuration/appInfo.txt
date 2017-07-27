@@ -916,3 +916,4 @@ Problem:
                 - That fix didn't work. =(
         - No problems with printing.
             - The printer GUI app is a little simple.
+        - Still problems with Youtube via Chrome at high quality, no problems with local high quality. 
