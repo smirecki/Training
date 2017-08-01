@@ -880,7 +880,6 @@ Problem:
                 - The laptop got a clean update.
                 - Smooth and clean updates lately, a welcome change.
                 - More flawless updates daily.
-                
         - Odd errors with open folder locking up and not responding
             - The folders have to be closed, which requires clicking "yes" to the none responsive app warning pop-up.
             - The OS os still locking up directories.
