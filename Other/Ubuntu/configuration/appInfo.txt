@@ -167,6 +167,7 @@ C =================
             - Can I tell it to not block links I have clicked?
             - i.e. it will block custom ad-tracking links you get in emails, which is good for privacy, but bad if you want to take the bait and find out about today's "amazing deals".
         - I think it blocked a strange tab based webpage layout section.
+        - It likes to block links for google search result for thing you can buy because they are from the same net work as ads. 
   - Problems..
     - strange problems with some https sites
     - slow load times
