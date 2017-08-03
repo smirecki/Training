@@ -920,4 +920,4 @@ Problem:
         - No problems with printing.
             - The printer GUI app is a little simple.
         - Still problems with Youtube via Chrome at high quality, no problems with local high quality. 
-        - Firefox uses 100% cpus for some content, which seems wrong.
+        - Firefox uses 100% cpus for some content, which seems wrong.  Local files play at 1080p with hardly 20% cpu usage. 
