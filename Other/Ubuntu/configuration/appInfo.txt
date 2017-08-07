@@ -915,7 +915,7 @@ Problem:
             - Testing this solution
                 - https://superuser.com/questions/1091199/vlc-not-working-well-black-screen-with-sound-for-videos-while-other-playe
                 - "change the output module to OpenGL, you need to select "all" in options to see the advanced options, and this one is at: preferences->video->output module"
-                - That fix didn't work. =(
+                - That fix didn't work.
             - same problem still after updates
             - This could be due to graphics card problems.
         - No problems with printing.
