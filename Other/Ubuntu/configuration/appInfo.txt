@@ -923,4 +923,5 @@ Problem:
         - Still problems with Youtube via Chrome at high quality, no problems with local high quality. 
         - Firefox uses 100% cpus for some content, which seems wrong.  Local files play at 1080p with hardly 20% cpu usage. 
             - The same content plays with only 20% cpu usage on Chrome.
+            - Trying Chromium for all video content.  It seems to use less cpu, which is strange because Chrome use to use way too much before if you had a few tabs open.
         - Odd OS update, lots of repeated file descriptions.  
