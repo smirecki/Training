@@ -804,6 +804,7 @@ Problem:
             - the OS update wants older version on the software: img, config, map, vmlinuz
                 - it was failing because of deleted older version of OS not being present, but there is no way to have both the older version and the newer version it wants to install all within the default directory size.
                 - Considering 14.4LTS is getting older and now 16.xLTS is the current version (plus 17.x alpha is out ), it might be time to consider a full and clean sweep.
+        - The last fix seems to have solved the boot folder space problem.
     - Does the default install include a swap folder/directory?
         - errors with Lubuntu install non-default install, must create directories, fails on install because of swap. Fails to write to boot.
         - yes, a swap is part of the defualt install configuration. 
