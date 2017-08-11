@@ -763,7 +763,7 @@ Questions:
                 - Check out - Ansible
                     - https://github.com/ansible/ansible
                     - https://medivo.com/blog/rapidly-provisioning-machines/
-            -
+            
     - What software and tools would I need to do scraping?
         - Do you have a project?  What are it's needs?  What do you want to do with the data?  How will you do the scrape, local or proxy?  What is the information you want, text, prices, images?  How will you store them?  How will you retrieve them?
         - It's more common to use Python than PHP.
@@ -778,13 +778,13 @@ Problem:
         - Work in OS 16.x LTS
             - the colors are correct even with the theme change.
             - slow to load and respond
-
     - Hang or freeze when web browsing, opening a new page/site.
         - Could this be my ad blocker?
         - "Chrome is freezing Ubuntu when opening a tab or restarting" 
             - http://askubuntu.com/questions/651574/chrome-is-freezing-ubuntu-when-opening-a-tab-or-restarting
             - Might be driver issue and I'm not willing to change drivers.  That kind of thing can be catastrophic an OS and I have already fought to get the video driver that works best installed correctly.
             - I've never had this freezing when using Firefox.
+            - This hasn't happened in a long time.
     - Updates errors in failed ppa.
         - boot folder version files not consistent, problems with updates and cleaning.
         - unchecked ppas for old php version that seem to not longer work.  So far the system says it is up to date, this could change on restart.
