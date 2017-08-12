@@ -775,6 +775,7 @@ Problem:
     - Ubuntu Software Center
         - My UI theme changes aren't working correctly here, the background foreground are too similar in value, which makes the text difficult to read.
             - GTK2 vs. GTK3
+        - It looks like it is working perfectly now.
         - Work in OS 16.x LTS
             - the colors are correct even with the theme change.
             - slow to load and respond
