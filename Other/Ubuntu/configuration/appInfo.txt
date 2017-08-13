@@ -926,4 +926,5 @@ Problem:
         - Firefox uses 100% cpus for some content, which seems wrong.  Local files play at 1080p with hardly 20% cpu usage. 
             - The same content plays with only 20% cpu usage on Chrome.
             - Trying Chromium for all video content.  It seems to use less cpu, which is strange because Chrome use to use way too much before if you had a few tabs open.
-        - Odd OS update, lots of repeated file descriptions.  
+        - Odd OS update, lots of repeated file descriptions.
+        - The new update cause all websites that I go to frequently and use passwords on to think I'm using a new and unknown computer.
