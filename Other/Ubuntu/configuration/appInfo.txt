@@ -792,6 +792,7 @@ Problem:
             - no problems after changes, still good.
         - method for auto cleaning boot
             - apt-get autoremove
+        - Has not been a problem in a while.
     - file folder management run away process, Xubuntu tumblerd
         - It was using 50% of CPU process and causing the system fan to run at full.
         - http://askubuntu.com/questions/89826/what-is-tumblerd
