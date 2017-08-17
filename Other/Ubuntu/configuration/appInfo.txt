@@ -932,3 +932,4 @@ Problem:
         - Too much web browser content causing the system to freeze display content and audio for a few seconds, but it recovers fully.
         - More daily OS updates that require restarts.
         - Weird car payment calculator web app that crashed and ran the cpu to 100%. 
+        - VS code updates.
