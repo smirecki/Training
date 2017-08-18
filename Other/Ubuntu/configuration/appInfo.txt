@@ -930,6 +930,6 @@ Problem:
         - Odd OS update, lots of repeated file descriptions.
         - The new update cause all websites that I go to frequently and use passwords on to think I'm using a new and unknown computer.
         - Too much web browser content causing the system to freeze display content and audio for a few seconds, but it recovers fully.
-        - More daily OS updates that require restarts.
+        - More daily OS updates that require restarts. More daily updates.
         - Weird car payment calculator web app that crashed and ran the cpu to 100%. 
         - VS code updates.
