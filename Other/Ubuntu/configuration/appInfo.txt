@@ -934,3 +934,4 @@ Problem:
         - More daily OS updates that require restarts. More daily updates, still more.  I don't remember getting daily updates.
         - Weird car payment calculator web app that crashed and ran the cpu to 100%. 
         - VS code updates.  More updates...  Almost daily updates.
+        - System will freeze with too many resources used with VLC.
