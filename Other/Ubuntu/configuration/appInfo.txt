@@ -938,3 +938,4 @@ Problem:
         - System will freeze with too many resources used with VLC.  More freezing. Still more.
             - Continued problems with freezing, the cpu and ram aren't being over used.  I can only guess that my hard drive is causing major lag or other resource shortages.
             - This could be due to my HD beeing mostly full, I need to test this with a HD that is less full...
+        - /boot full again and stopping update.
