@@ -939,3 +939,5 @@ Problem:
             - Continued problems with freezing, the cpu and ram aren't being over used.  I can only guess that my hard drive is causing major lag or other resource shortages.
             - This could be due to my HD beeing mostly full, I need to test this with a HD that is less full...
         - /boot full again and stopping update.
+            - the command "apt-get autoremove" clean /boot perfectly
+            - updated with no problems
