@@ -941,3 +941,4 @@ Problem:
         - /boot full again and stopping update.
             - the command "apt-get autoremove" clean /boot perfectly
             - updated with no problems
+        - more daily updates
