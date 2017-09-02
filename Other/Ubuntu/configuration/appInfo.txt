@@ -942,5 +942,6 @@ Problem:
             - the command "apt-get autoremove" clean /boot perfectly
             - updated with no problems
         - more daily updates
+            - Still more daily updates.
         - Problems with Chrome extentions
             - Dark Reader is causing images and videos to darken.
