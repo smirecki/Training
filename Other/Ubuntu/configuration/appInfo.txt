@@ -946,4 +946,5 @@ Problem:
         - Problems with Chrome extentions
             - Dark Reader is causing images and videos to darken.
             - The only solution, so far, is to turn this extention off.
+        - System will freeze when jumpping forward on a video playback with VLC.
         
