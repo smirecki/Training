@@ -942,7 +942,7 @@ Problem:
             - the command "apt-get autoremove" clean /boot perfectly
             - updated with no problems
         - more daily updates
-            - Still more daily updates.
+            - Still more daily updates.  More updates.
         - Problems with Chrome extentions
             - Dark Reader is causing images and videos to darken.
                 - It also seems to have problems with rendering pages in shade of grey.
