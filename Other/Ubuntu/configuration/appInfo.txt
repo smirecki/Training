@@ -949,4 +949,5 @@ Problem:
             - The only solution, so far, is to turn this extention off.
         - System will freeze when jumpping forward on a video playback with VLC.
         - Screen errors on system lock function, normal desktop screen show with no menu or prompt for password, but still locked.
+        - more daily updates
         
