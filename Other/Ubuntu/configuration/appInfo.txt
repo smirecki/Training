@@ -950,4 +950,13 @@ Problem:
         - System will freeze when jumpping forward on a video playback with VLC.
         - Screen errors on system lock function, normal desktop screen show with no menu or prompt for password, but still locked.
         - more daily updates
+        - Full system failures
+            - would not boot... "grub not found..."
+            - Tested RAM with Ubuntu Live CD, one RAM stick "bad"
+            - Did full physical cleaning of hardware.
+            - Used Live CD to "Try Ubuntu"... It ran fine.
+            - Booted from origial hard drive with only one RAM stick.
+                - It ran perfectly, but slowly
+            - Retested with both RAM sticks in using Live CD, no errors.
+            - Rebooted with all RAM installed and it ran perfectly. 
         
