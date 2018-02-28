@@ -110,7 +110,7 @@ C =================
     - software center
     - Use this program to manage a Kindle White-paper
     - the native OS fails and dies while accessing a Kindle, Calibre handles it perfectly.  The OS has no problems writing to a micro-SD card.
-    - Not currently using this app after reinstall update.  My not sure I have a reason to use it unless I need an app to manage my old White Paper Kindel.
+    - Not currently using this app after reinstall update.  I'm not sure I have a reason to use it unless I need an app to manage my old White Paper Kindle.
     - It looks like this app is a default install.
 - .cbr viewer with rar decompression "Document Viewer 3.10.3"
     - You must install unrar to allow any of these apps to open .cbr files, not just 7-zip (it won't work). 
