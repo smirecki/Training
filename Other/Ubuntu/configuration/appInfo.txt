@@ -922,6 +922,7 @@ Problem:
                 - That fix didn't work.
             - same problem still after updates
             - This could be due to graphics card problems.
+            - Many months later the problem is still there.  Could it be a driver problem?
         - No problems with printing.
             - The printer GUI app is a little simple.
         - Still problems with Youtube via Chrome at high quality, no problems with local high quality. 
