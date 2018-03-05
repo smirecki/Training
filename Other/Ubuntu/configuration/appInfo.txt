@@ -960,5 +960,6 @@ Problem:
             - Booted from origial hard drive with only one RAM stick.
                 - It ran perfectly, but slowly
             - Retested with both RAM sticks in using Live CD, no errors.
-            - Rebooted with all RAM installed and it ran perfectly. 
+            - Rebooted with all RAM installed and it ran perfectly.
+            - Likely system error because of dust or loose component.
         
